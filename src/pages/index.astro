@@ -24,15 +24,6 @@ const sidebar = [
       ['Random page', '/random'],
     ],
   },
-  {
-    id: 'p-tb',
-    heading: 'Contribute',
-    links: [
-      ['GitHub repository', repoUrl],
-      ['How to contribute', `${repoUrl}#contributing`],
-      ['Open pull requests', `${repoUrl}/pulls`],
-    ],
-  },
 ];
 
 const sections = [
@@ -82,6 +73,18 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
     <link rel="icon" href="/favicon.ico" />
     <title>Kenshi Wiki</title>
     <meta name="description" content="The community wiki for Kenshi, the open-world squad-based RPG by Lo-Fi Games." />
+    <link rel="stylesheet" href="/dark.css" id="dark-css" media="screen and (prefers-color-scheme: dark)" />
+    <script is:inline>
+      // Theme is 'auto', 'light' or 'dark'; dark mode is the dark.css stylesheet, switched by its media attribute.
+      window.setTheme = (theme) => {
+        const media = { auto: 'screen and (prefers-color-scheme: dark)', light: 'not all', dark: 'screen' };
+        document.getElementById('dark-css').media = media[theme];
+        document.documentElement.dataset.theme = theme;
+        localStorage.setItem('theme', theme);
+      };
+
+      setTheme(localStorage.getItem('theme') || 'auto');
+    </script>
   </head>
   <body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Main_Page rootpage-Main_Page skin-vector action-view skin-vector-legacy">
     <div id="mw-page-base" class="noprint"></div>
@@ -185,8 +188,15 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
         <nav id="p-personal" class="vector-menu" aria-label="Personal tools">
           <div class="body vector-menu-content">
             <ul class="vector-menu-content-list">
+              <li id="pt-theme"><button type="button" class="theme-toggle" id="theme-toggle">Theme: Auto</button></li>
               <li id="pt-anoncontribs"><a href={`${repoUrl}/graphs/contributors`}>Contributors</a></li>
-              <li id="pt-login"><a href={repoUrl}>Edit on GitHub</a></li>
+              <li id="pt-github">
+                <a href={repoUrl}>
+                  <svg viewBox="0 0 16 16" aria-hidden="true">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                  </svg>Edit on GitHub
+                </a>
+              </li>
             </ul>
           </div>
         </nav>
@@ -196,7 +206,6 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
             <div class="body vector-menu-content">
               <ul class="vector-menu-content-list">
                 <li id="ca-nstab-main" class="selected"><a href="/">Main page</a></li>
-                <li id="ca-talk"><a href={`${repoUrl}/discussions`}>Discussion</a></li>
               </ul>
             </div>
           </nav>
@@ -206,8 +215,6 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
           <nav id="p-views" class="vector-menu vector-menu-tabs vectorTabs" aria-label="Views">
             <div class="body vector-menu-content">
               <ul class="vector-menu-content-list">
-                <li id="ca-view" class="selected"><a href="/">Read</a></li>
-                <li id="ca-viewsource"><a href={`${repoUrl}/blob/main/src/pages/index.astro`}>View source</a></li>
                 <li id="ca-history"><a href={`${repoUrl}/commits/main/src/pages/index.astro`}>View history</a></li>
               </ul>
             </div>
@@ -258,5 +265,17 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
       </ul>
       <div style="clear: both;"></div>
     </footer>
+
+    <script is:inline>
+      const labels = { auto: 'Theme: Auto', light: 'Theme: Light', dark: 'Theme: Dark' };
+      const next = { auto: 'light', light: 'dark', dark: 'auto' };
+      const toggle = document.getElementById('theme-toggle');
+
+      toggle.textContent = labels[document.documentElement.dataset.theme];
+      toggle.addEventListener('click', () => {
+        setTheme(next[document.documentElement.dataset.theme]);
+        toggle.textContent = labels[document.documentElement.dataset.theme];
+      });
+    </script>
   </body>
 </html>
