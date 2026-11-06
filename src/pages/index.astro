@@ -1,0 +1,262 @@
+---
+import '../styles/global.css';
+
+const repoUrl = 'https://github.com/kenshi-wiki/kenshi.wiki';
+
+const wiki = (title) => `/wiki/${title.replaceAll(' ', '_')}`;
+
+const sidebar = [
+  {
+    id: 'p-Kenshi',
+    heading: 'Kenshi',
+    links: [
+      ['Official Site', 'https://lofigames.com/'],
+      ['Steam Page', 'https://store.steampowered.com/app/233860/Kenshi/'],
+      ['Subreddit', 'https://www.reddit.com/r/Kenshi/'],
+    ],
+  },
+  {
+    id: 'p-navigation',
+    heading: 'Navigation',
+    links: [
+      ['Main page', '/'],
+      ['Recent changes', `${repoUrl}/commits`],
+      ['Random page', '/random'],
+    ],
+  },
+  {
+    id: 'p-tb',
+    heading: 'Contribute',
+    links: [
+      ['GitHub repository', repoUrl],
+      ['How to contribute', `${repoUrl}#contributing`],
+      ['Open pull requests', `${repoUrl}/pulls`],
+    ],
+  },
+];
+
+const sections = [
+  {
+    title: 'Concepts',
+    cards: [
+      { title: 'Basics', icon: '📖', links: ['Controls', 'User interface', "Beginner's guide", 'Lore', 'Guides', 'Glossary'] },
+      { title: 'Gameplay', icon: '🎒', links: ['Skills', 'Research', 'Trade', 'Bounties', 'Stealth', 'Crafting'] },
+      { title: 'Extras', icon: '🛠️', links: ['Version history', 'Save files', 'Forgotten Construction Set', 'Mods', 'Modding tutorials'] },
+      { title: 'Combat', icon: '⚔️', links: ['Melee', 'Martial arts', 'Ranged', 'Injuries', 'Tactics'] },
+      { title: 'World', icon: '🌍', links: ['Map', 'Zones', 'Towns', 'Factions', 'Weather'] },
+    ],
+  },
+  {
+    title: 'Items',
+    cards: [
+      { title: 'Gear', icon: '🗡️', links: ['Weapons', 'Armour', 'Clothing', 'Backpacks', 'Robotic limbs'] },
+      { title: 'Resources', icon: '📦', links: ['Materials', 'Food', 'Drugs', 'Medicine', 'Artifacts'] },
+      { title: 'Technology', icon: '⚙️', links: ['Blueprints', 'Books', 'AI cores', 'Engineering', 'Robotics'] },
+      {
+        title: 'Building',
+        icon: '🏚️',
+        links: ['Outposts', 'Production', 'Power', 'Farming', 'Storage', 'Defences', 'Furniture', 'Walls and gates', 'Crafting stations', 'Prisoners'],
+      },
+    ],
+  },
+  {
+    title: 'Life',
+    cards: [
+      { title: 'Characters', icon: '🧍', links: ['Recruits', 'Unique NPCs', 'Health', 'Hunger', 'Stats', 'Traits'] },
+      { title: 'Races', icon: '🧬', links: ['Greenlander', 'Scorchlander', 'Shek', 'Hive', 'Skeleton'] },
+      { title: 'Fauna', icon: '🦎', links: ['Animals', 'Pets', 'Pack animals', 'Wildlife'] },
+      { title: 'Flora', icon: '🌵', links: ['Crops', 'Wild plants', 'Biomes'] },
+    ],
+  },
+];
+
+// Cards list their links in two columns once there are more than five.
+const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.length / 2)), links.slice(Math.ceil(links.length / 2))] : [links]);
+---
+
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>Kenshi Wiki</title>
+    <meta name="description" content="The community wiki for Kenshi, the open-world squad-based RPG by Lo-Fi Games." />
+  </head>
+  <body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Main_Page rootpage-Main_Page skin-vector action-view skin-vector-legacy">
+    <div id="mw-page-base" class="noprint"></div>
+    <div id="mw-head-base" class="noprint"></div>
+
+    <div id="content" class="mw-body" role="main">
+      <h1 id="firstHeading" class="firstHeading">Main Page</h1>
+      <div id="bodyContent" class="mw-body-content">
+        <div id="mw-content-text" class="mw-content-ltr">
+          <div class="mw-parser-output">
+            <div class="mainpage-intro">
+              <center>
+                <div class="mainpage-wordmark">KENSHI</div>
+              </center>
+              <center>
+                <big>
+                  <b><a href={wiki('Kenshi')}>Kenshi</a></b> is an open-world, squad-based RPG developed by{' '}
+                  <b><a href={wiki('Lo-Fi Games')}>Lo-Fi&nbsp;Games</a></b>, an independent studio founded by{' '}
+                  <b><a href={wiki('Chris Hunt')}>Chris&nbsp;Hunt</a></b>.
+                  <br />
+                  Read more about the game at <a href={wiki('About Kenshi')}>About Kenshi</a>.
+                </big>
+              </center>
+
+              <div class="mainpage-about">
+                <div class="mainpage-about-text">
+                  <p>
+                    <br />
+                    A complete history of releases can be found on the <a href={wiki('Version history')}>Version history</a> page.
+                  </p>
+                  <p>
+                    <br />
+                    This wiki is written by the community. Every page is a file in our <a href={repoUrl}>GitHub repository</a>, and
+                    changes are made as pull requests. It is recommended to read the <a href={`${repoUrl}#contributing`}>contribution guide</a>{' '}
+                    and our <a href={wiki('Style guide')}>Style guide</a>.
+                  </p>
+                </div>
+                <div class="mainpage-about-links">
+                  <dl>
+                    <dd>&#9642;&nbsp;<a class="external" href="https://store.steampowered.com/app/233860/Kenshi/">Steam Page</a></dd>
+                    <dd>&#9642;&nbsp;<a class="external" href="https://lofigames.com/">Lo-Fi Games</a></dd>
+                  </dl>
+                  <dl>
+                    <dd>&#9642;&nbsp;<a class="external" href="https://www.reddit.com/r/Kenshi/">Kenshi on Reddit</a></dd>
+                    <dd>&#9642;&nbsp;<a class="external" href="https://steamcommunity.com/app/233860/workshop/">Steam Workshop</a></dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+
+            <center>
+              <h3><b>Need some help? Check out the <a href={wiki('Guides')}>guides</a> for information!</b></h3>
+            </center>
+
+            <div class="mainpage-sections">
+              {sections.map((section) => (
+                <div class="mainpage-section">
+                  <h2><span class="mw-headline" id={section.title}>{section.title}</span></h2>
+                  <div class="mainpage-boxes">
+                    {section.cards.map((card) => (
+                      <div class="mainpage-box-wrap">
+                      <div class="mainpage-box">
+                        <div class="mainpage-box-side">
+                          <div class="mainpage-box-title">
+                            <center><b><a href={wiki(card.title)}>{card.title}</a></b></center>
+                          </div>
+                          <div class="mainpage-box-icon">
+                            <center><span class="mw-no-invert" aria-hidden="true">{card.icon}</span></center>
+                          </div>
+                        </div>
+                        {columns(card.links).map((column) => (
+                          <div class="mainpage-box-links">
+                            <p>
+                              {column.map((link) => (
+                                <Fragment>&#9642; <a href={wiki(link)}>{link}</a><br /></Fragment>
+                              ))}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div id="catlinks" class="catlinks">
+          <div id="mw-normal-catlinks" class="mw-normal-catlinks">
+            Category: <ul><li><a href={wiki('Category:Kenshi Wiki')}>Kenshi Wiki</a></li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="mw-navigation">
+      <h2>Navigation menu</h2>
+      <div id="mw-head">
+        <nav id="p-personal" class="vector-menu" aria-label="Personal tools">
+          <div class="body vector-menu-content">
+            <ul class="vector-menu-content-list">
+              <li id="pt-anoncontribs"><a href={`${repoUrl}/graphs/contributors`}>Contributors</a></li>
+              <li id="pt-login"><a href={repoUrl}>Edit on GitHub</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div id="left-navigation">
+          <nav id="p-namespaces" class="vector-menu vector-menu-tabs vectorTabs" aria-label="Namespaces">
+            <div class="body vector-menu-content">
+              <ul class="vector-menu-content-list">
+                <li id="ca-nstab-main" class="selected"><a href="/">Main page</a></li>
+                <li id="ca-talk"><a href={`${repoUrl}/discussions`}>Discussion</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <div id="right-navigation">
+          <nav id="p-views" class="vector-menu vector-menu-tabs vectorTabs" aria-label="Views">
+            <div class="body vector-menu-content">
+              <ul class="vector-menu-content-list">
+                <li id="ca-view" class="selected"><a href="/">Read</a></li>
+                <li id="ca-viewsource"><a href={`${repoUrl}/blob/main/src/pages/index.astro`}>View source</a></li>
+                <li id="ca-history"><a href={`${repoUrl}/commits/main/src/pages/index.astro`}>View history</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <div id="p-search" role="search">
+            <h3><label for="searchInput">Search</label></h3>
+            <form action="/search" id="searchform">
+              <div id="simpleSearch">
+                <input type="search" name="q" placeholder="Search Kenshi Wiki" title="Search Kenshi Wiki" id="searchInput" />
+                <input type="submit" value="Go" title="Search" id="searchButton" class="searchButton" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div id="mw-panel">
+        <div id="p-logo" role="banner">
+          <a title="Visit the main page" class="mw-wiki-logo mw-no-invert" href="/"></a>
+        </div>
+
+        {sidebar.map((group, i) => (
+          <nav id={group.id} class:list={['vector-menu vector-menu-portal portal', { 'portal-first': i === 0 }]} aria-label={group.heading}>
+            <h3><span>{group.heading}</span></h3>
+            <div class="body vector-menu-content">
+              <ul class="vector-menu-content-list">
+                {group.links.map(([label, href]) => (
+                  <li><a href={href}>{label}</a></li>
+                ))}
+              </ul>
+            </div>
+          </nav>
+        ))}
+      </div>
+    </div>
+
+    <footer id="footer" class="mw-footer" role="contentinfo">
+      <ul id="footer-info">
+        <li id="footer-info-copyright">
+          Content is available under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> unless otherwise noted.
+        </li>
+        <li>Kenshi is a trademark of Lo-Fi Games. This is a fan-made community wiki.</li>
+      </ul>
+      <ul id="footer-places">
+        <li><a href={wiki('Kenshi Wiki:About')}>About Kenshi Wiki</a></li>
+        <li><a href={wiki('Kenshi Wiki:General disclaimer')}>Disclaimers</a></li>
+      </ul>
+      <div style="clear: both;"></div>
+    </footer>
+  </body>
+</html>
