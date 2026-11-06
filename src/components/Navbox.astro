@@ -1,0 +1,31 @@
+---
+// Navigation box for the bottom of an article. groups: [{ label, links: [page titles] }]
+import { wiki } from '../lib/wiki.js';
+
+const { title, color = 'c_25', groups, current } = Astro.props;
+---
+
+<hr style="margin: 1em 0em; clear: both;" />
+<div class={`nav ${color}`}>
+  <div class="box">
+    <div class="heading"><a href={wiki(title)}>{title}</a></div>
+    <div class="wrapper">
+      <dl>
+        {groups.map((group) => (
+          <Fragment>
+            <dt>{group.label}</dt>
+            <dd>
+              {group.links.map((link, i) => (
+                <Fragment>
+                  {i > 0 && ' • '}
+                  {link === current ? <strong class="selflink">{link}</strong> : <a href={wiki(link)}>{link}</a>}
+                </Fragment>
+              ))}
+            </dd>
+          </Fragment>
+        ))}
+      </dl>
+      <div style="clear: both;"></div>
+    </div>
+  </div>
+</div>

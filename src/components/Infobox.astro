@@ -1,0 +1,32 @@
+---
+// Infobox floated right of an article. Row values are HTML, so they can hold links.
+// color is one of the c_01 to c_25 classes from the site CSS.
+const { title, image, imageAlt = title, caption, color = 'c_25', groups = [] } = Astro.props;
+---
+
+<div class={`infobox ${color}`}>
+  <p class="heading">{title}</p>
+  <div class="wrapper">
+    {image && (
+      <div class="image_wrapper" title={title}>
+        <img alt={imageAlt} src={image} width="280" />
+      </div>
+    )}
+    {caption && <p class="text-center infobox-caption">{caption}</p>}
+
+    {groups.map((group) => (
+      <Fragment>
+        <p class="subheading">{group.heading}</p>
+        <dl>
+          {group.rows.map(([label, value]) => (
+            <Fragment>
+              <dt>{label}</dt>
+              <dd set:html={value} />
+            </Fragment>
+          ))}
+        </dl>
+        <div style="clear: both;"></div>
+      </Fragment>
+    ))}
+  </div>
+</div>

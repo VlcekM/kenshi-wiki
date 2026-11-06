@@ -1,0 +1,19 @@
+---
+// MediaWiki-style image gallery. images: [{ src, caption }]
+const { images } = Astro.props;
+---
+
+<ul class="gallery mw-gallery-traditional">
+  {images.map((image) => (
+    <li class="gallerybox" style="width: 215px">
+      <div style="width: 215px">
+        <div class="thumb" style="width: 210px;">
+          <div style="margin: 15px auto;">
+            <a href={image.src} class="image"><img alt={image.caption} src={image.src} width="180" height="101" loading="lazy" /></a>
+          </div>
+        </div>
+        <div class="gallerytext"><p>{image.caption}</p></div>
+      </div>
+    </li>
+  ))}
+</ul>
