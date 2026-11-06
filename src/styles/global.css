@@ -42,6 +42,9 @@
   --color-border-chrome: light-dark(#b1a68e, #3a3733);
   --color-bg-input: light-dark(color-mix(in srgb, var(--paper-00) 50%, transparent), #22201e);
 
+  /* Table of contents panel, raised a little above the page in dark mode */
+  --color-bg-toc: light-dark(#fbfaf8, #23221f);
+
   /* Text on the fixed dark infobox and navbox headings, the same in both themes */
   --color-text-on-heading: #fbefd5;
 }
@@ -52,6 +55,11 @@
 
 :root[data-theme="dark"] {
   color-scheme: dark;
+}
+
+/* A no-op filter puts the page on its own layer, which switches all text to grayscale antialiasing */
+html {
+  filter: opacity(1);
 }
 
 /* Vector (legacy) skin styles, from rimworldwiki.com */
@@ -109,12 +117,21 @@ div.nav dt {
   border-color: var(--link);
 }
 
+#toc,
+.toc {
+  background-color: var(--color-bg-toc);
+}
+
 /* Articles: infobox and navbox headings, notices, collapsible sections */
+/* Headings use the system sans-serif font instead of Vector's serif */
+.mw-body h1,
+.mw-body-content h1,
+.mw-body-content h2,
 div.infobox .heading,
 div.infobox .subheading,
 div.nav .heading,
 div.nav .subheading {
-  font-family: 'Linux Libertine', 'Georgia', 'Times', serif !important;
+  font-family: system-ui, sans-serif !important;
 }
 
 div.infobox .heading,
