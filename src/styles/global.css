@@ -2,13 +2,13 @@
 :root {
   color-scheme: light dark;
 
-  /* Paper scale: parchment tones in light mode, warm dark browns in dark mode (00 = page surface, 12 = strongest text) */
-  --paper-00: light-dark(#fbefd5, #1e1b16);
-  --paper-01: light-dark(#f8ebd0, #221e18);
-  --paper-02: light-dark(#f1e2c2, #25211b);
-  --paper-03: light-dark(#ebe0c8, #2b2720);
-  --paper-04: light-dark(#dfd2b6, #36312a);
-  --paper-05: light-dark(#cec4af, #423c33);
+  /* Paper scale: white and warm grays in light mode, warm dark browns in dark mode (00 = page surface, 12 = strongest text) */
+  --paper-00: light-dark(#ffffff, #1e1b16);
+  --paper-01: light-dark(#fbfaf8, #221e18);
+  --paper-02: light-dark(#f6f5f2, #25211b);
+  --paper-03: light-dark(#eeebe5, #2b2720);
+  --paper-04: light-dark(#e2ddd3, #36312a);
+  --paper-05: light-dark(#d1cabd, #423c33);
   --paper-06: light-dark(#b1a68e, #5c554a);
   --paper-07: light-dark(#8c8473, #7a7468);
   --paper-08: light-dark(#756e60, #8a8478);
@@ -33,8 +33,8 @@
   --color-text-muted: var(--paper-09);
   --color-border: var(--paper-06);
   --color-link: var(--link);
-  --color-box-bg: light-dark(#fdf5e6, #241f18);
-  --color-box-head: light-dark(#f5deb3, #3a3122);
+  --color-box-bg: light-dark(#fbfaf8, #241f18);
+  --color-box-head: light-dark(#efe6d4, #3a3122);
   --color-box-border: var(--paper-06);
 
   /* Page chrome: content edge, headings and inputs */
