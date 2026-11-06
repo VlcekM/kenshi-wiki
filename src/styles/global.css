@@ -1,30 +1,32 @@
-/* Theme tokens. Every color below switches with the color scheme via light-dark(). */
+/* Theme tokens. Every color below switches with the color scheme via light-dark().
+   Dark mode draws the page dark-on-light and inverts it (see below), the way RimWorld's wiki does, because Windows renders
+   light-on-dark text heavier. So each dark value is written as the color you see, wrapped in an inversion that the page filter undoes. */
 :root {
   color-scheme: light dark;
 
   /* Paper scale: white and warm grays in light mode, near-black warm grays in dark mode (00 = page surface, 12 = strongest text) */
-  --paper-00: light-dark(#ffffff, #121110);
-  --paper-01: light-dark(#fbfaf8, #161514);
-  --paper-02: light-dark(#f6f5f2, #191817);
-  --paper-03: light-dark(#eeebe5, #1f1e1c);
-  --paper-04: light-dark(#e2ddd3, #2a2826);
-  --paper-05: light-dark(#d1cabd, #353330);
-  --paper-06: light-dark(#b1a68e, #4a4744);
-  --paper-07: light-dark(#8c8473, #6b6763);
-  --paper-08: light-dark(#756e60, #807c77);
-  --paper-09: light-dark(#585246, #a29e98);
-  --paper-10: light-dark(#46413a, #bab6b0);
-  --paper-11: light-dark(#26221c, #e6e3de);
-  --paper-12: light-dark(#000000, #f5f3ef);
+  --paper-00: light-dark(#ffffff, rgb(from #121110 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-01: light-dark(#fbfaf8, rgb(from #161514 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-02: light-dark(#f6f5f2, rgb(from #191817 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-03: light-dark(#eeebe5, rgb(from #1f1e1c calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-04: light-dark(#e2ddd3, rgb(from #2a2826 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-05: light-dark(#d1cabd, rgb(from #353330 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-06: light-dark(#b1a68e, rgb(from #4a4744 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-07: light-dark(#8c8473, rgb(from #6b6763 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-08: light-dark(#756e60, rgb(from #807c77 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-09: light-dark(#585246, rgb(from #a29e98 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-10: light-dark(#46413a, rgb(from #bab6b0 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-11: light-dark(#26221c, rgb(from #e6e3de calc(255 - r) calc(255 - g) calc(255 - b)));
+  --paper-12: light-dark(#000000, rgb(from #f5f3ef calc(255 - r) calc(255 - g) calc(255 - b)));
 
   /* Gold accents (tab and content edges) and links */
-  --accent-100: light-dark(#f6e9cc, #1d1b17);
-  --accent-200: light-dark(#e6c77d, #514632);
-  --accent-300: light-dark(#fabd23, #96793f);
-  --link: light-dark(#002bb8, #9fc2ff);
-  --link-visited: light-dark(#5a3696, #c0a3f0);
-  --link-new: light-dark(#cc2200, #ff9479);
-  --link-new-visited: light-dark(#a55858, #c28585);
+  --accent-100: light-dark(#f6e9cc, rgb(from #1d1b17 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --accent-200: light-dark(#e6c77d, rgb(from #514632 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --accent-300: light-dark(#fabd23, rgb(from #96793f calc(255 - r) calc(255 - g) calc(255 - b)));
+  --link: light-dark(#002bb8, rgb(from #9fc2ff calc(255 - r) calc(255 - g) calc(255 - b)));
+  --link-visited: light-dark(#5a3696, rgb(from #c0a3f0 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --link-new: light-dark(#cc2200, rgb(from #ff9479 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --link-new-visited: light-dark(#a55858, rgb(from #c28585 calc(255 - r) calc(255 - g) calc(255 - b)));
 
   /* Semantic aliases, for our own styles */
   --color-bg-page: var(--paper-02);
@@ -33,17 +35,17 @@
   --color-text-muted: var(--paper-09);
   --color-border: var(--paper-06);
   --color-link: var(--link);
-  --color-box-bg: light-dark(#fbfaf8, #171615);
-  --color-box-head: light-dark(#efe6d4, #26241f);
+  --color-box-bg: light-dark(#fbfaf8, rgb(from #171615 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --color-box-head: light-dark(#efe6d4, rgb(from #26241f calc(255 - r) calc(255 - g) calc(255 - b)));
   --color-box-border: var(--paper-06);
 
   /* Page chrome: content edge, headings and inputs */
-  --color-border-content: light-dark(#e6c77d, #3a3733);
-  --color-border-chrome: light-dark(#b1a68e, #3a3733);
-  --color-bg-input: light-dark(color-mix(in srgb, var(--paper-00) 50%, transparent), #22201e);
+  --color-border-content: light-dark(#e6c77d, rgb(from #3a3733 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --color-border-chrome: light-dark(#b1a68e, rgb(from #3a3733 calc(255 - r) calc(255 - g) calc(255 - b)));
+  --color-bg-input: light-dark(color-mix(in srgb, var(--paper-00) 50%, transparent), rgb(from #22201e calc(255 - r) calc(255 - g) calc(255 - b)));
 
   /* Table of contents panel, raised a little above the page in dark mode */
-  --color-bg-toc: light-dark(#fbfaf8, #23221f);
+  --color-bg-toc: light-dark(#fbfaf8, rgb(from #23221f calc(255 - r) calc(255 - g) calc(255 - b)));
 
   /* Text on the fixed dark infobox and navbox headings, the same in both themes */
   --color-text-on-heading: #fbefd5;
@@ -60,6 +62,27 @@
 /* A no-op filter puts the page on its own layer, which switches all text to grayscale antialiasing */
 html {
   filter: opacity(1);
+}
+
+/* Dark mode: invert the page (the tokens above are pre-inverted), then flip back images and fixed-color headers */
+:root[data-theme="dark"] {
+  filter: invert(1);
+}
+
+:root[data-theme="dark"] :is(img, video, canvas, iframe, .mw-wiki-logo, .mainpage-box-icon span, div.infobox .heading,
+  div.infobox .subheading, div.nav .heading, div.nav .subheading) {
+  filter: invert(1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    filter: invert(1);
+  }
+
+  :root:not([data-theme="light"]) :is(img, video, canvas, iframe, .mw-wiki-logo, .mainpage-box-icon span, div.infobox .heading,
+    div.infobox .subheading, div.nav .heading, div.nav .subheading) {
+    filter: invert(1);
+  }
 }
 
 /* Vector (legacy) skin styles, from rimworldwiki.com */
