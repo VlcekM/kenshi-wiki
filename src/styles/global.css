@@ -2,25 +2,25 @@
 :root {
   color-scheme: light dark;
 
-  /* Paper scale: white and warm grays in light mode, warm dark browns in dark mode (00 = page surface, 12 = strongest text) */
-  --paper-00: light-dark(#ffffff, #1e1b16);
-  --paper-01: light-dark(#fbfaf8, #221e18);
-  --paper-02: light-dark(#f6f5f2, #25211b);
-  --paper-03: light-dark(#eeebe5, #2b2720);
-  --paper-04: light-dark(#e2ddd3, #36312a);
-  --paper-05: light-dark(#d1cabd, #423c33);
-  --paper-06: light-dark(#b1a68e, #5c554a);
-  --paper-07: light-dark(#8c8473, #7a7468);
-  --paper-08: light-dark(#756e60, #8a8478);
-  --paper-09: light-dark(#585246, #a39d91);
-  --paper-10: light-dark(#46413a, #b3ada2);
-  --paper-11: light-dark(#26221c, #d6cfc2);
-  --paper-12: light-dark(#000000, #ece5d8);
+  /* Paper scale: white and warm grays in light mode, near-black warm grays in dark mode (00 = page surface, 12 = strongest text) */
+  --paper-00: light-dark(#ffffff, #121110);
+  --paper-01: light-dark(#fbfaf8, #161514);
+  --paper-02: light-dark(#f6f5f2, #191817);
+  --paper-03: light-dark(#eeebe5, #1f1e1c);
+  --paper-04: light-dark(#e2ddd3, #2a2826);
+  --paper-05: light-dark(#d1cabd, #353330);
+  --paper-06: light-dark(#b1a68e, #4a4744);
+  --paper-07: light-dark(#8c8473, #6b6763);
+  --paper-08: light-dark(#756e60, #807c77);
+  --paper-09: light-dark(#585246, #a29e98);
+  --paper-10: light-dark(#46413a, #bab6b0);
+  --paper-11: light-dark(#26221c, #e6e3de);
+  --paper-12: light-dark(#000000, #f5f3ef);
 
   /* Gold accents (tab and content edges) and links */
-  --accent-100: light-dark(#f6e9cc, #2a251c);
-  --accent-200: light-dark(#e6c77d, #6b5526);
-  --accent-300: light-dark(#fabd23, #b8862a);
+  --accent-100: light-dark(#f6e9cc, #1d1b17);
+  --accent-200: light-dark(#e6c77d, #514632);
+  --accent-300: light-dark(#fabd23, #96793f);
   --link: light-dark(#002bb8, #9fc2ff);
   --link-visited: light-dark(#5a3696, #c0a3f0);
   --link-new: light-dark(#cc2200, #ff9479);
@@ -33,14 +33,14 @@
   --color-text-muted: var(--paper-09);
   --color-border: var(--paper-06);
   --color-link: var(--link);
-  --color-box-bg: light-dark(#fbfaf8, #241f18);
-  --color-box-head: light-dark(#efe6d4, #3a3122);
+  --color-box-bg: light-dark(#fbfaf8, #171615);
+  --color-box-head: light-dark(#efe6d4, #26241f);
   --color-box-border: var(--paper-06);
 
   /* Page chrome: content edge, headings and inputs */
-  --color-border-content: light-dark(#e6c77d, #4a4232);
-  --color-border-chrome: light-dark(#b1a68e, #4a4232);
-  --color-bg-input: light-dark(color-mix(in srgb, var(--paper-00) 50%, transparent), #36312a);
+  --color-border-content: light-dark(#e6c77d, #3a3733);
+  --color-border-chrome: light-dark(#b1a68e, #3a3733);
+  --color-bg-input: light-dark(color-mix(in srgb, var(--paper-00) 50%, transparent), #22201e);
 
   /* Text on the fixed dark infobox and navbox headings, the same in both themes */
   --color-text-on-heading: #fbefd5;
