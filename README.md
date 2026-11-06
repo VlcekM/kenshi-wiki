@@ -15,4 +15,5 @@ npm run build    # static output in dist/
 Contributions are made as pull requests on GitHub.
 
 - Pages live in `src/pages/`.
-- Site-wide styles live in `src/styles/global.css`.
+- Site-wide styles live in `src/styles/global.css`. Colors are theme tokens (`light-dark()`) defined at the top of that file;
+  use them instead of raw colors so light and dark mode both work.

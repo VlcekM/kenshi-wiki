@@ -73,12 +73,9 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
     <link rel="icon" href="/favicon.ico" />
     <title>Kenshi Wiki</title>
     <meta name="description" content="The community wiki for Kenshi, the open-world squad-based RPG by Lo-Fi Games." />
-    <link rel="stylesheet" href="/dark.css" id="dark-css" media="screen and (prefers-color-scheme: dark)" />
     <script is:inline>
-      // Theme is 'auto', 'light' or 'dark'; dark mode is the dark.css stylesheet, switched by its media attribute.
+      // Theme is 'auto', 'light' or 'dark'; global.css picks the color scheme from data-theme.
       window.setTheme = (theme) => {
-        const media = { auto: 'screen and (prefers-color-scheme: dark)', light: 'not all', dark: 'screen' };
-        document.getElementById('dark-css').media = media[theme];
         document.documentElement.dataset.theme = theme;
         localStorage.setItem('theme', theme);
       };
@@ -152,7 +149,7 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
                             <center><b><a href={wiki(card.title)}>{card.title}</a></b></center>
                           </div>
                           <div class="mainpage-box-icon">
-                            <center><span class="mw-no-invert" aria-hidden="true">{card.icon}</span></center>
+                            <center><span aria-hidden="true">{card.icon}</span></center>
                           </div>
                         </div>
                         {columns(card.links).map((column) => (
@@ -234,7 +231,7 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
 
       <div id="mw-panel">
         <div id="p-logo" role="banner">
-          <a title="Visit the main page" class="mw-wiki-logo mw-no-invert" href="/"></a>
+          <a title="Visit the main page" class="mw-wiki-logo" href="/"></a>
         </div>
 
         {sidebar.map((group, i) => (
