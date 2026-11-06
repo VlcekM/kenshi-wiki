@@ -10,11 +10,8 @@ html *{text-shadow:0 0 0}@font-face{font-family:'EasonPro';src:url(https://d1h9a
 }
 
 .mainpage-wordmark {
-  color: #333;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 84px;
-  letter-spacing: 0.3em;
-  line-height: 109px;
+  max-width: 100%;
+  height: auto;
 }
 
 .mainpage-about {
