@@ -1,7 +1,7 @@
 Kenshi Wiki artwork and source credits
 =====================================
 
-Kenshi game art and wiki branding
+Kenshi game art and wiki branding — retained for the wiki
 
 public/images/kenshi/header.jpg and screenshot-1.jpg through screenshot-6.jpg
 are resized versions of artwork from Lo-Fi Games' Kenshi listing on Steam
@@ -23,19 +23,12 @@ redistribution terms for these files and the store images, remain to be
 confirmed. Availability through the press kit or Steam does not itself grant
 a general license to redistribute the files. Kenshi is a Lo-Fi Games mark.
 
-RimWorld Wiki and Wikimedia graphics
+Graphics with documented sources
 
 public/images/Checker-16x16.png matches the Wikimedia Commons original.
 The file description identifies this simple transparency pattern as public
 domain (PD-shape).
 https://commons.wikimedia.org/wiki/File:Checker-16x16.png
-
-public/images/Shadow_after.png matches the file uploaded by AcDie on RimWorld
-Wiki. Its file page uses the "Copyright game" notice for publisher/developer
-artwork. Permission for decorative reuse on Kenshi Wiki and for repository
-redistribution has not been established.
-https://rimworldwiki.com/index.php?oldid=107267
-https://rimworldwiki.com/wiki/Template:Copyright_game
 
 The 19 files under public/skins/Vector and six under
 public/resources/src/mediawiki.skinning match the upstream graphics in the
@@ -43,21 +36,28 @@ linked source archive, allowing for SVG line endings. See Vector-COPYING.txt,
 MediaWiki-COPYING.txt and MediaWiki-CREDITS.txt in this directory. The archive
 keeps the original filenames, editable source, upstream notices and file URLs.
 
-Ribbon (public/ribbon-icons)
+Ribbon files below are in public/ribbon-icons/.
+webfcs.svg is the clipboard and magnifier drawn for the wiki's ribbon.
+github.svg uses the mark-github geometry from GitHub's Octicons. The original
+MIT notice is included as Octicons-MIT.txt. GitHub retains its brand rights.
+https://github.com/primer/octicons/blob/v9.6.0/icons/mark-github.svg
+
+Meitou — retained for the project link
 
 The two-moon meitou.webp is a small derivative of the Meitou site's favicon,
 selected by the project's creator for this link. A general redistribution
 license was not supplied. https://meitou.kenshi.wiki/
 
+Map and KenshiDB — first candidates for original replacements
+
 map.svg and kenshidb.svg use the same path geometry as WebFCS's map-icon.svg
 and database-icon.svg. Those source files identify SVG Repo as their source.
-The individual artist, catalog pages and terms remain unconfirmed.
+The individual artists, item pages and terms remain unconfirmed. Keep the
+current glyphs until equivalent original drawings are ready.
 https://web-fcs.kenshi.wiki/assets/icons/map-icon.svg
 https://web-fcs.kenshi.wiki/assets/icons/database-icon.svg
-webfcs.svg is the clipboard and magnifier drawn for the wiki's ribbon.
-github.svg uses the mark-github geometry from GitHub's Octicons. The original
-MIT notice is included as Octicons-MIT.txt. GitHub retains its brand rights.
-https://github.com/primer/octicons/blob/v9.6.0/icons/mark-github.svg
+
+Platform icons — retained; track sources or replacements per file
 
 The following 48 px WebP derivatives come from Prd's former wiki resource
 directory. Original filenames identify the local source of each derivative.
@@ -79,13 +79,20 @@ per-file redistribution grants or original artist records for this icon set.
 
 Release history and external references
 
+On 7 November 2026, Outland replaced public/images/Shadow_after.png with a
+CSS gradient. The PNG is no longer in the site build. It was introduced in
+56200ac and remains in that commit. The image matched the file uploaded by
+AcDie to RimWorld Wiki; its file page identifies it as "Copyright game".
+No separate redistribution permission is recorded here.
+https://rimworldwiki.com/index.php?oldid=107267
+https://rimworldwiki.com/wiki/Template:Copyright_game
+
 The imported CSS retains references to EasonPro fonts, RimWorld backgrounds,
 and Wikimedia icons for legacy selectors. These URLs are references to
 third-party files and do not confer a license to bundle them. The two original
 pages and credits page are tested with cross-origin requests blocked.
 
-Before opening the repository, resolve the outstanding graphics above for
-source distribution, including earlier versions of retained and removed assets.
+A public repository would also expose the artwork in older commits.
 Git history also contains public/dark.css (since removed) and prior revisions
-of global.css with third-party URLs. Replacing a file in the current tree
-leaves its previous versions in the history a public repository would expose.
+of global.css with third-party URLs. A URL in a stylesheet is distinct
+from a copy of the image in the repository, such as the original shadow.
