@@ -12,3 +12,9 @@ https://kenshi-wiki-staging.prds.workers.dev/*
 
 /Kenshi.html
   Cache-Control: public, no-cache, no-transform
+
+/Contributors
+  Cache-Control: public, no-cache, no-transform
+
+/Contributors.html
+  Cache-Control: public, no-cache, no-transform

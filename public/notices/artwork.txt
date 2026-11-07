@@ -1,0 +1,91 @@
+Kenshi Wiki artwork and source credits
+=====================================
+
+Kenshi game art and wiki branding
+
+public/images/kenshi/header.jpg and screenshot-1.jpg through screenshot-6.jpg
+are resized versions of artwork from Lo-Fi Games' Kenshi listing on Steam
+(app 233860). In file order, the Steam image identifiers are:
+  header           fa72ac8a032fd876780cd5b554e4c03b4976ef74/header.jpg
+  screenshot-1     933aa89a4d370c1bcb96cb7497287e835b7cff7b
+  screenshot-2     3a9b3141a14e74bd3c57b811b0d1a895eaf1b412
+  screenshot-3     50f3aee47c4c148944c955328e6e235d32777b8b
+  screenshot-4     fc0b1146577f0187ab0563ad3f1d9065b4156b4f
+  screenshot-5     a46da906067e6f2791a59cb449940cb9ed9609aa
+  screenshot-6     d12a3f68e9c440d1fc0035783dc796a52b924482
+Source: https://store.steampowered.com/app/233860/Kenshi/
+Publisher press resources: https://lofigames.com/press/
+
+public/kenshi-wordmark.png is the Kenshi wordmark added by VlcekM in 5a5eed9.
+public/kenshi-logo.png and public/favicon.ico are wiki branding supplied with
+the prototype in 56200ac. Exact origins of the composite and favicon, and
+redistribution terms for these files and the store images, remain to be
+confirmed. Availability through the press kit or Steam does not itself grant
+a general license to redistribute the files. Kenshi is a Lo-Fi Games mark.
+
+RimWorld Wiki and Wikimedia graphics
+
+public/images/Checker-16x16.png matches the Wikimedia Commons original.
+The file description identifies this simple transparency pattern as public
+domain (PD-shape).
+https://commons.wikimedia.org/wiki/File:Checker-16x16.png
+
+public/images/Shadow_after.png matches the file uploaded by AcDie on RimWorld
+Wiki. Its file page uses the "Copyright game" notice for publisher/developer
+artwork. Permission for decorative reuse on Kenshi Wiki and for repository
+redistribution has not been established.
+https://rimworldwiki.com/index.php?oldid=107267
+https://rimworldwiki.com/wiki/Template:Copyright_game
+
+The 19 files under public/skins/Vector and six under
+public/resources/src/mediawiki.skinning match the upstream graphics in the
+linked source archive, allowing for SVG line endings. See Vector-COPYING.txt,
+MediaWiki-COPYING.txt and MediaWiki-CREDITS.txt in this directory. The archive
+keeps the original filenames, editable source, upstream notices and file URLs.
+
+Ribbon (public/ribbon-icons)
+
+The two-moon meitou.webp is a small derivative of the Meitou site's favicon,
+selected by the project's creator for this link. A general redistribution
+license was not supplied. https://meitou.kenshi.wiki/
+
+map.svg and kenshidb.svg use the same path geometry as WebFCS's map-icon.svg
+and database-icon.svg. Those source files identify SVG Repo as their source.
+The individual artist, catalog pages and terms remain unconfirmed.
+https://web-fcs.kenshi.wiki/assets/icons/map-icon.svg
+https://web-fcs.kenshi.wiki/assets/icons/database-icon.svg
+webfcs.svg is the clipboard and magnifier drawn for the wiki's ribbon.
+github.svg uses the mark-github geometry from GitHub's Octicons. The original
+MIT notice is included as Octicons-MIT.txt. GitHub retains its brand rights.
+https://github.com/primer/octicons/blob/v9.6.0/icons/mark-github.svg
+
+The following 48 px WebP derivatives come from Prd's former wiki resource
+directory. Original filenames identify the local source of each derivative.
+The linked platforms retain their marks. The repository has no verified
+per-file redistribution grants or original artist records for this icon set.
+
+  lo-fi-games.webp    KenshiOfficialIcon.webp     Lo-Fi Games
+  steam.webp          SteamOfficialIcon.png       Valve
+  workshop.webp       SteamWorkshopIcon.png       Valve / Workshop variant
+  steam-forums.webp   SteamForumsIcon.png         Valve / forums variant
+  reddit.webp         RedditOfficialIcon.png      Reddit
+  nexus.webp          NexusModsOfficialIcon.png   Nexus Mods
+  discord.webp        DiscordOfficialIcon.png     Discord
+  gog.webp            GoGOfficialIcon.png         GOG
+  humble-bundle.webp  HumbleBundleOfficialIcon.png  Humble Bundle
+  x.webp              XOfficialIcon.png           X
+  facebook.webp       FacebookOfficialIcon.png    Meta / Facebook
+  instagram.webp      InstagramOfficialIcon.png   Meta / Instagram
+
+Release history and external references
+
+The imported CSS retains references to EasonPro fonts, RimWorld backgrounds,
+and Wikimedia icons for legacy selectors. These URLs are references to
+third-party files and do not confer a license to bundle them. The two original
+pages and credits page are tested with cross-origin requests blocked.
+
+Before opening the repository, resolve the outstanding graphics above for
+source distribution, including earlier versions of retained and removed assets.
+Git history also contains public/dark.css (since removed) and prior revisions
+of global.css with third-party URLs. Replacing a file in the current tree
+leaves its previous versions in the history a public repository would expose.

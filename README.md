@@ -2,6 +2,14 @@
 
 Community wiki for [Kenshi](https://lofigames.com/), built with [Astro](https://astro.build) as a static site.
 
+## Contributors and licenses
+
+[VlcekM](https://github.com/VlcekM) built the original Astro prototype and proposed RimWorld Wiki as the model for its presentation. Prd ([mattresspad](https://github.com/mattresspad)) founded and maintains Kenshi Wiki, added the ecosystem navigation, and set up the site’s Cloudflare deployment. The wiki’s theme, Outland, adapts the legacy Vector skin and styling from RimWorld Wiki.
+
+The [Contributors page on staging](https://kenshi-wiki-staging.prds.workers.dev/Contributors) gives the upstream credits, license texts, and editable skin sources. The [repository history](https://github.com/mattresspad/kenshi-wiki/commits/main/) records individual changes.
+
+Original wiki article text is licensed under [CC BY-SA 4.0](public/notices/CC-BY-SA-4.0.txt). A general license for original project software is deferred. The [Vector license](public/notices/Vector-COPYING.txt), [MediaWiki notices](public/notices/MediaWiki-COPYING.txt), and [RimWorld Wiki policy](https://rimworldwiki.com/wiki/RimWorld_Wiki:Copyrights) apply to their respective materials. See the [artwork inventory](public/notices/artwork.txt) for per-file terms and outstanding questions before publishing Git history.
+
 ## Develop
 
 ```sh
@@ -28,7 +36,7 @@ Cloudflare serves the static Astro output, including the ribbon artwork. The sta
 search engines to leave it out of their indexes. Search and Random page are prototype routes.
 
 [Wiki staging in GitHub Actions](https://github.com/mattresspad/kenshi-wiki/actions/workflows/staging.yml)
-installs the locked dependencies, builds both pages, validates the Cloudflare package and exercises
+installs the locked dependencies, builds the wiki, validates the Cloudflare package and exercises
 the reader in Chromium. Pull requests run the checks. A push to `main`, or a manual run from
 `main`, deploys that same checked package to `kenshi-wiki-staging` and repeats the reader tests
 over HTTPS. Each accepted run records its commit, Worker version and run link in the job summary.
