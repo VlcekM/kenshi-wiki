@@ -309,25 +309,3 @@ details.collapsible > :not(summary) {
   padding-right: 3px;
   white-space: nowrap;
 }
-
-/* Personal tools: theme toggle and GitHub link */
-.theme-toggle {
-  padding: 0;
-  border: 0;
-  background: none;
-  color: var(--color-link);
-  font: inherit;
-  cursor: pointer;
-}
-
-.theme-toggle:hover {
-  text-decoration: underline;
-}
-
-#pt-github svg {
-  width: 1.1em;
-  height: 1.1em;
-  margin-right: 0.3em;
-  vertical-align: -0.2em;
-  fill: currentColor;
-}

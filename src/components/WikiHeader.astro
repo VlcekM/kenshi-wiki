@@ -1,0 +1,127 @@
+---
+import RibbonLinks from './RibbonLinks.astro';
+import RibbonMenu from './RibbonMenu.astro';
+import { ecosystem, platforms, morePlatforms } from '../lib/header-links.js';
+import { repoUrl, wiki } from '../lib/wiki.js';
+
+interface Props {
+  title: string;
+  source: string;
+  mainPage: boolean;
+}
+
+const { title, source, mainPage } = Astro.props;
+const tools = [
+  { label: 'Contributors', href: `${repoUrl}/graphs/contributors` },
+  { label: 'Edit on GitHub', href: `${repoUrl}/edit/main/${source}`, glyph: 'github' },
+];
+const history = [
+  { label: 'Recent changes', href: `${repoUrl}/commits/main/` },
+  { label: 'View history', href: `${repoUrl}/commits/main/${source}` },
+];
+const resources = [...platforms, ...morePlatforms];
+---
+
+<header class="wiki-header noprint">
+  <div class="wiki-ribbon">
+    <nav class="ribbon-sites" aria-label="Related sites">
+      <div class="ribbon-row ecosystem-direct" role="group" aria-label="Ecosystem">
+        <RibbonLinks links={ecosystem} />
+      </div>
+      <RibbonMenu label="Ecosystem" class="ecosystem-menu">
+        <RibbonLinks links={ecosystem} />
+      </RibbonMenu>
+
+      <div class="ribbon-row platforms-direct" role="group" aria-label="Kenshi links">
+        <RibbonLinks links={platforms} />
+        <RibbonMenu label="More"><RibbonLinks links={morePlatforms} /></RibbonMenu>
+      </div>
+      <RibbonMenu label="Kenshi links" class="platforms-menu">
+        <div class="ribbon-link-grid"><RibbonLinks links={resources} /></div>
+      </RibbonMenu>
+
+      <RibbonMenu label="Links" class="all-sites-menu">
+        <section aria-label="Ecosystem">
+          <h2>Ecosystem</h2>
+          <div class="ribbon-link-grid"><RibbonLinks links={ecosystem} /></div>
+        </section>
+        <section aria-label="Kenshi links">
+          <h2>Kenshi links</h2>
+          <div class="ribbon-link-grid"><RibbonLinks links={resources} /></div>
+        </section>
+      </RibbonMenu>
+    </nav>
+
+    <nav class="ribbon-tools" aria-label="Wiki tools">
+      <div class="ribbon-row tools-direct">
+        <button type="button" class="ribbon-link" data-theme-toggle>Theme: Auto</button>
+        <RibbonLinks links={tools} />
+      </div>
+      <RibbonMenu label="Wiki tools" class="tools-menu">
+        <button type="button" class="ribbon-link" data-theme-toggle>Theme: Auto</button>
+        <RibbonLinks links={tools} />
+        <div class="ribbon-panel-divider"><RibbonLinks links={history} /></div>
+      </RibbonMenu>
+    </nav>
+  </div>
+
+  <div class="wiki-page-bar">
+    <a class="wiki-page-tab" aria-current="page" href={mainPage ? '/' : wiki(title)}>{mainPage ? 'Main page' : 'Page'}</a>
+    <nav class="page-history" aria-label="Revision history">
+      {history.map(({ label, href }) => <a class="wiki-page-tab" href={href}>{label}</a>)}
+    </nav>
+    <div id="p-search" role="search">
+      <h3><label for="searchInput">Search Kenshi Wiki</label></h3>
+      <form action="/search" id="searchform">
+        <div id="simpleSearch">
+          <input type="search" name="q" placeholder="Search Kenshi Wiki" id="searchInput" />
+          <input type="submit" value="Go" title="Search" id="searchButton" class="searchButton" />
+        </div>
+      </form>
+    </div>
+  </div>
+</header>
+
+<script>
+  const header = document.querySelector<HTMLElement>('.wiki-header')!;
+  const themes = ['auto', 'light', 'dark'] as const;
+  const buttons = header.querySelectorAll<HTMLButtonElement>('[data-theme-toggle]');
+
+  function showTheme() {
+    const theme = document.documentElement.dataset.theme || 'auto';
+    for (const button of buttons) button.textContent = 'Theme: ' + theme[0].toUpperCase() + theme.slice(1);
+  }
+
+  showTheme();
+  for (const button of buttons) {
+    button.addEventListener('click', () => {
+      const index = themes.findIndex(theme => theme === document.documentElement.dataset.theme);
+      const next = themes[(index + 1) % themes.length];
+      document.documentElement.dataset.theme = next;
+      try { localStorage.setItem('theme', next); } catch { /* Keep the choice for this visit. */ }
+      showTheme();
+    });
+  }
+
+  function dismissOutside(event: Event) {
+    const menu = header.querySelector<HTMLDetailsElement>('details[open]');
+    if (menu && event.target instanceof Node && !menu.contains(event.target)) menu.open = false;
+  }
+  document.addEventListener('pointerdown', dismissOutside);
+  document.addEventListener('focusin', dismissOutside);
+  header.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    const menu = header.querySelector<HTMLDetailsElement>('details[open]');
+    if (!menu) return;
+    menu.open = false;
+    menu.querySelector('summary')?.focus();
+    event.preventDefault();
+  });
+
+  // A disclosure which disappears at a breakpoint should reopen in its closed state.
+  new ResizeObserver(() => {
+    for (const menu of header.querySelectorAll<HTMLDetailsElement>('details[open]')) {
+      if (!menu.getClientRects().length) menu.open = false;
+    }
+  }).observe(header);
+</script>

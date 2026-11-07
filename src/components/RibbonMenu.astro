@@ -1,0 +1,11 @@
+---
+interface Props {
+  label: string;
+  class?: string;
+}
+const { label, class: variant } = Astro.props;
+---
+<details class:list={['ribbon-menu', variant]} name="wiki-ribbon">
+  <summary>{label}</summary>
+  <div class="ribbon-panel"><slot /></div>
+</details>
