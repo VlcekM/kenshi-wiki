@@ -1,0 +1,85 @@
+name: Wiki staging
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wiki-staging-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  check-and-stage:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - run: npm ci
+      - run: npm run build
+      - run: npm run staging:dry-run
+      - run: npm exec -- playwright install --with-deps chromium
+      - run: npm test
+
+      - name: Check that this is still the head of main
+        id: main
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          head_sha="$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq '.object.sha')"
+          if [[ "$head_sha" == "$GITHUB_SHA" ]]; then
+            echo "current=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "A newer main commit is available. Skipping this deployment."
+          fi
+
+      - name: Deploy the tested package to staging
+        id: deploy
+        if: steps.main.outputs.current == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          NO_COLOR: '1'
+        run: |
+          set -euo pipefail
+          : "${CLOUDFLARE_API_TOKEN:?Set the staging Worker token in Actions secrets}"
+          : "${CLOUDFLARE_ACCOUNT_ID:?Set the Cloudflare account ID in Actions variables}"
+          log="$RUNNER_TEMP/kenshi-wiki-staging-deploy.log"
+          npm run staging:deploy -- --message "GitHub $GITHUB_SHA" 2>&1 | tee "$log"
+          version="$(sed -nE 's/.*Current Version ID:[[:space:]]*([0-9a-fA-F-]{36}).*/\1/p' "$log" | tail -n 1)"
+          test -n "$version"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Verify staging over HTTPS
+        if: steps.deploy.outcome == 'success'
+        env:
+          WIKI_TEST_STAGING: '1'
+        run: npm test
+
+      - name: Record the accepted deployment
+        if: steps.deploy.outcome == 'success' && success()
+        env:
+          WORKER_VERSION: ${{ steps.deploy.outputs.version }}
+        run: |
+          {
+            echo '### Wiki staging accepted'
+            echo
+            echo '- [Open the staged wiki](https://kenshi-wiki-staging.prds.workers.dev/)'
+            echo "- [Commit $GITHUB_SHA]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$GITHUB_SHA)"
+            printf -- '- Worker version: `%s`\n' "$WORKER_VERSION"
+            echo "- [Actions run $GITHUB_RUN_ID]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)"
+          } >> "$GITHUB_STEP_SUMMARY"

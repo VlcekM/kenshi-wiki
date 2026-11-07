@@ -1,0 +1,14 @@
+https://kenshi-wiki-staging.prds.workers.dev/*
+  X-Robots-Tag: noindex
+
+/
+  Cache-Control: public, no-cache, no-transform
+
+/index.html
+  Cache-Control: public, no-cache, no-transform
+
+/Kenshi
+  Cache-Control: public, no-cache, no-transform
+
+/Kenshi.html
+  Cache-Control: public, no-cache, no-transform

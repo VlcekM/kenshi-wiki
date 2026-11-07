@@ -3,3 +3,8 @@ dist/
 .astro/
 .env
 .DS_Store
+.cloudflare/
+.wrangler/
+.dev.vars
+test-results/
+playwright-report/

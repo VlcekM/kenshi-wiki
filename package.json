@@ -6,9 +6,17 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "test": "playwright test",
+    "staging:dry-run": "cf deploy --prebuilt --dry-run",
+    "staging:deploy": "cf deploy --prebuilt --no-provision"
   },
   "dependencies": {
     "astro": "^7.4.7"
+  },
+  "devDependencies": {
+    "@cloudflare/build-output-utils": "0.9.10",
+    "@playwright/test": "1.61.1",
+    "cf": "1.0.0-beta.28"
   }
 }
