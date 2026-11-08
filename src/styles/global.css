@@ -381,6 +381,20 @@ details.collapsible > :not(summary) {
   line-height: 72px;
 }
 
+.mainpage-box-icon img {
+  display: block;
+  width: 96px;
+  height: 96px;
+  margin: 4px auto;
+  object-fit: cover;
+  border: 1px solid var(--color-box-border);
+}
+
+.mainpage-box-icon img.cutout {
+  object-fit: contain;
+  border: 0;
+}
+
 .mainpage-box-links {
   width: 50%;
   padding-left: 5px;
