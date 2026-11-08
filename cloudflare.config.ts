@@ -1,10 +1,11 @@
 import { defineConfig } from 'cf/config';
 
-export const stagingWorker = {
-  name: 'kenshi-wiki-staging',
+export const wikiWorker = {
+  name: 'kenshi-wiki',
+  domains: ['kenshi.wiki'],
   compatibilityDate: '2026-11-07',
-  workersDev: true,
-  previewUrls: false,
+  workersDev: false,
+  previewUrls: true,
   assets: {
     htmlHandling: 'drop-trailing-slash',
     notFoundHandling: 'none',
@@ -15,4 +16,4 @@ export const stagingWorker = {
   },
 } as const;
 
-export default defineConfig({ worker: stagingWorker });
+export default defineConfig({ worker: wikiWorker });

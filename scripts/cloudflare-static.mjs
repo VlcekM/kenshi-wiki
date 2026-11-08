@@ -7,7 +7,7 @@ import {
 } from '@cloudflare/build-output-utils';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
-import { stagingWorker } from '../cloudflare.config.ts';
+import { wikiWorker } from '../cloudflare.config.ts';
 
 // The Worker and the URL rule it shares with the site, as two modules side by side in the bundle.
 async function writeWorkerBundle(root) {
@@ -30,7 +30,7 @@ export default function cloudflareStatic() {
         await cleanBuildOutputDir(root);
         await writeRootConfig(root, undefined, { isPreview: false });
         const manifest = await writeWorkerBundle(root);
-        await writeWorkerConfig({ root, config: stagingWorker, manifest });
+        await writeWorkerConfig({ root, config: wikiWorker, manifest });
         await writeAssets({ root, sourceDirectory: fileURLToPath(dir) });
       },
     },

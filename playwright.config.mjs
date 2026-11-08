@@ -1,12 +1,12 @@
 import { defineConfig } from '@playwright/test';
 
-const target = process.env.WIKI_TEST_TARGET ?? (process.env.WIKI_TEST_STAGING === '1' ? 'staging' : undefined);
-const origins = {
-  staging: 'https://kenshi-wiki-staging.prds.workers.dev',
-  production: 'https://kenshi.wiki',
-};
-if (target && !Object.hasOwn(origins, target)) throw new Error('Unknown wiki test target: ' + target);
+const target = process.env.WIKI_TEST_TARGET;
+const preview = process.env.WIKI_PREVIEW_URL;
 const localURL = 'http://127.0.0.1:4347';
+if (target && !['staging', 'production'].includes(target)) throw new Error('Unknown wiki test target.');
+if (target && !/^https:\/\/[0-9a-f]{8}-kenshi-wiki\.prds\.workers\.dev$/.test(preview ?? '')) {
+  throw new Error('Set WIKI_PREVIEW_URL to the uploaded version URL.');
+}
 
 export default defineConfig({
   testDir: './tests',
@@ -14,7 +14,7 @@ export default defineConfig({
   reporter: 'list',
   timeout: 30_000,
   use: {
-    baseURL: origins[target] ?? localURL,
+    baseURL: target === 'production' ? 'https://kenshi.wiki' : preview ?? localURL,
     viewport: { width: 1440, height: 900 },
     colorScheme: 'dark',
     serviceWorkers: 'block',
