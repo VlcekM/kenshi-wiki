@@ -7,7 +7,7 @@ source:
 categories: ["Guides"]
 ---
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>If your character has a bounty on his head then he should avoid going to towns with a police presence. It takes time for someone to recognize you though, so if you have to go in- avoid attention and get out fast.</td></tr></tbody></table>
+<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> If your character has a bounty on his head then he should avoid going to towns with a police presence. It takes time for someone to recognize you though, so if you have to go in- avoid attention and get out fast.</div>
 
   
 
@@ -27,7 +27,7 @@ You will still receive the bounty from a [Hostile Faction](/hostile-factions) if
 
 ## Bounty Types
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>Stealing, picking locks, looting bodies in town, these are all crimes that will get a bounty put on your head if you are spotted.</td></tr></tbody></table>
+<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> Stealing, picking locks, looting bodies in town, these are all crimes that will get a bounty put on your head if you are spotted.</div>
 
   
 
@@ -39,7 +39,7 @@ These bounties will fade over time unless the player character has become "notor
 
 The time it takes for a bounty to expire is 4 hours for every c.100 that a crime adds to your total. If you are jailed (Turning yourself in or being captured) the sentence is half of that time.
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>The bigger your bounty, the more people are going to recognize you. Police and bounty hunters are the sharpest spotters, while civilians will only recognize the most infamous of criminals.</td></tr></tbody></table>
+<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> The bigger your bounty, the more people are going to recognize you. Police and bounty hunters are the sharpest spotters, while civilians will only recognize the most infamous of criminals.</div>
 
   
 
@@ -49,7 +49,7 @@ A bounty over c.10,000 makes a unit notorious, which means that it never expires
 
 ## Bounties for enemies' heads
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>If someone has a bounty on their head you can freely attack them without any trouble from the police.</td></tr></tbody></table>
+<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> If someone has a bounty on their head you can freely attack them without any trouble from the police.</div>
 
   
 

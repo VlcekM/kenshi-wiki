@@ -360,7 +360,7 @@ _The reasons for this faction to have a non-zero relation towards you._
 
 ## Locations
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>It's a very bad idea for any non-humans to venture into Holy Nation territory. Learn the ways of the world if you want to survive.</td></tr></tbody></table>
+<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> It's a very bad idea for any non-humans to venture into Holy Nation territory. Learn the ways of the world if you want to survive.</div>
 
   
 

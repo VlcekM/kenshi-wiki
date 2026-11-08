@@ -76,6 +76,26 @@ for (const { route, file, source } of pages) {
   });
 }
 
+test('the header search suggests pages as you type', async ({ page, baseURL }) => {
+  await page.goto('/');
+  const search = page.locator('#searchInput');
+  await search.pressSequentially('nodach');
+
+  const suggestions = page.locator('#search-suggestions');
+  await expect(suggestions.getByRole('option').first()).toContainText('Nodachi');
+  await expect(search).toHaveAttribute('aria-expanded', 'true');
+  await expect(suggestions.getByRole('option').last()).toHaveAttribute('href', '/search?q=nodach&fulltext=1');
+
+  await search.press('ArrowDown');
+  await search.press('Enter');
+  await expect(page).toHaveURL(new URL('/nodachi', baseURL).href);
+
+  await page.locator('#searchInput').fill('nodachi');
+  await expect(page.locator('#search-suggestions').getByRole('option').first()).toBeVisible();
+  await page.locator('#searchInput').press('Escape');
+  await expect(page.locator('#search-suggestions')).toBeHidden();
+});
+
 test('the header search finds pages and Go opens an exact title', async ({ page, baseURL }) => {
   const origin = new URL(baseURL).origin;
   const errors = [];

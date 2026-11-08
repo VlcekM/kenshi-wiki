@@ -13,7 +13,7 @@ categories: ["Buildings"]
 
 Camping structures are temporary [buildings](/buildings-list) that can be set up while out travelling. These buildings do not create a [player town](/guide-to-building-an-outpost) and therefore do not result in [events](/events) being drawn to the player. All of the tents require blueprints to be built; the Campfire and Camp Bed do not.
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>You can build a tent out of fabrics to protect yourself from acid rain out in the wilds</td></tr></tbody></table>
+<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> You can build a tent out of fabrics to protect yourself from acid rain out in the wilds</div>
 
   
 

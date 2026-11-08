@@ -74,8 +74,19 @@ const resources = [...platforms, ...morePlatforms];
       <h3><label for="searchInput">Search Kenshi Wiki</label></h3>
       <form action="/search" id="searchform">
         <div id="simpleSearch">
-          <input type="search" name="q" placeholder="Search Kenshi Wiki" id="searchInput" />
+          <input
+            type="search"
+            name="q"
+            placeholder="Search Kenshi Wiki"
+            id="searchInput"
+            autocomplete="off"
+            role="combobox"
+            aria-autocomplete="list"
+            aria-controls="search-suggestions"
+            aria-expanded="false"
+          />
           <input type="submit" value="Go" title="Search" id="searchButton" class="searchButton" />
+          <ul id="search-suggestions" class="search-suggestions" role="listbox" aria-label="Suggested pages" hidden></ul>
         </div>
       </form>
     </div>
@@ -124,4 +135,90 @@ const resources = [...platforms, ...morePlatforms];
       if (!menu.getClientRects().length) menu.open = false;
     }
   }).observe(header);
+</script>
+
+<script>
+  import { resultTitle, pagePath, suggestPages, type Result } from '../lib/search';
+
+  const input = document.querySelector<HTMLInputElement>('#searchInput')!;
+  const list = document.querySelector<HTMLUListElement>('#search-suggestions')!;
+  let active = -1;
+  let latest = 0;
+  let timer: ReturnType<typeof setTimeout> | undefined;
+
+  const options = () => [...list.querySelectorAll<HTMLAnchorElement>('[role="option"]')];
+
+  function close() {
+    list.hidden = true;
+    active = -1;
+    input.setAttribute('aria-expanded', 'false');
+    input.removeAttribute('aria-activedescendant');
+  }
+
+  function option(id: string, href: string, title: string, excerpt?: string) {
+    const item = document.createElement('li');
+    const link = document.createElement('a');
+    const heading = document.createElement('span');
+    link.id = id;
+    link.href = href;
+    link.setAttribute('role', 'option');
+    heading.className = 'search-suggestion-title';
+    heading.textContent = title;
+    link.append(heading);
+    if (excerpt) {
+      const detail = document.createElement('span');
+      detail.className = 'search-suggestion-excerpt';
+      // Pagefind escapes the page text and wraps the matched words in <mark>.
+      detail.innerHTML = excerpt;
+      link.append(detail);
+    }
+    item.append(link);
+    return item;
+  }
+
+  // The pages found, then a last entry that lists every page containing the words, as on MediaWiki.
+  function show(query: string, results: Result[]) {
+    const pages = results.map((result, index) => option(`search-option-${index}`, pagePath(result.url), resultTitle(result), result.excerpt));
+    const everything = option('search-option-all', `/search?q=${encodeURIComponent(query)}&fulltext=1`, `Search for pages containing “${query}”`);
+    everything.classList.add('search-fulltext');
+    list.replaceChildren(...pages, everything);
+    list.hidden = false;
+    active = -1;
+    input.setAttribute('aria-expanded', 'true');
+  }
+
+  async function suggest() {
+    const query = input.value.trim();
+    const request = ++latest;
+    if (!query) return close();
+
+    const results = await suggestPages(query).catch(() => []);
+    if (request === latest && input.value.trim() === query) show(query, results);
+  }
+
+  function move(step: number) {
+    const all = options();
+    active = active === -1 ? (step > 0 ? 0 : all.length - 1) : (active + step + all.length) % all.length;
+    all.forEach((link, index) => link.classList.toggle('active', index === active));
+    input.setAttribute('aria-activedescendant', all[active].id);
+  }
+
+  function onKey(event: KeyboardEvent) {
+    if (list.hidden) return;
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') move(event.key === 'ArrowDown' ? 1 : -1);
+    else if (event.key === 'Enter' && active >= 0) location.href = options()[active].href;
+    else if (event.key === 'Escape') close();
+    else return;
+    event.preventDefault();
+  }
+
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = setTimeout(suggest, 120);
+  });
+  input.addEventListener('keydown', onKey);
+  input.addEventListener('focus', () => input.value.trim() && suggest());
+  input.addEventListener('blur', close);
+  // Keep the focus in the box while a suggestion is clicked, so the blur does not close the list first.
+  list.addEventListener('mousedown', (event) => event.preventDefault());
 </script>

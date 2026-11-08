@@ -7,7 +7,7 @@ source:
 categories: ["Statistics","Weapons","Heavy Weapon","Weapon Types"]
 ---
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>Heavy weapons require two hands to fight with. If a character has one arm disabled he will switch to using his secondary weapon if he has one.</td></tr></tbody></table>
+<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> Heavy weapons require two hands to fight with. If a character has one arm disabled he will switch to using his secondary weapon if he has one.</div>
 
   
 
