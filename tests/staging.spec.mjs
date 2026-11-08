@@ -5,6 +5,7 @@ import { repoUrl } from '../src/lib/wiki.js';
 const pages = [
   { route: '/', file: 'index.html', source: 'src/pages/index.astro' },
   { route: '/About_Kenshi', file: 'About_Kenshi.html', source: 'src/pages/About_Kenshi.astro' },
+  { route: '/The_Holy_Nation', file: 'The_Holy_Nation.html', source: 'src/content/wiki/The_Holy_Nation.md' },
 ];
 
 for (const { route, file, source } of pages) {
@@ -80,7 +81,7 @@ test('the header search finds pages and Go opens an exact title', async ({ page,
   await page.goto('/');
 
   const search = page.locator('#searchInput');
-  await search.fill('Holy Lord Phoenix');
+  await search.fill('Esata the Stone Golem');
   await search.press('Enter');
   const results = page.locator('.mw-search-results');
   await expect(results.getByRole('link', { name: 'About Kenshi', exact: true })).toHaveAttribute('href', '/About_Kenshi');

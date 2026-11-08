@@ -1,0 +1,21 @@
+---
+import { getCollection, render } from 'astro:content';
+import WikiLayout from '../layouts/WikiLayout.astro';
+import Infobox from '../components/Infobox.astro';
+import FandomNotice from '../components/FandomNotice.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('wiki');
+  return articles.map((article) => ({ params: { page: article.id }, props: { article } }));
+}
+
+const { article } = Astro.props;
+const { title, description, source, categories, infobox } = article.data;
+const { Content } = await render(article);
+---
+
+<WikiLayout {title} {description} source={`src/content/wiki/${article.id}.md`} {categories} showTitle>
+  {infobox && <Infobox title={infobox.title} groups={infobox.groups} />}
+  <Content />
+  <FandomNotice title={source.title} revision={source.revision} />
+</WikiLayout>

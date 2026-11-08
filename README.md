@@ -26,6 +26,8 @@ It indexes each page's `<main>`; pass `searchable={false}` to `WikiLayout` to le
 
 Contributions are made as pull requests on GitHub.
 
+- Articles imported from the Kenshi Fandom wiki live in `src/content/wiki/` as Markdown, one file per page (CC BY-SA 3.0,
+  credited on each page). `node scripts/import-fandom.mjs [title ...]` re-imports them; images are not imported.
 - Pages live in `src/pages/`; `About_Kenshi.astro` is an example article using every building block.
 - Every page wraps its content in `src/layouts/WikiLayout.astro` (sidebar, header, footer, categories).
 - Article building blocks live in `src/components/`: `Infobox`, `Toc`, `Gallery` and `Navbox`.

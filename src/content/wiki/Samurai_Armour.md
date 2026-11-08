@@ -1,0 +1,58 @@
+---
+title: "Samurai Armour"
+description: "Samurai Armor is a Heavy Armour that is equipped in the Body Armour slot. It can be bought from Armour Shops in Mongrel, UC, Shek and Tech Hunter towns. It i…"
+source:
+  title: "Samurai Armour"
+  revision: 95597
+categories: ["Armour","Body Armour","Heavy Armour","Samurai"]
+---
+
+<table class="equip-table"><tbody><tr><td colspan="4">Traditional heavy duty armour commonly worn by government owned samurai</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/Body_Armour">ARMOR</a></td><td>Type:</td><td><a href="/Heavy_Armour">Heavy Armour</a></td></tr></tbody></table>
+
+  
+
+**Samurai Armor** is a Heavy Armour that is equipped in the Body Armour slot. It can be bought from Armour Shops in Mongrel, UC, Shek and Tech Hunter towns. It is part of the samurai armour series together with [Samurai Helmet](/Samurai_Helmet), [Samurai Legplates](/Samurai_Legplates) and [Samurai Boots](/Samurai_Boots).
+
+It is the uniform of the soldiers of the [United Cities](/United_Cities), which are [Samurais](/Samurai), [Samurai Sergeants](/Samurai_Sergeant), [Samurai Heavies](/Samurai_Heavy), [Samurai Captains](/Samurai_Captain), [Samurai Elites](/Samurai_Elite), and [Samurai Scouts](/Samurai_Scout). The colored Empire version are worn by [Samurai Gate Guards](/Samurai_Gate_Guard), [Samurai Gate Sergeants](/Samurai_Gate_Sergeant), [Samurai Police](/Samurai_Police), [Police Chiefs](/Police_Chief), [Noble Captains](/Noble_Captain), and [Empire Noble Guards](/Empire_Noble_Guard_Hooded). It is also worn by mercenaries like [Cannibal Hunter Captains](/Cannibal_Hunter_Captain), [Mercenaries](/Mercenary), [Mercenary Heavies](/Mercenary_Heavy), and [Mercenary Captains](/Mercenary_Captain).
+
+A rusted and stat-wise inferior version of Samurai Armour also [exists](/Ancient_Samurai_Armour). Yet another [version, with an emblem](/Empire_Samurai_Armour), is employed only by the Empire.
+
+This armour has inventory dimensions of **4x6**.
+
+## Appearance
+
+The Samurai Armor is built with average steel. It features several splint-mail segments, those being the pauldrons, rerebraces, vambraces, and a single culet. The only piece that isn't in this fashion is the breastplate, which is a single, large plate.
+
+## Stats
+
+<table><tbody><tr><td colspan="2" align="left">Samurai Armour</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>3.25%</td></tr><tr><td>-Cut resistance</td><td>13.75%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>4.5pts</td></tr><tr><td>-Weight</td><td>20.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.448</td></tr><tr><td>-Sell value</td><td>c.112</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>85%</td></tr><tr><td>-Right Arm</td><td>85%</td></tr><tr><td>-Left Arm</td><td>85%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.00x</td></tr><tr><td>-Crossbows effect</td><td>0.50x</td></tr><tr><td>-Precision shooting effect</td><td>0.50x</td></tr><tr><td>-Dodge skill effect</td><td>0.60x</td></tr><tr><td>-Combat speed effect</td><td>0.85x</td></tr><tr><td>-Attack damage effect</td><td>0.85x</td></tr><tr><td>-Assassination skill</td><td>0.50x</td></tr><tr><td>-Melee attack bonus</td><td>-8</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
+
+<table><tbody><tr><td colspan="2" align="left">Samurai Armour</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>13%</td></tr><tr><td>-Cut resistance</td><td>25%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>18pts</td></tr><tr><td>-Weight</td><td>20.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,785</td></tr><tr><td>-Sell value</td><td>c.446</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>85%</td></tr><tr><td>-Right Arm</td><td>85%</td></tr><tr><td>-Left Arm</td><td>85%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.02x</td></tr><tr><td>-Crossbows effect</td><td>0.50x</td></tr><tr><td>-Precision shooting effect</td><td>0.50x</td></tr><tr><td>-Dodge skill effect</td><td>0.60x</td></tr><tr><td>-Combat speed effect</td><td>0.86x</td></tr><tr><td>-Attack damage effect</td><td>0.85x</td></tr><tr><td>-Assassination skill</td><td>0.50x</td></tr><tr><td>-Melee attack bonus</td><td>-8</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
+
+<table><tbody><tr><td colspan="2" align="left">Samurai Armour</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>26%</td></tr><tr><td>-Cut resistance</td><td>40%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>36pts</td></tr><tr><td>-Weight</td><td>20.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.6,061</td></tr><tr><td>-Sell value</td><td>c.1,515</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>85%</td></tr><tr><td>-Right Arm</td><td>85%</td></tr><tr><td>-Left Arm</td><td>85%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.06x</td></tr><tr><td>-Crossbows effect</td><td>0.50x</td></tr><tr><td>-Precision shooting effect</td><td>0.50x</td></tr><tr><td>-Dodge skill effect</td><td>0.60x</td></tr><tr><td>-Combat speed effect</td><td>0.88x</td></tr><tr><td>-Attack damage effect</td><td>0.85x</td></tr><tr><td>-Assassination skill</td><td>0.50x</td></tr><tr><td>-Melee attack bonus</td><td>-8</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
+
+<table><tbody><tr><td colspan="2" align="left">Samurai Armour</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>39%</td></tr><tr><td>-Cut resistance</td><td>55%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>54pts</td></tr><tr><td>-Weight</td><td>20.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.13,189</td></tr><tr><td>-Sell value</td><td>c.3,297</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>85%</td></tr><tr><td>-Right Arm</td><td>85%</td></tr><tr><td>-Left Arm</td><td>85%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.12x</td></tr><tr><td>-Crossbows effect</td><td>0.50x</td></tr><tr><td>-Precision shooting effect</td><td>0.50x</td></tr><tr><td>-Dodge skill effect</td><td>0.60x</td></tr><tr><td>-Combat speed effect</td><td>0.90x</td></tr><tr><td>-Attack damage effect</td><td>0.85x</td></tr><tr><td>-Assassination skill</td><td>0.50x</td></tr><tr><td>-Melee attack bonus</td><td>-8</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
+
+<table><tbody><tr><td colspan="2" align="left">Samurai Armour</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>52%</td></tr><tr><td>-Cut resistance</td><td>70%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>72pts</td></tr><tr><td>-Weight</td><td>20.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.23,169</td></tr><tr><td>-Sell value</td><td>c.5,792</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>85%</td></tr><tr><td>-Right Arm</td><td>85%</td></tr><tr><td>-Left Arm</td><td>85%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.21x</td></tr><tr><td>-Crossbows effect</td><td>0.50x</td></tr><tr><td>-Precision shooting effect</td><td>0.50x</td></tr><tr><td>-Dodge skill effect</td><td>0.60x</td></tr><tr><td>-Combat speed effect</td><td>0.92x</td></tr><tr><td>-Attack damage effect</td><td>0.85x</td></tr><tr><td>-Assassination skill</td><td>0.50x</td></tr><tr><td>-Melee attack bonus</td><td>-8</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
+
+<table><tbody><tr><td colspan="2" align="left">Samurai Armour</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>61.75%</td></tr><tr><td>-Cut resistance</td><td>81.25%</td></tr><tr><td>-Cut resistance efficiency</td><td>90%</td></tr><tr><td>-Harpoon resistance</td><td>85.5pts</td></tr><tr><td>-Weight</td><td>20.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.32,524</td></tr><tr><td>-Sell value</td><td>c.8,131</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Chest</td><td>100%</td></tr><tr><td>-Stomach</td><td>85%</td></tr><tr><td>-Right Arm</td><td>85%</td></tr><tr><td>-Left Arm</td><td>85%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Stealth effect</td><td>0.29x</td></tr><tr><td>-Crossbows effect</td><td>0.50x</td></tr><tr><td>-Precision shooting effect</td><td>0.50x</td></tr><tr><td>-Dodge skill effect</td><td>0.60x</td></tr><tr><td>-Combat speed effect</td><td>0.94x</td></tr><tr><td>-Attack damage effect</td><td>0.85x</td></tr><tr><td>-Assassination skill</td><td>0.50x</td></tr><tr><td>-Melee attack bonus</td><td>-8</td></tr><tr><td>-Martial arts bonus</td><td>-10</td></tr></tbody></table>
+
+## Locations
+
+-   \[High\]—\[Masterwork\] grade pieces can frequently be found at [Armour King's Shop](/Armour_King's_Shop).
+-   1x \[Masterwork\] quality one can be found in the Mongrel weapon store.
+
+## Blueprints
+
+<table class="greenprint-table"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Samurai Armour<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>15,154</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>3,788</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Samurai Armour</td></tr></tbody></table>
+
+The blueprint can be found in the following locations:
+
+-   [Drifter's Last](/Drifter's_Last)
+-   [The Great Library](/The_Great_Library)
+-   [Heft Armory](/Heft_Armory)
+-   [Bark](/Bark) armoury
+
+## Crafting
+
+<table class="articletable mw-collapsible mw-collapsible" data-expandtext="O" data-collapsetext="X"><tbody><tr><th colspan="2"><a href="/Heavy_Armour_Smithy"><span class="allcaps">Heavy Armour Smithy</span></a></th></tr><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/Fabrics"><span>Fabrics</span></a><div></div><p><span>(0.81 required)</span></p></td><td><strong><span>Samurai Armour</span></strong><div></div></td></tr><tr><td><a href="/Armour_Plating"><span>Armour Plating</span></a><div></div><p><span>(4.05 required)</span></p></td></tr></tbody></table>

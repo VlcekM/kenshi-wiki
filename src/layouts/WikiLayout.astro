@@ -4,7 +4,7 @@ import '../styles/wiki-header.css';
 import WikiHeader from '../components/WikiHeader.astro';
 import { wiki } from '../lib/wiki.js';
 
-const { title, description, source, categories = [], mainPage = false, searchable = true } = Astro.props;
+const { title, description, source, categories = [], mainPage = false, searchable = true, showTitle = false } = Astro.props;
 const pageClass = `page-${title.replaceAll(' ', '_')}`;
 ---
 
@@ -44,7 +44,7 @@ const pageClass = `page-${title.replaceAll(' ', '_')}`;
     <div class="wiki-column">
       <WikiHeader {title} {source} {mainPage} />
       <main id="content" class="mw-body" data-pagefind-body={searchable ? '' : undefined}>
-        <h1 id="firstHeading" class="firstHeading">{title}</h1>
+        <h1 id="firstHeading" class="firstHeading" style={showTitle ? 'display: block' : undefined}>{title}</h1>
         <div id="bodyContent" class="mw-body-content">
           <div id="mw-content-text" class="mw-content-ltr">
             <div class="mw-parser-output">
