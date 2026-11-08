@@ -1,0 +1,25 @@
+---
+title: "Standard First Aid Kit"
+description: "This standard of medical coverage is favored by the United Cities Police units, Bounty Hunters and many Generic Recruits."
+source:
+  title: "Standard First Aid Kit"
+  revision: 93152
+categories: ["Items"]
+infobox:
+  title: "Standard First Aid Kit"
+  groups:
+    - heading: null
+      rows:
+        - ["Weight","2 kg"]
+        - ["Size","2x2 wide/tall"]
+        - ["Avg. Price","c.147"]
+        - ["Charges","400/400"]
+        - ["Quality","40/100"]
+        - ["Description","A first aid kit, made up of bandages, disinfectant and painkillers.  The quality will limit you if it is lower than your skills."]
+---
+
+**Standard First Aid Kits** are [medical](/medical-items) [items](/items) used to heal cutting [damage](/damage) on organic body parts. Players can learn how to craft this item by researching [Medicine](/medicine-tech). After researching, these kits can be crafted on a [Medical Workbench](/medical-workbench). These kits can be stored in a [Medicrate](/medicrate).
+
+This standard of medical coverage is favored by the [United Cities](/united-cities) Police units, [Bounty Hunters](/bounty-hunter) and many [Generic Recruits](/generic-recruits).
+
+<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Standard First Aid Kit</span></strong><div></div></td></tr><tr><td><a href="/hemp"><span>Hemp</span></a><div></div><p><span>(1 required)</span></p></td></tr></tbody></table></details>

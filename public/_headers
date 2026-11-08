@@ -7,22 +7,15 @@ https://kenshi-wiki-staging.prds.workers.dev/*
 /index.html
   Cache-Control: public, no-cache, no-transform
 
-/About_Kenshi
+# Every top-level page; its .html form too. Also matches root files such as favicon.ico.
+/:page
   Cache-Control: public, no-cache, no-transform
 
-/About_Kenshi.html
+# Subpages such as /Admag/Berserkers and /Update/0.20.
+/:parent/:page
   Cache-Control: public, no-cache, no-transform
 
-/Contributors
-  Cache-Control: public, no-cache, no-transform
-
-/Contributors.html
-  Cache-Control: public, no-cache, no-transform
-
-/Search
-  Cache-Control: public, no-cache, no-transform
-
-/Search.html
+/:grandparent/:parent/:page
   Cache-Control: public, no-cache, no-transform
 
 /pagefind/*

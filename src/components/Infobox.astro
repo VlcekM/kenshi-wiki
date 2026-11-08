@@ -16,7 +16,7 @@ const { title, image, imageAlt = title, caption, color = 'c_25', groups = [] } =
 
     {groups.map((group) => (
       <Fragment>
-        <p class="subheading">{group.heading}</p>
+        {group.heading && <p class="subheading">{group.heading}</p>}
         <dl>
           {group.rows.map(([label, value]) => (
             <Fragment>

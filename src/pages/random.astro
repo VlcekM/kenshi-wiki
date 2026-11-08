@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+import WikiLayout from '../layouts/WikiLayout.astro';
+
+// Pages that are gone from the game or flagged for deletion are left out of the draw.
+const excluded = new Set(['Removed Content', 'Candidates for deletion']);
+const articles = await getCollection('wiki');
+const paths = articles
+  .filter((article) => !article.data.categories.some((category) => excluded.has(category)))
+  .map((article) => `/${article.id}`);
+---
+
+<WikiLayout title="Random page" description="Opens a random Kenshi Wiki article." source="src/pages/random.astro" searchable={false}>
+  <p class="random-status">Opening a random page…</p>
+  <script type="application/json" id="random-pages" set:html={JSON.stringify(paths)} />
+</WikiLayout>
+
+<script>
+  const paths: string[] = JSON.parse(document.getElementById('random-pages')!.textContent!);
+  location.replace(paths[Math.floor(Math.random() * paths.length)]);
+</script>

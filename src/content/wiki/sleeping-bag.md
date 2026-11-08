@@ -1,0 +1,31 @@
+---
+title: "Sleeping Bag"
+description: "Sleeping Bags can be created at a (Basic) Medical Workbench or bought from a Travel Shop. They are used as the only ingredient in a Camp Bed which can be pla…"
+source:
+  title: "Sleeping Bag"
+  revision: 87273
+categories: ["Items"]
+infobox:
+  title: "Sleeping Bag"
+  groups:
+    - heading: null
+      rows:
+        - ["Weight","5 kg"]
+        - ["Size","5x3 wide/tall"]
+        - ["Avg. Price","c.605"]
+        - ["Description","Essential for any traveller.  Carry one of these around with you and you can build yourself a camp bed anywhere you need it.  Finding some time to rest up and heal in the wilds can save your life.  (Use BUILD mode to place a camp bed)"]
+---
+
+**Sleeping Bags** can be created at a (Basic) [Medical Workbench](/medical-workbench) or bought from a [Travel Shop](/travel-supplies-shops). They are used as the only ingredient in a [Camp Bed](/camp-bed) which can be placed via the "Building menu". When the Camping Bed is dismantled a Sleeping Bag is returned, allowing for it to be used again.
+
+<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(8 required)</span></p></td><td><strong><span>Sleeping Bag</span></strong><div></div></td></tr></tbody></table></details>
+
+  
+
+## Tips
+
+Unlike other [medical items](/medical-items), Sleeping Bags are often neglected by adventurers. As evidenced by the item's description, they can mean the difference between life and death in the wilds. Take these with you!
+
+## Trivia
+
+-   You can place sleeping bags on top of many other structures like Storage boxes, Small Research Benches, Beds and even Sleeping Bags themselves allowing you to make the most out of a small area.

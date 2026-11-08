@@ -1,0 +1,49 @@
+---
+title: "Tin Can"
+description: "The Tin Can is a Heavy Armour that is equipped in the Headgear slot. It is sold by UC and HN Armour Vendors as well as HN and Ronin Hat Vendors."
+source:
+  title: "Tin Can"
+  revision: 86651
+categories: ["Armour","Headgear","Heavy Armour"]
+---
+
+<table class="wikitable"><tbody><tr><td colspan="4">The Tin Can is a super heavy-class helmet and makes for the best head protection around. Heavy cuts and slashes will make your head ring, but at least you will still have your face attached. Unfortunately the limited field of view does hamper your combat awareness a fair bit.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
+
+  
+The **Tin Can** is a Heavy Armour that is equipped in the Headgear slot. It is sold by UC and HN Armour Vendors as well as HN and Ronin Hat Vendors.
+
+It is the defining helmet of [Mighty Canhead](/mighty-canhead). It is randomly equipped by [City Heroes](/city-hero), [Hero Bosses](/hero-boss), [Territorial Thugs](/territorial-thug), [United Heroes](/united-hero), and [Yabuta Outlaws](/yabuta-outlaw).
+
+This armour has inventory dimensions of **3x3**.
+
+## Appearance
+
+Simple in design the Tin Can covers the entire face with with the exception for a horizontal slit that allows the character to see out of. It has an extended neckpiece that covers the front of the character's neck. It is similar in appearance to the flat-topped European great helm of the High Middle Ages.
+
+## Stats
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Tin Can</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>6%</td></tr><tr><td>-Cut resistance</td><td>18.5%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>18pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.134</td></tr><tr><td>-Sell value</td><td>c.33</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Melee attack bonus</td><td>-5</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Tin Can</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>15%</td></tr><tr><td>-Cut resistance</td><td>31.25%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>45pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.535</td></tr><tr><td>-Sell value</td><td>c.133</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Melee attack bonus</td><td>-5</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Tin Can</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>27%</td></tr><tr><td>-Cut resistance</td><td>48.25%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>81pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.1,818</td></tr><tr><td>-Sell value</td><td>c.454</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Melee attack bonus</td><td>-5</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Tin Can</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>39%</td></tr><tr><td>-Cut resistance</td><td>65.25%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>117pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.3,956</td></tr><tr><td>-Sell value</td><td>c.989</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Melee attack bonus</td><td>-5</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Tin Can</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>51%</td></tr><tr><td>-Cut resistance</td><td>82.25%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>153pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.6,950</td></tr><tr><td>-Sell value</td><td>c.1,737</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Melee attack bonus</td><td>-5</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Tin Can</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Heavy Armour Class]</td><td>[Metal Plate]</td></tr><tr><td>-Blunt resistance</td><td>60%</td></tr><tr><td>-Cut resistance</td><td>90%</td></tr><tr><td>-Cut resistance efficiency</td><td>65%</td></tr><tr><td>-Harpoon resistance</td><td>180pts</td></tr><tr><td>-Weight</td><td>6.25 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.9,757</td></tr><tr><td>-Sell value</td><td>c.2,439</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>100%</td></tr><tr><td colspan="2" align="left">[Skills]</td></tr><tr><td>-Dodge skill effect</td><td>0.70x</td></tr><tr><td>-Melee attack bonus</td><td>-5</td></tr><tr><td>-Perception bonus</td><td>-20</td></tr></tbody></table>
+
+## Blueprints
+
+It can be crafted at the [Heavy Armour Smithy](/heavy-armour-smithy).
+
+## Trivia
+
+-   Tin Can has the highest penalty to Melee attack which makes it the best helmet to wear when training it.
+    -   It also lacks any Duststorm protection allowing for even faster training in one.
+-   Tin Can has the largest Harpoon Resistance of any piece of Armour in Kenshi. Only a Masterwork quality [Eagle's Cross](/eagles-cross) shot from the max height (+50% damage) could get through the Resistance. And even then, the cut damage taken would be very minor.
+    -   As a tradeoff it has the lowest Cut Efficiency of the \[Metal Plate\] Helmets with 100% Head Coverage, meaning that 35% of the harpoon damage it mitigates will be turned into Stun damage.
+-   90% is the max cut resistance a single item can have. If this wasn't the case the Tin Can would have a massive 95% Cut resistance at Masterwork quality.
+
+<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Tin Can<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">2</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Tin Can</td></tr></tbody></table>

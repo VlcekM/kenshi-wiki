@@ -1,0 +1,18 @@
+---
+title: "Sake Barrels"
+description: "The Sake Barrels are a storage container which exclusively contains Sake. Players can construct this building after researching Sake Distillation (Tech)."
+source:
+  title: "Sake Barrels"
+  revision: 94971
+categories: ["Storage","Buildings"]
+---
+
+<table class="wikitable"><tbody><tr><td colspan="2"><table class="wikitable"><tbody><tr><td>Sake Barrels</td></tr></tbody></table></td></tr><tr><td></td><td><table class="wikitable"><tbody><tr><td>Type:</td><td>Interior</td></tr><tr><td colspan="2">Materials cost:</td></tr><tr><td><a href="/building-materials">Building Materials</a></td><td>1</td></tr><tr><td>Estimated build time:</td><td>1 hrs</td></tr><tr><td colspan="2"><br><br><br></td></tr></tbody></table></td></tr><tr><td colspan="2">Storage barrels for sake<br></td></tr></tbody></table>
+
+  
+
+The **Sake Barrels** are a [storage](/storage) container which exclusively contains [Sake](/sake). Players can construct this building after researching [Sake Distillation (Tech)](/sake-distillation-tech).
+
+This container can hold a total of 25 bottles.
+
+Having Sake Barrels is recommended for outposts with [Sake Stills](/sake-still).

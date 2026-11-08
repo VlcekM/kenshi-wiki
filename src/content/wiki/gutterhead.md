@@ -1,0 +1,71 @@
+---
+title: "Gutterhead"
+description: "They wear [Shoddy] armour (40% chance of [Standard]) and have weapons manufactured by Ancient and Unknown."
+source:
+  title: "Gutterhead"
+  revision: 94591
+categories: ["Characters","Unique","Bounty"]
+infobox:
+  title: "Gutterhead"
+  groups:
+    - heading: null
+      rows:
+        - ["Race","<a href=\"/human\">Human</a>"]
+        - ["Subrace","<a href=\"/scorchlander\">Scorchlander</a>"]
+        - ["Gender","male"]
+    - heading: "Items"
+      rows:
+        - ["Weapons","<a href=\"/mercenary-club\">Mercenary Club</a>, <a href=\"/tooth-pick\">Tooth Pick</a>, <a href=\"/spring-bat\">Spring Bat</a>"]
+        - ["Headgear","<a href=\"/basket-hat\">Basket Hat</a>"]
+        - ["Armour","<a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a>, <a href=\"/black-rag-shirt\">Black Rag Shirt</a>, <a href=\"/ninja-gi\">Ninja Gi</a>"]
+        - ["Legwear","<a href=\"/cargopants\">Cargopants</a>"]
+        - ["Footwear","<a href=\"/drifters-boots\">Drifter's Boots</a>"]
+        - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
+---
+
+**Gutterhead** is the influential leader of the faction [Scavengers](/scavengers). He leads 7 other Scavengers within the [Old Control Tower](/old-control-tower).
+
+They wear \[Shoddy\] armour (40% chance of \[Standard\]) and have weapons manufactured by [Ancient](/ancient) and [Unknown](/unknown).
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="center"></td></tr><tr><td colspan="2" align="center">WANTED: Gutterhead</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Gender: Male<p>Leader of the Scavengers wanted for numerous attacks and robberies on the roads of Venge. Located south of the desert, beyond the Eye.</p></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td>REWARD:</td><td>c.10,000</td></tr></tbody></table>
+
+  
+His [Wanted Poster](/wanted-posters) is distributed in the [United Cities](/united-cities), but his entry in FCS does not have a "bounty faction" which causes it to be assigned to the United Cities.
+
+## Statistics
+
+-   Scorchlander
+    
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/strength">Strength</a></td><td align="center">0 – 18</td></tr><tr><td></td><td><a href="/toughness">Toughness</a></td><td align="center">40 – 60</td></tr><tr><td></td><td><a href="/dexterity">Dexterity</a></td><td align="center">44 – 66</td></tr><tr><td></td><td><a href="/perception">Perception</a></td><td align="center">25 – 45</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/katanas">Katanas</a></td><td align="center">40 – 60</td></tr><tr><td></td><td><a href="/sabres">Sabres</a></td><td align="center">40 – 60</td></tr><tr><td></td><td><a href="/hackers">Hackers</a></td><td align="center">40 – 60</td></tr><tr><td></td><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">40 – 60</td></tr><tr><td></td><td><a href="/blunt-weapons">Blunt</a></td><td align="center">40 – 60</td></tr><tr><td></td><td><a href="/polearms">Polearms</a></td><td align="center">40 – 60</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/melee-attack">Melee Attack</a></td><td align="center">40 – 60</td></tr><tr><td></td><td><a href="/melee-defence">Melee Defence</a></td><td align="center">40 – 60</td></tr><tr><td></td><td><a href="/dodge">Dodge</a></td><td align="center">-6 – 18</td></tr><tr><td></td><td><a href="/martial-arts">Martial Arts</a></td><td align="center">-5 – 15</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/turrets">Turrets</a></td><td align="center">25 – 45</td></tr><tr><td></td><td><a href="/crossbows">Crossbows</a></td><td align="center">25 – 45</td></tr><tr><td></td><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">25 – 45</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/stealth">Stealth</a></td><td align="center">-10.8 – 13.2</td></tr><tr><td></td><td><a href="/lockpicking">Lockpicking</a></td><td align="center">-9 – 11</td></tr><tr><td></td><td><a href="/thievery">Thievery</a></td><td align="center">-9 – 11</td></tr><tr><td></td><td><a href="/assassination">Assassination</a></td><td align="center">25</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/athletics">Athletics</a></td><td align="center">48 – 72</td></tr><tr><td></td><td><a href="/swimming">Swimming</a></td><td align="center">40 – 60</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/field-medic">Field Medic</a></td><td align="center">40 – 60</td></tr><tr><td></td><td><a href="/engineer">Engineer</a></td><td align="center">-9 – 11</td></tr><tr><td></td><td><a href="/robotics">Robotics</a></td><td align="center">-9 – 11</td></tr><tr><td></td><td><a href="/science">Science</a></td><td align="center">1</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">-10.8 – 13.2</td></tr><tr><td></td><td><a href="/armour-smith">Armour Smith</a></td><td align="center">-10.8 – 13.2</td></tr><tr><td></td><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td></td><td><a href="/labouring">Labouring</a></td><td align="center">0.8</td></tr><tr><td></td><td><a href="/farming">Farming</a></td><td align="center">0.8</td></tr><tr><td></td><td><a href="/cooking">Cooking</a></td><td align="center">0.8</td></tr></tbody></table>
+
+* * *
+
+Stats randomize by 10
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._
+
+## [World States](/world-states)
+
+If Gutterhead is killed, Scavengers will cease to spawn in [Sniper Valley](/sniper-valley), [Stobe's Gamble](/stobes-gamble), [Stobe's Garden](/stobes-garden), [The Outlands](/the-outlands), [The Crags](/the-crags), [The Pits](/the-pits).
+
+The patrols will also cripple: the 3 ~ 20 Scavengers patrol will also cripple into 3 ~ 10 Scavengers patrol, and it will spawn less frequently in [Stormgap Coast](/stormgap-coast) and [The Pits East](/the-pits-east).

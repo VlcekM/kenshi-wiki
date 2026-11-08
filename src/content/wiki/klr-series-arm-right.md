@@ -1,0 +1,47 @@
+---
+title: "KLR Series Arm (right)"
+description: "KLR Series Arm (right) is a Robot Limb, and a replacement for a lost right arm."
+source:
+  title: "KLR Series Arm (right)"
+  revision: 77232
+categories: ["Robot Limbs"]
+infobox:
+  title: "Durable Arms"
+  groups:
+    - heading: "Details"
+      rows:
+        - ["Estimated Time","12 hours"]
+        - ["Tech Level","6"]
+        - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
+        - ["Requirements","<a href=\"/skeleton-arms-tech\"> Skeleton Arms</a>"]
+    - heading: "Results"
+      rows:
+        - ["New Item(s)","<a href=\"/klr-series-arm-left\">KLR Series Arm (left)</a><p>KLR Series Arm (right)</p>"]
+---
+
+<table class="wikitable"><tbody><tr><td colspan="4">The KLR series was legendary for it's simple durability. Designed for the original service bots working alone in remote hostile environments, fancy features and luxuries were ditched in favor of simplicity. Many were used on the frontlines of the war, so few can be found today.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
+
+  
+**KLR Series Arm (right)** is a [Robot Limb](/robot-limbs), and a replacement for a lost right arm.
+
+## Stats 
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">KLR Series Arm (right)</td></tr><tr><td colspan="2">[Prototype Grade]</td></tr><tr><td>-Max HP</td><td>110<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Lockpicking</td><td>-76%</td></tr><tr><td>-Thievery</td><td>-76%</td></tr><tr><td>-Dexterity</td><td>-25%</td></tr><tr><td>-Strength</td><td>-25%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td>-Unarmed Damage Bonus</td><td>+1</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>12 kg</td></tr><tr><td>-Value</td><td>c.no data</td></tr><tr><td>-Sell Value</td><td>c.no data</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">KLR Series Arm (right)</td></tr><tr><td colspan="2">[Shoddy Grade]</td></tr><tr><td>-Max HP</td><td>130<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Lockpicking</td><td>-65%</td></tr><tr><td>-Thievery</td><td>-65%</td></tr><tr><td>-Dexterity</td><td>-14%</td></tr><tr><td>-Strength</td><td>-14%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td>-Unarmed Damage Bonus</td><td>+1</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>12 kg</td></tr><tr><td>-Value</td><td>c.no data</td></tr><tr><td>-Sell Value</td><td>c.no data</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">KLR Series Arm (right)</td></tr><tr><td colspan="2">[Standard Grade]</td></tr><tr><td>-Max HP</td><td>160<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Lockpicking</td><td>-50%</td></tr><tr><td>-Thievery</td><td>-50%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td>-Unarmed Damage Bonus</td><td>+1</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>12 kg</td></tr><tr><td>-Value</td><td>c.9,800</td></tr><tr><td>-Sell Value</td><td>c.4,900</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">KLR Series Arm (right)</td></tr><tr><td colspan="2">[High Grade]</td></tr><tr><td>-Max HP</td><td>190<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Lockpicking</td><td>-35%</td></tr><tr><td>-Thievery</td><td>-35%</td></tr><tr><td>-Dexterity</td><td>+3%</td></tr><tr><td>-Strength</td><td>+3%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td>-Unarmed Damage Bonus</td><td>+2</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>12 kg</td></tr><tr><td>-Value</td><td>c.15,799</td></tr><tr><td>-Sell Value</td><td>c.7,899</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">KLR Series Arm (right)</td></tr><tr><td colspan="2">[Specialist Grade]</td></tr><tr><td>-Max HP</td><td>220<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Lockpicking</td><td>-20%</td></tr><tr><td>-Thievery</td><td>-20%</td></tr><tr><td>-Dexterity</td><td>+7%</td></tr><tr><td>-Strength</td><td>+7%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td>-Unarmed Damage Bonus</td><td>+3</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>12 kg</td></tr><tr><td>-Value</td><td>c.24,199</td></tr><tr><td>-Sell Value</td><td>c.12,099</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">KLR Series Arm (right)</td></tr><tr><td colspan="2">[Masterwork Grade]</td></tr><tr><td>-Max HP</td><td>245<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Lockpicking</td><td>-8%</td></tr><tr><td>-Thievery</td><td>-8%</td></tr><tr><td>-Dexterity</td><td>+10%</td></tr><tr><td>-Strength</td><td>+10%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td>-Unarmed Damage Bonus</td><td>+4</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>12 kg</td></tr><tr><td>-Value</td><td>c.32,075</td></tr><tr><td>-Sell Value</td><td>c.16,037</td></tr></tbody></table>
+
+## Source
+
+<table class="wikitable"><tbody><tr valign="top"><td><h3><span class="mw-headline" id="Shops">Shops</span></h3><ul><li><a href="/mongrel-robotics-workshop">Mongrel Robotics Workshop</a></li><li><a href="/robotics-shop">Robotics Shop</a></li><li><a href="/robotics-workshop">Robotics Workshop</a></li><li><a href="/travel-and-repairs-shop">Travel and Repairs Shop</a></li></ul><p>This limb can also be found as loot via the <a href="/artifacts">Artifacts</a> system.</p></td></tr></tbody></table>
+
+## Crafting
+
+<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>KLR Series Arm (right)</span></strong><div></div></td></tr><tr><td><a href="/electrical-components"><span>Electrical Components</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>

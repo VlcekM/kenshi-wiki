@@ -1,0 +1,62 @@
+---
+title: "Undertaker"
+description: "This character can also be found in Black Scratch as a member of the Tech Hunters faction. Since their race is randomly determined by the weighted race chanc…"
+source:
+  title: "Undertaker"
+  revision: 89639
+categories: ["Characters"]
+infobox:
+  title: "Undertaker"
+  groups:
+    - heading: null
+      rows:
+        - ["Race","<a href=\"/human\">Human</a>, <a href=\"/hive\">Hive</a>, <a href=\"/shek\">Shek</a>"]
+        - ["Subrace","<a href=\"/greenlander\">Greenlander</a>, <a href=\"/scorchlander\">Scorchlander</a>, <a href=\"/hive-prince\">Hive Prince</a>, <a href=\"/hive-soldier-drone\">Hive Soldier Drone</a>, <a href=\"/hive-worker-drone\">Hive Worker Drone</a>"]
+        - ["Gender","Male"]
+    - heading: "Items"
+      rows:
+        - ["Weapons","<a href=\"/moon-cleaver\">Moon Cleaver</a>"]
+        - ["Headgear","<a href=\"/basket-hat\">Basket Hat</a>"]
+        - ["Armour","<a href=\"/ninja-gi\">Ninja Gi</a>"]
+        - ["Shirt","<a href=\"/blackened-chain-shirt\">Blackened Chain Shirt</a>"]
+        - ["Legwear","<a href=\"/ninja-pants\">Ninja Pants</a>"]
+        - ["Inventory","<a href=\"/basic-first-aid-kit\">Basic First Aid Kit</a>"]
+---
+
+**Undertakers** are members of the [Mongrel](/mongrel-faction) faction. They can be found in [Mongrel](/mongrel). They are responsible for working the corpse furnaces in town.
+
+This character can also be found in [Black Scratch](/black-scratch) as a member of the [Tech Hunters](/tech-hunters) faction. Since their race is randomly determined by the weighted race chances of their faction, in Black Scratch Undertakers have a chance of being a [Skeleton](/skeleton-race) and no chance of being a Hive Worker Drone.
+
+They wear \[Standard\] armour (5% chance of \[High\]) and have weapons manufactured by [Catun Scrapmaster](/catun-scrapmaster).
+
+## Statistics
+
+-   Greenlander
+    
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/strength">Strength</a></td><td align="center">67 – 73</td></tr><tr><td></td><td><a href="/toughness">Toughness</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/dexterity">Dexterity</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/perception">Perception</a></td><td align="center">-2 – 4</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/katanas">Katanas</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/sabres">Sabres</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/hackers">Hackers</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/blunt-weapons">Blunt</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/polearms">Polearms</a></td><td align="center">37 – 43</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/melee-attack">Melee Attack</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/melee-defence">Melee Defence</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/dodge">Dodge</a></td><td align="center">1 – 7</td></tr><tr><td></td><td><a href="/martial-arts">Martial Arts</a></td><td align="center">1 – 7</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/turrets">Turrets</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/crossbows">Crossbows</a></td><td align="center">-2 – 4</td></tr><tr><td></td><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">37 – 43</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/stealth">Stealth</a></td><td align="center">-2 – 4</td></tr><tr><td></td><td><a href="/lockpicking">Lockpicking</a></td><td align="center">-2 – 4</td></tr><tr><td></td><td><a href="/thievery">Thievery</a></td><td align="center">-2 – 4</td></tr><tr><td></td><td><a href="/assassination">Assassination</a></td><td align="center">20</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/athletics">Athletics</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/swimming">Swimming</a></td><td align="center">37 – 43</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/field-medic">Field Medic</a></td><td align="center">37 – 43</td></tr><tr><td></td><td><a href="/engineer">Engineer</a></td><td align="center">-2 – 4</td></tr><tr><td></td><td><a href="/robotics">Robotics</a></td><td align="center">-2 – 4</td></tr><tr><td></td><td><a href="/science">Science</a></td><td align="center">1.2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">-2 – 4</td></tr><tr><td></td><td><a href="/armour-smith">Armour Smith</a></td><td align="center">-2 – 4</td></tr><tr><td></td><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td></td><td><a href="/labouring">Labouring</a></td><td align="center">1</td></tr><tr><td></td><td><a href="/farming">Farming</a></td><td align="center">1.2</td></tr><tr><td></td><td><a href="/cooking">Cooking</a></td><td align="center">1.2</td></tr></tbody></table>
+
+* * *
+
+Stats randomize by 3
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._

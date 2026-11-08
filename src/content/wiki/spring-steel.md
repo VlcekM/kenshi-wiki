@@ -1,0 +1,23 @@
+---
+title: "Spring Steel"
+description: "Spring Steel is an item which can be turned into Crossbow Parts."
+source:
+  title: "Spring Steel"
+  revision: 90300
+categories: ["Items"]
+infobox:
+  title: "Spring Steel"
+  groups:
+    - heading: null
+      rows:
+        - ["Weight","3 kg"]
+        - ["Size","4x1 wide/tall"]
+        - ["Avg. Price","c.259"]
+        - ["Description","A flexible metal used in crossbows and machinery."]
+---
+
+**Spring Steel** is an [item](/items) which can be turned into [Crossbow Parts](/crossbow-parts).
+
+It is created at the [Arrow Making Bench](/arrow-making-bench) after researching [Crossbow Crafting](/crossbow-crafting-tech). It can be purchased from construction goods vendors such as Mechanical Shops, though it has a relatively low chance of spawning in their shop inventory. It can be stored in [Storage: Crossbow Parts](/storage-crossbow-parts). The item is also needed to construct Level 3 [Locksmith Training Boxes](/locksmith-training-box).
+
+<details class="collapsible" open=""><summary>Arrow Making Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/copper"><span>Copper</span></a><div></div><p><span>(0.2 required)</span></p></td><td><strong><span>Spring Steel</span></strong><div></div></td></tr><tr><td><a href="/raw-iron"><span>Raw Iron</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>

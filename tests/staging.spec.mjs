@@ -1,10 +1,13 @@
 import { expect, test } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
-import { repoUrl } from '../src/lib/wiki.js';
+import { execFileSync } from 'node:child_process';
+import { pageSlug, repoUrl } from '../src/lib/wiki.js';
+import worker from '../worker/index.js';
 
 const pages = [
   { route: '/', file: 'index.html', source: 'src/pages/index.astro' },
-  { route: '/About_Kenshi', file: 'About_Kenshi.html', source: 'src/pages/About_Kenshi.astro' },
+  { route: '/about-kenshi', file: 'about-kenshi.html', source: 'src/pages/about-kenshi.astro' },
+  { route: '/the-holy-nation', file: 'the-holy-nation.html', source: 'src/content/wiki/the-holy-nation.md' },
 ];
 
 for (const { route, file, source } of pages) {
@@ -37,7 +40,7 @@ for (const { route, file, source } of pages) {
 
     const desktopCredit = header.getByRole('link', { name: 'Contributors', exact: true });
     await desktopCredit.click();
-    await expect(page).toHaveURL(new URL('/Contributors', origin).href);
+    await expect(page).toHaveURL(new URL('/contributors', origin).href);
     await expect(page.getByRole('main')).toContainText(creditIntro);
     await page.goBack();
     await expect(page).toHaveURL(new URL(route, origin).href);
@@ -63,9 +66,9 @@ for (const { route, file, source } of pages) {
     await tools.locator('summary').click();
     await expect(tools.getByRole('link', { name: 'Edit on GitHub' })).toBeVisible();
     await tools.getByRole('link', { name: 'Contributors', exact: true }).click();
-    await expect(page).toHaveURL(new URL('/Contributors', origin).href);
+    await expect(page).toHaveURL(new URL('/contributors', origin).href);
     await expect(page.getByRole('main')).toContainText(creditIntro);
-    await page.locator('footer a[href="/Contributors#licensing"]').click();
+    await page.locator('footer a[href="/contributors#licensing"]').click();
     await expect(page.getByRole('heading', { name: 'Licenses and reuse' })).toBeInViewport();
     await page.waitForLoadState('networkidle');
     expect(outside).toEqual([]);
@@ -80,10 +83,10 @@ test('the header search finds pages and Go opens an exact title', async ({ page,
   await page.goto('/');
 
   const search = page.locator('#searchInput');
-  await search.fill('Holy Lord Phoenix');
+  await search.fill('no chosen hero');
   await search.press('Enter');
   const results = page.locator('.mw-search-results');
-  await expect(results.getByRole('link', { name: 'About Kenshi', exact: true })).toHaveAttribute('href', '/About_Kenshi');
+  await expect(results.getByRole('link', { name: 'About Kenshi', exact: true })).toHaveAttribute('href', '/about-kenshi');
   await expect(results.locator('mark').first()).toBeVisible();
 
   await page.locator('#searchText').fill('qqxyzzy');
@@ -92,24 +95,72 @@ test('the header search finds pages and Go opens an exact title', async ({ page,
 
   await page.locator('#searchInput').fill('about kenshi');
   await page.locator('#searchButton').click();
-  await expect(page).toHaveURL(new URL('/About_Kenshi', origin).href);
+  await expect(page).toHaveURL(new URL('/about-kenshi', origin).href);
   expect(errors).toEqual([]);
+});
+
+test('Random page opens an article, and category links lead to their category', async ({ page, baseURL }) => {
+  await page.goto('/');
+  await page.locator('#p-navigation').getByRole('link', { name: 'Random page' }).click();
+  await page.waitForURL((url) => url.pathname !== '/random' && url.pathname !== '/');
+  await expect(page.locator('.fandom-notice')).toBeVisible();
+
+  await page.goto('/nodachi');
+  await page.locator('#catlinks').getByRole('link', { name: 'Weapons', exact: true }).click();
+  await expect(page).toHaveURL(new URL('/category/weapons', baseURL).href);
+  await expect(page.locator('.category-columns').getByRole('link', { name: 'Nodachi', exact: true })).toHaveAttribute('href', '/nodachi');
+});
+
+// Git, not the working tree: on Windows and macOS a file renamed only in case keeps its old name in the index, and
+// CI builds from the index.
+test('every article file is named for its canonical path', () => {
+  const files = execFileSync('git', ['ls-files', 'src/content/wiki'], { encoding: 'utf8' }).split('\n').filter(Boolean);
+  const misnamed = files.filter((file) => {
+    const id = file.replace(/^src\/content\/wiki\//, '').replace(/\.md$/, '');
+    return id !== pageSlug(id);
+  });
+  expect(files.length).toBeGreaterThan(0);
+  expect(misnamed).toEqual([]);
 });
 
 test('unknown routes return a genuine 404', async ({ request }) => {
   expect((await request.get('/missing-wiki-staging-check')).status()).toBe(404);
 });
 
-test('the old /Kenshi address permanently redirects to About Kenshi', async ({ request, baseURL }) => {
-  test.skip(process.env.WIKI_TEST_STAGING !== '1', 'astro preview does not apply _redirects');
-  for (const route of ['/Kenshi', '/Kenshi.html']) {
-    const response = await request.get(route, { maxRedirects: 0 });
-    expect(response.status(), route).toBe(301);
-    expect(new URL(response.headers().location, baseURL).pathname, route).toBe('/About_Kenshi');
+// Another spelling of a page's path, or an old address, ends at the page through permanent redirects.
+const respellings = [
+  ['/About_Kenshi', '/about-kenshi'],
+  ['/about_kenshi.html', '/about-kenshi'],
+  ['/Kenshi', '/about-kenshi'],
+  ['/Kenshi.html', '/about-kenshi'],
+  ['/The_Holy_Nation', '/the-holy-nation'],
+  ['/Holy_Nation', '/the-holy-nation'],
+];
+
+test('the Worker redirects another spelling only to a page that exists', async () => {
+  const pages = new Set(['/about-kenshi', '/kenshi']);
+  const env = { ASSETS: { fetch: async (request) => new Response(null, { status: pages.has(new URL(request.url).pathname) ? 200 : 404 }) } };
+  const visit = (path) => worker.fetch(new Request(new URL(path, 'https://kenshi.wiki')), env);
+
+  for (const [path, target] of [['/About_Kenshi?x=1', '/about-kenshi?x=1'], ['/About_kenshi.html', '/about-kenshi'], ['/Kenshi', '/kenshi']]) {
+    const response = await visit(path);
+    expect(response.status, path).toBe(301);
+    expect(response.headers.get('location'), path).toBe(`https://kenshi.wiki${target}`);
+  }
+  for (const path of ['/Missing_Page', '/missing-page', '/%E0%A4%A']) expect((await visit(path)).status, path).toBe(404);
+});
+
+test('old and differently spelled addresses permanently redirect to the page', async ({ request, baseURL }) => {
+  test.skip(process.env.WIKI_TEST_STAGING !== '1', 'astro preview runs neither the Worker nor _redirects');
+  for (const [route, target] of respellings) {
+    expect((await request.get(route, { maxRedirects: 0 })).status(), route).toBe(301);
+    const response = await request.get(route);
+    expect(response.status(), route).toBe(200);
+    expect(new URL(response.url(), baseURL).pathname, route).toBe(target);
   }
 });
 
-const creditsPage = '/Contributors';
+const creditsPage = '/contributors';
 const creditIntro = 'VlcekM built the original Astro prototype and proposed RimWorld Wiki as the model for its presentation.';
 
 test('credits, upstream licenses and editable sources are public on the wiki', async ({ page, request, baseURL }) => {
@@ -122,7 +173,7 @@ test('credits, upstream licenses and editable sources are public on the wiki', a
   });
   const response = await page.goto(creditsPage, { waitUntil: 'networkidle' });
   expect(response.status()).toBe(200);
-  expect(await response.body()).toEqual(await readFile('dist/Contributors.html'));
+  expect(await response.body()).toEqual(await readFile('dist/contributors.html'));
   if (process.env.WIKI_TEST_STAGING === '1') {
     expect(response.headers()['x-robots-tag']).toContain('noindex');
     expect(response.headers()['cache-control']).toContain('no-transform');

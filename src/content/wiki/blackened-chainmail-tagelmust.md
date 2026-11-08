@@ -1,0 +1,60 @@
+---
+title: "Blackened Chainmail Tagelmust"
+description: "The Blackened Chainmail Tagelmust is a Medium Armor that is equipped in the Headgear slot. It has the highest protection compared to its rusted and cloth ver…"
+source:
+  title: "Blackened Chainmail Tagelmust"
+  revision: 86593
+categories: ["Armour","Headgear","Medium Armour"]
+infobox:
+  title: "Chain Armour Crafting"
+  groups:
+    - heading: null
+      rows:
+        - ["Description","Chainmail eh? That's going to be bloody fiddly isn't it?"]
+    - heading: "Details"
+      rows:
+        - ["Estimated Time","6 hours"]
+        - ["Tech Level","4"]
+        - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
+    - heading: "Results"
+      rows:
+        - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
+---
+
+<table class="wikitable"><tbody><tr><td colspan="4">This is basically just wrapping a strip of chainmail around your head, but it does do a good job of protecting you when it's not falling off.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
+
+The **Blackened Chainmail Tagelmust** is a Medium Armor that is equipped in the Headgear slot. It has the highest protection compared to its [rusted](/rusty-chainmail-tagelmust) and [cloth](/tagelmust) versions.
+
+This armour has inventory dimensions of **3x3**.
+
+## Appearance
+
+It is a black chainmail strip wrapped around the head.
+
+## Stats
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Blackened Chainmail Tagelmust</td></tr><tr><td><span>[Prototype&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>2%</td></tr><tr><td>-Cut resistance</td><td>14%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>7pts</td></tr><tr><td>-Weight</td><td>5.0625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>70%</td></tr><tr><td>-Value</td><td>c.233</td></tr><tr><td>-Sell value</td><td>c.58</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Blackened Chainmail Tagelmust</td></tr><tr><td><span>[Shoddy&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>5%</td></tr><tr><td>-Cut resistance</td><td>23%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>14pts</td></tr><tr><td>-Weight</td><td>5.0625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>70%</td></tr><tr><td>-Value</td><td>c.722</td></tr><tr><td>-Sell value</td><td>c.180</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Blackened Chainmail Tagelmust</td></tr><tr><td><span>[Standard&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>8%</td></tr><tr><td>-Cut resistance</td><td>36%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>23pts</td></tr><tr><td>-Weight</td><td>5.0625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>70%</td></tr><tr><td>-Value</td><td>c.2,285</td></tr><tr><td>-Sell value</td><td>c.571</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Blackened Chainmail Tagelmust</td></tr><tr><td><span>[High&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>11%</td></tr><tr><td>-Cut resistance</td><td>49%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>33pts</td></tr><tr><td>-Weight</td><td>5.0625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>70%</td></tr><tr><td>-Value</td><td>c.4,891</td></tr><tr><td>-Sell value</td><td>c.1,222</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Blackened Chainmail Tagelmust</td></tr><tr><td><span>[Specialist&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>15%</td></tr><tr><td>-Cut resistance</td><td>62%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>43pts</td></tr><tr><td>-Weight</td><td>5.0625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>70%</td></tr><tr><td>-Value</td><td>c.8,539</td></tr><tr><td>-Sell value</td><td>c.2,134</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Blackened Chainmail Tagelmust</td></tr><tr><td><span>[Masterwork&nbsp;Grade]</span></td></tr><tr><td>[Medium Armour Class]</td><td>[Chain]</td></tr><tr><td>-Blunt resistance</td><td>17%</td></tr><tr><td>-Cut resistance</td><td>71%</td></tr><tr><td>-Cut resistance efficiency</td><td>60%</td></tr><tr><td>-Harpoon resistance</td><td>50pts</td></tr><tr><td>-Weight</td><td>5.0625 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>70%</td></tr><tr><td>-Value</td><td>c.11,959</td></tr><tr><td>-Sell value</td><td>c.2,989</td></tr><tr><td colspan="2" align="left">[Coverage]</td></tr><tr><td>-Head</td><td>90%</td></tr><tr><td></td></tr></tbody></table>
+
+## Source
+
+<details class="collapsible" open=""><summary>Locations</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>Always Equipped</td><td>Potentially Equipped</td></tr><tr><td><p>There are no characters which have a guaranteed chance of spawning with this item equipped.</p></td><td><p>There are no characters which only have a chance of spawning with this item equipped.</p></td></tr><tr><td>Shops</td><td>Loot</td></tr><tr><td><p><span><a href="/armour-king">Armour King</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="1% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="33% chance of High grade.">[H]</span> <span class="basic-tooltip" title="45% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="21% chance of Masterwork grade.">[M]</span></span><br><span><a href="/mongrel-armor-shop">Mongrel Armor Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="20% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="51% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="20% chance of High grade.">[H]</span> <span class="basic-tooltip" title="9% chance of Specialist grade.">[S]</span></span><br><span><a href="/ronin-armor-shop">Ronin Armor Shop</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="12% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="61% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="24% chance of High grade.">[H]</span> <span class="basic-tooltip" title="3% chance of Specialist grade.">[S]</span></span><br><span><a href="/the-great-library">The Great Library</a></span><abbr title="The blueprint spawns here"></abbr><span></span><br></p></td><td><p>This item is not found in any non-shop locations.</p></td></tr></tbody></table></details>
+
+  
+
+## Blueprint
+
+<details class="collapsible" open=""><summary>Chain Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.18 required)</span></p></td><td><strong><span>Blackened Chainmail Tagelmust</span></strong><div></div></td></tr><tr><td><a href="/chainmail-sheets"><span>Chainmail Sheets</span></a><div></div><p><span>(0.9 required)</span></p></td></tr></tbody></table></details>
+
+  
+
+<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Blackened Chainmail Tagelmust<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>5,712</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,428</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Blackened Chainmail Tagelmust</td></tr></tbody></table>

@@ -1,0 +1,34 @@
+---
+title: "Basic First Aid Kit"
+description: "Basic First Aid Kits can also be found on some of the common infantry units from most factions, including (but not limited to) the United Cities and The Holy…"
+source:
+  title: "Basic First Aid Kit"
+  revision: 95367
+categories: ["Items"]
+infobox:
+  title: "Basic First Aid Kit"
+  groups:
+    - heading: null
+      rows:
+        - ["Weight","1 kg"]
+        - ["Size","2x1 wide/tall"]
+        - ["Avg. Price","c.76"]
+        - ["Charges","150/150"]
+        - ["Quality","5/100"]
+        - ["Description","A basic first aid kit made up of various bandages, used to stop people from bleeding to death.  The poor quality will limit you if it is lower than your skills, resulting in slower healing."]
+---
+
+**Basic First Aid Kits** are [medical](/medical-items) [items](/items) used to heal cutting [damage](/damage) on organic body parts. Players can learn how to craft this item by researching [Basic First Aid Kits](/basic-first-aid-kits-tech). After researching, these kits can be crafted on a Basic Medical Workbench and an upgraded [Medical Workbench](/medical-workbench).
+
+Basic First Aid Kits can also be found on some of the common infantry units from most factions, including (but not limited to) the [United Cities](/united-cities) and [The Holy Nation](/the-holy-nation). While [Shek Kingdom](/shek-kingdom) and Hivers (Both [Western](/western-hive) and [Southern](/southern-hive) types) militaries use this item for all of their units. Many smaller armed groups and (unique) [recruits](/recruit) also carry the Basic First Aid Kits with them.
+
+  
+This item is also utilized by slavers and [Cannibals](/cannibals) to restore their victim's condition for 'later use'.
+
+<details class="collapsible" open=""><summary>Medical Workbench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Basic First Aid Kit</span></strong><div></div></td></tr></tbody></table></details>
+
+  
+
+## Trivia
+
+When this item spawns in [Flotsam Safehouse](/flotsam-safehouse), it spawns as a unique item.
