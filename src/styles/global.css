@@ -198,6 +198,22 @@ div.infobox .image_wrapper img {
   background: var(--paper-01);
 }
 
+/* Sortable table headers (src/lib/sortable-tables.ts). The arrows are drawn dark and turn light with the dark theme's inversion. */
+table.jquery-tablesorter th.headerSort {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='12'%3E%3Cpath d='M4.5 0 9 5H0zM4.5 12 0 7h9z' fill='%2372777d'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center right 6px;
+}
+
+table.jquery-tablesorter th.headerSort[aria-sort="ascending"] {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='12'%3E%3Cpath d='M4.5 2 9 7H0z' fill='%23202122'/%3E%3C/svg%3E");
+}
+
+table.jquery-tablesorter th.headerSort[aria-sort="descending"] {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='12'%3E%3Cpath d='M4.5 10 0 5h9z' fill='%23202122'/%3E%3C/svg%3E");
+}
+
 details.collapsible {
   margin: 0.5em 0 1em;
   border: 1px solid var(--paper-06);
