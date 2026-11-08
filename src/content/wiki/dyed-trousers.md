@@ -5,9 +5,25 @@ source:
   title: "Dyed Trousers"
   revision: 79823
 categories: ["Armour","Legwear","Clothing"]
+infobox:
+  title: "Dyed Trousers"
+  image: "/icons/items/51746-Dialogue.mod.png"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","5x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","70%"]
+    - heading: null
+      rows:
+        - ["String id","<span>51746-Dialogue.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4"><i>This item has no description.</i></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 The **Dyed Trousers** are a [colourable](/colour-scheme) piece of [Clothing](/clothing) worn in [Legwear](/legwear) slot. They are given to characters who are [enslaved](/slavery) in [Rebirth](/rebirth), along with [Dyed Robes](/dyed-robes). The player will also start with these items during [The Slaves game start](/game-starts#the-slaves).
 

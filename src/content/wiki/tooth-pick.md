@@ -7,12 +7,24 @@ source:
 categories: ["Crossbows"]
 infobox:
   title: "Tooth Pick"
+  image: "/icons/items/66534-Newwworld.mod.png"
+  caption: "A cheap and lightweight weapon from the swamps.  It's not very powerful, but it can be used to spray an opponent with bolts at close range before switching to a sword."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Class","Crossbow"]
-        - ["Ammunition type","Bolts [Toothpicks]"]
+        - ["Class","<a href=\"/crossbows\">Crossbow</a>"]
         - ["Weight","2 kg"]
+        - ["Base value","c. 1,000 → c. 15,000"]
+        - ["Ammunition","Bolts [Toothpicks]"]
+        - ["Size in inventory","2x6"]
+    - heading: "Combat (range across grades)"
+      rows:
+        - ["Reload time","2–3 s → 1.25–3 s"]
+        - ["Spread at skill 0","11 → 6"]
+        - ["Perfect aim at skill","90"]
+    - heading: null
+      rows:
+        - ["String id","<span>66534-Newwworld.mod</span>"]
 ---
 
 **Tooth Pick** is a [Crossbow](/crossbows). The standard of cheap and lightweight crossbows. A less well made version of the design is called [Junkbow](/junkbow).

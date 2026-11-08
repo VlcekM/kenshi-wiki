@@ -7,15 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Meatwrap"
+  image: "/icons/items/43960-rebirth.mod.png"
+  caption: "Meat in some bread. It's great."
   groups:
     - heading: null
       rows:
-        - ["Nutrition","50 nu"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Sell Value","<span>c.</span>c.329"]
-        - ["Avg. Price","c.658"]
-        - ["Description","Meat in some bread. It's Great."]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x3"]
+        - ["Nutrition","50 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>43960-rebirth.mod</span>"]
 ---
 
 **Meatwrap** is a [food](/food) item. It can be purchased from relevant [traders](/traders), typically in [Bars](/bars). Players can cook Meatwraps on a [Cooking Stove](/cooking-stove) after researching [Advanced Cooking](/advanced-cooking-tech).

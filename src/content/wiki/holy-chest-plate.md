@@ -5,9 +5,44 @@ source:
   title: "Holy Chest Plate"
   revision: 90681
 categories: ["Armour","Body Armour","Heavy Armour"]
+infobox:
+  title: "Holy Chest Plate"
+  image: "/icons/items/2166-gamedata.base.png"
+  caption: "It gives near perfect protection of the body, because it's so holy.  Limb protection is not so great, but at least you'll have your organs."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","30 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","40% covered"]
+        - ["Left Arm","25% covered"]
+        - ["Left Leg","40% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","25% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra blunt resistance","up to +-4%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Assassination","0.50x"]
+        - ["Attack","-4"]
+        - ["Defence","-2"]
+        - ["Combat skills","-2"]
+        - ["Combat speed","0.96x"]
+        - ["Cut into stun","5%"]
+        - ["Dexterity","0.70x"]
+        - ["Dodge","0.50x"]
+        - ["Ranged skill","0.60x"]
+        - ["Martial arts","-10"]
+    - heading: null
+      rows:
+        - ["String id","<span>2166-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">It gives near perfect protection of the body, because it's so holy. Limb protection is not so great, but at least you'll have your organs.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
 
 The **Holy Chest Plate** is a Heavy Armour that is equipped in the Body Armour slot. This item can be purchased from [Holy Armour Shop](/holy-armour-shop). Several options of colouring of this armour exists, depending on which [Holy Nation](/the-holy-nation) character owns them. A white (blank) version of this armour can be [dyed](/colour-scheme) by the player.
 

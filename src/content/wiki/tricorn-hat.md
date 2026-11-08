@@ -5,9 +5,31 @@ source:
   title: "Tricorn Hat"
   revision: 89487
 categories: ["Armour","Headgear","Light Armour","Needs grade info"]
+infobox:
+  title: "Tricorn Hat"
+  image: "/icons/items/1415-gamedata.base.png"
+  caption: "Once part of a uniform of the Old Empire, it seems to have hung around to this day."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","60% covered"]
+        - ["Pierce resistance","0.20x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","60%"]
+        - ["Weather protection","20%"]
+    - heading: null
+      rows:
+        - ["String id","<span>1415-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">For when you want to look dapper, even though you're a vagabond.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 The **Tricorn Hat** is a Light Armour equipped in the Headgear slot. It can be sold by Ronin Hat Vendors.
 

@@ -6,25 +6,38 @@ source:
   revision: 95329
 categories: ["Armour","Footwear","Heavy Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Crab Shoes"
+  image: "/icons/items/64890-Newwworld.mod.png"
+  caption: "Iron shoes that are pretty painful to wear. The Crab Raiders designed this armour with the aim of being more like crabs, with little consideration of other factors."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/footwear\">Feet</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","25% covered"]
+        - ["Left Leg","25% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","10%"]
+        - ["Dodge","0.80x"]
+        - ["Stealth","0.20x"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","3"]
         - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
         - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>64890-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Iron shoes that are pretty painful to wear. The Crab Raiders designed this armour with the aim of being more like crabs, with little consideration of other factors.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/footwear">BOOTS</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 
 **Crab Shoes** is Heavy Armour that is equipped in the Footwear slot. It is the only faction-specific footwear that can be found in game and it can be crafted once the blueprint is purchased from [them](/crab-raiders). It is part of a Crab Armour "set" together with [Crab Helmet](/crab-helmet), [Crab Armour](/crab-armour) (body) and [Crab Trousers](/crab-trousers).
 

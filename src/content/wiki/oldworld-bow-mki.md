@@ -7,11 +7,24 @@ source:
 categories: ["Crossbows"]
 infobox:
   title: "Oldworld Bow MkI"
+  image: "/icons/items/65870-rebirth.mod.png"
+  caption: "Based on salvaged old-world blueprints and manufactured by the Tech Hunters.  It's an advanced weapon with a good range and accuracy.  \nMore expensive and less common than a Ranger, it's usually used by Tech Hunter expeditions venturing into the dangerous \"3 Corners\" regions of the continent."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Class","Crossbow"]
-        - ["Ammunition type","Bolts [Regulars]"]
+        - ["Class","<a href=\"/crossbows\">Crossbow</a>"]
+        - ["Weight","6.5 kg"]
+        - ["Base value","c. 2,000 → c. 24,000"]
+        - ["Ammunition","Bolts [Regulars]"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat (range across grades)"
+      rows:
+        - ["Reload time","3.5–4.5 s → 2.5–4 s"]
+        - ["Spread at skill 0","4 → 2.5"]
+        - ["Perfect aim at skill","70"]
+    - heading: null
+      rows:
+        - ["String id","<span>65870-rebirth.mod</span>"]
 ---
 
 **Oldworld Bow MkI** is a [Crossbow](/crossbow-class) and uses [Bolts \[Regulars\]](/bolts-regulars). A more advanced version of this design is the [Oldworld Bow MkII](/oldworld-bow-mkii).

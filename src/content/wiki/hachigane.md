@@ -5,9 +5,29 @@ source:
   title: "Hachigane"
   revision: 86661
 categories: ["Armour","Headgear","Light Armour"]
+infobox:
+  title: "Hachigane"
+  image: "/icons/items/2224-chris_r.mod.png"
+  caption: "Head plates were invented by an old forgotten clan that was obsessed with luck.  Before battle they used prophets and shamans to predict where on their head the next fatal blow was due to land, then position the metal plate on their head accordingly.  Sometimes it worked, sometimes it didn't.  Such is luck, they would say."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","3 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","45% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","10%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2224-chris_r.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Head plates were invented by an old forgotten clan that was obsessed with luck. Before battle they used prophets and shamans to predict where on their head the next fatal blow was due to land, then position the metal plate on their head accordingly. Sometimes it worked, sometimes it didn't. Such is luck, they would say.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 The **Hachigane,** meaning "head protector", is a Light Armour that is equipped in the Headgear slot. It can be sold in UC Armour and Hat shops, as well as Ronin Hat Shops. This headgear is exclusive to [Humans](/human).
 

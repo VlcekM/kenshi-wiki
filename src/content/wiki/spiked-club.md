@@ -7,16 +7,32 @@ source:
 categories: ["Weapons","Blunt"]
 infobox:
   title: "Spiked Club"
+  image: "/icons/items/52297-rebirth.mod.png"
+  caption: "A nasty weapon that causes bleeding in addition to crushing damage."
   groups:
     - heading: null
       rows:
-        - ["Class","[Blunt weapon class]"]
-        - ["Blood loss","2.00x"]
+        - ["Class","<a href=\"/blunt-weapons\">Blunt</a>"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 160"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.30x"]
+        - ["Blunt damage","1.00x"]
+        - ["Bleed","2.00x"]
         - ["Armour penetration","+30%"]
         - ["Attack","-2"]
-        - ["Damage vs animals","-10%"]
+        - ["Defence","0"]
         - ["Reach","18"]
-        - ["Description","A nasty weapon that causes bleeding in addition to crushing damage."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52297-rebirth.mod</span>"]
 ---
 

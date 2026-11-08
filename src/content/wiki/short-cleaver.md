@@ -7,16 +7,33 @@ source:
 categories: ["Weapons","Hacker"]
 infobox:
   title: "Short-Cleaver"
+  image: "/icons/items/65260-rebirth.mod.png"
+  caption: "A lightweight version of the combat cleaver that can be worn on the hip."
   groups:
     - heading: null
       rows:
-        - ["Class","[Hacker class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/hackers\">Hacker</a>"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 250"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.70x"]
+        - ["Blunt damage","0.70x"]
+        - ["Bleed","1.00x"]
         - ["Armour penetration","+10%"]
-        - ["Damage vs robots","+20%"]
-        - ["Damage vs animals","-10%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Reach","17"]
-        - ["Description","A lightweight version of the combat cleaver that can be worn on the hip."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+        - ["Robots","+20%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>65260-rebirth.mod</span>"]
 ---
 

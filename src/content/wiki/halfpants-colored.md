@@ -6,23 +6,28 @@ source:
   revision: 79825
 categories: ["Armour","Legwear","Clothing"]
 infobox:
-  title: "Clothing Manufacture"
+  title: "Halfpants (colored)"
+  image: "/icons/items/1273-gamedata.base.png"
   groups:
     - heading: null
       rows:
-        - ["Description","With this we could craft clothes and stuff.  For wearing."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","1"]
         - ["Costs","1 <a href=\"/book\">Book</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/clothing-bench\">Clothing Bench</a>"]
         - ["Required For","<a href=\"/hats-and-headgear-tech\">Hats and Headgear</a><br><a href=\"/simple-clothing-types-tech\">Simple Clothing Types</a>"]
+    - heading: null
+      rows:
+        - ["String id","<span>1273-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4"><i>This item has no description.</i></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 The **Halfpants (colored)** are a piece of [Clothing](/clothing) equipped in the [Legwear](/legwear) slot. This is a [colourable](/colour-scheme) variation of [Halfpants (ragged)](/halfpants-ragged). Other variants of Halfpants include: [padded](/halfpants-padded), [reinforced](/halfpants-reinforced), and [sneaky chain](/halfpants-sneaky-chain).
 

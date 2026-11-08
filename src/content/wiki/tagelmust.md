@@ -5,11 +5,32 @@ source:
   title: "Tagelmust"
   revision: 93181
 categories: ["Armour","Headgear","Light Armour"]
+infobox:
+  title: "Tagelmust"
+  image: "/icons/items/2220-chris_r.mod.png"
+  caption: "Quite a good head padding in a simple cloth.  It can be wrapped around the face to protect the eyes in a dust storm"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","90% covered"]
+        - ["Extra blunt resistance","up to +30%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Weather protection","70%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2220-chris_r.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Quite a good head padding in a simple cloth. It can be wrapped around the face to protect the eyes in a dust storm</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 The **Tagelmust** is a Light Armour Class Hat item. It can be made by using a [Clothing Bench](/clothing-bench). This armour can be [dyed](/colour-scheme).
 
 It also has a chainmail [blackened](/blackened-chainmail-tagelmust) and [rusted](/rusty-chainmail-tagelmust) version.

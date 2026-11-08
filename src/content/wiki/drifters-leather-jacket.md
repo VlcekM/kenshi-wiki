@@ -6,23 +6,40 @@ source:
   revision: 86642
 categories: ["Armour","Body Armour","Light Armour"]
 infobox:
-  title: "Leather Armour Crafting"
+  title: "Drifters Leather Jacket"
+  image: "/icons/items/2304-clothes_v1.mod.png"
   groups:
     - heading: null
       rows:
-        - ["Description","With this we would have the basis to make our own clothing and light armour.  The same equipment could also be used to make under-armour and bandages."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","5x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","90% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","25% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra blunt resistance","up to +5%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Defence","+5"]
+        - ["Cut into stun","30%"]
+        - ["Ranged skill","1.10x"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","2"]
         - ["Costs","4 <a href=\"/book\">Books</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
         - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
+    - heading: null
+      rows:
+        - ["String id","<span>2304-clothes_v1.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4"><i>This item has no description.</i></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Drifter's Leather Jacket** is a Light Armour that is equipped in the Body Armour slot.
 

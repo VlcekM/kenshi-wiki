@@ -5,9 +5,40 @@ source:
   title: "Plate Jacket"
   revision: 90424
 categories: ["Armour","Body Armour","Medium Armour"]
+infobox:
+  title: "Plate Jacket"
+  image: "/icons/items/2182-gamedata.base.png"
+  caption: "A plated leather jacket with a good solid armour coverage. Commonly worn by the wealthier drifters and professional adventurer scouts."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","10 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","100% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra cut resistance","up to +11%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Assassination","0.80x"]
+        - ["Cut into stun","30%"]
+        - ["Dexterity","0.90x"]
+        - ["Dodge","0.80x"]
+        - ["Ranged skill","0.80x"]
+        - ["Stealth","0.80x"]
+        - ["Martial arts","-5"]
+        - ["Weather protection","40%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2182-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A plated leather jacket with a good solid armour coverage. Commonly worn by the wealthier drifters and professional adventurer scouts.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Plate Jacket** is a Medium Armour that is equipped in the Body Armour slot. It can be normally found sold in [Mongrel](/mongrel), [United Cities](/united-cities), [Shek](/shek-kingdom), and [Tech Hunter](/tech-hunters) armour shops. It is one of the only body armours that covers 100% of the entire upper body. It is the worst of the three plate jackets, suffering from the Stealth and Assassination penalties that the black variant is free of, while also sharing the same inferior Dexterity penalty compared to the white variant. It also suffers from a 1% worse Cut Resistance across its Specialist and Masterwork grades.
 

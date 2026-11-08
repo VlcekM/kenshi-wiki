@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Fabrics"
+  image: "/icons/items/584-gamedata.base.png"
+  caption: "General fabrics useful for general crafting purposes."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Avg. Price","c.63"]
-        - ["Description","General fabrics useful for general crafting purposes."]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>584-gamedata.base</span>"]
 ---
 
 **Fabrics** are a versatile item used in the creation of [Armour](/armour), [Clothing](/clothing), [Medical Items](/medical-items), and [Weapons](/weapons).

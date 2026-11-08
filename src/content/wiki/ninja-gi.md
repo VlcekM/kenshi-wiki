@@ -5,9 +5,26 @@ source:
   title: "Ninja Gi"
   revision: 79747
 categories: ["Armour","Body Armour","Clothing"]
+infobox:
+  title: "Ninja Gi"
+  image: "/icons/items/2197-gamedata.base.png"
+  caption: "Wear this and you will be a real ninja!  (Warning: Not a substitute for real ninja training)"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","6x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Stealth","1.10x"]
+    - heading: null
+      rows:
+        - ["String id","<span>2197-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Ninja Gi</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.200</td></tr><tr><td>-Sell value</td><td>c.50</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td colspan="2">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr><tr><td colspan="2">Wear this and you will be a real ninja! (Warning: Not a substitute for real ninja training)</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td></tr></tbody></table>
 
 **Ninja Gi** is a [clothing](/clothing) [item](/items) that offers no protection and can be equipped in the [Body armour](/body-armour) slot of a character's inventory. They can be worn in a set together with the [Ninja Pants](/ninja-pants) and a [Ninja Mask](/ninja-mask). A white version of this item is simply called a [Gi](/gi).
 

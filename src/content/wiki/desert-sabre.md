@@ -7,18 +7,35 @@ source:
 categories: ["Weapons","Sabre"]
 infobox:
   title: "Desert Sabre"
+  image: "/icons/items/52305-rebirth.mod.png"
+  caption: "An unusual weapon design that supposedly came from the deserts.  Usually hard to find, but they have a distinct ability to gut spiders really well, making them popular with certain specialists."
   groups:
     - heading: null
       rows:
-        - ["Class","[Sabre class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/sabres\">Sabre</a>"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.10x"]
+        - ["Blunt damage","0.25x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
         - ["Defence","+2"]
-        - ["Damage vs Spider","+100%"]
-        - ["Damage vs Small Spider","+50%"]
-        - ["Damage vs Bonedog","+25%"]
-        - ["Damage vs Skimmer","+100%"]
         - ["Reach","22"]
-        - ["Description","An unusual weapon design that supposedly came from the deserts.  Usually hard to find, but they have a distinct ability to gut spiders really well, making them popular with certain specialists."]
+    - heading: "Damage against"
+      rows:
+        - ["Spider","+100%"]
+        - ["Small Spider","+50%"]
+        - ["Bonedog","+25%"]
+        - ["Skimmer","+100%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52305-rebirth.mod</span>"]
 ---
 

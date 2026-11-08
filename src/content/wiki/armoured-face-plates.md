@@ -6,23 +6,36 @@ source:
   revision: 86882
 categories: ["Armour","Headgear","Medium Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Armoured Face Plates"
+  image: "/icons/items/18962-gamedata.base.png"
+  caption: "Heavy armour plates for protecting the neck and face."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","3 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","75% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","10%"]
+        - ["Stealth","1.05x"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","3"]
         - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
         - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>18962-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Heavy armour plates for protecting the neck and face.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Armoured Face Plates** is a Medium Armour that is equipped in the Headgear slot. There is a [hooded variant](/armoured-hood) with higher coverage and resistance to [acid](/weather-effects#acid-rain) and [burning](/weather-effects#burning) damage, but with penalties on combat stats and less protection from cutting damage (due to lower cut resistance efficiency).
 

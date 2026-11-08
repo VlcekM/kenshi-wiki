@@ -7,14 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Dustwich"
+  image: "/icons/items/43961-rebirth.mod.png"
+  caption: "Possibly the food with the highest unpleasantness to nutrition ratio in the world. So dry. Probably a big contributor to desert suicide."
   groups:
     - heading: null
       rows:
-        - ["Nutrition","70 nu"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Avg. Price","c.730"]
-        - ["Description","Possibly the food with the highest unpleasantness to nutrition ratio in the world. So dry. Probably a big contributor to desert suicide."]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x3"]
+        - ["Nutrition","70 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>43961-rebirth.mod</span>"]
 ---
 
 A **Dustwich** is a [food](/food) item purchased from relevant [traders](/traders) or created in a [Cooking Stove](/cooking-stove). The ability to cook this item is learned through researching [Desert Cooking](/desert-cooking-tech).

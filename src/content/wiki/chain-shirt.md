@@ -6,22 +6,42 @@ source:
   revision: 86668
 categories: ["Armour","Shirts","Medium Armour"]
 infobox:
-  title: "Chain Armour Crafting"
+  title: "Chain Shirt"
+  image: "/icons/items/544-gamedata.base.png"
+  caption: "A chain undershirt provides a reliable second layer of defence."
   groups:
     - heading: null
       rows:
-        - ["Description","Chainmail eh? That's going to be bloody fiddly isn't it?"]
-    - heading: "Details"
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","10 kg"]
+        - ["Base value","c. 8,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","25% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","25% covered"]
+        - ["Chest","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat speed","0.97x"]
+        - ["Cut into stun","40%"]
+        - ["Dexterity","0.90x"]
+        - ["Dodge","0.90x"]
+        - ["Ranged skill","0.80x"]
+        - ["Stealth","0.85x"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","4"]
         - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>544-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A chain undershirt provides a reliable second layer of defence.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Chain Shirt** is a Medium Armour that is equipped in the Shirt slot. It is the short-sleeved variant of the [Chainmail](/chainmail). It also has a [blackened](/blackened-chain-shirt) and [rusted](/rusty-chain-shirt) variant. Additionally, there is also a [Hiver-equivalent](/hiver-chain-shirt) version of this clothing.
 

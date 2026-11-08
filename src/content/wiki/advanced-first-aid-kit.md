@@ -7,15 +7,19 @@ source:
 categories: ["Items"]
 infobox:
   title: "Advanced First Aid Kit"
+  image: "/icons/items/1359-gamedata.base.png"
+  caption: "A high quality first aid kit, made up of bandages, disinfectant and painkillers.  Only worth the extra money if you have the skill to use it."
   groups:
     - heading: null
       rows:
+        - ["Type","First aid kit"]
         - ["Weight","2 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Avg. Price","c.265"]
-        - ["Charges","1000/1000"]
-        - ["Quality","100/100"]
-        - ["Description","A high quality first aid kit, made up of bandages, disinfectant and painkillers.  Only worth the extra money if you have the skill to use it."]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","2x3"]
+        - ["Charges","1,000"]
+    - heading: null
+      rows:
+        - ["String id","<span>1359-gamedata.base</span>"]
 ---
 
 **Advanced First Aid Kits** are [medical](/medical-items) [items](/items) used to heal cutting [damage](/damage) on organic body parts. Players can learn how to craft this item by researching [Advanced Medicine](/advanced-medicine-tech). After researching, these kits can be crafted on a [Medical Workbench](/medical-workbench).

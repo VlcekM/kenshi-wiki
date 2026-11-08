@@ -5,11 +5,39 @@ source:
   title: "Sleeveless Dustcoat"
   revision: 90443
 categories: ["Armour","Body Armour","Light Armour"]
+infobox:
+  title: "Sleeveless Dustcoat"
+  image: "/icons/items/62178-rebirth.mod.png"
+  caption: "A creepy black duster coat worn by wierdos out of the Ashlands.  The sleveless version is favoured by martial artists."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","60% covered"]
+        - ["Left Leg","60% covered"]
+        - ["Head","25% covered"]
+        - ["Stomach","100% covered"]
+        - ["Chest","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","40%"]
+        - ["Damage output","1.05x"]
+        - ["Dodge","1.10x"]
+        - ["Stealth","1.10x"]
+        - ["Martial arts","+6"]
+        - ["Weather protection","60%"]
+    - heading: null
+      rows:
+        - ["String id","<span>62178-rebirth.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A creepy black duster coat worn by weirdos out of the Ashlands. The sleeveless version is favoured by martial artists.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 The **Sleeveless Dustcoat** is a Light Armour that is equipped in the Body Armour slot. It can be sold by the [Armour King](/armour-king). This armour causes overlap on the [Samurai Clothpants](/samurai-clothpants) and [Samurai Legplates](/samurai-legplates). It is the sleeveless version of a [Dustcoat.](/dustcoat)
 
 It is equipped by [Anti-Slavers (unarmed)](/anti-slaver-unarmed), [Grass Pirates](/grass-pirate), and [Straw Lieutenants](/straw-lieutenant). It can also be randomly equipped by [Holy Nation Robots](/holy-nation-robot).

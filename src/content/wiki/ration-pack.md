@@ -7,15 +7,18 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Ration Pack"
+  image: "/icons/items/42337-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
-        - ["Nutrition","125 nu"]
-        - ["Ingredients","Foodcube, Dried Meat"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","2x2 wide/tall"]
-        - ["Sell Value","<span>c.</span>c.571"]
-        - ["Avg. Price","c.1,143"]
+        - ["Base value","c. 2,000"]
+        - ["Size in inventory","2x2"]
+        - ["Nutrition","125 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>42337-changes_otto.mod</span>"]
 ---
 
 <figure class="quote"><blockquote>Anyway, I have some spare rations, please, take this food and be safe. It's easy to run low on supplies out here.</blockquote><figcaption><a href="/high-paladin">High Paladin</a></figcaption></figure>

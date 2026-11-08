@@ -7,17 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Rice Bowl"
+  image: "/icons/items/1016-gamedata.base.png"
+  caption: "A plain staple food"
   groups:
     - heading: null
       rows:
-        - ["Nutrition","25 nu"]
-        - ["Ingredients","Riceweed, Water"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","3x3"]
-        - ["Value","<span>c.</span>c.186"]
-        - ["Sell Value","<span>c.</span>c.93"]
-        - ["Avg. Price","c.186"]
-        - ["Description","A plain staple food"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","3x3"]
+        - ["Nutrition","25 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>1016-gamedata.base</span>"]
 ---
 
 **Rice Bowl** is a [food](/food) item which can be purchased from relevant traders or created in a [Cooking Stove](/cooking-stove). This food is easiest to find in [The Swamp](/the-swamp), where [Riceweed](/riceweed) is abundant.

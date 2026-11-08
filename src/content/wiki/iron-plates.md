@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Iron Plates"
+  image: "/icons/items/42159-gamedata.base.png"
+  caption: "Used for building machinery, or for further refinement into steel."
   groups:
     - heading: null
       rows:
+        - ["Type","Resource"]
         - ["Weight","2 kg"]
-        - ["Size","4x3 wide/tall"]
-        - ["Avg. Price","c.135"]
-        - ["Description","Used for building machinery, or for further refinement into steel."]
+        - ["Base value","c. 250"]
+        - ["Size in inventory","3x4"]
+    - heading: null
+      rows:
+        - ["String id","<span>42159-gamedata.base</span>"]
 ---
 
 **Iron plates** are a vital resource created at an [Iron Refinery](/iron-refinery) through the smelting of [Raw Iron](/raw-iron). Alternatively, they are also often times found in mechanical animals as loot. It is specifically stored in [Storage: Iron Plates](/storage-iron-plates).

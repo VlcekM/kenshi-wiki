@@ -5,9 +5,26 @@ source:
   title: "Noble's Trousers"
   revision: 93786
 categories: ["Armour","Legwear","Clothing"]
+infobox:
+  title: "Noble's Trousers"
+  image: "/icons/items/51662-Newwworld.mod.png"
+  caption: "An expensive silk robe made by artisans of the Empire's capital.  Worn by nobles and the wealthy elite as a sign of status."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","5x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","70%"]
+    - heading: null
+      rows:
+        - ["String id","<span>51662-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">An expensive silk robe made by artisans of the Empire's capital. Worn by nobles and the wealthy elite as a sign of status.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 **Noble's Trousers** are legwear found on nobles in the [Noble Circle](/noble-circle) and on the roaming [Noble Hunters](/noble-hunter) of [The Empire](/the-empire). It is part of a costume set with [Noble's Robe](/nobles-robe). Despite the matching robe qualified as armour, Noble pants are set to be of simple clothing type.
 

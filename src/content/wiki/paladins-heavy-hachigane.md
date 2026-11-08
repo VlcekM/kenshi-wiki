@@ -5,11 +5,32 @@ source:
   title: "Paladin's Heavy Hachigane"
   revision: 93700
 categories: ["Armour","Headgear","Heavy Armour","Holy Nation","Paladins"]
+infobox:
+  title: "Paladin's Heavy Hachigane"
+  image: "/icons/items/2226-chris_r.mod.png"
+  caption: "A paladins helmet"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","90% covered"]
+        - ["Extra blunt resistance","up to +10%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Attack","-2"]
+        - ["Cut into stun","35%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2226-chris_r.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A paladins helmet.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 The **Paladins Heavy Hachigane** is a Heavy Armour that is equipped in the Headgear slot. It is available in HN Armour Traders.
 
 It is equipped by Holy Nation soldiers - [High Paladins](/high-paladin), [Inquisitors](/inquisitor), [Protector of the Flame](/protector-of-the-flame), and [Strayed Paladins](/strayed-paladin).

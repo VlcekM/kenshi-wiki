@@ -5,9 +5,26 @@ source:
   title: "Gi"
   revision: 79741
 categories: ["Armour","Body Armour","Clothing"]
+infobox:
+  title: "Gi"
+  image: "/icons/items/564-gamedata.base.png"
+  caption: "Martial artists are a rare oddity in a world of swords and have a reputation as eccentrics.  They are however the bane of slavers, because they can never be disarmed."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","6x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Martial arts","+2"]
+    - heading: null
+      rows:
+        - ["String id","<span>564-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Gi</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.200</td></tr><tr><td>-Sell value</td><td>c.50</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td colspan="2">[Skills]</td></tr><tr><td>-Martial arts bonus</td><td>+2</td></tr><tr><td colspan="2">Martial artists are a rare oddity in a world of swords and have a reputation as eccentrics. They are however the bane of slavers, because they can never be disarmed.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td></tr></tbody></table>
 
 **Gi** is a type of [clothing](/clothing) that is wearable in the [body armour](/body-armour) slot. It can be worn together with white [Gi Pants](/gi-pants).
 

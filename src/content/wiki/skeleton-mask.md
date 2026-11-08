@@ -5,11 +5,33 @@ source:
   title: "Skeleton Mask"
   revision: 93212
 categories: ["Armour","Headgear","Light Armour"]
+infobox:
+  title: "Skeleton Mask"
+  image: "/icons/items/62795-Newwworld.mod.png"
+  caption: "Supposedly makes the wearer look a bit like a skeleton."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","70% covered"]
+        - ["Pierce resistance","0.70x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat skills","-2"]
+        - ["Cut into stun","40%"]
+        - ["Weather protection","100%"]
+    - heading: null
+      rows:
+        - ["String id","<span>62795-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Supposedly makes the wearer look a bit like a skeleton.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 The **Skeleton Mask** is a Light Armour that is equipped in the Headgear slot. It cannot be bought from shops nor crafted by player characters.
 
 It is equipped by [Broken Skeleton Bandits](/broken-skeleton-bandit), [Skeleton Bandits](/skeleton-bandit), [Upgraded Skeleton Bandits](/upgraded-skeleton-bandit), and [Upgraded Skeleton Guards](/upgraded-skeleton-guard).

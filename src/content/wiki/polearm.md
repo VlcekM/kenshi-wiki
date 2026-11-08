@@ -7,17 +7,33 @@ source:
 categories: ["Weapons","Polearms"]
 infobox:
   title: "Polearm"
+  image: "/icons/items/52301-rebirth.mod.png"
+  caption: "Unusual weapons that are sometimes used by hunters as their reach makes them good for taking down animals.  Due to their cumbersome length however they are at a serious disadvantage when used indoors."
   groups:
     - heading: null
       rows:
-        - ["Class","[Polearm class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/polearms\">Polearm</a>"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","1x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.50x"]
+        - ["Blunt damage","0.50x"]
+        - ["Bleed","1.00x"]
         - ["Armour penetration","+30%"]
         - ["Attack","+6"]
+        - ["Defence","0"]
         - ["Indoors","-8"]
-        - ["Damage vs animals","+50%"]
         - ["Reach","28"]
-        - ["Description","Unusual weapons that are sometimes used by hunters as their reach makes them good for taking down animals.  Due to their cumbersome length however they are at a serious disadvantage when used indoors."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","+50%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52301-rebirth.mod</span>"]
 ---
 

@@ -7,17 +7,33 @@ source:
 categories: ["Weapons","Blunt"]
 infobox:
   title: "Mercenary Club"
+  image: "/icons/items/2110-gamedata.base.png"
+  caption: "A hefty club used by wealthier bandit types."
   groups:
     - heading: null
       rows:
-        - ["Class","[Blunt weapon class]"]
-        - ["Blood loss","0.30x"]
+        - ["Class","<a href=\"/blunt-weapons\">Blunt</a>"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.20x"]
+        - ["Blunt damage","1.00x"]
+        - ["Bleed","0.30x"]
         - ["Armour penetration","+30%"]
         - ["Attack","-2"]
-        - ["Damage vs robots","+20%"]
-        - ["Damage vs animals","-10%"]
+        - ["Defence","0"]
         - ["Reach","18"]
-        - ["Description","A hefty club used by wealthier bandit types."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+        - ["Robots","+20%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>2110-gamedata.base</span>"]
 ---
 

@@ -5,11 +5,33 @@ source:
   title: "Noble's Robe"
   revision: 86672
 categories: ["Armour","Body Armour","Clothing","Needs grade info"]
+infobox:
+  title: "Noble's Robe"
+  image: "/icons/items/51663-Newwworld.mod.png"
+  caption: "An expensive silk robe made by artisans of the Empire's capital.  Worn by nobles and the wealthy elite as a sign of status."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 2,500"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","100% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","40%"]
+        - ["Stealth","0.70x"]
+    - heading: null
+      rows:
+        - ["String id","<span>51663-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">An expensive silk robe made by artisans of the Empire's capital. Worn by nobles and the wealthy elite as a sign of status.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/armour">Armour</a></td></tr></tbody></table>
-
-  
 
 These are worn by [Noble Hunters](/noble-hunter) and all other [Nobles](/noble-circle) of the [United Cities](/united-cities). It is part of a costume set with [Noble's Trousers](/nobles-trousers). Despite the matching pants designated as clothing, this robe is qualified as armour with no class assigned.
 

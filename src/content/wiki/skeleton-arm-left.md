@@ -6,26 +6,38 @@ source:
   revision: 86333
 categories: ["Robot Limbs"]
 infobox:
-  title: "Skeleton Arms"
+  title: "Skeleton Arm (left)"
+  image: "/icons/items/95747-Newwworld.mod.png"
+  caption: "A common skeleton arm.  Though a few thousand years old, those that have survived in good condition can be more dexterous than human hands."
   groups:
     - heading: null
       rows:
-        - ["Description","Advanced high-tech arms like what the skeletons have."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/robot-limbs\">Left arm</a>"]
+        - ["Weight","9 kg"]
+        - ["Base value","c. 3,500 → c. 18,000"]
+        - ["Size in inventory","6x2"]
+    - heading: "Stats (range across grades)"
+      rows:
+        - ["HP","50 → 175"]
+        - ["Strength","0.75x → 1.00x"]
+        - ["Dexterity","0.75x → 1.25x"]
+        - ["Swimming","0.60x → 0.75x"]
+        - ["Thievery","0.75x → 0.90x"]
+        - ["Ranged","0.75x → 1.00x"]
+        - ["Unarmed damage","0 → +4"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","12 hours"]
         - ["Tech Level","5"]
         - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
         - ["Requirements","<a href=\"/hiver-skeleton-arms-tech\">Hiver Skeleton Arms</a>"]
-    - heading: "Results"
-      rows:
         - ["New Item(s)","Skeleton Arm (left)<p><a href=\"/skeleton-arm-right\">Skeleton Arm (right)</a></p>"]
         - ["Required For","<a href=\"/durable-arms-tech\">Durable Arms</a><p><a href=\"/extra-strong-arms-tech\">Extra Strong Arms</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>95747-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A common skeleton arm. Though a few thousand years old, those that have survived in good condition can be more dexterous than human hands.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 Skeleton Arm (left) is a [Robot Limb](/robot-limbs), and a replacement for a lost left arm.
 
 ## Stats

@@ -5,9 +5,26 @@ source:
   title: "Turtleneck"
   revision: 94072
 categories: ["Armour","Shirts","Clothing"]
+infobox:
+  title: "Turtleneck"
+  image: "/icons/items/543-gamedata.base.png"
+  caption: "Good shirt for sneaking about, doing spy stuff."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","2x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","10%"]
+    - heading: null
+      rows:
+        - ["String id","<span>543-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Turtleneck</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.300</td></tr><tr><td>-Sell value</td><td>c.75</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2">Good shirt for sneaking about, doing spy stuff.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td></tr></tbody></table>
 
 The **Turtleneck** is worn in the [shirt](/shirts) armour slot. It does not provide any armour or stat buffs/debuffs.
 

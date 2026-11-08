@@ -5,9 +5,27 @@ source:
   title: "Ninja Pants"
   revision: 86952
 categories: ["Armour","Legwear","Clothing"]
+infobox:
+  title: "Ninja Pants"
+  image: "/icons/items/2194-gamedata.base.png"
+  caption: "Wear this and you will be a real ninja!  (Warning: Not a substitute for real ninja training)"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","5x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","70%"]
+        - ["Stealth","1.10x"]
+    - heading: null
+      rows:
+        - ["String id","<span>2194-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Ninja Pants</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.50</td></tr><tr><td>-Sell value</td><td>c.12</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td colspan="2">[Skills]</td></tr><tr><td>-Stealth effect</td><td>1.10x</td></tr><tr><td colspan="2">Wear this and you will be a real ninja! (Warning: Not a substitute for real ninja training)</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td></tr></tbody></table>
 
 **Ninja Pants** are black [Gi Pants](/gi-pants). They are a [Clothing](/clothing) item and offer no armour protection. They can be worn as part of a set together with the [Ninja Gi](/ninja-gi) and a [Ninja Mask](/ninja-mask). A white version of this item is called the [Gi Pants](/gi-pants) and grants Martial Arts instead of stealth.
 

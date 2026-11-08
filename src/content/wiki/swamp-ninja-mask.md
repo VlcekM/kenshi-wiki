@@ -5,11 +5,33 @@ source:
   title: "Swamp Ninja Mask"
   revision: 95234
 categories: ["Armour","Headgear","Light Armour"]
+infobox:
+  title: "Swamp Ninja Mask"
+  image: "/icons/items/18033-small_changes_otto.mod.png"
+  caption: "A mask of the Swamp Ninjas of the south, it's purpose is unknown, likely it's either a tradition or an intimidation tactic."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","70% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat skills","-1"]
+        - ["Cut into stun","40%"]
+        - ["Stealth","1.10x"]
+        - ["Weather protection","100%"]
+    - heading: null
+      rows:
+        - ["String id","<span>18033-small_changes_otto.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A mask of the Swamp Ninjas of the south, it's purpose is unknown, likely it's either a tradition or an intimidation tactic.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 The **Swamp Ninja Mask** is a Light Armour that is equipped in the Headgear slot.
 
 It is equipped by [Shinobi Guards](/shinobi-guard) (randomly), and, true to the description, it is also used by [Shade](/shade), [Swamp Ninja Chunins](/swamp-ninja-chunin) and [Swamp Ninja Genins](/swamp-ninja-genin).

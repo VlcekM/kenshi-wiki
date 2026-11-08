@@ -5,9 +5,23 @@ source:
   title: "Stout Hessian Uniform"
   revision: 96044
 categories: ["Clothing","Armour","Legwear"]
+infobox:
+  title: "Stout Hessian Uniform"
+  image: "/icons/items/2169-gamedata.base.png"
+  caption: "A rough fabric favoured by the Holy Nation for its lack of comfort."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","4x4"]
+    - heading: null
+      rows:
+        - ["String id","<span>2169-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A rough fabric favoured by the Holy Nation for its lack of comfort.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 The **Stout Hessian Uniform** is a highly [colourable](/colour-scheme) piece of [Clothing](/clothing) that is equipped in the [Legwear](/legwear) slot. As it can be seen from image gallery the in-game coloration of this item is quite bland.
 

@@ -7,15 +7,19 @@ source:
 categories: ["Items"]
 infobox:
   title: "Advanced Splint Kit"
+  image: "/icons/items/1436-gamedata.base.png"
+  caption: "A splint kit can be used to rig up wounded bodyparts so that they can be used again.  The amount of hitpoints you can splint is limited by your medic skill and the quality of the kit."
   groups:
     - heading: null
       rows:
+        - ["Type","Splint kit"]
         - ["Weight","3 kg"]
-        - ["Size","3x3 wide/tall"]
-        - ["Avg. Price","c.311"]
-        - ["Charges","100/100"]
-        - ["Quality","50/100"]
-        - ["Description","A splint kit can be used to rig up wounded bodyparts so that they can be used again.  The amount of hitpoints you can splint is limited by your medic skill and the quality of the kit."]
+        - ["Base value","c. 1,500"]
+        - ["Size in inventory","3x3"]
+        - ["Charges","100"]
+    - heading: null
+      rows:
+        - ["String id","<span>1436-gamedata.base</span>"]
 ---
 
 **Advanced Splint Kits** are [medical](/medical-items) [items](/items) used to improve functionality of injured limbs. Once applied, they help limping characters run normally, except in most extreme cases of limb damage. Players can learn how to craft this item by researching [Advanced Splints](/advanced-splints-tech). After researching, these kits can be crafted on a [Medical Workbench](/medical-workbench) or procured from the NPCs that carry them for personal use - [Wandering Assassins](/wandering-assassin), [Holy Lord Phoenix](/holy-lord-phoenix), [Doctors](/doctor) and [Surgeons](/surgeon).

@@ -5,6 +5,30 @@ source:
   title: "Red Bandana"
   revision: 86003
 categories: ["Armour","Headgear","Light Armour","Needs grade info"]
+infobox:
+  title: "Red Bandana"
+  image: "/icons/items/98562-rebirth.mod.png"
+  caption: "Keeps sweat and hair out of your eyes."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","0 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","40% covered"]
+        - ["Extra blunt resistance","up to +10%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat skills","+1"]
+        - ["Cut into stun","20%"]
+    - heading: null
+      rows:
+        - ["String id","<span>98562-rebirth.mod</span>"]
 ---
 
 <figure class="quote"><blockquote>Keeps sweat and hair out of your eyes.</blockquote><figcaption>In-game Description</figcaption></figure>

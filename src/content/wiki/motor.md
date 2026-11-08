@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Motor"
+  image: "/icons/items/43397-changes_otto.mod.png"
+  caption: "A device that can create rotation when charged with electrical current."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1.5 kg"]
-        - ["Size","4x3"]
-        - ["Avg. Price","c.421"]
-        - ["Description","A device that can create rotation when charged with electrical current."]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","3x4"]
+    - heading: null
+      rows:
+        - ["String id","<span>43397-changes_otto.mod</span>"]
 ---
 
 **Motor** is a [trade good](/trade-goods) which can be crafted at a [Robotics Bench](/robotics-bench). 

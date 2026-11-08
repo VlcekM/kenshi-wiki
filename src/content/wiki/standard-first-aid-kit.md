@@ -7,15 +7,19 @@ source:
 categories: ["Items"]
 infobox:
   title: "Standard First Aid Kit"
+  image: "/icons/items/515-gamedata.base.png"
+  caption: "A first aid kit, made up of bandages, disinfectant and painkillers.  The quality will limit you if it is lower than your skills."
   groups:
     - heading: null
       rows:
+        - ["Type","First aid kit"]
         - ["Weight","2 kg"]
-        - ["Size","2x2 wide/tall"]
-        - ["Avg. Price","c.147"]
-        - ["Charges","400/400"]
-        - ["Quality","40/100"]
-        - ["Description","A first aid kit, made up of bandages, disinfectant and painkillers.  The quality will limit you if it is lower than your skills."]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x2"]
+        - ["Charges","400"]
+    - heading: null
+      rows:
+        - ["String id","<span>515-gamedata.base</span>"]
 ---
 
 **Standard First Aid Kits** are [medical](/medical-items) [items](/items) used to heal cutting [damage](/damage) on organic body parts. Players can learn how to craft this item by researching [Medicine](/medicine-tech). After researching, these kits can be crafted on a [Medical Workbench](/medical-workbench). These kits can be stored in a [Medicrate](/medicrate).

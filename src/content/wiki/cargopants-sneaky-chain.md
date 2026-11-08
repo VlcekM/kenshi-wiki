@@ -6,23 +6,36 @@ source:
   revision: 85841
 categories: ["Armour","Legwear","Light Armour"]
 infobox:
-  title: "Clothing Manufacture"
+  title: "Cargopants (sneaky chain)"
+  image: "/icons/items/1392-gamedata.base.png"
+  caption: "These actually have hidden chain mail sewn into the lining.  Sneaky."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we could craft clothes and stuff.  For wearing."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","10 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","100% covered"]
+        - ["Left Leg","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","40%"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","1"]
         - ["Costs","1 <a href=\"/book\">Book</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/clothing-bench\">Clothing Bench</a>"]
         - ["Required For","<a href=\"/hats-and-headgear-tech\">Hats and Headgear</a><br><a href=\"/simple-clothing-types-tech\">Simple Clothing Types</a>"]
+    - heading: null
+      rows:
+        - ["String id","<span>1392-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">These actually have hidden chain mail sewn into the lining. Sneaky.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Cargopants \[Sneaky Chain\]** are Light Armour that is equipped in the Legwear slot. There is an [unarmored](/cargopants) variant (in plain and [colourable](/cargopants-colored) versions) as well as armoured [padded](/cargopants-padded) and [reinforced](/cargopants-reinforced) variants of this armour.
 

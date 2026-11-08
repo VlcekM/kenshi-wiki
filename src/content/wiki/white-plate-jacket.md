@@ -5,9 +5,39 @@ source:
   title: "White Plate Jacket"
   revision: 86892
 categories: ["Armour","Body Armour","Medium Armour"]
+infobox:
+  title: "White Plate Jacket"
+  image: "/icons/items/53301-rebirth.mod.png"
+  caption: "A plated leather jacket with a good solid armour coverage. Commonly worn by the wealthier drifters and professional adventurer scouts."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","9 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","100% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra cut resistance","up to +12%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","30%"]
+        - ["Dexterity","0.95x"]
+        - ["Dodge","0.80x"]
+        - ["Ranged skill","0.80x"]
+        - ["Stealth","0.60x"]
+        - ["Martial arts","-5"]
+        - ["Weather protection","40%"]
+    - heading: null
+      rows:
+        - ["String id","<span>53301-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A plated leather jacket with a good solid armour coverage. Commonly worn by the wealthier drifters and professional adventurer scouts.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **White Plate Jacket** is a leather armour that is equipped in the Body Armour slot. It can be sometimes found sold in [Mongrel](/mongrel), [Shek](/shek-kingdom), and [Tech Hunter](/tech-hunters) armour shops. It is one of the only body armours that covers 100% of the entire upper body. There is also [plain](/plate-jacket) and [black](/black-plate-jacket) variant of this armour. It has the highest Stealth penalty compared to its other variants, but has a slightly smaller Dexterity penalty.
 

@@ -5,9 +5,30 @@ source:
   title: "Halfpants (sneaky chain)"
   revision: 93537
 categories: ["Armour","Legwear","Light Armour"]
+infobox:
+  title: "Halfpants (sneaky chain)"
+  image: "/icons/items/1395-gamedata.base.png"
+  caption: "These actually have hidden chain mail sewn into the lining.  Sneaky."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","10 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","100% covered"]
+        - ["Left Leg","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","80%"]
+    - heading: null
+      rows:
+        - ["String id","<span>1395-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">These actually have hidden chain mail sewn into the lining. Sneaky.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Halfpants \[Sneaky Chain\]** are Light Armour equipped in the Legwear slot. It can be bought from Clothing Shops in [UC](/united-cities) and [HN](/the-holy-nation) towns. Other variants of Halfpants include: [colored](/halfpants-colored), [padded](/halfpants-padded), [ragged](/halfpants-ragged) and [reinforced](/halfpants-reinforced).
 

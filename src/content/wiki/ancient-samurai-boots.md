@@ -5,13 +5,37 @@ source:
   title: "Ancient Samurai Boots"
   revision: 85835
 categories: ["Armour","Footwear","Heavy Armour","Removed Content"]
+infobox:
+  title: "Ancient Samurai Boots"
+  image: "/icons/items/1533509-Newwworld.mod.png"
+  caption: "An extremely old set of samurai armour that is rusting away to nothing."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/footwear\">Feet</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","40% covered"]
+        - ["Left Leg","40% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","10%"]
+        - ["Dodge","0.90x"]
+        - ["Stealth","0.80x"]
+    - heading: null
+      rows:
+        - ["String id","<span>1533509-Newwworld.mod</span>"]
 ---
 
 <table class="wikitable"><tbody><tr><td></td><td>The content discussed on this page has either been removed from the game or has never been implemented. This content may still be accessible through previous versions of the game or through the <a href="/forgotten-construction-set">Forgotten Construction Set</a>.</td></tr></tbody></table>
 
   
 
-<table class="wikitable"><tbody><tr><td colspan="4">An extremely old set of samurai armour that is rusting away to nothing.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/footwear">BOOTS</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
 
 **Ancient Samurai Boots** is a Heavy Armour that is equipped in the Footwear slot. As the [Second Empire](/second-empire) remnants who wear the Ancient Samurai set are purely composed of [Skeletons](/skeleton) — who cannot wear boots — this armour cannot be found in the game. Had it existed in the game it would have been part of a set together with [Ancient Samurai Helmet](/ancient-samurai-helmet), [Ancient Samurai Armour](/ancient-samurai-armour) and [Ancient Samurai Legplates](/ancient-samurai-legplates).
 

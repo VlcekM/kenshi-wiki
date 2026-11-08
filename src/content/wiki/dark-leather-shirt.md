@@ -6,23 +6,39 @@ source:
   revision: 95154
 categories: ["Armour","Shirts","Light Armour"]
 infobox:
-  title: "Leather Armour Crafting"
+  title: "Dark Leather Shirt"
+  image: "/icons/items/2214-gamedata.base.png"
+  caption: "Undershirts provide a reliable second layer of defence."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we would have the basis to make our own clothing and light armour.  The same equipment could also be used to make under-armour and bandages."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 3,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Chest","100% covered"]
+        - ["Left Arm","30% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","30% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","50%"]
+        - ["Stealth","1.10x"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","2"]
         - ["Costs","4 <a href=\"/book\">Books</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
         - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
+    - heading: null
+      rows:
+        - ["String id","<span>2214-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Undershirts provide a reliable second layer of defence.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Dark Leather Shirt** is Light Armour that are equipped in the Body Armour slot. It is a dark-green version of [Leather Shirt](/leather-shirt) with slightly better protective stats with the downside of being much more expensive.
 

@@ -7,12 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Crossbow Parts"
+  image: "/icons/items/97089-rebirth.mod.png"
+  caption: "Various components used to make crossbows."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","4 kg"]
-        - ["Size","3x2"]
-        - ["Avg. Price","c.408"]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>97089-rebirth.mod</span>"]
 ---
 
 **Crossbow Parts** are [items](/items) used in the construction of [Crossbows](/crossbows). They are made out of [Hinges](/hinge) and [Spring Steel](/spring-steel).

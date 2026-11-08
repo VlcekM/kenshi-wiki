@@ -7,11 +7,24 @@ source:
 categories: ["Crossbows"]
 infobox:
   title: "Eagle's Cross"
+  image: "/icons/items/66290-Newwworld.mod.png"
+  caption: "A rare, extreme long-range weapon for snipers.  It's possible to do a lot of damage with one of these before an enemy even realises what is happening to them.  Takes skill to use effectively, and not much use at short range."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Class","Crossbow"]
-        - ["Ammunition type","Bolts [Longs]"]
+        - ["Class","<a href=\"/crossbows\">Crossbow</a>"]
+        - ["Weight","9 kg"]
+        - ["Base value","c. 2,500 → c. 34,000"]
+        - ["Ammunition","Bolts [Longs]"]
+        - ["Size in inventory","2x10"]
+    - heading: "Combat (range across grades)"
+      rows:
+        - ["Reload time","5–10 s → 4–8 s"]
+        - ["Spread at skill 0","2.5 → 1.5"]
+        - ["Perfect aim at skill","80"]
+    - heading: null
+      rows:
+        - ["String id","<span>66290-Newwworld.mod</span>"]
 ---
 
 **Eagle's Cross** is a [Crossbow](/crossbow-class) with farthest range and highest damage of any ranged weapon. It can be dangerous in the hands of an unskilled shooter; a single friendly-fire shot could kill any low-toughness allies.

@@ -5,11 +5,41 @@ source:
   title: "Dustcoat"
   revision: 90125
 categories: ["Armour","Body Armour","Light Armour","Needs grade info"]
+infobox:
+  title: "Dustcoat"
+  image: "/icons/items/3061-gamedata.base.png"
+  caption: "A creepy black duster coat worn by wierdos out of the Ashlands.  Provides good protection against the harsh environment."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","60% covered"]
+        - ["Left Arm","100% covered"]
+        - ["Left Leg","60% covered"]
+        - ["Head","25% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Defence","+5"]
+        - ["Cut into stun","40%"]
+        - ["Dodge","1.10x"]
+        - ["Stealth","1.10x"]
+        - ["Martial arts","+4"]
+        - ["Weather protection","80%"]
+    - heading: null
+      rows:
+        - ["String id","<span>3061-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A creepy black duster coat worn by weirdos out of the Ashlands. Provides good protection against the harsh environment.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 **Dustcoat** is a Light Armour that is equipped in the Body Armour slot. It can be bought from the [Scraphouse](/scraphouse), the armour shop in [Mongrel](/mongrel), and adventure shops in [Black Scratch](/black-scratch), [Mourn](/mourn), [Spring](/spring), tech hunter-controlled [Stoat](/stoat), and [The Free City](/the-free-city). A [sleeveless](/sleeveless-dustcoat) version of this armour can also be found.
 
 It is equipped by [Tinfist](/tinfist), [Quin](/quin), [Dack](/dack), and [Chad](/chad), [Lord Yoshinaga](/lord-yoshinaga) and Anti-Slaver, Hound and Flotsam [Pacifiers](/pacifiers). It is the preferred body armour of [Anti-Slaver Jonins](/anti-slaver-jonin) and is randomly equipped by [Bounty Hunters](/bounty-hunter), Barmen, and Bar Thugs.

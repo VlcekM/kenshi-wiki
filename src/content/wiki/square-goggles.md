@@ -5,9 +5,27 @@ source:
   title: "Square Goggles"
   revision: 79532
 categories: ["Armour","Headgear","Clothing"]
+infobox:
+  title: "Square Goggles"
+  image: "/icons/items/2168-gamedata.base.png"
+  caption: "A simple eye protection for sandstorms, standard issue in the Traders Guild"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","1x3"]
+    - heading: "Modifiers"
+      rows:
+        - ["Perception","+2"]
+        - ["Weather protection","100%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2168-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Square Goggles</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>100%</td></tr><tr><td>-Value</td><td>c.60</td></tr><tr><td>-Sell value</td><td>c.15</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td colspan="2">[Skills]</td></tr><tr><td>-Perception bonus</td><td>+2</td></tr><tr><td colspan="2">A simple eye protection for sandstorms, standard issue in the Traders Guild</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td></tr></tbody></table>
 
 **Square Goggles** are clothing that fall under the [Headgear](/headgear) category. They do not belong to any Armour Class and can be purchased at [Headgear Shops](/headgear-shop). Square Goggles are common headgear for [Caravan Guards](/caravan-guard).
 

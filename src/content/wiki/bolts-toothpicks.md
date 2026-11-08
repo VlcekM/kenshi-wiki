@@ -6,16 +6,20 @@ source:
   revision: 93690
 categories: ["Crossbows"]
 infobox:
-  title: "Bolts [Toothpicks]"
+  title: "Bolts Toothpicks"
+  image: "/icons/items/96014-rebirth.mod.png"
+  caption: "Toothpicks are the smallest bolts available.  They don't pack a lot of punch but are usually used in rapid fire weapons."
   groups:
     - heading: null
       rows:
-        - ["Ammunition","<span>[Ammunition]</span>"]
-        - ["-Shots","<span>40/40</span>"]
-        - ["-Weight","1 kg"]
-        - ["-Value","c.243"]
-        - ["-Sell value","c.121"]
-        - ["Description","Toothpicks are the smallest bolts available. They don't pack a lot of punch but are usually used in rapid fire weapons."]
+        - ["Type","Ammunition"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 450"]
+        - ["Size in inventory","1x3"]
+        - ["Shots","40"]
+    - heading: null
+      rows:
+        - ["String id","<span>96014-rebirth.mod</span>"]
 ---
 
 **Bolts \[Toothpicks\]** are ammunition used with [Crossbows](/crossbow-class).

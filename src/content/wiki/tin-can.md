@@ -5,11 +5,37 @@ source:
   title: "Tin Can"
   revision: 86651
 categories: ["Armour","Headgear","Heavy Armour"]
+infobox:
+  title: "Tin Can"
+  image: "/icons/items/2149-gamedata.base.png"
+  caption: "The Tin Can is a super heavy-class helmet and makes for the best head protection around.  Heavy cuts and slashes against it will still make your head ring, but at least you will still have your face attached.  Unfortunately the limited field of view does hamper your combat awareness a fair bit."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","9 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","100% covered"]
+        - ["Extra cut resistance","up to +10%"]
+        - ["Pierce resistance","2.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Attack","-5"]
+        - ["Combat skills","-5"]
+        - ["Cut into stun","35%"]
+        - ["Dodge","0.70x"]
+        - ["Perception","-20"]
+        - ["Stealth","0.70x"]
+    - heading: null
+      rows:
+        - ["String id","<span>2149-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">The Tin Can is a super heavy-class helmet and makes for the best head protection around. Heavy cuts and slashes will make your head ring, but at least you will still have your face attached. Unfortunately the limited field of view does hamper your combat awareness a fair bit.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 The **Tin Can** is a Heavy Armour that is equipped in the Headgear slot. It is sold by UC and HN Armour Vendors as well as HN and Ronin Hat Vendors.
 
 It is the defining helmet of [Mighty Canhead](/mighty-canhead). It is randomly equipped by [City Heroes](/city-hero), [Hero Bosses](/hero-boss), [Territorial Thugs](/territorial-thug), [United Heroes](/united-hero), and [Yabuta Outlaws](/yabuta-outlaw).

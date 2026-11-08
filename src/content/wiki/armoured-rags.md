@@ -6,23 +6,45 @@ source:
   revision: 86598
 categories: ["Armour","Body Armour","Medium Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Armoured Rags"
+  image: "/icons/items/2307-clothes_v1.mod.png"
+  caption: "Salvaged rags, straps and plates pulled together by a decent craftsman has made this monstrosity.  This armour has plenty of gaps and vulnerabilities, but allows good freedom of movement for its class.  Commonly found on wanderers and bandits, but is also favoured by duelists."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","15 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Arm","80% covered"]
+        - ["Chest","90% covered"]
+        - ["Stomach","20% covered"]
+        - ["Left Arm","80% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Defence","-5"]
+        - ["Combat skills","+2"]
+        - ["Combat speed","0.98x"]
+        - ["Cut into stun","10%"]
+        - ["Dexterity","0.90x"]
+        - ["Ranged skill","0.80x"]
+        - ["Stealth","-1.00x"]
+        - ["Martial arts","+4"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","3"]
         - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
         - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><b>Armoured Rags</b></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>2307-clothes_v1.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Salvaged rags, straps and plates pulled together by a decent craftsman has made this monstrosity. This armour has plenty of gaps and vulnerabilities, but allows good freedom of movement for its class. Commonly found on wanderers and bandits, but is also favoured by duelists.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 **Armoured Rags** is a Medium Armour equipped in the Body Armour slot. By default, the rags are beige in color. However, a separate armor of the same name but with an added '(colored)' exists. Together with [Armoured Rag Skirt](/armoured-rag-skirt) it forms a set that can also be [dyed](/colour-scheme) different colours depending on the character it is equipped on first.
 

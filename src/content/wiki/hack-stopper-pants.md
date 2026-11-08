@@ -5,9 +5,35 @@ source:
   title: "Hack Stopper Pants"
   revision: 86605
 categories: ["Armour","Legwear","Medium Armour"]
+infobox:
+  title: "Hack Stopper Pants"
+  image: "/icons/items/64907-Newwworld.mod.png"
+  caption: "Metal cage-armoured pants."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","5x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","100% covered"]
+        - ["Left Leg","100% covered"]
+        - ["Stomach","10% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","25%"]
+        - ["Dodge","0.70x"]
+        - ["Stealth","0.70x"]
+        - ["Martial arts","-5"]
+    - heading: null
+      rows:
+        - ["String id","<span>64907-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Metal cage-armoured pants.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 **Hack Stopper Pants** are Medium Armour that are equipped on the Legwear slot. They can not be bought from shops.
 

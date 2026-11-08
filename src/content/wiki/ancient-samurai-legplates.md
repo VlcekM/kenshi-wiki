@@ -5,9 +5,35 @@ source:
   title: "Ancient Samurai Legplates"
   revision: 86884
 categories: ["Armour","Legwear","Heavy Armour"]
+infobox:
+  title: "Ancient Samurai Legplates"
+  image: "/icons/items/1533511-Newwworld.mod.png"
+  caption: "An extremely old set of samurai armour that is rusting away to nothing."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","20 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","5x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","100% covered"]
+        - ["Left Leg","100% covered"]
+        - ["Stomach","50% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat speed","0.98x"]
+        - ["Cut into stun","20%"]
+        - ["Dodge","0.60x"]
+        - ["Stealth","0.00x"]
+        - ["Martial arts","-10"]
+    - heading: null
+      rows:
+        - ["String id","<span>1533511-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">An extremely old set of samurai armour that is rusting away to nothing.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
 
 **Ancient Samurai Legplates** are Heavy Armour equipped in the Legwear slot. Due to its age, it has less resistances compared to its [modern version](/samurai-legplates) while having the same penalties, making this armour an inferior choice.
 

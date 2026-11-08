@@ -7,12 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Hinge"
+  image: "/icons/items/43396-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","3x2"]
-        - ["Avg. Price","c.81"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>43396-changes_otto.mod</span>"]
 ---
 
 A **Hinge** is an [item](/items) used in the construction of [Junkbows](/junkbow) and [Crossbow Parts](/crossbow-parts). The item is also used in constructing [Locksmith Training Boxes](/locksmith-training-box).

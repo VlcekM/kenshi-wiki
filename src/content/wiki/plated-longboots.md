@@ -5,11 +5,32 @@ source:
   title: "Plated Longboots"
   revision: 92335
 categories: ["Armour","Footwear","Medium Armour"]
+infobox:
+  title: "Plated Longboots"
+  image: "/icons/items/556-gamedata.base.png"
+  caption: "The standard armoured boots, found everywhere.  Commonly left out of an armour set, as drifters don't usually see much likelyhood in getting hit in the shins and prefer the reduced encumbrance of a pair of wooden sandals or even going barefoot altogether."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/footwear\">Feet</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","40% covered"]
+        - ["Left Leg","40% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Stealth","1.10x"]
+    - heading: null
+      rows:
+        - ["String id","<span>556-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4"><i>This item has no description.</i></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/footwear">BOOTS</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
-
-  
 **Plated Longboots** are armoured [Boots](/boots). They belong to the Medium Armour Class and can be crafted using the [Heavy Armour Smithy](/heavy-armour-smithy).
 
 Compared to [Samurai Boots](/samurai-boots), they provide less damage resistance but no penalties on martial arts and dodge, and a smaller penalty on running speed.

@@ -7,18 +7,33 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Guardless Katana"
+  image: "/icons/items/923-gamedata.base.png"
+  caption: "An uncommon katana modification sacrificing defence by removing the guard.  It's more a psychological advantage than a physical one, knowing subconsciously that attack is your best defence promotes a more aggressive combat style.  Gang bosses and Jonin tend to use them to equip their underlings because it makes trouble-makers on both sides more reluctant."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.30x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.00x"]
+        - ["Blunt damage","0.00x"]
+        - ["Bleed","1.30x"]
         - ["Armour penetration","-30%"]
         - ["Attack","+6"]
         - ["Defence","-6"]
-        - ["Damage vs robots","-40%"]
-        - ["Damage vs humans","+10%"]
         - ["Reach","21"]
-        - ["Description","An uncommon katana modification sacrificing defence by removing the guard.  It's more a psychological advantage than a physical one, knowing subconsciously that attack is your best defence promotes a more aggressive combat style.  Gang bosses and Jonin tend to use them to equip their underlings because it makes trouble-makers on both sides more reluctant."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+10%"]
+        - ["Robots","-40%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>923-gamedata.base</span>"]
 ---
 

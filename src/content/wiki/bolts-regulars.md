@@ -6,16 +6,20 @@ source:
   revision: 85423
 categories: ["Crossbows"]
 infobox:
-  title: "Bolts [Regulars]"
+  title: "Bolts Regulars"
+  image: "/icons/items/95781-rebirth.mod.png"
+  caption: "Despite the name, Regulars vary a fair bit in size and weight, but they all sort of fall into a range that works in most bows.  They've become a common standard and are easy to find anywhere."
   groups:
     - heading: null
       rows:
-        - ["Ammunition","<span>[Ammunition]</span>"]
-        - ["-Shots","<span>30/30</span>"]
-        - ["-Weight","1 kg"]
-        - ["-Value","c.243"]
-        - ["-Sell value","c.121"]
-        - ["Description","Despite the name, Regulars vary a fair bit in size and weight, but they are all sort of fall into a range that works in most bows. They've become a common standard and are easy to find anywhere."]
+        - ["Type","Ammunition"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","1x4"]
+        - ["Shots","30"]
+    - heading: null
+      rows:
+        - ["String id","<span>95781-rebirth.mod</span>"]
 ---
 
 **Bolts \[Regulars\]** are used with [Crossbows](/crossbow-class). For long expeditions, crossbows that use regular bolts are the most efficient.

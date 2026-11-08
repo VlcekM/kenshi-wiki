@@ -179,8 +179,12 @@ div.infobox .image_wrapper {
 
 div.infobox .image_wrapper img {
   display: block;
+  width: auto;
   max-width: 100%;
   height: auto;
+  min-height: 96px;
+  max-height: 240px;
+  object-fit: contain;
   margin: 0 auto;
 }
 
@@ -190,7 +194,13 @@ div.infobox .image_wrapper img {
   font-size: 89%;
 }
 
+/* An item's description from the game, under its icon */
+div.infobox .infobox-caption {
+  font-style: italic;
+}
+
 .notice {
+  display: flow-root;
   margin: 0 0 1em;
   padding: 0.5em 0.75em;
   border: 1px solid var(--paper-06);
@@ -259,6 +269,10 @@ figure.quote figcaption::before {
   color: var(--color-text-muted);
 }
 
+/* An item's game icon beside its name in a table */
+img.item-icon {
+  vertical-align: middle;
+}
 
 /* Sortable table headers (src/lib/sortable-tables.ts). The arrows are drawn dark and turn light with the dark theme's inversion. */
 table.jquery-tablesorter th.headerSort {

@@ -7,15 +7,30 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Topper"
+  image: "/icons/items/474-gamedata.base.png"
+  caption: "A hybrid between katana and sabre, it has a top-heavy balance that feels odd to a katana user, hence the name.  It's fast and has a similar reach to a Nodachi.\n\nA mostly forgotten weapon in modern times, it was once popular among mercenaries of the old empire."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","1x9"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.10x"]
+        - ["Blunt damage","0.10x"]
+        - ["Bleed","1.00x"]
         - ["Armour penetration","-15%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","-4"]
         - ["Reach","25"]
-        - ["Description","A hybrid between katana and sabre, it has a top-heavy balance that feels odd to a katana user, hence the name.  It's fast and has a similar reach to a Nodachi.<br><br>A mostly forgotten weapon in modern times, it was once popular among mercenaries of the old empire."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>474-gamedata.base</span>"]
 ---
 

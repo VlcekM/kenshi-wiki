@@ -7,17 +7,33 @@ source:
 categories: ["Weapons","Blunt"]
 infobox:
   title: "Iron Stick"
+  image: "/icons/items/2064-gamedata.base.png"
+  caption: "An iron stick, used to hit things."
   groups:
     - heading: null
       rows:
-        - ["Class","[Blunt weapon class]"]
-        - ["Blood loss","0.30x"]
+        - ["Class","<a href=\"/blunt-weapons\">Blunt</a>"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 40"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.10x"]
+        - ["Blunt damage","0.70x"]
+        - ["Bleed","0.30x"]
+        - ["Armour penetration","0%"]
         - ["Attack","-2"]
         - ["Defence","-2"]
         - ["Indoors","+2"]
-        - ["Damage vs animals","-10%"]
         - ["Reach","18"]
-        - ["Description","An iron stick, used to hit things."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>2064-gamedata.base</span>"]
 ---
 

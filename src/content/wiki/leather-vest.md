@@ -5,9 +5,32 @@ source:
   title: "Leather Vest"
   revision: 86546
 categories: ["Armour","Shirts","Light Armour"]
+infobox:
+  title: "Leather Vest"
+  image: "/icons/items/2212-gamedata.base.png"
+  caption: "Undershirts provide a reliable second layer of defence."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 2,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Chest","85% covered"]
+        - ["Left Arm","0% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","0% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","50%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2212-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Undershirts provide a reliable second layer of defence.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Leather Vest** is a Light Armour that is equipped in the Shirt slot. It is sold by United Cities clothing shops, Holy Nation armour and clothing shops, and Shek Kingdom and Tech Hunter Ronin armour shops.
 

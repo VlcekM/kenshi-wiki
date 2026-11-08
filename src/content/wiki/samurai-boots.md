@@ -5,11 +5,33 @@ source:
   title: "Samurai Boots"
   revision: 95214
 categories: ["Armour","Footwear","Heavy Armour","Samurai"]
+infobox:
+  title: "Samurai Boots"
+  image: "/icons/items/549-gamedata.base.png"
+  caption: "Heavy duty armour commonly worn by government owned samurai."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/footwear\">Feet</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","40% covered"]
+        - ["Left Leg","40% covered"]
+        - ["Extra blunt resistance","up to +5%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Dodge","0.90x"]
+        - ["Martial arts","-5"]
+    - heading: null
+      rows:
+        - ["String id","<span>549-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Heavy duty armour commonly worn by government owned samurai.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/footwear">BOOTS</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 **Samurai Boots** are Heavy Armour that are equipped in the Footwear slot. They can be bought from UC and Ronin Armour Shops. It is part of the samurai armour series together with [Samurai Helmet](/samurai-helmet), [Samurai Armour](/samurai-armour) and [Samurai Legplates](/samurai-legplates).
 
 They are primarily equipped by United Cities soldiers such as [Samurais](/samurai), [Samurai Sergeants](/samurai-sergeant), [Samurai Heavies](/samurai-heavy), [Samurai Captains](/samurai-captain), [Samurai Elites](/samurai-elite), [Samurai Scouts](/samurai-scout), [Samurai Gate Guards](/samurai-gate-guard), [Samurai Gate Sergeants](/samurai-gate-sergeant), [Samurai Rogues](/samurai-rogue), [Empire Noble Guard Hoodeds](/empire-noble-guard-hooded) and [Noble Captains](/noble-captain). It is also worn by [Slave Traders](/slave-traders) like [Slavemongers](/slavemonger), [Slaver Guards](/slaver-guard) and [Slaver Heavy Guards](/slaver-heavy-guard).

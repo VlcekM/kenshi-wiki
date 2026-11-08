@@ -6,24 +6,36 @@ source:
   revision: 91767
 categories: ["Armour","Headgear","Heavy Armour"]
 infobox:
-  title: "Chain Armour Crafting"
+  title: "Bucket Zukin"
+  image: "/icons/items/2225-chris_r.mod.png"
+  caption: "Standard Holy Army issue."
   groups:
     - heading: null
       rows:
-        - ["Description","Chainmail eh? That's going to be bloody fiddly isn't it?"]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","85% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat skills","-1"]
+        - ["Cut into stun","35%"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","4"]
         - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>2225-chris_r.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Standard Holy Army issue.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 The **Bucket Zukin** is Heavy Armour that is equipped in the Headgear slot. It is the standard headgear for regular soldiers of [The Holy Nation](/the-holy-nation). The helmet can be [dyed](/colour-scheme).
 
 This armour has inventory dimensions of **3x3**.

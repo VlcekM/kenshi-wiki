@@ -7,18 +7,34 @@ source:
 categories: ["Weapons","Hacker"]
 infobox:
   title: "Flesh Cleaver"
+  image: "/icons/items/2606-gamedata.base.png"
+  caption: "A nasty weapon, designed for hacking through meat.  The crude bluntness of the weapon means victims don't bleed to death so often, they just get hacked and maimed."
   groups:
     - heading: null
       rows:
-        - ["Class","[Hacker class]"]
-        - ["Blood loss","0.50x"]
+        - ["Class","<a href=\"/hackers\">Hacker</a>"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.60x"]
+        - ["Blunt damage","0.60x"]
+        - ["Bleed","0.50x"]
         - ["Armour penetration","+30%"]
+        - ["Attack","0"]
         - ["Defence","-2"]
-        - ["Damage vs robots","+15%"]
-        - ["Damage vs humans","+20%"]
-        - ["Damage vs animals","-10%"]
         - ["Reach","16"]
-        - ["Description","A nasty weapon, designed for hacking through meat.  The crude bluntness of the weapon means victims don't bleed to death so often, they just get hacked and maimed."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+20%"]
+        - ["Animals","-10%"]
+        - ["Robots","+15%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>2606-gamedata.base</span>"]
 ---
 

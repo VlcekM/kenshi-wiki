@@ -6,25 +6,39 @@ source:
   revision: 93103
 categories: ["Armour","Headgear","Heavy Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Crab Helmet"
+  image: "/icons/items/64888-Newwworld.mod.png"
+  caption: "A very heavy iron hat. As with other eye-slit based helmets, it offers fantastic protection but you can't see a damn thing."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","12 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","100% covered"]
+        - ["Extra blunt resistance","up to +10%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat skills","-5"]
+        - ["Cut into stun","15%"]
+        - ["Perception","-20"]
+        - ["Weather protection","60%"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","3"]
         - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
         - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>64888-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A very heavy iron hat. As with other eye-slit based helmets, it offers fantastic protection but you can't see a damn thing.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 
 **Crab Helmet** is a Heavy Armour that is equipped in the Headgear slot. It is the headgear with the highest blunt resistance. Aside from the races that cannot wear helmets, it additionally cannot be worn by [Hive Worker Drones](/hive-worker-drone) and their [southern](/southern-hive-worker-drone) and [deadhive](/deadhive-worker) cousins. It can be crafted once a blueprint is purchased from the [Crab Raiders](/crab-raiders) and is part of a Crab Armour "set", together with [Crab Armour](/crab-armour) (body), [Crab Trousers](/crab-trousers) and [Crab Shoes](/crab-shoes).
 

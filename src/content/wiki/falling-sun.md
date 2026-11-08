@@ -7,17 +7,35 @@ source:
 categories: ["Weapons","Heavy Weapon"]
 infobox:
   title: "Falling Sun"
+  image: "/icons/items/52306-rebirth.mod.png"
+  caption: "A ridiculously unwieldy weapon sometimes used by Skeletons.  Requiring both dexterity and strength to use properly, they are widely known as \"Suicide Blades\", because they often get their users killed."
   groups:
     - heading: null
       rows:
-        - ["Class","[Heavy weapons class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/heavy-weapons\">Heavy weapon</a>"]
+        - ["Base weight","10 kg"]
+        - ["Base value","c. 600"]
+        - ["Size in inventory","2x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.20x"]
+        - ["Blunt damage","1.00x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","-6"]
-        - ["Damage vs Beak Thing","+50%"]
-        - ["Damage vs Gorillo","+50%"]
-        - ["Damage vs Leviathan","+50%"]
         - ["Reach","25"]
-        - ["Description","A ridiculously unwieldy weapon sometimes used by Skeletons.  Requiring both dexterity and strength to use properly, they are widely known as \"Suicide Blades\", because they often get their users killed."]
+    - heading: "Damage against"
+      rows:
+        - ["Beak Thing","+50%"]
+        - ["Gorillo","+50%"]
+        - ["Leviathan","+50%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52306-rebirth.mod</span>"]
 ---
 

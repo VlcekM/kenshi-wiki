@@ -5,9 +5,31 @@ source:
   title: "Samurai Clothpants"
   revision: 90171
 categories: ["Armour","Legwear","Light Armour"]
+infobox:
+  title: "Samurai Clothpants"
+  image: "/icons/items/2159-gamedata.base.png"
+  caption: "Un-plated version of Samurai Leg-plate armour.  Nice and light."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","5x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","100% covered"]
+        - ["Left Leg","100% covered"]
+        - ["Stomach","50% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","50%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2159-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Un-plated version of Samurai Leg-plate armour. Nice and light.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Samurai Clothpants** are Light Armour that are equipped in the Legwear slot. They are sold by [Mongrel](/mongrel-armor-shop), [Ronin](/ronin-armor-shop), [Shek](/shek-armor-shop), and [UC](/empire-armor-shop) [Armour Vendors](/equipment-shops) as well as by [Clothing Vendors](/equipment-shops).
 

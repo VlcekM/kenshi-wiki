@@ -6,22 +6,37 @@ source:
   revision: 86326
 categories: ["Robot Limbs"]
 infobox:
-  title: "Extra Strong Arms"
+  title: "Industrial Lifter Arm (left)"
+  image: "/icons/items/96022-Newwworld.mod.png"
+  caption: "An arm from an ancient logistics unit, it has exceptional strength.  \nThese units were used in the corporate factories and warehouses of the distant past.  Due to their inherent slowness they weren't adapted into combat units like their cousins, and remained behind in production roles before they were buried in the ash."
   groups:
-    - heading: "Details"
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/robot-limbs\">Left arm</a>"]
+        - ["Weight","14 kg"]
+        - ["Base value","c. 4,000 → c. 28,000"]
+        - ["Size in inventory","6x2"]
+    - heading: "Stats (range across grades)"
+      rows:
+        - ["HP","70 → 200"]
+        - ["Strength","1.00x → 1.25x"]
+        - ["Dexterity","0.60x → 1.00x"]
+        - ["Swimming","0.60x → 0.75x"]
+        - ["Thievery","0.50x → 0.90x"]
+        - ["Ranged","0.75x → 1.00x"]
+        - ["Unarmed damage","0 → +4"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","12 hours"]
         - ["Tech Level","6"]
         - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
         - ["Requirements","<a href=\"/skeleton-arms-tech\"> Skeleton Arms</a>"]
-    - heading: "Results"
-      rows:
         - ["New Item(s)","Industrial Lifter Arm (left)<p><a href=\"/industrial-lifter-arm-right\">Industrial Lifter Arm (right)</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>96022-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">An arm from an ancient logistics unit, it has exceptional strength.<p>These units were used in the corporate factories and warehouses of the distant past. Due to their inherent slowness they weren't adapted into combat units like their cousins, and remained behind production roles before they were buried in the ash.</p></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 Industrial Lifter Arm (left) is a [Robot Limb](/robot-limbs), and a replacement for a lost left arm.
 
 ## Stats 

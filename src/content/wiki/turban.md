@@ -5,9 +5,31 @@ source:
   title: "Turban"
   revision: 79548
 categories: ["Armour","Headgear","Light Armour"]
+infobox:
+  title: "Turban"
+  image: "/icons/items/2219-chris_r.mod.png"
+  caption: "Keeps the heat off your head and pads your brains.  It's often worn by slave traders in this style, and has started to become associated as being part of their uniform."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","75% covered"]
+        - ["Extra blunt resistance","up to +20%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Weather protection","70%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2219-chris_r.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Keeps the heat off your head and pads your brains. It's often worn by slave traders in this style, and has started to become associated as being part of their uniform.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 The **Turban** is a Light Armour that is equipped in the Headgear slot. It can be bought from Hat Vendors.
 

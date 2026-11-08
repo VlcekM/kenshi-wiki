@@ -7,19 +7,34 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Wakizashi"
+  image: "/icons/items/1020-gamedata.base.png"
+  caption: "Smaller and lighter, usually used as a sidearm for backup.  It's worth noting that although short, it has a major advantage when fighting indoors against longer weapons."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.20x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 250"]
+        - ["Size in inventory","1x6"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.90x"]
+        - ["Blunt damage","0.00x"]
+        - ["Bleed","1.20x"]
         - ["Armour penetration","-30%"]
         - ["Attack","+2"]
         - ["Defence","-2"]
         - ["Indoors","+4"]
-        - ["Damage vs robots","-40%"]
-        - ["Damage vs humans","+10%"]
         - ["Reach","16"]
-        - ["Description","Smaller and lighter, usually used as a sidearm for backup.  It's worth noting that although short, it has a major advantage when fighting indoors against longer weapons."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+10%"]
+        - ["Robots","-40%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, animal, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>1020-gamedata.base</span>"]
 ---
 

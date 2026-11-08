@@ -7,15 +7,30 @@ source:
 categories: ["Weapons","Blunt"]
 infobox:
   title: "Jitte"
+  image: "/icons/items/52303-rebirth.mod.png"
+  caption: "A professional law-enforcement weapon.  Designed for non-lethal takedowns, it has a sword-catcher guard that gives an advantage when defending.  The smaller 1-handed version makes a good sidearm and has an advantage in tight indoor situations."
   groups:
     - heading: null
       rows:
-        - ["Class","[Blunt weapon class]"]
-        - ["Blood loss","0.10x"]
+        - ["Class","<a href=\"/blunt-weapons\">Blunt</a>"]
+        - ["Base weight","3 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.00x"]
+        - ["Blunt damage","0.90x"]
+        - ["Bleed","0.10x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
         - ["Defence","+8"]
         - ["Indoors","+4"]
         - ["Reach","18"]
-        - ["Description","A professional law-enforcement weapon.  Designed for non-lethal takedowns, it has a sword-catcher guard that gives an advantage when defending.  The smaller 1-handed version makes a good sidearm and has an advantage in tight indoor situations."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52303-rebirth.mod</span>"]
 ---
 

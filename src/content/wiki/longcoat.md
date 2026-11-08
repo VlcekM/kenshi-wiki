@@ -5,9 +5,38 @@ source:
   title: "Longcoat"
   revision: 86555
 categories: ["Armour","Body Armour","Light Armour"]
+infobox:
+  title: "Longcoat"
+  image: "/icons/items/2165-gamedata.base.png"
+  caption: "A long leather coat, offers a light protection from attacks.  Pretty hot to wear in the desert, but popular in the Swamps because of the constant rain."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","60% covered"]
+        - ["Left Arm","100% covered"]
+        - ["Left Leg","60% covered"]
+        - ["Head","25% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Defence","+5"]
+        - ["Cut into stun","40%"]
+        - ["Dodge","1.10x"]
+        - ["Weather protection","70%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2165-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Awesome leather coat, offers a light protection from attacks. Pretty hot to wear in the desert though.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 The **Longcoat** is a Light Armour that is equipped in the Body Armour slot. It can be bought from the Swamp armour shops. A [Sleeveless](/sleeveless-longcoat) variant of this armour also exists as well as a similar (and statistically superior) armour - [Dustcoat](/dustcoat).
 

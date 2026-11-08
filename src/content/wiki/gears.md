@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Gears"
+  image: "/icons/items/42318-changes_otto.mod.png"
+  caption: "Gear wheels, used in various machinery."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","3x3 wide/tall"]
-        - ["Avg. Price","c.162"]
-        - ["Description","Gear wheels, used in various machinery."]
+        - ["Base value","c. 250"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>42318-changes_otto.mod</span>"]
 ---
 
 **Gears** is an item which can often be found on the shelves of [Trade Goods](/trade-goods-trader) shops across Kenshi. They have no function outside trade and due to their low value are considered a [junk](/junk) item.

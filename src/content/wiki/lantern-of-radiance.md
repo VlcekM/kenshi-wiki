@@ -7,15 +7,18 @@ source:
 categories: ["Equipment","Items","Lighting"]
 infobox:
   title: "Lantern of Radiance"
+  image: "/icons/items/47185-Dialogue.mod.png"
+  caption: "An old lantern. It looks pretty beaten up and barely functions. There are some worn out scratchings on it which look like the crude drawings of a child."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","4 kg"]
-        - ["Size","1x2"]
-        - ["Avg. Price","c.90"]
-        - ["Charges","200/200"]
-        - ["Quality","20/100"]
-        - ["Description","An old lantern. It looks pretty beaten up and barely functions. There are some worn out scratchings on it which look like the crude drawings of a child."]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","2x1"]
+    - heading: null
+      rows:
+        - ["String id","<span>47185-Dialogue.mod</span>"]
 ---
 
 <figure class="quote"><blockquote>Lantern of radiance... lantern of deception, more like...</blockquote><figcaption>in-game dialogue</figcaption></figure>

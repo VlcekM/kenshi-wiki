@@ -5,11 +5,33 @@ source:
   title: "Ninja Mask"
   revision: 95324
 categories: ["Armour","Headgear","Light Armour"]
+infobox:
+  title: "Ninja Mask"
+  image: "/icons/items/2221-chris_r.mod.png"
+  caption: "Keeps the wind and sand out of your face.  Also helps to hide your pasty face in the darkness."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","90% covered"]
+        - ["Extra blunt resistance","up to +10%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Stealth","1.10x"]
+        - ["Weather protection","40%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2221-chris_r.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Keeps the wind and sand out of your face. Also helps to hide your pasty face in the darkness.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
-
-  
 The **Ninja Mask** is a Medium Armour that is equipped in the Headgear slot. It can be bought from the Swamp and the [Shinobi Thieves](/shinobi-thieves).
 
 It is the headgear of choice of [Cloud Ninjas](/cloud-ninja), [Thieves](/thief), [Thief Fences](/thief-fence), and [Thief Bosses](/thief-boss). It can be randomly equipped by [Anti-Slaver Jonins](/anti-slaver-jonin), [City Heroes](/city-hero), [Drifters](/drifter), [Hero Bosses](/hero-boss), [Tech Hunters](/tech-hunter), [Tech Hunter Gate Guards](/tech-hunter-gate-guard), [Tech Hunter Guards](/tech-hunter-guard), and [Tech Hunter Ruins](/tech-hunter-ruins).

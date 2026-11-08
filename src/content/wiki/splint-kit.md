@@ -7,15 +7,19 @@ source:
 categories: ["Items"]
 infobox:
   title: "Splint Kit"
+  image: "/icons/items/1435-gamedata.base.png"
+  caption: "A splint kit can be used to rig up wounded bodyparts so that they can be used again.  Useful if you have a leg injury and don't want to limp all the way back to town, you can splint up your leg and regain a little functionality.\n\nThey also have the bonus that any splinted damage counts against limb amputation in combat.\n\nThe amount of hitpoints you can splint is limited by your medic skill and the quality of the kit."
   groups:
     - heading: null
       rows:
+        - ["Type","Splint kit"]
         - ["Weight","2 kg"]
-        - ["Size","2x2 wide/tall"]
-        - ["Avg. Price","c.212"]
-        - ["Charges","100/100"]
-        - ["Quality","25/100"]
-        - ["Description","A splint kit can be used to rig up wounded bodyparts so that they can be used again.  Useful if you have a leg injury and don't want to limp all the way back to town, you can splint up your leg and regain a little functionality.<p>They also have the bonus that any splinted damage counts against limb amputation in combat.</p><p>The amount of hitpoints you can splint is limited by your medic skill and the quality of the kit.</p>"]
+        - ["Base value","c. 600"]
+        - ["Size in inventory","2x2"]
+        - ["Charges","100"]
+    - heading: null
+      rows:
+        - ["String id","<span>1435-gamedata.base</span>"]
 ---
 
 **Splint Kits** are [medical](/medical-items) [items](/items) used to improve functionality of injured limbs. Once applied, they help limping characters run normally, except in most extreme cases of limb damage. Players can learn how to craft this item by researching [Splints](/splints-tech). After researching, these kits can be crafted on any [Medical Workbench](/medical-workbench). These kits can be stored in a [Medicrate](/medicrate).

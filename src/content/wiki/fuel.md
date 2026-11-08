@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Fuel"
+  image: "/icons/items/1514-gamedata.base.png"
+  caption: "Fuel is what keeps everything running. You need it for your generators."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","3x3 wide/tall"]
-        - ["Avg. Price","c.192"]
-        - ["Description","Fuel is what keeps everything running. You need it for your generators."]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>1514-gamedata.base</span>"]
 ---
 
 **Fuel** is essential to keep generators running in areas where [wind power](/power) is not reliable.

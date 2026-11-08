@@ -5,9 +5,30 @@ source:
   title: "Heart Protector"
   revision: 93924
 categories: ["Armour","Body Armour","Light Armour"]
+infobox:
+  title: "Heart Protector"
+  image: "/icons/items/2156-gamedata.base.png"
+  caption: "This armour is nice and light without hampering mobility, it will protect your heart and that's it. It's designed to be worn over chain or leather armour as an extra layer of protection, although most people don't for some reason.  Probably because they can't afford any."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","4x4"]
+    - heading: "Protection"
+      rows:
+        - ["Chest","50% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Defence","+2"]
+        - ["Stealth","-1.00x"]
+    - heading: null
+      rows:
+        - ["String id","<span>2156-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">This armour is nice and light without hampering mobility, it just does the bare essentials- it protects your heart.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 The **Heart Protector** is a Light Armour that is equipped in the Body Armour slot. It can be sold from Armour Shops.
 

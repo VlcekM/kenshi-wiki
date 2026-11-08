@@ -7,14 +7,30 @@ source:
 categories: ["Weapons","Heavy Weapon"]
 infobox:
   title: "Plank"
+  image: "/icons/items/902-gamedata.base.png"
+  caption: "A hefty hacking weapon, with a good reach.  A nice balance for those who find fragment axes too clumsy and blunt, the plank retains some of the extra deadly traits of a regular sword, while still remaining ridiculously crude."
   groups:
     - heading: null
       rows:
-        - ["Class","[Heavy weapons class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/heavy-weapons\">Heavy weapon</a>"]
+        - ["Base weight","10 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.80x"]
+        - ["Blunt damage","1.20x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","-6"]
         - ["Reach","30"]
-        - ["Description","A hefty hacking weapon, with a good reach.  A nice balance for those who find fragment axes too clumsy and blunt, the plank retains some of the extra deadly traits of a regular sword, while still remaining ridiculously crude."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>902-gamedata.base</span>"]
 ---
 

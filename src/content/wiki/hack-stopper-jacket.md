@@ -5,11 +5,40 @@ source:
   title: "Hack Stopper Jacket"
   revision: 86600
 categories: ["Armour","Body Armour","Medium Armour"]
+infobox:
+  title: "Hack Stopper Jacket"
+  image: "/icons/items/64906-Newwworld.mod.png"
+  caption: "A metal cage-armoured jacket."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","9 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","100% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","100% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Dexterity","0.80x"]
+        - ["Dodge","0.80x"]
+        - ["Ranged skill","0.60x"]
+        - ["Stealth","0.60x"]
+        - ["Martial arts","-10"]
+        - ["Weather protection","40%"]
+    - heading: null
+      rows:
+        - ["String id","<span>64906-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A metal cage-armoured jacket.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
-
-  
 The **Hack Stopper Jacket** is a Medium Armour that is equipped in the Body Armour slot. It cannot be found in any shops.
 
 It is worn by [Reaver Bloodeds](/reaver-blooded), [Reaver Ironclads](/reaver-ironclad) and [Valamon](/valamon). It is worn together with matching [Hack Stopper Pants](/hack-stopper-pants).

@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Chainmail Sheets"
+  image: "/icons/items/2289-gamedata.base.png"
+  caption: "Raw sheets of chainmail used in armour crafting.  It takes an extremely long time to make, which jacks up the price."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","6 kg"]
-        - ["Size","3x3 wide/tall"]
-        - ["Avg. Price","c.2,527"]
-        - ["Description","Raw sheets of chainmail used in armour crafting. It takes an extremely long time to make, which jacks up the price."]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>2289-gamedata.base</span>"]
 ---
 
 **Chainmail Sheets** are manufactured at a [Chainmail Sheet Fabrication Bench](/chainmail-sheet-fabrication-bench) and used to craft [armour](/armour) at a [Chain Armour Crafting Bench](/chain-armour-crafting-bench).

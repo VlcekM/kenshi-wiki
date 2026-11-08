@@ -7,11 +7,24 @@ source:
 categories: ["Crossbows"]
 infobox:
   title: "Oldworld Bow MkII"
+  image: "/icons/items/53643-rebirth.mod.png"
+  caption: "A more advanced version than the MkI, it's more complicated to use and unskilled users have a hard time reloading smoothly.  For the experienced archer however it's one of the best long-range weapons available."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Class","Crossbow"]
-        - ["Ammunition type","Bolts [Regulars]"]
+        - ["Class","<a href=\"/crossbows\">Crossbow</a>"]
+        - ["Weight","7.5 kg"]
+        - ["Base value","c. 2,500 → c. 28,000"]
+        - ["Ammunition","Bolts [Regulars]"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat (range across grades)"
+      rows:
+        - ["Reload time","4–8 s → 2.2–6.5 s"]
+        - ["Spread at skill 0","4 → 2.2"]
+        - ["Perfect aim at skill","80"]
+    - heading: null
+      rows:
+        - ["String id","<span>53643-rebirth.mod</span>"]
 ---
 
 **Oldworld Bow MkII** is a [Crossbow](/crossbows) that uses [Bolts \[Regulars\]](/bolts-regulars). A less-advanced version of this design is the [Oldworld Bow MkI](/oldworld-bow-mki), which is faster to load for lower level characters.

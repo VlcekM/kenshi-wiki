@@ -6,25 +6,51 @@ source:
   revision: 95713
 categories: ["Armour","Body Armour","Light Armour"]
 infobox:
-  title: "Leather Armour Crafting"
+  title: "Assassin's Rags"
+  image: "/icons/items/2154-gamedata.base.png"
+  caption: "Ragged cloth with plates to protect the sword arm.  It's pretty dire protection, but the wide open mid-section creates an opening that leads to more predictable enemy attacks.  It's lightweight and the arm plates on your forward side allow you to adopt some extra skillful combat tactics."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we would have the basis to make our own clothing and light armour.  The same equipment could also be used to make under-armour and bandages."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Head","25% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","25% covered"]
+        - ["Stomach","50% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Assassination","1.30x"]
+        - ["Attack","+8"]
+        - ["Defence","-4"]
+        - ["Combat skills","+5"]
+        - ["Combat speed","1.10x"]
+        - ["Cut into stun","25%"]
+        - ["Dexterity","1.20x"]
+        - ["Dodge","1.20x"]
+        - ["Fist injury","0.00x"]
+        - ["Ranged skill","1.10x"]
+        - ["Stealth","1.10x"]
+        - ["Martial arts","+6"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","2"]
         - ["Costs","4 <a href=\"/book\">Books</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
         - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
+    - heading: null
+      rows:
+        - ["String id","<span>2154-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Ragged cloth with plates to protect the sword arm. It's pretty dire protection, but the wide open mid-section creates an opening that leads to more predictable enemy attacks. It's lightweight and the arm plates on your forward side allow you to adopt some extra skillful combat tactics.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 **Assassin's Rags** are Light Armour that are equipped in the Body Armour slot. It is notable for having 100% coverage for the striking (right) arm only, leaving other parts of the body much less defended. This armor is also notable in that it provides 100% fist protection, making it useful for [Martial Arts](/martial-arts) specialists who have not replaced their limbs with superior Robotic ones.
 
 This armour has inventory dimensions of **6x4**.

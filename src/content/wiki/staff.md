@@ -7,15 +7,30 @@ source:
 categories: ["Weapons","Polearms"]
 infobox:
   title: "Staff"
+  image: "/icons/items/52302-rebirth.mod.png"
+  caption: "Popular with poor farmers, pacifists and drifters.  It's usually seen as a weapon for those who can't afford a blade, but sometimes can make a fool of a good swordsman."
   groups:
     - heading: null
       rows:
-        - ["Class","[Polearm class]"]
-        - ["Blood loss","0.10x"]
+        - ["Class","<a href=\"/polearms\">Polearm</a>"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","1x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.05x"]
+        - ["Blunt damage","0.80x"]
+        - ["Bleed","0.10x"]
+        - ["Armour penetration","0%"]
         - ["Attack","+8"]
+        - ["Defence","0"]
         - ["Indoors","-6"]
         - ["Reach","23"]
-        - ["Description","Popular with poor farmers, pacifists and drifters.  It's usually seen as a weapon for those who can't afford a blade, but sometimes can make a fool of a good swordsman."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52302-rebirth.mod</span>"]
 ---
 

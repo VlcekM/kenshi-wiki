@@ -7,19 +7,34 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Nodachi"
+  image: "/icons/items/922-gamedata.base.png"
+  caption: "An extended katana variant with increased reach and damage."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.20x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 600"]
+        - ["Size in inventory","1x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.20x"]
+        - ["Blunt damage","0.00x"]
+        - ["Bleed","1.20x"]
         - ["Armour penetration","-20%"]
         - ["Attack","+4"]
         - ["Defence","-4"]
         - ["Indoors","-4"]
-        - ["Damage vs robots","-40%"]
-        - ["Damage vs humans","+10%"]
         - ["Reach","25"]
-        - ["Description","An extended katana variant with increased reach and damage."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+10%"]
+        - ["Robots","-40%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>922-gamedata.base</span>"]
 ---
 

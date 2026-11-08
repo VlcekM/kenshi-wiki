@@ -7,18 +7,33 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Katana"
+  image: "/icons/items/476-gamedata.base.png"
+  caption: "A standard katana, one of the fastest, lightest weapons around.  They rely on skill and dexterity rather than brute strength.  Quality is more important than it is with other types of blade, so they tend to be more expensive."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.20x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.00x"]
+        - ["Blunt damage","0.00x"]
+        - ["Bleed","1.20x"]
         - ["Armour penetration","-30%"]
         - ["Attack","+4"]
         - ["Defence","-4"]
-        - ["Damage vs robots","-40%"]
-        - ["Damage vs humans","+10%"]
         - ["Reach","21"]
-        - ["Description","A standard katana, one of the fastest, lightest weapons around.  They rely on skill and dexterity rather than brute strength.  Quality is more important than it is with other types of blade, so they tend to be more expensive."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+10%"]
+        - ["Robots","-40%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>476-gamedata.base</span>"]
 ---
 

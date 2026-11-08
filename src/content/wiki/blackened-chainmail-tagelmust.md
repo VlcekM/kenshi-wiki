@@ -6,22 +6,39 @@ source:
   revision: 86593
 categories: ["Armour","Headgear","Medium Armour"]
 infobox:
-  title: "Chain Armour Crafting"
+  title: "Blackened Chainmail Tagelmust"
+  image: "/icons/items/1533852-rebirth.mod.png"
+  caption: "This is basically just wrapping a strip of chainmail around your head, but it does do a good job of protecting you when it's not falling off."
   groups:
     - heading: null
       rows:
-        - ["Description","Chainmail eh? That's going to be bloody fiddly isn't it?"]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","90% covered"]
+        - ["Extra cut resistance","up to +10%"]
+        - ["Extra blunt resistance","up to +-10%"]
+        - ["Pierce resistance","0.80x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","40%"]
+        - ["Stealth","1.10x"]
+        - ["Weather protection","70%"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","4"]
         - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>1533852-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">This is basically just wrapping a strip of chainmail around your head, but it does do a good job of protecting you when it's not falling off.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Blackened Chainmail Tagelmust** is a Medium Armor that is equipped in the Headgear slot. It has the highest protection compared to its [rusted](/rusty-chainmail-tagelmust) and [cloth](/tagelmust) versions.
 

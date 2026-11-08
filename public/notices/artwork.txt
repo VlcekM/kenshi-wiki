@@ -42,6 +42,17 @@ Katana (476-gamedata.base) and the Samurai Helmet (2145-gamedata.base), from its
 data/icons folder, fitted to 200 px squares. The katana is turned to lie
 diagonally; the helmet's render is clipped at its edges, which are faded out.
 
+Kenshi item icons — Lo-Fi Games' artwork
+
+public/icons/items/<string id>.png are item inventory icons. Items the game
+draws from their mesh are drawn the same way by MeitouClient's
+`meitou-tools icons` (GPL-3.0-or-later, https://github.com/VlcekM/MeitouClient)
+from the game's own meshes and textures, matching the renders Kenshi caches in
+its data/icons folder; the others are the game's own icon files. Each is named
+after the item's string id in the game data, and the article showing it carries
+that id in its infobox. scripts/game-items.mjs copies them. The meshes, textures
+and icon files are Lo-Fi Games' artwork; Kenshi is a Lo-Fi Games mark.
+
 Graphics with documented sources
 
 public/images/Checker-16x16.png matches the Wikimedia Commons original.

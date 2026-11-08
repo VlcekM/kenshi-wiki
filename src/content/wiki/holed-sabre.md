@@ -7,15 +7,29 @@ source:
 categories: ["Weapons","Sabre"]
 infobox:
   title: "Holed Sabre"
+  image: "/icons/items/52287-rebirth.mod.png"
+  caption: "A portion of metal cut out of the far end of the blade makes it slightly faster and more manoeuvrable.  Most swordsmen can't notice the difference, others swear by it."
   groups:
     - heading: null
       rows:
-        - ["Class","[Sabre class]"]
-        - ["Blood loss","0.90x"]
+        - ["Class","<a href=\"/sabres\">Sabre</a>"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 250"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.00x"]
+        - ["Blunt damage","0.25x"]
+        - ["Bleed","0.90x"]
+        - ["Armour penetration","0%"]
         - ["Attack","-4"]
         - ["Defence","+6"]
         - ["Reach","18"]
-        - ["Description","A portion of metal cut out of the far end of the blade makes it slightly faster and more manoeuvrable.  Most swordsmen can't notice the difference, others swear by it."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52287-rebirth.mod</span>"]
 ---
 

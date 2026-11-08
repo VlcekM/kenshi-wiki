@@ -7,14 +7,27 @@ source:
 categories: ["Weapons","Unique","Heavy Weapon"]
 infobox:
   title: "Bull Horn Axe"
+  image: "/icons/items/56729-Dialogue.mod.png"
+  caption: "Gifted to Shager's most loyal Invincible Warrior, Ida the Flying Bull.\n\nFor him, I fight a thousand men. For him, I die a thousand deaths."
   groups:
     - heading: null
       rows:
-        - ["Class","[Heavy weapons class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/heavy-weapons\">Heavy weapon</a>"]
+        - ["Base weight","18 kg"]
+        - ["Base value","c. 550"]
+        - ["Size in inventory","2x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.30x"]
+        - ["Blunt damage","1.80x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","-4"]
         - ["Reach","32"]
-        - ["Description","Gifted to Shager's most loyal Invincible Warrior, Ida the Flying Bull.<br><br>For him, I fight a thousand men. For him, I die a thousand deaths."]
+    - heading: null
+      rows:
         - ["String id","<span>56729-Dialogue.mod</span>"]
 ---
 

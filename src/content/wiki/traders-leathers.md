@@ -5,11 +5,33 @@ source:
   title: "Trader's Leathers"
   revision: 95087
 categories: ["Armour","Body Armour","Light Armour"]
+infobox:
+  title: "Trader's Leathers"
+  image: "/icons/items/2163-gamedata.base.png"
+  caption: "The Traders Guild is proud of its claimed \"rags to riches\" origin story, and continues to use the leather wrap-around jacket as its unofficial uniform.  Although, being over 200 years old nobody can confirm the true origins of the Guild, and skeptics say the mundane clothing is just to make them seem more humble and honest, so you don't notice when they are ripping you off."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","5x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","10% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","50% covered"]
+        - ["Chest","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","50%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2163-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">The Traders Guild is proud of its claimed "rags to riches" origin story, and continues to use the leather wrap-around jacket as its unofficial uniform. Although, being over 200 years old nobody can confirm the true origins of the Guild, and skeptics say the mundane clothing is just to make them seem more humble and honest, so you don't notice when they are ripping you off.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 **Traders Leathers** are Light Armour that is equipped in the Body Armour slot.
 
 This item is the uniform of the traders of [Traders Guild](/traders-guild), as such most vendors and traders in the world equip this armour. It is also the armour of choice of [Machinists](/machinist). [Slavers](/slaver), [Slaver Caravan Guards](/slaver-caravan-guard), and [Slaver Caravan Bosses](/slaver-caravan-boss). It can be randomly worn by [Drifters](/drifter), [Tech Hunters](/tech-hunter), and [Tech Hunter Ruins](/tech-hunter-ruins).

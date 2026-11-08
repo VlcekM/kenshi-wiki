@@ -6,22 +6,40 @@ source:
   revision: 86527
 categories: ["Armour","Shirts","Medium Armour"]
 infobox:
-  title: "Chain Armour Crafting"
+  title: "Blackened Chain Hive Shirt"
+  image: "/icons/items/1534061-Newwworld Plus.mod.png"
+  caption: "If a Hiver tries wearing a regular human-sized shirt it just sort of hangs loose and falls off their shoulders, often tangling up their arms.  So they were forced to manufacture their own, which they have done to a suspiciously higher standard than all their gear designed for humans."
   groups:
     - heading: null
       rows:
-        - ["Description","Chainmail eh? That's going to be bloody fiddly isn't it?"]
-    - heading: "Details"
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","10 kg"]
+        - ["Base value","c. 8,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Chest","100% covered"]
+        - ["Stomach","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat speed","0.97x"]
+        - ["Cut into stun","40%"]
+        - ["Dexterity","0.90x"]
+        - ["Dodge","0.90x"]
+        - ["Ranged skill","0.80x"]
+        - ["Stealth","1.30x"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","4"]
         - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>1534061-Newwworld Plus.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">If a Hiver tries wearing a regular human-sized shirt it just sort of hangs loose and falls off their shoulders, often tangling up their arms. So they were forced to manufacture their own, which they have done to a suspiciously higher standard than all their gear designed for humans.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 **Blackened Chain Hive Shirt** is a Medium Armour equipped in the Shirt slot. This shirt is one of the four shirt options available for [Hive](/hive) characters to wear in the shirt slot.
 

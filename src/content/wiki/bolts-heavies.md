@@ -6,15 +6,20 @@ source:
   revision: 85422
 categories: ["Crossbows"]
 infobox:
-  title: "Bolts [Heavies]"
+  title: "Bolts Heavies"
+  image: "/icons/items/95872-Newwworld.mod.png"
+  caption: "Heavies pack a serious punch but don't have much range due to their weight."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["-Shots","20/20"]
-        - ["-Weight","2 kg"]
-        - ["-Value","c.272"]
-        - ["-Sell value","c.136"]
-        - ["Data6","-Stack size                2x3"]
+        - ["Type","Ammunition"]
+        - ["Weight","2 kg"]
+        - ["Base value","c. 550"]
+        - ["Size in inventory","2x3"]
+        - ["Shots","20"]
+    - heading: null
+      rows:
+        - ["String id","<span>95872-Newwworld.mod</span>"]
 ---
 
 **Bolts \[Heavies\]** are ammunition used with [Crossbows](/crossbow-class).

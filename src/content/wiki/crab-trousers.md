@@ -6,25 +6,40 @@ source:
   revision: 93105
 categories: ["Armour","Legwear","Heavy Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Crab Trousers"
+  image: "/icons/items/64891-Newwworld.mod.png"
+  caption: "An exotic suit of heavy armour plates that gives the wearer the toughness and mobility of a big rock.  The Crab Raiders designed this armour with the aim of being more like crabs, but little consideration of other factors."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","25 kg"]
+        - ["Base value","c. 75"]
+        - ["Size in inventory","5x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","95% covered"]
+        - ["Left Leg","95% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat speed","0.96x"]
+        - ["Cut into stun","10%"]
+        - ["Dodge","0.70x"]
+        - ["Stealth","0.25x"]
+        - ["Martial arts","-10"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","3"]
         - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
         - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>64891-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">An exotic suit of heavy armour plates that gives the wearer the toughness and mobility of a big rock. The Crab Raiders designed this armour with the aim of being more like crabs, with little consideration of other factors.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 
 **Crab Trousers** are Heavy Armour that are equipped in the Legwear slot. It can be crafted once a blueprint is purchased from the [Crab Raiders](/crab-raiders) and is part of a Crab Armour "set" together with [Crab Helmet](/crab-helmet), [Crab Armour](/crab-armour) (body) and [Crab Shoes](/crab-shoes).
 

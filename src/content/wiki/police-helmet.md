@@ -5,11 +5,37 @@ source:
   title: "Police Helmet"
   revision: 88585
 categories: ["Armour","Headgear","Medium Armour"]
+infobox:
+  title: "Police Helmet"
+  image: "/icons/items/2180-gamedata.base.png"
+  caption: "Nobody knows why it's called a Police Helmet, as the Samurai Police don't wear these.  Perhaps it's another Old Empire remnant."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","100% covered"]
+        - ["Extra blunt resistance","up to +10%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Attack","-2"]
+        - ["Combat skills","-1"]
+        - ["Cut into stun","30%"]
+        - ["Dodge","0.60x"]
+        - ["Perception","-10"]
+        - ["Ranged skill","0.60x"]
+        - ["Weather protection","75%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2180-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Nobody knows why it's called a Police Helmet, as the Samurai Police don't wear these. Perhaps it's another Old Empire remnant</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
-
-  
 The **Police Helmet** is a Medium Armour that is equipped in the Headgear slot. It can be purchased from armour shops in UC and the Swamp.
 
 It is equipped by the [Vigilante Chief](/vigilante-chief). It has a chance of being equipped on [Bounty Hunters](/bounty-hunter).

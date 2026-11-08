@@ -7,14 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Chewsticks"
+  image: "/icons/items/43956-rebirth.mod.png"
+  caption: "Best you can do with nothing but cactuses"
   groups:
     - heading: null
       rows:
+        - ["Type","Food"]
+        - ["Weight","0.5 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x3"]
         - ["Nutrition","20 nu"]
-        - ["Weight",".5 kg"]
-        - ["Size","3x2"]
-        - ["Avg. Price","c.152"]
-        - ["Description","Best you can do with nothing but cactuses."]
+    - heading: null
+      rows:
+        - ["String id","<span>43956-rebirth.mod</span>"]
 ---
 
 **Chewsticks** are a [food](/food) item purchased from relevant [traders](/traders). Players can cook Chewsticks in a [Cooking Stove](/cooking-stove) after researching [Desert Cooking](/desert-cooking-tech).

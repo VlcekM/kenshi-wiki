@@ -7,17 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Dried Meat"
+  image: "/icons/items/42334-changes_otto.mod.png"
+  caption: "Good survival food"
   groups:
     - heading: null
       rows:
-        - ["Nutrition","15 nu"]
-        - ["Ingredients","Raw Meat"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","2x2 wide/tall"]
-        - ["Value","<span>c.</span>c.78"]
-        - ["Sell Value","<span>c.</span>c.39"]
-        - ["Avg. Price","c.78"]
-        - ["Description","Good survival food"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","2x2"]
+        - ["Nutrition","15 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>42334-changes_otto.mod</span>"]
 ---
 
 **Dried Meat** is a [food](/food) item purchased from relevant [traders](/traders), typically Bars. Often, players can find dried meat through looting campfires found in the world.

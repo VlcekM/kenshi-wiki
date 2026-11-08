@@ -7,11 +7,17 @@ source:
 categories: ["Items"]
 infobox:
   title: "Press"
+  image: "/icons/items/43399-changes_otto.mod.png"
   groups:
     - heading: null
       rows:
-        - ["Size","3x2"]
-        - ["Avg. Price","c.324"]
+        - ["Type","Other"]
+        - ["Weight","1 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>43399-changes_otto.mod</span>"]
 ---
 
 **Press** is a [trade good](/trade-goods) which can be crafted at [Robotics Bench](/robotics-bench). Presses are typically found in various ruins including [Ancient Labs](/ancient-labs). 

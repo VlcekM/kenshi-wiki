@@ -7,15 +7,29 @@ source:
 categories: ["Weapons","Sabre"]
 infobox:
   title: "Ringed Sabre"
+  image: "/icons/items/903-gamedata.base.png"
+  caption: "A classic hard-hitting blade used by many legendary swordsmen, including Arc himself.  The rings are pretty noisy and mainly designed to distract and annoy the hell out of your opponent.  Beak Things hate it, but it tends to just make them more vicious."
   groups:
     - heading: null
       rows:
-        - ["Class","[Sabre class]"]
-        - ["Blood loss","0.90x"]
+        - ["Class","<a href=\"/sabres\">Sabre</a>"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.20x"]
+        - ["Blunt damage","0.25x"]
+        - ["Bleed","0.90x"]
+        - ["Armour penetration","0%"]
         - ["Attack","-2"]
         - ["Defence","+4"]
         - ["Reach","20"]
-        - ["Description","A classic hard-hitting blade used by many legendary swordsmen, including Arc himself.  The rings are pretty noisy and mainly designed to distract and annoy the hell out of your opponent.  Beak Things hate it, but it tends to just make them more vicious."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>903-gamedata.base</span>"]
 ---
 

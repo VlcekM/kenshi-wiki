@@ -6,23 +6,37 @@ source:
   revision: 93416
 categories: ["Armour","Legwear","Light Armour"]
 infobox:
-  title: "Clothing Manufacture"
+  title: "Cargopants (padded)"
+  image: "/icons/items/1394-gamedata.base.png"
+  caption: "Pads your legs, turns a potential slice into a nasty bruise."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we could craft clothes and stuff.  For wearing."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","3 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","100% covered"]
+        - ["Left Leg","100% covered"]
+        - ["Extra blunt resistance","up to +20%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","1"]
         - ["Costs","1 <a href=\"/book\">Book</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/clothing-bench\">Clothing Bench</a>"]
         - ["Required For","<a href=\"/hats-and-headgear-tech\">Hats and Headgear</a><br><a href=\"/simple-clothing-types-tech\">Simple Clothing Types</a>"]
+    - heading: null
+      rows:
+        - ["String id","<span>1394-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Pads your legs, turns a potential slice into a nasty bruise.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Cargopants \[Padded\]** are Light Armour that is equipped in the Legwear slot. There is an [unarmored](/cargopants) variant (in plain and [colorable](/cargopants-colored) versions) as well as armoured [reinforced](/cargopants-reinforced) and [chain](/cargopants-sneaky-chain) variants of this armour.
 

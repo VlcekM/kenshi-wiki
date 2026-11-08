@@ -5,9 +5,33 @@ source:
   title: "Monk Robe"
   revision: 86634
 categories: ["Armour","Body Armour","Clothing"]
+infobox:
+  title: "Monk Robe"
+  image: "/icons/items/2189-gamedata.base.png"
+  caption: "Orange robes of the Holy Nation Priest caste, demanding respect from anyone lower than a High Paladin."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","100% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","40%"]
+        - ["Martial arts","+6"]
+    - heading: null
+      rows:
+        - ["String id","<span>2189-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Orange robes of the Holy Nation Priest caste, demanding respect from anyone lower than a High Paladin.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 The Monk Robe is a Clothing that is equipped in the Body Armour slot. It can be bought from Clothing Vendors. It is part of a set together with [Monk Pants](/monk-pants). It gives a significant boost in [Martial Arts](/martial-arts).
 

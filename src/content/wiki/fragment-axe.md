@@ -7,14 +7,30 @@ source:
 categories: ["Weapons","Heavy Weapon"]
 infobox:
   title: "Fragment Axe"
+  image: "/icons/items/477-gamedata.base.png"
+  caption: "A huge axe built to work like a sword.  Stupidly heavy, but it impresses the ladies.  Shek ladies mostly."
   groups:
     - heading: null
       rows:
-        - ["Class","[Heavy weapons class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/heavy-weapons\">Heavy weapon</a>"]
+        - ["Base weight","18 kg"]
+        - ["Base value","c. 550"]
+        - ["Size in inventory","2x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.30x"]
+        - ["Blunt damage","1.80x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","-6"]
         - ["Reach","32"]
-        - ["Description","A huge axe built to work like a sword.  Stupidly heavy, but it impresses the ladies.  Shek ladies mostly."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>477-gamedata.base</span>"]
 ---
 

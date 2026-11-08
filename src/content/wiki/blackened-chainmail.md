@@ -6,22 +6,42 @@ source:
   revision: 95893
 categories: ["Armour","Shirts","Medium Armour"]
 infobox:
-  title: "Chain Armour Crafting"
+  title: "Blackened Chainmail"
+  image: "/icons/items/2211-gamedata.base.png"
+  caption: "The best lightweight under-armour that money can buy.  Adds a reliable extra layer of defence to your equipment."
   groups:
     - heading: null
       rows:
-        - ["Description","Chainmail eh? That's going to be bloody fiddly isn't it?"]
-    - heading: "Details"
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","13 kg"]
+        - ["Base value","c. 1,500"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","100% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat speed","0.97x"]
+        - ["Cut into stun","40%"]
+        - ["Dexterity","0.85x"]
+        - ["Dodge","0.90x"]
+        - ["Ranged skill","0.70x"]
+        - ["Stealth","1.20x"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","4"]
         - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>2211-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">The best lightweight under-armour that money can buy. Adds a reliable extra layer of defence to your equipment.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 **Blackened Chainmail** is a Medium Armour that is equipped in the Shirt slot.
 

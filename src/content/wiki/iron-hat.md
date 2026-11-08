@@ -5,11 +5,32 @@ source:
   title: "Iron Hat"
   revision: 90317
 categories: ["Armour","Headgear","Medium Armour"]
+infobox:
+  title: "Iron Hat"
+  image: "/icons/items/2227-chris_r.mod.png"
+  caption: "Some crazy dude at some point must have thought \"I like hats, but I don't like helmets, but I also like having a sword-resistant head...\".  Now we have iron hats."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","3 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","70% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Perception","+4"]
+        - ["Weather protection","35%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2227-chris_r.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Some crazy dude at some point must have thought "I like hats, but I don't like helmets, but I also like having a sword-resistant head...". Now we have iron hats.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
-
-  
 The **Iron Hat** is a Medium Armour that is equipped in the Headgear slot. It is sold at UC and Swamp armour shops.
 
 It is the headgear of choice of [Black Dragon Genins](/black-dragon-genin). It can also be randomly worn by [Anti-Slaver Jonins](/anti-slaver-jonin), [Bounty Hunters](/bounty-hunter), [Drifters](/drifter), [Samurai Scouts](/samurai-scout), [Strayed Paladins](/strayed-paladin), [Tech Hunters](/tech-hunter), [Tech Hunter Gate Guards](/tech-hunter-gate-guard), [Tech Hunter Guards](/tech-hunter-guard), and [Tech Hunter Ruins](/tech-hunter-ruins).

@@ -5,9 +5,31 @@ source:
   title: "Rattan Hat"
   revision: 86620
 categories: ["Armour","Headgear","Light Armour"]
+infobox:
+  title: "Rattan Hat"
+  image: "/icons/items/2185-gamedata.base.png"
+  caption: "A reinforced wicker hat."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","70% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","40%"]
+        - ["Perception","+4"]
+        - ["Weather protection","20%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2185-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A reinforced wicker hat.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 The **Rattan Hat** is a Light Armour equipped in the Headgear slot. It can be bought from UC and Ronin Hat shops.
 

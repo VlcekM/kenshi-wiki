@@ -7,15 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Skeleton Repair Kit"
+  image: "/icons/items/18020-gamedata.base.png"
+  caption: "The equivalent of a first aid kit for Skeletons, contains tools and common robotic components"
   groups:
     - heading: null
       rows:
+        - ["Type","Function 12"]
         - ["Weight","2 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Avg. Price","c.4,341"]
-        - ["Charges","500/500"]
-        - ["Quality","50/100"]
-        - ["Description","The equivalent of a first aid kit for Skeletons, contains tools and common robotic components"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>18020-gamedata.base</span>"]
 ---
 
 **Skeleton Repair Kits** are [medical](/medical-items) [items](/items) used to heal cutting [damage](/damage) on [robotic](/robots) body parts. Players can learn how to craft this item by researching [Robotics](/robotics-tech). After researching, these kits can be crafted on a [Robotics Bench](/robotics-bench). These kits can be stored in [Storage: Robotics](/storage-robotics).

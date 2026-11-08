@@ -6,26 +6,35 @@ source:
   revision: 86324
 categories: ["Robot Limbs"]
 infobox:
-  title: "Skeleton Legs"
+  title: "Skeleton Leg (right)"
+  image: "/icons/items/96022-rebirth.mod.png"
+  caption: "Common skeleton leg from one of the General Purpose Labour series."
   groups:
     - heading: null
       rows:
-        - ["Description","Advanced high-tech legs like what the skeletons have."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/robot-limbs\">Right leg</a>"]
+        - ["Weight","15 kg"]
+        - ["Base value","c. 2,500 → c. 20,000"]
+        - ["Size in inventory","7x2"]
+    - heading: "Stats (range across grades)"
+      rows:
+        - ["HP","50 → 175"]
+        - ["Athletics","0.40x → 1.10x"]
+        - ["Swimming","0.75x"]
+        - ["Stealth","0.10x → 0.70x"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","12 hours"]
         - ["Tech Level","5"]
         - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
         - ["Requirements","<a href=\"/hiver-skeleton-arms-tech\">Hiver Skeleton Arms</a>"]
-    - heading: "Results"
-      rows:
         - ["New Item(s)","<a href=\"/skeleton-leg-left\">Skeleton Leg (left)</a><p>Skeleton Leg (right)</p>"]
         - ["Required For","<a href=\"/extra-durable-legs-tech\">Extra Durable Legs</a><p><a href=\"/high-speed-legs-tech\">High-Speed Legs</a><br><a href=\"/stealth-legs-tech\">Stealth Legs</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>96022-rebirth.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Common skeleton leg from one of the General Purpose Labour series.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 Skeleton Leg (right) is a [Robot Limb](/robot-limbs), and a replacement for a lost right leg.
 
 ## Stats

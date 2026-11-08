@@ -5,13 +5,36 @@ source:
   title: "Ancient Samurai Helmet"
   revision: 86648
 categories: ["Armour","Headgear","Heavy Armour","Removed Content"]
+infobox:
+  title: "Ancient Samurai Helmet"
+  image: "/icons/items/1533510-Newwworld.mod.png"
+  caption: "An extremely old set of samurai armour that is rusting away to nothing."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","95% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat skills","-3"]
+        - ["Cut into stun","50%"]
+        - ["Perception","-10"]
+    - heading: null
+      rows:
+        - ["String id","<span>1533510-Newwworld.mod</span>"]
 ---
 
 <table class="wikitable"><tbody><tr><td></td><td>The content discussed on this page has either been removed from the game or has never been implemented. This content may still be accessible through previous versions of the game or through the <a href="/forgotten-construction-set">Forgotten Construction Set</a>.</td></tr></tbody></table>
 
   
 
-<table class="wikitable"><tbody><tr><td colspan="4">An extremely old set of samurai armour that is rusting away to nothing.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
 
 **Ancient Samurai Helmet** is a Heavy Armour that is equipped in the Headgear slot. As the [Second Empire](/second-empire) remnants who are the only ones to wear the Ancient Samurai armour set are purely composed of [Skeletons](/skeleton) (who cannot use Headgear), this armour cannot be found anywhere in the game. Had it existed in the game it would have been part of a set together with [Ancient Samurai Armour](/ancient-samurai-armour), [Ancient Samurai Legplates](/ancient-samurai-legplates) and [Ancient Samurai Boots](/ancient-samurai-boots).
 

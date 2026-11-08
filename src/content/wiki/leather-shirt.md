@@ -5,9 +5,32 @@ source:
   title: "Leather Shirt"
   revision: 86548
 categories: ["Shirts","Light Armour","Armour"]
+infobox:
+  title: "Leather Shirt"
+  image: "/icons/items/1169-gamedata.base.png"
+  caption: "Undershirts provide a reliable second layer of defence."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 3,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Chest","100% covered"]
+        - ["Left Arm","30% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","30% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","50%"]
+    - heading: null
+      rows:
+        - ["String id","<span>1169-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Undershirts provide a reliable second layer of defence.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Leather Shirt** is [armour](/armour) that is equipped in the [Shirt](/shirts) slot. It is sold in most armour shops.
 

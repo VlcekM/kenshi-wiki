@@ -5,11 +5,42 @@ source:
   title: "Mercenary Plate"
   revision: 95880
 categories: ["Armour","Body Armour","Heavy Armour","Mercenaries"]
+infobox:
+  title: "Mercenary Plate"
+  image: "/icons/items/2148-gamedata.base.png"
+  caption: "The only heavy armour that isn't affiliated with any particular faction, it's become standard with mercenaries and short-range wanderers.  \nMore of a medium-heavy class, it allows a little more versatility than other heavy armours."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","15 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","90% covered"]
+        - ["Stomach","70% covered"]
+        - ["Right Arm","90% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra blunt resistance","up to +10%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Assassination","0.70x"]
+        - ["Attack","-4"]
+        - ["Combat speed","0.98x"]
+        - ["Cut into stun","20%"]
+        - ["Dexterity","0.80x"]
+        - ["Dodge","0.70x"]
+        - ["Fist injury","0.50x"]
+        - ["Ranged skill","0.70x"]
+        - ["Martial arts","-7"]
+    - heading: null
+      rows:
+        - ["String id","<span>2148-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">The only heavy armour that isn't affiliated with any particular faction, it's become standard with mercenaries and wanderers.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 **Mercenary Plate** is a Heavy Armour that is equipped in the Body Armour slot.
 
 It is often seen worn by [Shop Guards](/shop-guard), [Caravan Guards](/caravan-guard), [Manhunters](/manhunter), [Slavemongers](/slavemonger), [Slaver Guards](/slaver-guard), [Slaver Heavy Guards](/slaver-heavy-guard) and other guard variants.

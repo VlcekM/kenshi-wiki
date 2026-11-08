@@ -5,9 +5,30 @@ source:
   title: "Flared Helmet"
   revision: 86595
 categories: ["Armour","Headgear","Medium Armour"]
+infobox:
+  title: "Flared Helmet"
+  image: "/icons/items/2198-gamedata.base.png"
+  caption: "A solid steel helmet, flared at the sides."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","90% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat skills","-2"]
+        - ["Cut into stun","30%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2198-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A solid steel helmet, flared at the sides.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Flared** **Helmet** is a Medium Armour that is equipped in the Headgear slot. It can be purchased from Holy Nation Hat traders and UC Armour shops.
 

@@ -5,11 +5,32 @@ source:
   title: "Visored Helmet"
   revision: 86594
 categories: ["Armour","Headgear","Medium Armour"]
+infobox:
+  title: "Visored Helmet"
+  image: "/icons/items/2202-gamedata.base.png"
+  caption: "A solid steel helmet with a protective visor."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","90% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat skills","-3"]
+        - ["Cut into stun","30%"]
+        - ["Perception","-5"]
+    - heading: null
+      rows:
+        - ["String id","<span>2202-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A solid steel helmet with a protective visor.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
-
-  
 The **Visored Helmet** is a Medium Armour that is equipped in the Headgear slot. It is sold by HN and UC Armour Vendors, and by HN and Ronin Hat Vendors. This armour can be [dyed](/colour-scheme).
 
 It is equipped by [Samurai Police](/samurai-police) and [Slavemongers](/slavemonger). It is randomly equipped by [Bounty Hunters](/bounty-hunter).

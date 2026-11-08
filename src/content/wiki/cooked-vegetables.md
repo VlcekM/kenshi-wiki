@@ -7,14 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Cooked Vegetables"
+  image: "/icons/items/43955-rebirth.mod.png"
+  caption: "Pretty basic food"
   groups:
     - heading: null
       rows:
-        - ["Nutrition","25 nu"]
+        - ["Type","Food"]
         - ["Weight","1 kg"]
-        - ["Size","3x3 wide/tall"]
-        - ["Avg. Price","c.318"]
-        - ["Description","Pretty basic food."]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","3x3"]
+        - ["Nutrition","25 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>43955-rebirth.mod</span>"]
 ---
 
 **Cooked Vegetables** are a [food](/food) item which can be purchased from relevant [traders](/traders). Players can cook vegetables in a [Cooking Stove](/cooking-stove) after researching [Cooking](/cooking-tech). 

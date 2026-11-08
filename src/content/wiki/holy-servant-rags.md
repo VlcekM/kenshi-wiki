@@ -5,9 +5,33 @@ source:
   title: "Holy Servant Rags"
   revision: 86637
 categories: ["Armour","Body Armour","Clothing"]
+infobox:
+  title: "Holy Servant Rags"
+  image: "/icons/items/42021-rebirth.mod.png"
+  caption: "This used to be a Holy Servant's robe, now reduced to rags."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Head","25% covered"]
+        - ["Right Arm","95% covered"]
+        - ["Chest","10% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Stealth","1.10x"]
+    - heading: null
+      rows:
+        - ["String id","<span>42021-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">This used to be a Holy Servant's robe, now reduced to rags.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 **Holy Servant Rags** are a piece of Clothing that is equipped in the Body Armour slot. It is one of the multiple variations of a [Rag Shirt](/rag-shirt). Despite not being black or camouflaged, it shares the same statistics as a [Black Rag Shirt](/black-rag-shirt) - including the stealth effect.
 

@@ -7,16 +7,19 @@ source:
 categories: ["Items","Nutrition"]
 infobox:
   title: "Bread"
+  image: "/icons/items/1946-gamedata.base.png"
+  caption: "Horrible, dry dry bread."
   groups:
     - heading: null
       rows:
-        - ["Nutrition","30 nu"]
+        - ["Type","Food"]
         - ["Weight","0.5 kg"]
-        - ["Size","2x3 wide/tall"]
-        - ["Value","<span>c.</span>c.488"]
-        - ["Sell Value","<span>c.</span>c.244"]
-        - ["Avg. Price","c.488"]
-        - ["Description","Horrible, dry dry bread."]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x3"]
+        - ["Nutrition","30 nu"]
+    - heading: null
+      rows:
+        - ["String id","<span>1946-gamedata.base</span>"]
 ---
 
 **Bread** is a [food](/food) item purchased from [bars and bakeries](/bars) or created in a [Bread Oven](/bread-oven). The item can be stored in [Bread Baskets](/bread-basket) in high quantities.

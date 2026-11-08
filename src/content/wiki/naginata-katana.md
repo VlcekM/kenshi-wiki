@@ -7,19 +7,35 @@ source:
 categories: ["Weapons","Polearms"]
 infobox:
   title: "Naginata Katana"
+  image: "/icons/items/52309-rebirth.mod.png"
+  caption: "A katana-polearm hybrid that mitigates the disadvantages of using a naginata, but still too long to be comfortable indoors."
   groups:
     - heading: null
       rows:
-        - ["Class","[Polearm class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/polearms\">Polearm</a>"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","1x9"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.85x"]
+        - ["Blunt damage","0.20x"]
+        - ["Bleed","1.00x"]
         - ["Armour penetration","-15%"]
         - ["Attack","+4"]
+        - ["Defence","0"]
         - ["Indoors","-4"]
-        - ["Damage vs robots","-20%"]
-        - ["Damage vs humans","+25%"]
-        - ["Damage vs animals","+25%"]
         - ["Reach","26"]
-        - ["Description","A katana-polearm hybrid that mitigates the disadvantages of using a naginata, but still too long to be comfortable indoors."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+25%"]
+        - ["Animals","+25%"]
+        - ["Robots","-20%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52309-rebirth.mod</span>"]
 ---
 

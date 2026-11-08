@@ -5,11 +5,37 @@ source:
   title: "Samurai Legplates"
   revision: 95543
 categories: ["Armour","Legwear","Heavy Armour","Samurai"]
+infobox:
+  title: "Samurai Legplates"
+  image: "/icons/items/2150-gamedata.base.png"
+  caption: "Heavy duty armour commonly worn by government owned samurai.  Not much good for running around in though."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","20 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","5x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","100% covered"]
+        - ["Left Leg","100% covered"]
+        - ["Stomach","50% covered"]
+        - ["Extra blunt resistance","up to +5%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat speed","0.98x"]
+        - ["Cut into stun","10%"]
+        - ["Dodge","0.60x"]
+        - ["Stealth","0.50x"]
+        - ["Martial arts","-10"]
+    - heading: null
+      rows:
+        - ["String id","<span>2150-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Heavy duty armour commonly worn by government owned samurai.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 **Samurai Legplates** are Heavy Armour that are equipped in the Legwear slot. They are sold by [Mongrel](/mongrel-armor-shop), [Ronin](/ronin-armor-shop), [Shek](/shek-armor-shop), and [UC](/uc-armour-trader) Armour Vendors. It is part of the samurai armour series together with [Samurai Helmet](/samurai-helmet), [Samurai Armour](/samurai-armour) and [Samurai Boots](/samurai-boots). The band on this armour is [dyeable](/colour-scheme).
 
 They are equipped by [Elite Hunters](/elite-hunter), [Empire Noble Guards](/empire-noble-guard-hooded), [Hundred Guardians](/hundred-guardian), [Kamikazes](/kamikaze), [Mercenary Heavies](/mercenary-heavy), [Noble Captains](/noble-captain), [Rebel Captains](/rebel-captain), [Samurais](/samurai), [Samurai Captains](/samurai-captain), [Samurai Elites](/samurai-elite), [Samurai Gate Guards](/samurai-gate-guard), [Samurai Gate Sergeants](/samurai-gate-sergeant), [Samurai Heavies](/samurai-heavy), [Samurai Rogues](/samurai-rogue), [Samurai Sergeants](/samurai-sergeant), [Shek Fighters](/shek-fighter), [Shek Scouts](/shek-scout), [Shek Warriors](/shek-warrior), [Skeleton Bandits](/skeleton-bandit), [Slaver Guard](/slaver-guard), [Slaver Heavy Guards](/slaver-heavy-guard), [The Five Invincibles](/the-five-invincibles), [Upgraded Skeleton Bandits](/upgraded-skeleton-bandit), and [Upgraded Skeleton Guards](/upgraded-skeleton-guard). They are randomly equipped by [Band of Bones](/band-of-bones-character), and [Rebel Swordsman Veterans](/rebel-swordsman-veteran).

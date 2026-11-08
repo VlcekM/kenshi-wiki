@@ -7,18 +7,33 @@ source:
 categories: ["Weapons","Sabre"]
 infobox:
   title: "Longsword"
+  image: "/icons/items/901-gamedata.base.png"
+  caption: "Very light for a sabre, but too straight and heavy to classify as a katana.  They are popular among nobles as a status symbol in the empire."
   groups:
     - heading: null
       rows:
-        - ["Class","[Sabre class]"]
-        - ["Blood loss","0.90x"]
+        - ["Class","<a href=\"/sabres\">Sabre</a>"]
+        - ["Base weight","4 kg"]
+        - ["Base value","c. 250"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.00x"]
+        - ["Blunt damage","0.15x"]
+        - ["Bleed","0.90x"]
         - ["Armour penetration","-15%"]
         - ["Attack","-2"]
         - ["Defence","+2"]
-        - ["Damage vs robots","-10%"]
-        - ["Damage vs animals","-10%"]
         - ["Reach","20"]
-        - ["Description","Very light for a sabre, but too straight and heavy to classify as a katana.  They are popular among nobles as a status symbol in the empire."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+        - ["Robots","-10%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>901-gamedata.base</span>"]
 ---
 

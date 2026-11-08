@@ -6,22 +6,37 @@ source:
   revision: 77233
 categories: ["Robot Limbs"]
 infobox:
-  title: "Durable Arms"
+  title: "KLR Series Arm (left)"
+  image: "/icons/items/96186-Newwworld.mod.png"
+  caption: "The KLR series was legendary for it's simple durability. Designed for the original service bots working alone in remote hostile environments, fancy features and luxuries were ditched in favor of simplicity.\nMany were used on the frontlines of the war, so few can be found today."
   groups:
-    - heading: "Details"
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/robot-limbs\">Left arm</a>"]
+        - ["Weight","12 kg"]
+        - ["Base value","c. 5,000 → c. 35,000"]
+        - ["Size in inventory","6x2"]
+    - heading: "Stats (range across grades)"
+      rows:
+        - ["HP","100 → 250"]
+        - ["Strength","0.75x → 1.10x"]
+        - ["Dexterity","0.75x → 1.10x"]
+        - ["Swimming","0.75x"]
+        - ["Thievery","0.20x → 0.95x"]
+        - ["Ranged","0.75x → 1.00x"]
+        - ["Unarmed damage","0 → +5"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","12 hours"]
         - ["Tech Level","6"]
         - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
         - ["Requirements","<a href=\"/skeleton-arms-tech\"> Skeleton Arms</a>"]
-    - heading: "Results"
-      rows:
         - ["New Item(s)","KLR Series Arm (left)<p><a href=\"/klr-series-arm-right\">KLR Series Arm (right)</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>96186-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">The KLR series was legendary for it's simple durability. Designed for the original service bots working alone in remote hostile environments, fancy features and luxuries were ditched in favor of simplicity. Many were used on the frontlines of the war, so few can be found today.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 KLR Series Arm (left) is a [Robot Limb](/robot-limbs), and a replacement for a lost left arm.
 
 ## Stats 

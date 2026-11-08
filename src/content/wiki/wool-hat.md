@@ -5,9 +5,23 @@ source:
   title: "Wool Hat"
   revision: 79534
 categories: ["Armour","Headgear","Clothing"]
+infobox:
+  title: "Wool Hat"
+  image: "/icons/items/2164-gamedata.base.png"
+  caption: "A simple woollen hat, good for cold desert nights."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>2164-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Wool Hat</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.90</td></tr><tr><td>-Sell value</td><td>c.22</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2">A simple woollen hat, good for cold desert nights.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td></tr></tbody></table>
 
 The **Wool Hat** is a hat which has almost no benefits. Players might choose to wear this item if they are concerned about their "looks like a slave" stat soon after escaping slavery.
 

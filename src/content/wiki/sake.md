@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Sake"
+  image: "/icons/items/42310-changes_otto.mod.png"
+  caption: "A strong alcohol made in the swamps, but popular among samurai and frequently imported by the Empire towns."
   groups:
     - heading: null
       rows:
+        - ["Type","Drug or drink"]
         - ["Weight","1 kg"]
-        - ["Size","2x3 wide/tall"]
-        - ["Avg. Price","c.428"]
-        - ["Description","A strong alcohol made in the swamps, but popular among samurai and frequently imported by the Empire towns."]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","3x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>42310-changes_otto.mod</span>"]
 ---
 
 **Sake** is a [trade good](/trade-goods) which has a high mark-up price in [United Cities](/united-cities), as well as a low price for sale in [The Swamp](/the-swamp). Although this item is typically only sold in [Bars](/bar) it cannot be used as [food](/food).

@@ -5,9 +5,31 @@ source:
   title: "Halfpants (padded)"
   revision: 93538
 categories: ["Armour","Legwear","Light Armour"]
+infobox:
+  title: "Halfpants (padded)"
+  image: "/icons/items/554-gamedata.base.png"
+  caption: "Reinforced to pad your legs, turns a potential slice into a nasty bruise."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","3 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","100% covered"]
+        - ["Left Leg","100% covered"]
+        - ["Extra blunt resistance","up to +20%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+    - heading: null
+      rows:
+        - ["String id","<span>554-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Pads your legs, turns a potential slice into a nasty bruise.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Halfpants \[Padded\]** are Light Armour that is equipped in the Legwear slot. They are generally available at Clothing Traders. Other variants of Halfpants include: [colored](/halfpants-colored), [ragged](/halfpants-ragged), [reinforced](/halfpants-reinforced) and [sneaky chain](/halfpants-sneaky-chain).
 

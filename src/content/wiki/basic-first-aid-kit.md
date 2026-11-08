@@ -7,15 +7,19 @@ source:
 categories: ["Items"]
 infobox:
   title: "Basic First Aid Kit"
+  image: "/icons/items/209-gamedata.base.png"
+  caption: "A basic first aid kit made up of various bandages, used to stop people from bleeding to death.  The poor quality will limit you if it is lower than your skills, resulting in slower healing."
   groups:
     - heading: null
       rows:
+        - ["Type","First aid kit"]
         - ["Weight","1 kg"]
-        - ["Size","2x1 wide/tall"]
-        - ["Avg. Price","c.76"]
-        - ["Charges","150/150"]
-        - ["Quality","5/100"]
-        - ["Description","A basic first aid kit made up of various bandages, used to stop people from bleeding to death.  The poor quality will limit you if it is lower than your skills, resulting in slower healing."]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","1x2"]
+        - ["Charges","150"]
+    - heading: null
+      rows:
+        - ["String id","<span>209-gamedata.base</span>"]
 ---
 
 **Basic First Aid Kits** are [medical](/medical-items) [items](/items) used to heal cutting [damage](/damage) on organic body parts. Players can learn how to craft this item by researching [Basic First Aid Kits](/basic-first-aid-kits-tech). After researching, these kits can be crafted on a Basic Medical Workbench and an upgraded [Medical Workbench](/medical-workbench).

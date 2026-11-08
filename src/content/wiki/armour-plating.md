@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Armour Plating"
+  image: "/icons/items/2288-gamedata.base.png"
+  caption: "Hammered plates of metal used for crafting armour."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","5 kg"]
-        - ["Size","3x3 wide/tall"]
-        - ["Avg. Price","c.504"]
-        - ["Description","Hammered plates of metal used for crafting armour."]
+        - ["Base value","c. 1,000"]
+        - ["Size in inventory","3x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>2288-gamedata.base</span>"]
 ---
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.68.</td></tr></tbody></table>

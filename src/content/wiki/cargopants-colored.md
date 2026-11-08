@@ -5,9 +5,25 @@ source:
   title: "Cargopants (colored)"
   revision: 79822
 categories: ["Armour","Legwear","Clothing"]
+infobox:
+  title: "Cargopants (colored)"
+  image: "/icons/items/50391-rebirth.mod.png"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","0.4 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","70%"]
+    - heading: null
+      rows:
+        - ["String id","<span>50391-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4"><i>This item has no description.</i></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 The **Cargopants (colored)** are a piece of [Clothing](/clothing) equipped in the [Legwear](/legwear) slot. This is a [colourable](/colour-scheme) variation of [Cargopants](/cargopants) - while other variations include [padded](/cargopants-padded), [reinforced](/cargopants-reinforced), and [chain](/cargopants-sneaky-chain).
 

@@ -6,23 +6,38 @@ source:
   revision: 92331
 categories: ["Armour","Body Armour","Clothing"]
 infobox:
-  title: "Clothing Manufacture"
+  title: "Dyed Rag Shirt"
+  image: "/icons/items/51642-rebirth.mod.png"
+  caption: "Dirty rags, worn by slaves and good-for-nothings"
   groups:
     - heading: null
       rows:
-        - ["Description","With this we could craft clothes and stuff.  For wearing."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Head","25% covered"]
+        - ["Right Arm","95% covered"]
+        - ["Chest","10% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","1"]
         - ["Costs","1 <a href=\"/book\">Book</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/clothing-bench\">Clothing Bench</a>"]
         - ["Required For","<a href=\"/hats-and-headgear-tech\">Hats and Headgear</a><br><a href=\"/simple-clothing-types-tech\">Simple Clothing Types</a>"]
+    - heading: null
+      rows:
+        - ["String id","<span>51642-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Dirty rags, worn by slaves and good-for-nothings</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 **Dyed Rag Shirt** is a piece of Clothing that is equipped in the Body Armour slot. Statistically-wise it is identical to the [Rag Shirt](/rag-shirt), the only difference being its [colouring](/colour-scheme) properties. There are matching trousers for this "rag set" called the [Rag Loincloth (Dyed)](/rag-loincloth-dyed).
 

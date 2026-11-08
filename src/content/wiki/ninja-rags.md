@@ -5,9 +5,41 @@ source:
   title: "Ninja Rags"
   revision: 90322
 categories: ["Armour","Body Armour","Light Armour"]
+infobox:
+  title: "Ninja Rags"
+  image: "/icons/items/2151-gamedata.base.png"
+  caption: "A cover-up suit popular with theives and ninjas.  Helps cover your visibility and identity."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","60% covered"]
+        - ["Right Arm","60% covered"]
+        - ["Head","50% covered"]
+        - ["Stomach","100% covered"]
+        - ["Chest","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Assassination","1.10x"]
+        - ["Attack","+4"]
+        - ["Combat skills","+1"]
+        - ["Cut into stun","50%"]
+        - ["Dexterity","1.10x"]
+        - ["Dodge","1.20x"]
+        - ["Ranged skill","1.10x"]
+        - ["Stealth","1.30x"]
+        - ["Martial arts","+4"]
+    - heading: null
+      rows:
+        - ["String id","<span>2151-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A cover-up suit popular with thieves and ninjas. Helps cover your visibility and identity.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Ninja Rags** are Light Armour that is equipped in the Body Armour slot. It can be found sold by Clothing Traders and Swamp Traders, as well as from Shinobi Thieves Traders.
 

@@ -33,6 +33,16 @@ Contributions are made as pull requests on GitHub.
 - `node scripts/split-ui-atlas.mjs <Kenshi>/data/gui` cuts the game's UI atlas into one PNG per icon in the gitignored
   `ui-icons/`. They are Lo-Fi Games' artwork: copy only the icons the site uses into `public/icons/` and list each one in
   `public/notices/artwork.txt`.
+- `node scripts/game-items.mjs <Kenshi>/data [--icons <folder>]` lists every game item with its stats, string id and icon in the
+  gitignored `game-items/items.json`, for writing item infoboxes. Icons come from the game's `data/icons` cache, which only holds
+  items the install has shown; `--icons` takes the folder MeitouClient's `meitou-tools icons <folder>` draws every item's icon
+  into. `node scripts/game-items.mjs --copy-icons` then copies each icon an article uses (`/icons/items/<string id>.png`) into
+  `public/icons/items/`.
+- `node scripts/item-infoboxes.mjs` rebuilds the infobox of every item article from `game-items/items.json` and removes the
+  in-game stat card Fandom put above its text. Articles are paired with items in `scripts/item-pairs.json` (article path to
+  string id; else an infobox's `String id` row). Weapon, armour and crossbow stats come from MeitouClient's
+  `--wiki-export <folder>`, passed to `game-items.mjs` as `--meitou <folder>`. Re-run it after `import-fandom.mjs`, which
+  replaces infoboxes.
 - Pages live in `src/pages/`; `about-kenshi.astro` is an example article using every building block.
 - Every page wraps its content in `src/layouts/WikiLayout.astro` (sidebar, header, footer, categories).
 - Article building blocks live in `src/components/`: `Infobox`, `Toc`, `Gallery` and `Navbox`.

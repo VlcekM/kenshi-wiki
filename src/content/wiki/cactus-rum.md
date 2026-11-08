@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Cactus Rum"
+  image: "/icons/items/1015-gamedata.base.png"
+  caption: "A very strong alcohol common in the deserts.  Dehydrates you like nothing else, so considered a rare luxury, apart from when it gets imported into the greenlands, where water isn't an issue, then they drink it like madmen."
   groups:
     - heading: null
       rows:
+        - ["Type","Drug or drink"]
         - ["Weight","1 kg"]
-        - ["Size","3x4 wide/tall"]
-        - ["Avg. Price","c.520"]
-        - ["Description","A very strong alcohol common in the deserts. Dehydrates you like nothing else, so considered a rare luxury, apart from when it gets imported into the greenlands, where water isn't an issue, then they drink it like mad men."]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","4x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>1015-gamedata.base</span>"]
 ---
 
 **Cactus Rum** is a [trade good](/trade-goods) produced at the [Rum Still](/rum-still). Although similar, [Empty Rum Bottle](/empty-rum-bottle) items have no interactions with this item. It cannot be used as [food](/food).

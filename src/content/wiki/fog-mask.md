@@ -5,11 +5,33 @@ source:
   title: "Fog Mask"
   revision: 93408
 categories: ["Armour","Headgear","Light Armour"]
+infobox:
+  title: "Fog Mask"
+  image: "/icons/items/18029-small_changes_otto.mod.png"
+  caption: "A breathing mask that helps mitigate the negative health effects of fog."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","70% covered"]
+        - ["Pierce resistance","2.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat skills","-2"]
+        - ["Cut into stun","10%"]
+        - ["Weather protection","100%"]
+    - heading: null
+      rows:
+        - ["String id","<span>18029-small_changes_otto.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A breathing mask that helps mitigate the negative health effects of fog.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 The **Fog Mask** is a Light Armour that is equipped in the Headgear slot.
 
 It is the Headgear of choice of [Shinobi Citizens](/shinobi-citizen) and [Ex-Servants](/ex-servant). It can be randomly worn by [Bounty Hunters](/bounty-hunter) as well as [Shinobi Guards](/shinobi-guard) and can be sold by [Shinobi Traders](/shinobi-trader).

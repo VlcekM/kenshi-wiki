@@ -7,15 +7,33 @@ source:
 categories: ["Weapons","Blunt"]
 infobox:
   title: "Iron Club"
+  image: "/icons/items/52295-rebirth.mod.png"
+  caption: "A basic iron stick with a wrapped handle."
   groups:
     - heading: null
       rows:
-        - ["Class","[Blunt weapon class]"]
-        - ["Blood loss","0.30x"]
+        - ["Class","<a href=\"/blunt-weapons\">Blunt</a>"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 80"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.10x"]
+        - ["Blunt damage","0.85x"]
+        - ["Bleed","0.30x"]
+        - ["Armour penetration","0%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Indoors","+2"]
-        - ["Damage vs animals","-10%"]
         - ["Reach","18"]
-        - ["Description","A basic iron stick with a wrapped handle."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52295-rebirth.mod</span>"]
 ---
 

@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Leather"
+  image: "/icons/items/2292-gamedata.base.png"
+  caption: "An important ingredient in crafting armour.  Good to stock up on as it can be hard to find."
   groups:
     - heading: null
       rows:
+        - ["Type","Other"]
         - ["Weight","1 kg"]
-        - ["Size","2x3 wide/tall"]
-        - ["Avg. Price","c.156"]
-        - ["Description","An important ingredient in crafting armour. Good to stock up on as it can be hard to find."]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","3x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>2292-gamedata.base</span>"]
 ---
 
 **Leather** is a resource processed from [Animal Skin](/animal-skin) at the [Leather Tanning Bench](/leather-tanning-bench).

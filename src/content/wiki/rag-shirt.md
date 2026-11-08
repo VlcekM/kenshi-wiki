@@ -5,11 +5,33 @@ source:
   title: "Rag Shirt"
   revision: 92330
 categories: ["Armour","Body Armour","Clothing"]
+infobox:
+  title: "Rag Shirt"
+  image: "/icons/items/2309-clothes_v1.mod.png"
+  caption: "Dirty rags, worn by slaves and good-for-nothings"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Head","25% covered"]
+        - ["Right Arm","95% covered"]
+        - ["Chest","10% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2309-clothes_v1.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Dirty rags, worn by slaves and good-for-nothings</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
-
-  
 **Rag Shirt** is a type of armor in Kenshi that is worn by numerous individuals, such as [Vagrants](/vagrants), [Starving Bandits](/starving-bandits), [Nomads](/nomads), [Empire Peasants](/empire-peasants), and [Holy Citizens](/holy-citizen). There are matching trousers of this "rag set" called the [Rag Loincloth](/rag-loincloth). A [colourable](/colour-scheme) version of the shirt is called the [Dyed Rag Shirt](/dyed-rag-shirt). There are also two more types of the rag shirt - the [Black Rag Shirt](/black-rag-shirt) and the [Holy Servant Rags](/holy-servant-rags).
 
 This armour has inventory dimensions of **4x6**.

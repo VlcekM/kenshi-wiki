@@ -7,18 +7,33 @@ source:
 categories: ["Weapons","Katana"]
 infobox:
   title: "Ninja Blade"
+  image: "/icons/items/924-gamedata.base.png"
+  caption: "A smaller, lighter katana with a straight blade that is easier to produce.  Popular with ninjas because they're better for stabbing people in the back with, but not the best for toe-to-toe combat."
   groups:
     - heading: null
       rows:
-        - ["Class","[Katana class]"]
-        - ["Blood loss","1.10x"]
+        - ["Class","<a href=\"/katanas\">Katana</a>"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","1x7"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.80x"]
+        - ["Blunt damage","0.00x"]
+        - ["Bleed","1.10x"]
         - ["Armour penetration","-20%"]
         - ["Attack","+2"]
         - ["Defence","-4"]
-        - ["Damage vs robots","-40%"]
-        - ["Damage vs humans","+10%"]
         - ["Reach","21"]
-        - ["Description","A smaller, lighter katana with a straight blade that is easier to produce.  Popular with ninjas because they're better for stabbing people in the back with, but not the best for toe-to-toe combat."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","+10%"]
+        - ["Robots","-40%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>924-gamedata.base</span>"]
 ---
 

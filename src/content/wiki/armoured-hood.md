@@ -6,22 +6,39 @@ source:
   revision: 86888
 categories: ["Armour","Headgear","Medium Armour"]
 infobox:
-  title: "Chain Armour Crafting"
+  title: "Armoured Hood"
+  image: "/icons/items/2200-gamedata.base.png"
+  caption: "An armoured hood, for some kind of heavy-ninja dude."
   groups:
     - heading: null
       rows:
-        - ["Description","Chainmail eh? That's going to be bloody fiddly isn't it?"]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","90% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Attack","-2"]
+        - ["Defence","-2"]
+        - ["Combat skills","-1"]
+        - ["Cut into stun","30%"]
+        - ["Ranged skill","0.90x"]
+        - ["Weather protection","25%"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","4"]
         - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>2200-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">An armoured hood, for some kind of heavy-ninja dude.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Armoured Hood** is a Medium Armour equipped in the headgear slot. It is the only Head armour which reduces defence. There is an [unhooded variant](/armoured-face-plates) with no penalties on stats, better cut efficiency, but lower coverage, along with lacking the resistance to [acid](/weather-effects#acid-rain) and [burning](/weather-effects#burning) damage.
 

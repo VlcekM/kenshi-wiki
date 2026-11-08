@@ -7,17 +7,33 @@ source:
 categories: ["Weapons","Hacker"]
 infobox:
   title: "Moon Cleaver"
+  image: "/icons/items/52300-rebirth.mod.png"
+  caption: "Most blades, like katanas and sabres, use their curvature to \"slide\" off the target, increasing the amount of cut damage. The reverse curvature of a Moon Cleaver does the opposite, catching limbs and necks, keeping the force of the blow driving inwards."
   groups:
     - heading: null
       rows:
-        - ["Class","[Hacker class]"]
-        - ["Blood loss","0.50x"]
+        - ["Class","<a href=\"/hackers\">Hacker</a>"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 350"]
+        - ["Size in inventory","2x9"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.70x"]
+        - ["Blunt damage","0.80x"]
+        - ["Bleed","0.50x"]
         - ["Armour penetration","+30%"]
+        - ["Attack","0"]
         - ["Defence","-2"]
-        - ["Damage vs robots","+20%"]
-        - ["Damage vs animals","-10%"]
         - ["Reach","18"]
-        - ["Description","Most blades, like katanas and sabres, use their curvature to \"slide\" off the target, increasing the amount of cut damage. The reverse curvature of a Moon Cleaver does the opposite, catching limbs and necks, keeping the force of the blow driving inwards."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+        - ["Robots","+20%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52300-rebirth.mod</span>"]
 ---
 

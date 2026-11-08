@@ -7,19 +7,35 @@ source:
 categories: ["Weapons","Hacker","Paladins","Holy Nation"]
 infobox:
   title: "Paladin's Cross"
+  image: "/icons/items/52299-rebirth.mod.png"
+  caption: "The Cross is the revered holy weapon and symbol of the Paladins.  With it they have been slaying skeletons and people they think might be skeletons for centuries."
   groups:
     - heading: null
       rows:
-        - ["Class","[Hacker class]"]
-        - ["Blood loss","0.75x"]
+        - ["Class","<a href=\"/hackers\">Hacker</a>"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","2x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.80x"]
+        - ["Blunt damage","0.80x"]
+        - ["Bleed","0.75x"]
         - ["Armour penetration","+30%"]
+        - ["Attack","0"]
         - ["Defence","+2"]
         - ["Indoors","-2"]
-        - ["Damage vs robots","+50%"]
-        - ["Damage vs humans","-10%"]
-        - ["Damage vs animals","-10%"]
         - ["Reach","23"]
-        - ["Description","The Cross is the revered holy weapon and symbol of the Paladins.  With it they have been slaying skeletons and people they think might be skeletons for centuries."]
+    - heading: "Damage against"
+      rows:
+        - ["Humans","-10%"]
+        - ["Animals","-10%"]
+        - ["Robots","+50%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52299-rebirth.mod</span>"]
 ---
 

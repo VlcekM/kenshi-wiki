@@ -7,18 +7,34 @@ source:
 categories: ["Weapons","Hacker"]
 infobox:
   title: "Long Cleaver"
+  image: "/icons/items/478-gamedata.base.png"
+  caption: "Close to being classed as a heavy weapon, it's the heaviest cleaver you will find."
   groups:
     - heading: null
       rows:
-        - ["Class","[Hacker class]"]
-        - ["Blood loss","0.75x"]
+        - ["Class","<a href=\"/hackers\">Hacker</a>"]
+        - ["Base weight","13 kg"]
+        - ["Base value","c. 350"]
+        - ["Size in inventory","2x9"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.80x"]
+        - ["Blunt damage","0.80x"]
+        - ["Bleed","0.75x"]
         - ["Armour penetration","+30%"]
+        - ["Attack","0"]
         - ["Defence","-2"]
         - ["Indoors","-4"]
-        - ["Damage vs robots","+20%"]
-        - ["Damage vs animals","-10%"]
         - ["Reach","25"]
-        - ["Description","Close to being classed as a heavy weapon, it's the heaviest cleaver you will find."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+        - ["Robots","+20%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>478-gamedata.base</span>"]
 ---
 

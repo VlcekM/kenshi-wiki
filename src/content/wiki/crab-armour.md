@@ -6,25 +6,52 @@ source:
   revision: 93104
 categories: ["Armour","Body Armour","Heavy Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Crab Armour"
+  image: "/icons/items/64892-Newwworld.mod.png"
+  caption: "An exotic suit of heavy armour plates that gives the wearer the toughness and mobility of a big rock.  The Crab Raiders designed this armour with the aim of being more like crabs, with little consideration of other factors."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","35 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","90% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","90% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra cut resistance","up to +10%"]
+        - ["Extra blunt resistance","up to +10%"]
+        - ["Pierce resistance","1.20x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Assassination","0.20x"]
+        - ["Attack","-10"]
+        - ["Combat skills","-5"]
+        - ["Combat speed","0.95x"]
+        - ["Cut into stun","10%"]
+        - ["Dexterity","0.50x"]
+        - ["Dodge","0.25x"]
+        - ["Fist injury","0.10x"]
+        - ["Ranged skill","0.30x"]
+        - ["Stealth","0.00x"]
+        - ["Martial arts","-10"]
+        - ["Weather protection","50%"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","3"]
         - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
         - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>64892-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">An exotic suit of heavy armour plates that gives the wearer the toughness and mobility of a big rock. The Crab Raiders designed this armour with the aim of being more like crabs, with little consideration of other factors.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 
 **Crab Armour** is a Heavy Armour that is equipped in the Body Armour slot. It is the body armour with the highest cut and harpoon resistance.
 

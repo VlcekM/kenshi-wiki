@@ -5,11 +5,40 @@ source:
   title: "Samurai Armour"
   revision: 95597
 categories: ["Armour","Body Armour","Heavy Armour","Samurai"]
+infobox:
+  title: "Samurai Armour"
+  image: "/icons/items/2122-gamedata.base.png"
+  caption: "Traditional heavy duty armour commonly worn by government owned samurai."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","20 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","85% covered"]
+        - ["Stomach","85% covered"]
+        - ["Right Arm","85% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra blunt resistance","up to +5%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Assassination","0.50x"]
+        - ["Attack","-8"]
+        - ["Combat speed","0.94x"]
+        - ["Cut into stun","10%"]
+        - ["Damage output","0.85x"]
+        - ["Dodge","0.60x"]
+        - ["Ranged skill","0.50x"]
+        - ["Martial arts","-10"]
+    - heading: null
+      rows:
+        - ["String id","<span>2122-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Traditional heavy duty armour commonly worn by government owned samurai</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 
 **Samurai Armor** is a Heavy Armour that is equipped in the Body Armour slot. It can be bought from Armour Shops in Mongrel, UC, Shek and Tech Hunter towns. It is part of the samurai armour series together with [Samurai Helmet](/samurai-helmet), [Samurai Legplates](/samurai-legplates) and [Samurai Boots](/samurai-boots).
 

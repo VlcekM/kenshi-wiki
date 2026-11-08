@@ -7,16 +7,30 @@ source:
 categories: ["Weapons","Blunt"]
 infobox:
   title: "Heavy Jitte"
+  image: "/icons/items/52290-rebirth.mod.png"
+  caption: "A professional law-enforcement weapon.  Designed for non-lethal takedowns, it has a sword-catcher guard that gives an advantage when defending."
   groups:
     - heading: null
       rows:
-        - ["Class","[Blunt weapon class]"]
-        - ["Blood loss","0.10x"]
+        - ["Class","<a href=\"/blunt-weapons\">Blunt</a>"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","1x9"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.00x"]
+        - ["Blunt damage","1.30x"]
+        - ["Bleed","0.10x"]
         - ["Armour penetration","+10%"]
+        - ["Attack","0"]
         - ["Defence","+8"]
         - ["Indoors","-2"]
         - ["Reach","21"]
-        - ["Description","A professional law-enforcement weapon.  Designed for non-lethal takedowns, it has a sword-catcher guard that gives an advantage when defending."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52290-rebirth.mod</span>"]
 ---
 

@@ -7,17 +7,33 @@ source:
 categories: ["Weapons","Polearms"]
 infobox:
   title: "Heavy Polearm"
+  image: "/icons/items/52307-rebirth.mod.png"
+  caption: "An unusual sabre-polearm hybrid that mitigates the disadvantages of using a polearm."
   groups:
     - heading: null
       rows:
-        - ["Class","[Polearm class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/polearms\">Polearm</a>"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","1x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.70x"]
+        - ["Blunt damage","0.40x"]
+        - ["Bleed","1.00x"]
         - ["Armour penetration","+30%"]
         - ["Attack","+4"]
+        - ["Defence","0"]
         - ["Indoors","-4"]
-        - ["Damage vs animals","+25%"]
         - ["Reach","26"]
-        - ["Description","An unusual sabre-polearm hybrid that mitigates the disadvantages of using a polearm."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","+25%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52307-rebirth.mod</span>"]
 ---
 

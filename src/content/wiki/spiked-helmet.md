@@ -5,11 +5,32 @@ source:
   title: "Spiked Helmet"
   revision: 86584
 categories: ["Armour","Headgear","Heavy Armour"]
+infobox:
+  title: "Spiked Helmet"
+  image: "/icons/items/2203-gamedata.base.png"
+  caption: "Some sort of crude helmet patched together out of scraps of plate, with added spikes for intimidation.  Guaranteed to be strapped to a bandit of some kind."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","90% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat skills","-3"]
+        - ["Cut into stun","40%"]
+        - ["Perception","-10"]
+    - heading: null
+      rows:
+        - ["String id","<span>2203-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Some sort of crude helmet patched together out of scraps of plate, with added spikes for intimidation. Guaranteed to be strapped to a bandit of some kind.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 The **Spiked Helmet** is a Heavy Armour that is equipped in the Headgear slot. It can be bought in UC Armour Shops. It cannot be worn by [Hive Worker Drones](/hive-worker-drone) or its variants.
 
 It is equipped by [Dust Bandits](/dust-bandit), [Dust Bandit Bowmen](/dust-bandit-bowman), [Dust Bosses](/dust-boss), the [Dust King](/dust-king), [Sinklyde](/sinklyde), and [Prisoners](/prisoner). It is randomly equipped by [Stone Rats](/stone-rat) and [Territorial Thugs](/territorial-thug).

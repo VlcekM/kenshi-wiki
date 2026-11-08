@@ -5,6 +5,20 @@ source:
   title: "Holy Seal"
   revision: 92921
 categories: ["Items","Unique"]
+infobox:
+  title: "Holy Seal"
+  image: "/icons/items/1533445-Dialogue.mod.png"
+  caption: "Special item. \n\nReads: 'Absolver of the Infernal'\n\nA seal given to you by the Holy Lord Phoenix, blessed be his name. Show it to paladins for aid."
+  groups:
+    - heading: null
+      rows:
+        - ["Type","Other"]
+        - ["Weight","0.1 kg"]
+        - ["Base value","c. 50,000"]
+        - ["Size in inventory","1x1"]
+    - heading: null
+      rows:
+        - ["String id","<span>1533445-Dialogue.mod</span>"]
 ---
 
 **Holy Seal** is an item which is given to the player through dialogue from [Holy Lord Phoenix](/holy-lord-phoenix). The player must have 75 relations with [The Holy Nation](/the-holy-nation) to receive this item. Please note that you must not be a female or have robotic limbs and must not be allied with any of their enemies to speak with the Phoenix. The dialogue you must complete is to agree to destroy the Sheks/Flotsam Ninjas. Simply saying you will try or responding that they will be purged will reward you will the Seal.

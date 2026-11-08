@@ -6,23 +6,45 @@ source:
   revision: 90423
 categories: ["Armour","Body Armour","Medium Armour"]
 infobox:
-  title: "Plate Armour Crafting"
+  title: "Black Plate Jacket"
+  image: "/icons/items/53299-rebirth.mod.png"
+  caption: "A plated leather jacket with a good solid armour coverage. Commonly worn by the wealthier drifters and professional adventurer scouts."
   groups:
     - heading: null
       rows:
-        - ["Description","Serious armour needs solid buggerin' plates of steel stuck on to it."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","9 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","100% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","100% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra cut resistance","up to +12%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","30%"]
+        - ["Dexterity","0.90x"]
+        - ["Dodge","0.80x"]
+        - ["Ranged skill","0.80x"]
+        - ["Stealth","-1.00x"]
+        - ["Martial arts","-5"]
+        - ["Weather protection","40%"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","3"]
         - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
         - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>53299-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A plated leather jacket with a good solid armour coverage. Commonly worn by the wealthier drifters and professional adventurer scouts.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Black Plate Jacket** is a Medium Armour that is equipped in the Body Armour slot. It and its variants are one of the few body armours that cover 100% of the entire upper body. It lacks the Stealth and Assassination penalties of its [plain](/plate-jacket) and [white](/white-plate-jacket) variants.
 

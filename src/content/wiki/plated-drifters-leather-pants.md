@@ -5,11 +5,34 @@ source:
   title: "Plated Drifter's Leather Pants"
   revision: 86881
 categories: ["Armour","Legwear","Medium Armour"]
+infobox:
+  title: "Plated Drifter's Leather Pants"
+  image: "/icons/items/1532813-Newwworld.mod.png"
+  caption: "Tired of weak leather to protect your fat human legs?  Using the latest in the Hives research technology we have positioned metal stuff in no less than TWO key locations for optimal leg stab protection.  Queen-approved!"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","9 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","4x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","90% covered"]
+        - ["Left Leg","90% covered"]
+        - ["Extra blunt resistance","up to +20%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Dodge","0.80x"]
+        - ["Stealth","0.90x"]
+        - ["Weather protection","10%"]
+    - heading: null
+      rows:
+        - ["String id","<span>1532813-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Tired of weak leather to protect your fat human legs? Using the latest in the Hives research technology we have positioned metal stuff in no less than TWO key locations for optimal leg stab protection. Queen-approved!</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
-
-  
 
 **Plated Drifter's Leather Pants** are a pair of shoddily reinforced [Drifters Leather Pants](/drifters-leather-pants). They belong to the Medium Armour Class. This armour was introduced into the game with version 0.98.37.
 

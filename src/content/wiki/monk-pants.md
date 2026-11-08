@@ -5,9 +5,25 @@ source:
   title: "Monk Pants"
   revision: 82036
 categories: ["Armour","Legwear","Clothing"]
+infobox:
+  title: "Monk Pants"
+  image: "/icons/items/2188-gamedata.base.png"
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/legwear\">Legs</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","5x4"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","70%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2188-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Monk Pants</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.50</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/legwear">PANTS</a></td></tr></tbody></table>
 
 **Monk Pants** are clothing that are wearable as pants. They are also widely available at Clothing Traders throughout the game. They neither improve or decrease protection or stats for the character wearing them.
 

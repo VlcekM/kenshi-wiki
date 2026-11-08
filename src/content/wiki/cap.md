@@ -6,23 +6,29 @@ source:
   revision: 79530
 categories: ["Armour","Headgear","Clothing"]
 infobox:
-  title: "Hats and Headgear"
+  title: "Cap"
+  image: "/icons/items/2167-gamedata.base.png"
+  caption: "A hat with a shade for the eyes, favoured by traders."
   groups:
     - heading: null
       rows:
-        - ["Description","A whole load of hats that could be crafted."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","3x3"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","1"]
         - ["Costs","2 <a href=\"/book\">Books</a>"]
         - ["Requirements","<a href=\"/clothing-manufacture-tech\">Clothing Manufacture</a>"]
-    - heading: "Results"
-      rows:
         - ["New Item(s)","<a href=\"/bandana\">Bandana</a><br><p><a href=\"/basket-hat\">Basket Hat</a><br><b>Cap</b><br><a href=\"/rattan-hat\">Rattan Hat</a><br><a href=\"/tagelmust\">Tagelmust</a><br><a href=\"/turban\">Turban</a><br><a href=\"/wool-hat\">Wool Hat</a><br></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>2167-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Cap</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td></td></tr><tr><td>-Value</td><td>c.90</td></tr><tr><td>-Sell value</td><td>c.22</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td></td></tr><tr><td colspan="2">A hat with a shade for the eyes, favoured by traders.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td></tr></tbody></table>
 
 The **Cap** is Clothing that is equipped in the Headgear slot.
 

@@ -7,15 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Hashish"
+  image: "/icons/items/1230-gamedata.base.png"
+  caption: "A narcotic product that can ruin your life by getting you arrested.  Effects include foolish giggling, increased sense of humor, and enjoyment of food. Narcotics are illegal in most towns and will get you busted if you are caught smuggling, however the potential profits are huge.  The traders guild won't touch them.  Despite all of this however, the drug remains popular, especially in borderland towns where the laws are less aggressively enforced."
   groups:
     - heading: null
       rows:
+        - ["Type","Drug or drink"]
         - ["Weight","1 kg"]
-        - ["Size","3x2 wide/tall"]
-        - ["Value","<span>c.</span>150"]
-        - ["Avg. Price","c.144"]
-        - ["Price Mark-up","104%"]
-        - ["Description","A narcotic product that can ruin your life by getting you arrested.  Effects include foolish giggling, increased sense of humor, and enjoyment of food. Narcotics are illegal in most towns and will get you busted if you are caught smuggling, however the potential profits are huge.  The traders guild won't touch them.  Despite all of this however, the drug remains popular, especially in borderland towns where the laws are less aggressively enforced."]
+        - ["Base value","c. 800"]
+        - ["Size in inventory","2x3"]
+    - heading: null
+      rows:
+        - ["String id","<span>1230-gamedata.base</span>"]
 ---
 
 **Hashish** (also known as **Hash**) is a [trade good](/trade-goods) and a generally illegal drug made from [Hemp](/hemp). Hashish is illegal in most places throughout the world, leading to a hugely profitable markup outside of where its produced, but comparatively very few buyers available.

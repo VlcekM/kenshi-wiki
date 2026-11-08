@@ -6,25 +6,34 @@ source:
   revision: 86322
 categories: ["Robot Limbs"]
 infobox:
-  title: "Extra Durable Legs"
+  title: "KLR Series Leg (left)"
+  image: "/icons/items/96188-Newwworld.mod.png"
+  caption: "Not the fastest legs around, but a heavy duty KLR leg like this one will keep on running when any normal person would be limping, so the cannibals won't be able to catch up to you and get any more of your limbs."
   groups:
     - heading: null
       rows:
-        - ["Description","Advanced high-tech legs like what the skeletons have."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/robot-limbs\">Left leg</a>"]
+        - ["Weight","25 kg"]
+        - ["Base value","c. 3,000 → c. 30,000"]
+        - ["Size in inventory","7x2"]
+    - heading: "Stats (range across grades)"
+      rows:
+        - ["HP","100 → 300"]
+        - ["Athletics","0.40x → 1.00x"]
+        - ["Swimming","0.50x"]
+        - ["Stealth","0.10x → 0.50x"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","12 hours"]
         - ["Tech Level","6"]
         - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
         - ["Requirements","<a href=\"/skeleton-legs-tech\"> Skeleton Legs</a>"]
-    - heading: "Results"
-      rows:
         - ["New Item(s)","KLR Series Leg (left)<p><a href=\"/klr-series-leg-right\">KLR Series Leg (right)</a></p>"]
+    - heading: null
+      rows:
+        - ["String id","<span>96188-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Not the fastest legs around, but a heavy duty KLR leg like this one will keep on running when any normal person would be limping, so the cannibals won't be able to catch up to you and get any more of your limbs.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
-
-  
 KLR Series Leg (left) is a [Robot Limb](/robot-limbs), and a replacement for a lost left leg.
 
 ## Stats 

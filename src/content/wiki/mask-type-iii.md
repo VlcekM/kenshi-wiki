@@ -5,11 +5,31 @@ source:
   title: "Mask Type III"
   revision: 95552
 categories: ["Armour","Headgear","Light Armour"]
+infobox:
+  title: "Mask Type III"
+  image: "/icons/items/18034-small_changes_otto.mod.png"
+  caption: "A breathing mask that helps mitigate the negative health effects of fog."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","70% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","40%"]
+        - ["Weather protection","100%"]
+    - heading: null
+      rows:
+        - ["String id","<span>18034-small_changes_otto.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A breathing mask that helps mitigate the negative health effects of fog.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 The **Mask Type III** is a headgear item with stats comparable to [Swamp Ninja Mask](/swamp-ninja-mask). It shares the [weather](/weather-effects) protections of a [Fog Mask](/fog-mask).
 
 This mask is only found on [Lady Kana](/lady-kana). It is not, however, unique and it can be crafted by the player.

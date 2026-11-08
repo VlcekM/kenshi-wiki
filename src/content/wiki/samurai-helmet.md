@@ -5,11 +5,37 @@ source:
   title: "Samurai Helmet"
   revision: 92332
 categories: ["Armour","Headgear","Heavy Armour","Samurai"]
+infobox:
+  title: "Samurai Helmet"
+  image: "/icons/items/2145-gamedata.base.png"
+  caption: "Heavy duty armour commonly worn by government owned samurai."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","9 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","100% covered"]
+        - ["Extra cut resistance","up to +10%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Attack","-4"]
+        - ["Combat skills","-3"]
+        - ["Cut into stun","30%"]
+        - ["Dodge","0.60x"]
+        - ["Perception","-20"]
+        - ["Ranged skill","0.60x"]
+        - ["Weather protection","100%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2145-gamedata.base</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Heavy duty armour commonly worn by government owned samurai.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 The **Samurai Helmet** is part of the basic armour of Samurai. It belongs to the Heavy Armour Class and is part of the samurai armour series together with [Samurai Armour](/samurai-armour), [Samurai Legplates](/samurai-legplates) and [Samurai Boots](/samurai-boots). The Samurai Helmet can be [dyed](/colour-scheme).
 
 A rusted and stat-wise inferior [version](/ancient-samurai-helmet) of Samurai Helmet was set to appear in game but does not spawn due to being assigned to characters that can't wear them.

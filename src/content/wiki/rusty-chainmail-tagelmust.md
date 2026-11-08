@@ -5,11 +5,34 @@ source:
   title: "Rusty Chainmail Tagelmust"
   revision: 86592
 categories: ["Armour","Headgear","Medium Armour"]
+infobox:
+  title: "Rusty Chainmail Tagelmust"
+  image: "/icons/items/1532828-Newwworld.mod.png"
+  caption: "This is basically just wrapping a strip of chainmail around your head, but it does do a good job of protecting you when it's not falling off."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","90% covered"]
+        - ["Extra cut resistance","up to +10%"]
+        - ["Extra blunt resistance","up to +-10%"]
+        - ["Pierce resistance","0.80x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","40%"]
+        - ["Weather protection","70%"]
+    - heading: null
+      rows:
+        - ["String id","<span>1532828-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">This is basically just wrapping a strip of chainmail around your head, but it does do a good job of protecting you when it's not falling off.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
-
-  
 The **Rusty Chainmail Tagelmust** is a Medium Armour that is equipped in the Headgear slot. It can be sold by the [Mongrel](/mongrel-armor-shop), [Shek](/shek-armor-shop), and [Tech Hunter](/ronin-armor-shop) armour shops.
 
 It also has [cloth](/tagelmust) and [blackened](/blackened-chainmail-tagelmust) version.

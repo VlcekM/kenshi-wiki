@@ -5,11 +5,31 @@ source:
   title: "Leather Hive Vest"
   revision: 94076
 categories: ["Armour","Shirts","Light Armour"]
+infobox:
+  title: "Leather Hive Vest"
+  image: "/icons/items/1534050-Newwworld.mod.png"
+  caption: "If a Hiver tries wearing a regular human-sized shirt it just sort of hangs loose and falls off their shoulders, often tangling up their arms.  So they were forced to manufacture their own, which they have done to a suspiciously higher standard than all their gear designed for humans."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 2,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Chest","100% covered"]
+        - ["Stomach","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","50%"]
+    - heading: null
+      rows:
+        - ["String id","<span>1534050-Newwworld.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">If a Hiver tries wearing a regular human-sized shirt it just sort of hangs loose and falls off their shoulders, often tangling up their arms. So they were forced to manufacture their own, which they have done to a suspiciously higher standard than all their gear designed for humans.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
-
-  
 **Leather Hive Vest** is [Armour](/armour) that is equipped in the [Shirt](/shirts) slot of [Hivers](/hive). It belongs to the [Light Armour](/light-armour) Class and can be crafted using the [Leather Armour Crafting Bench](/leather-armour-crafting-bench). This shirt is one of the four shirt options available for [Hive](/hive) characters to wear in the shirt slot.
 
 This armour has inventory dimensions of **4x2**.

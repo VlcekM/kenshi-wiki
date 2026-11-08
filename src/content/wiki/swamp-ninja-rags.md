@@ -5,11 +5,40 @@ source:
   title: "Swamp Ninja Rags"
   revision: 86564
 categories: ["WIP","Armour","Body Armour","Light Armour","Needs grade info"]
+infobox:
+  title: "Swamp Ninja Rags"
+  image: "/icons/items/51640-rebirth.mod.png"
+  caption: "A cover-up suit popular with theives and ninjas.  Helps cover your visibility and identity."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","80% covered"]
+        - ["Right Arm","80% covered"]
+        - ["Head","50% covered"]
+        - ["Stomach","90% covered"]
+        - ["Chest","90% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Athletics","1.05x"]
+        - ["Combat skills","+1"]
+        - ["Cut into stun","50%"]
+        - ["Stealth","1.20x"]
+        - ["Weather protection","20%"]
+    - heading: null
+      rows:
+        - ["String id","<span>51640-rebirth.mod</span>"]
 ---
 
 _**This article is a Work in Progress. It may contain out of date or incomplete information.**_
 
-<table class="wikitable"><tbody><tr><td colspan="4">A cover-up suit popular with thieves and ninjas. Helps cover your visibility and identity.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 Swamp **Ninja Rags** is a type of [armour](/body-armour) in Kenshi. It belongs to the Light Armour Class and can be crafted using the [Leather Armour Crafting Bench](/leather-armour-crafting-bench). It can also be [dyed](/colour-scheme).
 

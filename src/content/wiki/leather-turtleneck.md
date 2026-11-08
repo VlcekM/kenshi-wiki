@@ -5,9 +5,32 @@ source:
   title: "Leather Turtleneck"
   revision: 90051
 categories: ["Armour","Shirts","Light Armour"]
+infobox:
+  title: "Leather Turtleneck"
+  image: "/icons/items/2213-gamedata.base.png"
+  caption: "Undershirts provide a reliable second layer of defence."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/light-armour\">Light</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 4,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Chest","100% covered"]
+        - ["Left Arm","90% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","90% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","50%"]
+    - heading: null
+      rows:
+        - ["String id","<span>2213-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Undershirts provide a reliable second layer of defence.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/light-armour">Light Armour</a></td></tr></tbody></table>
 
 **Leather Turtleneck** is a Light Armour that is equipped in the Shirt slot. It can be bought from Mongrel, UC, HN, and Swamp armour and clothing vendors.
 

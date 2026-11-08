@@ -5,11 +5,45 @@ source:
   title: "Unholy Chest Plate"
   revision: 90668
 categories: ["Armour","Body Armour","Heavy Armour"]
+infobox:
+  title: "Unholy Chest Plate"
+  image: "/icons/items/1533849-rebirth.mod.png"
+  caption: "Some mercenaries were interested in the capabilities of the Holy Nation's body armour, but didn't wan't the problems of appearing to be associated with the faction.  So they made their own copies without the religious faction logos painted all over it, and then blackened them in the forge."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","30 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Right Leg","40% covered"]
+        - ["Left Arm","25% covered"]
+        - ["Left Leg","40% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","25% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra blunt resistance","up to +-4%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Assassination","0.50x"]
+        - ["Attack","-4"]
+        - ["Defence","-2"]
+        - ["Combat skills","-2"]
+        - ["Combat speed","0.96x"]
+        - ["Cut into stun","5%"]
+        - ["Dexterity","0.70x"]
+        - ["Dodge","0.50x"]
+        - ["Ranged skill","0.60x"]
+        - ["Martial arts","-10"]
+    - heading: null
+      rows:
+        - ["String id","<span>1533849-rebirth.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">Some mercenaries were interested in the capabilities of the Holy Nation's body armor, but didn't wan't the problems of appearing to be associated with the faction. So they made their own copies without the religious faction logos painted all over it, and then blackened them in the forge.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
-
-  
 The **Unholy Chest Plate** is a Heavy Armour that is equipped in the Body Armour slot. It can be obtained at the [Bookshop](/bookshop) in [Black Scratch](/black-scratch), rarely at a smithy in [Shark](/shark), at a Tech Hunter shop in [Flats Lagoon](/flats-lagoon) or World's End, at Shek armor shops in [Admag](/admag) and any HN town that has been taken over by Shek, and the [Mongrel](/mongrel) armor shop.
 
 It can be randomly equipped by [Tech Hunter Gate Guards](/tech-hunter-gate-guard).

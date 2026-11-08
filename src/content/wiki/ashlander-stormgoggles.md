@@ -6,23 +6,37 @@ source:
   revision: 94110
 categories: ["Armour","Headgear","Clothing"]
 infobox:
-  title: "Leather Armour Crafting"
+  title: "Ashlander Stormgoggles"
+  image: "/icons/items/55395-rebirth.mod.png"
+  caption: "A pair of stormgoggles of the Ashland drifters, strange individuals who have allegedly ventured into the Ashlands and returned, for reasons unknown."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we would have the basis to make our own clothing and light armour.  The same equipment could also be used to make under-armour and bandages."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","1 kg"]
+        - ["Base value","c. 400"]
+        - ["Size in inventory","1x3"]
+    - heading: "Protection"
+      rows:
+        - ["Pierce resistance","0.20x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","50%"]
+        - ["Perception","+4"]
+        - ["Weather protection","100%"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","2"]
         - ["Costs","4 <a href=\"/book\">Books</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
         - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
+    - heading: null
+      rows:
+        - ["String id","<span>55395-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2" align="left">Ashlander Stormgoggles</td></tr><tr><td>-Weight</td><td>1 kg</td></tr><tr><td colspan="2" align="left">[Weather Protections]</td></tr><tr><td>-Duststorms</td><td>100%</td></tr><tr><td>-Value</td><td>c.120</td></tr><tr><td>-Sell value</td><td>c.30</td></tr><tr><td colspan="2" align="left">[No Armour Coverage]</td></tr><tr><td colspan="2">[Skills]</td></tr><tr><td>-Perception bonus</td><td>+4</td></tr><tr><td colspan="2">A pair of stormgoggles of the Ashland drifters, strange individuals who have allegedly ventured into the Ashlands and returned, for reasons unknown.</td></tr><tr><td colspan="2"></td></tr></tbody></table></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td></tr></tbody></table>
 
 **Ashlander Stormgoggles** are Clothing that is equipped in the Headgear slot. There is an [armored version with a top hat](/ashland-hat) that has less weather protection in Duststorms, but with additional protection against Acid.
 

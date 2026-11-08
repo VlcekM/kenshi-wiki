@@ -6,23 +6,44 @@ source:
   revision: 86601
 categories: ["Armour","Body Armour","Medium Armour"]
 infobox:
-  title: "Leather Armour Crafting"
+  title: "Mercenary Leather Armour"
+  image: "/icons/items/2283-gamedata.base.png"
+  caption: "A good all-round medium class armour, favoured by any warrior that has to travel across the wilds."
   groups:
     - heading: null
       rows:
-        - ["Description","With this we would have the basis to make our own clothing and light armour.  The same equipment could also be used to make under-armour and bandages."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Leather"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","80% covered"]
+        - ["Stomach","70% covered"]
+        - ["Right Arm","80% covered"]
+        - ["Chest","100% covered"]
+        - ["Extra cut resistance","up to +12%"]
+        - ["Extra blunt resistance","up to +4%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","30%"]
+        - ["Dodge","0.90x"]
+        - ["Ranged skill","0.90x"]
+        - ["Stealth","0.90x"]
+        - ["Martial arts","-4"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","8 hours"]
         - ["Tech Level","2"]
         - ["Costs","4 <a href=\"/book\">Books</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
         - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
+    - heading: null
+      rows:
+        - ["String id","<span>2283-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A good all-round medium class armour, favoured by any warrior that has to travel across the wilds.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Mercenary Leather Armour** is a Medium Armour that is equipped in the Body Armour slot. It can be bought from [Shek Kingdom](/shek-kingdom), [Tech Hunters](/tech-hunters), [Mongrel](/mongrel), and [United Cities](/united-cities) armour shops.
 

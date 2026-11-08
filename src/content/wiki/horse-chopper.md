@@ -7,15 +7,29 @@ source:
 categories: ["Weapons","Sabre"]
 infobox:
   title: "Horse Chopper"
+  image: "/icons/items/475-gamedata.base.png"
+  caption: "The classic sabre.  Does more damage than a regular katana, at the cost of extra weight.  The heavier blade is better for defending, but still curved for cutting damage.  They're very common, so can usually be found cheaper than other weapons of similar quality."
   groups:
     - heading: null
       rows:
-        - ["Class","[Sabre class]"]
-        - ["Blood loss","0.90x"]
+        - ["Class","<a href=\"/sabres\">Sabre</a>"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 200"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.00x"]
+        - ["Blunt damage","0.25x"]
+        - ["Bleed","0.90x"]
+        - ["Armour penetration","0%"]
         - ["Attack","-4"]
         - ["Defence","+4"]
         - ["Reach","18"]
-        - ["Description","The classic sabre.  Does more damage than a regular katana, at the cost of extra weight.  The heavier blade is better for defending, but still curved for cutting damage.  They're very common, so can usually be found cheaper than other weapons of similar quality."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Truth Two-, Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>475-gamedata.base</span>"]
 ---
 

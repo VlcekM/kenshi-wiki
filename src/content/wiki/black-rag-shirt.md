@@ -6,23 +6,39 @@ source:
   revision: 86662
 categories: ["Armour","Body Armour","Clothing"]
 infobox:
-  title: "Clothing Manufacture"
+  title: "Black Rag Shirt"
+  image: "/icons/items/42060-rebirth.mod.png"
+  caption: "Black rags typical of down-and-out hobo ninjas"
   groups:
     - heading: null
       rows:
-        - ["Description","With this we could craft clothes and stuff.  For wearing."]
-    - heading: "Details"
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/clothing\">Cloth</a>"]
+        - ["Material","Cloth"]
+        - ["Base weight","2 kg"]
+        - ["Base value","c. 50"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Head","25% covered"]
+        - ["Right Arm","95% covered"]
+        - ["Chest","10% covered"]
+        - ["Pierce resistance","0.00x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Cut into stun","20%"]
+        - ["Stealth","1.10x"]
+    - heading: "Research"
       rows:
         - ["Estimated Time","6 hours"]
         - ["Tech Level","1"]
         - ["Costs","1 <a href=\"/book\">Book</a>"]
-    - heading: "Results"
-      rows:
         - ["New Building(s)","<a href=\"/clothing-bench\">Clothing Bench</a>"]
         - ["Required For","<a href=\"/hats-and-headgear-tech\">Hats and Headgear</a><br><a href=\"/simple-clothing-types-tech\">Simple Clothing Types</a>"]
+    - heading: null
+      rows:
+        - ["String id","<span>42060-rebirth.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">Black rags typical of down-and-out hobo ninjas</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/clothing">Clothing</a></td></tr></tbody></table>
 
 The **Black Rag Shirt** is a piece of Clothing that is equipped in the Body Armour slot. Because of its color, it has a stealth bonus unlike its [plain](/rag-shirt), [dyed](/dyed-rag-shirt), and [holy](/holy-servant-rags) variants.
 

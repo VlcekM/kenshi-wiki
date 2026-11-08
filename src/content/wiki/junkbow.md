@@ -7,12 +7,24 @@ source:
 categories: ["Crossbows"]
 infobox:
   title: "Junkbow"
+  image: "/icons/items/95724-Dialogue.mod.png"
+  caption: "A poor quality attempt at crafting a Toothpick.  A pretty worthless bow."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Class","Crossbow"]
-        - ["Ammunition type","<a href=\"/bolts-toothpicks\">Bolts [Toothpicks]</a>"]
+        - ["Class","<a href=\"/crossbows\">Crossbow</a>"]
         - ["Weight","2 kg"]
+        - ["Base value","c. 500 → c. 6,000"]
+        - ["Ammunition","Bolts [Toothpicks]"]
+        - ["Size in inventory","2x6"]
+    - heading: "Combat (range across grades)"
+      rows:
+        - ["Reload time","3–4 s → 2–3 s"]
+        - ["Spread at skill 0","12 → 6"]
+        - ["Perfect aim at skill","90"]
+    - heading: null
+      rows:
+        - ["String id","<span>95724-Dialogue.mod</span>"]
 ---
 
 **Junkbow** is a [Crossbow](/crossbows). A poor quality attempt at crafting a [Tooth Pick](/tooth-pick). Players can craft this on a [Crossbow Crafting Bench](/crossbow-crafting-bench) after researching [Crossbow Crafting](/crossbow-crafting-tech). This is a weapon of choice for the [Dust Bandit Bowmen](/dust-bandit-bowman).

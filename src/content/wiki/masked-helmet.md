@@ -5,9 +5,31 @@ source:
   title: "Masked Helmet"
   revision: 86591
 categories: ["Armour","Headgear","Medium Armour"]
+infobox:
+  title: "Masked Helmet"
+  image: "/icons/items/2201-gamedata.base.png"
+  caption: "A solid, heavy helmet with good protection of the face.  Often worn by bandits, as the high face guard also provides some anonymity."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/headgear\">Head</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","5 kg"]
+        - ["Base value","c. 100"]
+        - ["Size in inventory","3x3"]
+    - heading: "Protection"
+      rows:
+        - ["Head","100% covered"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat skills","-3"]
+        - ["Cut into stun","30%"]
+        - ["Perception","-5"]
+    - heading: null
+      rows:
+        - ["String id","<span>2201-gamedata.base</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">A solid, heavy helmet with good protection of the face.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/headgear">HEAD</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
 
 The **Masked Helmet** is a Medium Armour that is equipped in the Headgear slot. It is sold by UC, HN and Swamp Armour Traders, as well as Ronin and UC Hat Traders.
 

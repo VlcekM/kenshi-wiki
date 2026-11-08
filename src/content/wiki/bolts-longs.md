@@ -6,14 +6,20 @@ source:
   revision: 94654
 categories: ["Crossbows"]
 infobox:
-  title: "Bolts [Longs]"
+  title: "Bolts Longs"
+  image: "/icons/items/96000-Newwworld.mod.png"
+  caption: "High accuracy, long-range bolts.  You won't go wrong with these."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["-Shots","10/10"]
-        - ["-Weight","2 kg"]
-        - ["-Value","c.389"]
-        - ["-Sell value","c.194"]
+        - ["Type","Ammunition"]
+        - ["Weight","2 kg"]
+        - ["Base value","c. 600"]
+        - ["Size in inventory","1x5"]
+        - ["Shots","10"]
+    - heading: null
+      rows:
+        - ["String id","<span>96000-Newwworld.mod</span>"]
 ---
 
 **Bolts \[Longs\]** are ammunition used with [Crossbows](/crossbow-class).

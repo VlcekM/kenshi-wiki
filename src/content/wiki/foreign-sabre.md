@@ -7,15 +7,29 @@ source:
 categories: ["Weapons","Sabre"]
 infobox:
   title: "Foreign Sabre"
+  image: "/icons/items/52304-rebirth.mod.png"
+  caption: "A pretty exotic weapon, thought to have originated from the Black Desert.  Not very popular for some reason and people will probably laugh at you in bars, but is actually a defensive masterpiece and shouldn't be underestimated."
   groups:
     - heading: null
       rows:
-        - ["Class","[Sabre class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/sabres\">Sabre</a>"]
+        - ["Base weight","8 kg"]
+        - ["Base value","c. 500"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","1.20x"]
+        - ["Blunt damage","0.15x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
         - ["Attack","-4"]
         - ["Defence","+8"]
         - ["Reach","20"]
-        - ["Description","A pretty exotic weapon, thought to have originated from the Black Desert.  Not very popular for some reason and people will probably laugh at you in bars, but is actually a defensive masterpiece and shouldn't be underestimated."]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52304-rebirth.mod</span>"]
 ---
 

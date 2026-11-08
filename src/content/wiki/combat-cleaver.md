@@ -7,16 +7,33 @@ source:
 categories: ["Weapons","Hacker"]
 infobox:
   title: "Combat Cleaver"
+  image: "/icons/items/52292-rebirth.mod.png"
+  caption: "A sword-cleaver hybrid, it's lighter and more suited to normal combat."
   groups:
     - heading: null
       rows:
-        - ["Class","[Hacker class]"]
-        - ["Blood loss","0.75x"]
+        - ["Class","<a href=\"/hackers\">Hacker</a>"]
+        - ["Base weight","6 kg"]
+        - ["Base value","c. 300"]
+        - ["Size in inventory","2x8"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.75x"]
+        - ["Blunt damage","0.70x"]
+        - ["Bleed","0.75x"]
         - ["Armour penetration","+30%"]
-        - ["Damage vs robots","+25%"]
-        - ["Damage vs animals","-10%"]
+        - ["Attack","0"]
+        - ["Defence","0"]
         - ["Reach","19"]
-        - ["Description","A sword-cleaver hybrid, it's lighter and more suited to normal combat."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","-10%"]
+        - ["Robots","+25%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52292-rebirth.mod</span>"]
 ---
 

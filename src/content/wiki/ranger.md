@@ -7,12 +7,24 @@ source:
 categories: ["Crossbows"]
 infobox:
   title: "Ranger"
+  image: "/icons/items/66169-Newwworld.mod.png"
+  caption: "A reliable mid-range weapon that's easy to use, especially for amateurs.  It deals out consistent damage at a reasonable rate.  The standard support weapon in mercenary units."
   groups:
-    - heading: "Details"
+    - heading: null
       rows:
-        - ["Class","Crossbow"]
-        - ["Ammunition type","Bolts [Regulars]"]
-        - ["Weight","3 kg"]
+        - ["Class","<a href=\"/crossbows\">Crossbow</a>"]
+        - ["Weight","3.5 kg"]
+        - ["Base value","c. 1,500 → c. 20,000"]
+        - ["Ammunition","Bolts [Regulars]"]
+        - ["Size in inventory","2x7"]
+    - heading: "Combat (range across grades)"
+      rows:
+        - ["Reload time","3–4.5 s → 2–4 s"]
+        - ["Spread at skill 0","5 → 3"]
+        - ["Perfect aim at skill","60"]
+    - heading: null
+      rows:
+        - ["String id","<span>66169-Newwworld.mod</span>"]
 ---
 
 Ranger is a [Crossbow](/crossbows) and uses [Bolts \[Regulars\]](/bolts-regulars).

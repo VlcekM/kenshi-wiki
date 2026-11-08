@@ -5,9 +5,41 @@ source:
   title: "Ancient Samurai Armour"
   revision: 86508
 categories: ["Armour","Body Armour","Heavy Armour"]
+infobox:
+  title: "Ancient Samurai Armour"
+  image: "/icons/items/1533508-Newwworld.mod.png"
+  caption: "An extremely old set of samurai armour that is rusting away to nothing."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/body-armour\">Body armour</a>"]
+        - ["Class","<a href=\"/heavy-armour\">Heavy</a>"]
+        - ["Material","Plate"]
+        - ["Base weight","20 kg"]
+        - ["Base value","c. 60"]
+        - ["Size in inventory","6x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","70% covered"]
+        - ["Stomach","70% covered"]
+        - ["Right Arm","70% covered"]
+        - ["Chest","90% covered"]
+        - ["Extra cut resistance","up to +-10%"]
+    - heading: "Modifiers"
+      rows:
+        - ["Assassination","0.50x"]
+        - ["Attack","-8"]
+        - ["Combat speed","0.94x"]
+        - ["Cut into stun","20%"]
+        - ["Damage output","0.85x"]
+        - ["Dodge","0.50x"]
+        - ["Ranged skill","0.50x"]
+        - ["Stealth","0.00x"]
+        - ["Martial arts","-10"]
+    - heading: null
+      rows:
+        - ["String id","<span>1533508-Newwworld.mod</span>"]
 ---
-
-<table class="wikitable"><tbody><tr><td colspan="4">An extremely old set of samurai armour that is rusting away to nothing.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/body-armour">ARMOR</a></td><td>Type:</td><td><a href="/heavy-armour">Heavy Armour</a></td></tr></tbody></table>
 
 The **Ancient Samurai Armour** is a Heavy Armour that is equipped in the Body Armour slot. Due to its age, it has less resistances compared to its [modern version](/samurai-armour) while having the same attack damage penalty, making this armour an inferior choice.
 

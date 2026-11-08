@@ -7,13 +7,18 @@ source:
 categories: ["Items"]
 infobox:
   title: "Grog"
+  image: "/icons/items/42311-changes_otto.mod.png"
+  caption: "A traditional canister of grog.  Quite weak as alcoholic drinks go, but that just means you can drink several times more of it."
   groups:
     - heading: null
       rows:
+        - ["Type","Drug or drink"]
         - ["Weight","1 kg"]
-        - ["Size","2x3 wide/tall"]
-        - ["Avg. Price","c.1,155"]
-        - ["Description","A traditional canister of grog. Quite weak as alcoholic drinks go, but that just means you can drink several times more of it."]
+        - ["Base value","c. 150"]
+        - ["Size in inventory","3x2"]
+    - heading: null
+      rows:
+        - ["String id","<span>42311-changes_otto.mod</span>"]
 ---
 
 **Grog** is a [trade good](/trade-goods). Grog has no markup due to its rarity in any faction. Grog is made in a [Grog Machine](/grog-machine) using [Wheatstraw](/wheatstraw) and [Water](/water) via the [Cooking](/cooking) skill. It is stored in its own unique storage container, [Grog Barrels](/grog-barrels). It cannot be used as [food](/food).

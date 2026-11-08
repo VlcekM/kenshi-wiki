@@ -5,11 +5,39 @@ source:
   title: "Rusty Chain Shirt"
   revision: 86526
 categories: ["Armour","Shirts","Medium Armour"]
+infobox:
+  title: "Rusty Chain Shirt"
+  image: "/icons/items/18018-small_changes_otto.mod.png"
+  caption: "A chain undershirt provides a reliable second layer of defence."
+  groups:
+    - heading: null
+      rows:
+        - ["Slot","<a href=\"/shirts\">Shirt</a>"]
+        - ["Class","<a href=\"/medium-armour\">Medium</a>"]
+        - ["Material","Chain"]
+        - ["Base weight","10 kg"]
+        - ["Base value","c. 8,000"]
+        - ["Size in inventory","2x4"]
+    - heading: "Protection"
+      rows:
+        - ["Left Arm","25% covered"]
+        - ["Stomach","100% covered"]
+        - ["Right Arm","25% covered"]
+        - ["Chest","100% covered"]
+        - ["Pierce resistance","0.80x"]
+    - heading: "Modifiers"
+      rows:
+        - ["Combat speed","0.97x"]
+        - ["Cut into stun","40%"]
+        - ["Dexterity","0.90x"]
+        - ["Dodge","0.80x"]
+        - ["Ranged skill","0.80x"]
+        - ["Stealth","0.85x"]
+    - heading: null
+      rows:
+        - ["String id","<span>18018-small_changes_otto.mod</span>"]
 ---
 
-<table class="wikitable"><tbody><tr><td colspan="4">A chain undershirt provides a reliable second layer of defense.</td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/shirts">SHIRT</a></td><td>Type:</td><td><a href="/medium-armour">Medium Armour</a></td></tr></tbody></table>
-
-  
 The **Rusty Chain Shirt** is a Medium Armour that is equipped in the Shirt slot. It can be sold by Armour King and HN and Swamp Armour Traders, as well as from Crab Smithies.
 
 There are [standard](/chain-shirt), [darkened](/blackened-chain-shirt) and [long-sleeve](/rusty-chainmail) versions of this clothing. Additionally, there is also a [Hiver-equivalent](/rusted-hive-shirt) version of this clothing.

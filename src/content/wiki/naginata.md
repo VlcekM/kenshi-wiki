@@ -7,16 +7,33 @@ source:
 categories: ["Weapons","Polearms"]
 infobox:
   title: "Naginata"
+  image: "/icons/items/52308-rebirth.mod.png"
+  caption: "A samurai hunter's weapon that can be deceptively fast and hard to defend against.  Too long to use effectively in cramped environments, but good against animals."
   groups:
     - heading: null
       rows:
-        - ["Class","[Polearm class]"]
-        - ["Blood loss","1.00x"]
+        - ["Class","<a href=\"/polearms\">Polearm</a>"]
+        - ["Base weight","3 kg"]
+        - ["Base value","c. 350"]
+        - ["Size in inventory","1x10"]
+    - heading: "Combat"
+      rows:
+        - ["Cut damage","0.80x"]
+        - ["Blunt damage","0.20x"]
+        - ["Bleed","1.00x"]
+        - ["Armour penetration","0%"]
         - ["Attack","+6"]
+        - ["Defence","0"]
         - ["Indoors","-8"]
-        - ["Damage vs animals","+50%"]
         - ["Reach","28"]
-        - ["Description","A samurai hunter's weapon that can be deceptively fast and hard to defend against.  Too long to use effectively in cramped environments, but good against animals."]
+    - heading: "Damage against"
+      rows:
+        - ["Animals","+50%"]
+    - heading: null
+      rows:
+        - ["Manufacturers","Homemade, Skeleton Smiths, Unknown, Catun Scrapmaster, Edgewalkers, Ancient, Cross"]
+    - heading: null
+      rows:
         - ["String id","<span>52308-rebirth.mod</span>"]
 ---
 
