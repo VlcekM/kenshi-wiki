@@ -275,6 +275,44 @@ img.item-icon {
   object-fit: contain;
 }
 
+/* An armour's stats per grade (scripts/grade-tables.mjs): grades in the game's colors, values centred under them. */
+table.grade-table td {
+  text-align: center;
+}
+
+table.grade-table th[scope="row"] {
+  font-weight: normal;
+  text-align: left;
+}
+
+table.grade-table th.grade {
+  min-width: 5em;
+}
+
+table.grade-table .grade-prototype {
+  color: light-dark(#6b6b6b, rgb(from #9a9a9a calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
+table.grade-table .grade-shoddy {
+  color: light-dark(#5c4a2e, rgb(from #e0d6c3 calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
+table.grade-table .grade-standard {
+  color: light-dark(#1d6c9e, rgb(from #4fb0e0 calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
+table.grade-table .grade-high {
+  color: light-dark(#1d8a2c, rgb(from #4ee35e calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
+table.grade-table .grade-specialist {
+  color: light-dark(#8a7800, rgb(from #f2e33a calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
+table.grade-table .grade-masterwork {
+  color: light-dark(#a35f00, rgb(from #ffc23a calc(255 - r) calc(255 - g) calc(255 - b)));
+}
+
 /* A weapon's icon stays on its name's line. */
 td:has(> img.item-icon-wide:first-child) {
   white-space: nowrap;

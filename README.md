@@ -43,6 +43,8 @@ Contributions are made as pull requests on GitHub.
   string id; else an infobox's `String id` row). Weapon, armour and crossbow stats come from MeitouClient's
   `--wiki-export <folder>`, passed to `game-items.mjs` as `--meitou <folder>`. Re-run it after `import-fandom.mjs`, which
   replaces infoboxes.
+- `node scripts/grade-tables.mjs` merges the stat cards Fandom lists once per armour grade into one table with a column per
+  grade. Re-run it after `import-fandom.mjs` too.
 - Pages live in `src/pages/`; `about-kenshi.astro` is an example article using every building block.
 - Every page wraps its content in `src/layouts/WikiLayout.astro` (sidebar, header, footer, categories).
 - Article building blocks live in `src/components/`: `Infobox`, `Toc`, `Gallery` and `Navbox`.
