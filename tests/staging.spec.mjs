@@ -45,7 +45,7 @@ for (const { route, file, source } of pages) {
     });
 
     const response = await page.goto(route, { waitUntil: 'networkidle' });
-    expect(response.status()).toBe(200);
+    expect(response.status(), `HTTP ${response.status()} on ${response.url()} (Ray ${response.headers()['cf-ray'] ?? '-'}, mitigation ${response.headers()['cf-mitigated'] ?? '-'})`).toBe(200);
     expect(await response.body()).toEqual(await expectedHtml(file));
     checkPublishedHeaders(response);
 
@@ -242,7 +242,7 @@ test('credits, upstream licenses and editable sources are public on the wiki', a
     return route.abort();
   });
   const response = await page.goto(creditsPage, { waitUntil: 'networkidle' });
-  expect(response.status()).toBe(200);
+  expect(response.status(), `HTTP ${response.status()} on ${response.url()} (Ray ${response.headers()['cf-ray'] ?? '-'}, mitigation ${response.headers()['cf-mitigated'] ?? '-'})`).toBe(200);
   expect(await response.body()).toEqual(await expectedHtml('contributors.html'));
   checkPublishedHeaders(response);
   const main = page.getByRole('main');

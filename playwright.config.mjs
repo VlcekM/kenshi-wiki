@@ -15,6 +15,7 @@ export default defineConfig({
   timeout: 30_000,
   use: {
     baseURL: target === 'production' ? 'https://kenshi.wiki' : preview ?? localURL,
+    headless: !(process.env.GITHUB_ACTIONS === 'true' && target === 'production'),
     viewport: { width: 1440, height: 900 },
     colorScheme: 'dark',
     serviceWorkers: 'block',

@@ -6,12 +6,18 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      verify_preview_url:
+        description: 'Verify live only: enter its immutable preview URL. Leave blank for a normal release.'
+        required: false
+        type: string
 
 permissions:
   contents: read
 
 jobs:
   check-and-stage:
+    if: github.event_name != 'workflow_dispatch' || inputs.verify_preview_url == ''
     outputs:
       version: ${{ steps.preview.outputs.version }}
       url: ${{ steps.preview.outputs.url }}
@@ -101,7 +107,6 @@ jobs:
           cache: npm
 
       - run: npm ci
-      - run: npm exec -- playwright install --with-deps chromium
 
       - name: Route production traffic to the approved version
         env:
@@ -117,7 +122,29 @@ jobs:
           npm exec -- cf workers deployments create --worker kenshi-wiki --strategy percentage --versions "$versions"
           echo "Deployed $VERSION from $WIKI_PREVIEW_URL to https://kenshi.wiki" >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Verify production over HTTPS
-        env:
-          WIKI_TEST_TARGET: production
-        run: npm test
+  verify-production:
+    name: Verify live wiki
+    needs: [check-and-stage, promote]
+    if: >-
+      always() && !cancelled() &&
+      (needs.promote.result == 'success' ||
+       (github.event_name == 'workflow_dispatch' && inputs.verify_preview_url != ''))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      WIKI_TEST_TARGET: production
+      WIKI_PREVIEW_URL: ${{ inputs.verify_preview_url || needs.check-and-stage.outputs.url }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - run: npm ci
+      - run: npm exec -- playwright install --with-deps chromium
+      - name: Check production in desktop Chromium
+        run: xvfb-run -a npm test
