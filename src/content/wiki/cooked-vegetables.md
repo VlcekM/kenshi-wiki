@@ -31,3 +31,7 @@ infobox:
 ### History
 
 Cooked Vegetables had an initial icon which simply displayed a top view for the container which holds this food.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/greenfruit">Greenfruit</a></th><td>8</td></tr><tr><th scope="row"><a href="/water">Water</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/cooking-tech">Cooking</a> research: 4 hours at tech level 1; costs <a href="/book">1 Book</a>.</li></ul></div>

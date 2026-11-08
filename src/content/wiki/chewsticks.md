@@ -35,3 +35,7 @@ The lowest of all cultivated food is the [Dustwich](/dustwich), costing 1 water 
   
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/water">Water</a></th><td>0.25</td></tr><tr><th scope="row"><a href="/cactus">Cactus</a></th><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/desert-cooking-tech">Desert Cooking</a> research: 4 hours at tech level 2; costs <a href="/book">3 Books</a>.</li></ul></div>

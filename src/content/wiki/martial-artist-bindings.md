@@ -43,6 +43,8 @@ If the character that is wearing this clothing has prosthetics or is limbless, t
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/clothing-manufacture-tech">Clothing Manufacture</a> research: 6 hours at tech level 1; costs <a href="/book">1 Book</a>.</li><li>Martial Artist Bindings blueprint: 12 hours at tech level 1; the blueprint is worth c. 225.</li></ul></div>
+
 It can be crafted at a [Clothing Bench](/clothing-bench) after researching [Clothing Manufacture](/clothing-manufacture-tech).
 
 ## Trivia

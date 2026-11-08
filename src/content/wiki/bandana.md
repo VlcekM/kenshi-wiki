@@ -26,13 +26,6 @@ infobox:
       rows:
         - ["Combat skills","+1"]
         - ["Cut into stun","20%"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","2 <a href=\"/book\">Books</a>"]
-        - ["Requirements","<a href=\"/clothing-manufacture-tech\">Clothing Manufacture</a>"]
-        - ["New Item(s)","<b>Bandana</b><br><p><a href=\"/basket-hat\">Basket Hat</a><br><a href=\"/cap\">Cap</a><br><a href=\"/rattan-hat\">Rattan Hat</a><br><a href=\"/tagelmust\">Tagelmust</a><br><a href=\"/turban\">Turban</a><br><a href=\"/wool-hat\">Wool Hat</a><br></p>"]
     - heading: null
       rows:
         - ["String id","<span>2222-chris_r.mod</span>"]
@@ -58,11 +51,6 @@ The Bandana is a white cloth tied around the character's face like a headband. I
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.4 required)</span></p></td><td><strong><span>Bandana</span></strong><div></div></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Bandana blueprint: 12 hours at tech level 1; the blueprint is worth c. 1,758.</li><li><a href="/hats-and-headgear-tech">Hats and Headgear</a> research: 6 hours at tech level 1; costs <a href="/book">2 Books</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li></ul></div>
 
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Bandana<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,757</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>439</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Bandana</td></tr></tbody></table>
-
-  
 A bandana blueprint can be bought if one somehow lacks the necessary 2 Books for the subsequent research after unlocking the [Clothing Bench](/clothing-bench), however it is MUCH more expensive than the books required. Crafting Bandanas is one of the more profitable options for a beginning smith (tailor).

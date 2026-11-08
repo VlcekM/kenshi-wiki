@@ -47,6 +47,4 @@ The Turban is made from a single piece of cloth and wrapped around the players h
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Turban<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Turban</td></tr></tbody></table>
-
-It can be crafted in the [Clothing Bench](/clothing-bench).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.75</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/hats-and-headgear-tech">Hats and Headgear</a> research: 6 hours at tech level 1; costs <a href="/book">2 Books</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li><li>Turban blueprint: 12 hours at tech level 1; the blueprint is worth c. 1,758.</li></ul></div>

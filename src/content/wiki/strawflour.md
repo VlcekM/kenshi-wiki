@@ -34,3 +34,7 @@ It can be purchased from [Trade Goods Traders](/trade-goods-trader) at various s
 -   [Bread](/bread)
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable">Automatic Grain Silo<br><a href="/grain-silo">Grain Silo</a></th></tr><tr><th scope="row"><a href="/wheatstraw">Wheatstraw</a></th><td>1</td></tr></tbody></table></div>

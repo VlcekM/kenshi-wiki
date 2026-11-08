@@ -31,3 +31,7 @@ It is the most affordable vendor-bought food that grants the highest Nu-per-Cats
 <details class="collapsible" open=""><summary>Campfire</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-meat"><span>Raw Meat</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Dried Meat</span></strong><div></div></td></tr></tbody></table></details>
 
 <details class="collapsible"><summary>Cooking Stove</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/raw-meat"><span>Raw Meat</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Dried Meat</span></strong><div></div></td></tr></tbody></table></details>
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/campfire">Campfire</a><br><a href="/cooking-stove">Cooking Stove</a><br>Invisible Campfire</th></tr><tr><th scope="row"><a href="/raw-meat">Raw Meat</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>_Default Start blueprint: 12 hours at tech level 0.</li><li>_Low Start blueprint: 12 hours at tech level 0.</li></ul></div>

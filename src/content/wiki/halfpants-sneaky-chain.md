@@ -48,6 +48,6 @@ Halfpants \[Sneaky Chain\] are depicted as dark pants that are torn at the shin.
 
 ## Crafting
 
-This armour can strangely be crafted from both the [Clothing Bench](/clothing-bench) and the [Chain Armour Crafting Bench](/chain-armour-crafting-bench).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.4</td><td>2</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>2</td><td>–</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Halfpants [sneaky chain] blueprint: 12 hours at tech level 1; the blueprint is worth c. 3,955.</li></ul></div>
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Halfpants_(Sneaky_Chain)<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">?</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Halfpants_(Sneaky_Chain)</td></tr></tbody></table>
+This armour can strangely be crafted from both the [Clothing Bench](/clothing-bench) and the [Chain Armour Crafting Bench](/chain-armour-crafting-bench).

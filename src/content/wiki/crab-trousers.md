@@ -29,13 +29,6 @@ infobox:
         - ["Dodge","0.70x"]
         - ["Stealth","0.25x"]
         - ["Martial arts","-10"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","3"]
-        - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-        - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
-        - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
     - heading: null
       rows:
         - ["String id","<span>64891-Newwworld.mod</span>"]
@@ -61,9 +54,6 @@ The **Crab Trousers** appear to be pieces of brown scrap metal strapped over cha
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Heavy Armour Smithy</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.36 required)</span></p></td><td><strong><span>Crab Trousers</span></strong><div></div></td></tr><tr><td><a href="/armour-plating"><span>Armour Plating</span></a><div></div><p><span>(1.9 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.38</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>1.9</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Crab Trousers blueprint: 12 hours at tech level 1; the blueprint is worth c. 6,061.</li></ul></div>
 
-  
 The blueprint can be bought from a [Crabsmith](/crabsmith).
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Crab Trousers<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>c.6,060</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,515</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Crab Trousers</td></tr></tbody></table>

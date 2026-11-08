@@ -43,7 +43,7 @@ The [Meitou](/meitou)\-level quality of this weapon can be found on the leader o
 
 ## Crafting
 
-This item cannot be crafted.
+<div class="crafting"><p>It can't be crafted.</p></div>
 
 ## Blueprints
 

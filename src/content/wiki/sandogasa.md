@@ -41,6 +41,4 @@ This hat looks like an umbrella hat made of a wicker-like material.
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Sandogasa<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Sandogasa</td></tr></tbody></table>
-
-It can be crafted using the [Clothing Bench](/clothing-bench).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Sandogasa blueprint: 12 hours at tech level 1; the blueprint is worth c. 15.</li></ul></div>

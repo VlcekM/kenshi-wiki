@@ -66,3 +66,7 @@ Iron plates are extremely common loot in the Kenshi world, whether you're scaven
 -   20 x [Cleanser Unit](/cleanser-unit)
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable">Iron Refinery IV<br><a href="/iron-refinery">Iron Refinery</a><br>Iron Refinery II<br>Iron Refinery III<br><a href="/manual-iron-refinery">Manual Iron Refinery</a></th></tr><tr><th scope="row"><a href="/raw-iron">Raw Iron</a></th><td>2</td></tr></tbody></table></div>

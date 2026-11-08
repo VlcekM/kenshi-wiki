@@ -38,6 +38,10 @@ There is a possibility that the following characters will give the player a Rati
 
 ### History
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/foodcube">Foodcube</a></th><td>1</td></tr><tr><th scope="row"><a href="/dried-meat">Dried Meat</a></th><td>1</td></tr></tbody></table></div>
+
 ## Trivia
 
 -   Although Ration Packs list their ingredients there is no recipe to actually craft them so they must be obtained from shops/as gifts from NPCs.

@@ -74,4 +74,4 @@ The blueprint can be found in the following locations:
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Heavy Armour Smithy</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.81 required)</span></p></td><td><strong><span>Samurai Armour</span></strong><div></div></td></tr><tr><td><a href="/armour-plating"><span>Armour Plating</span></a><div></div><p><span>(4.05 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.81</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>4.05</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Samurai Armour blueprint: 12 hours at tech level 1; the blueprint is worth c. 15,154.</li></ul></div>

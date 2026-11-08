@@ -47,6 +47,6 @@ The Side-Angle Hachigane is a metal plate attached to a grey bandana. The metal 
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Side Angle Hachigane<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">2</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Side Angle Hachigane</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.09</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>0.45</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Side-Angle Hachigane blueprint: 12 hours at tech level 1; the blueprint is worth c. 1,732.</li></ul></div>
 
 It can be crafted using the [Heavy Armour Smithy](/heavy-armour-smithy) after researching the blueprint.

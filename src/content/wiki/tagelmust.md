@@ -49,7 +49,7 @@ There is a bug/feature found in v1.0.51. When [Cat](/cat) wears an ordinary Tage
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Tagelmust<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">2</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1936</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Tagelmust</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.9</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/hats-and-headgear-tech">Hats and Headgear</a> research: 6 hours at tech level 1; costs <a href="/book">2 Books</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li><li>Tagelmust blueprint: 12 hours at tech level 1; the blueprint is worth c. 1,758.</li></ul></div>
 
 A blueprint can only be found at [The Great Library](/the-great-library).
 

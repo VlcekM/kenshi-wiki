@@ -20,13 +20,6 @@ infobox:
     - heading: "Modifiers"
       rows:
         - ["Cut into stun","70%"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","1 <a href=\"/book\">Book</a>"]
-        - ["Requirements","<a href=\"/clothing-manufacture-tech\">Clothing Manufacture</a>"]
-        - ["New Item(s)","<a href=\"/black-cloth-shirt\">Black Cloth Shirt</a><br><p><b>Cargopants</b><br><a href=\"/cloth-shirt\">Cloth Shirt</a><br><a href=\"/gi\">Gi</a><br><a href=\"/gi-pants\">Gi Pants</a><br><a href=\"/turtleneck\">Turtleneck</a><br><a href=\"/white-vest\">White Vest</a><br><a href=\"/wooden-sandals\">Wooden Sandals</a><br><a href=\"/worn-out-shorts\">Worn-out Shorts</a><br></p>"]
     - heading: null
       rows:
         - ["String id","<span>550-gamedata.base</span>"]
@@ -50,14 +43,6 @@ Cargopants are simple full-leg length khaki colored pants. They are held up on t
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1 required)</span></p></td><td><strong><span>Cargopants</span></strong><div></div></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Cargopants blueprint: 12 hours at tech level 1; the blueprint is worth c. 75.</li><li><a href="/simple-clothing-types-tech">Simple Clothing Types</a> research: 6 hours at tech level 1; costs <a href="/book">1 Book</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li></ul></div>
 
-  
-  
-  
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Cargopants<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>300</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>75</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Cargopants</td></tr></tbody></table>
-
-  
 A blueprint for this item exists, but is unneeded unless the player lacks the Book for the research of "Simple Clothing Types". The (coloured) version however, can only be obtained via the blueprint.

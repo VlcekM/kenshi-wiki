@@ -47,6 +47,8 @@ The Oldworld Bow MkI is a great choice for an early-game bow, as it an upgrade i
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/crossbow-crafting-bench">Crossbow Crafting Bench</a></th></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>6</td></tr><tr><th scope="row"><a href="/crossbow-parts">Crossbow Parts</a></th><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Oldworld Bow MkI blueprint: 12 hours at tech level 1; the blueprint is worth c. 8,278.</li></ul></div>
+
 The blueprint for this weapon can be found at the [Scraphouse](/scraphouse).
 
 After unlocking the ability to craft through use of a blueprint, players can craft this crossbow at a [Crossbow Crafting Bench](/crossbow-crafting-bench). A single Oldworld MkI is made up of 6 [Steel Bars](/steel-bars) and 4 [Crossbow Parts](/crossbow-parts).

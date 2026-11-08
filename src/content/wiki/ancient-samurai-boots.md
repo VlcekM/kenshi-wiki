@@ -36,7 +36,6 @@ infobox:
 
   
 
-
 **Ancient Samurai Boots** is a Heavy Armour that is equipped in the Footwear slot. As the [Second Empire](/second-empire) remnants who wear the Ancient Samurai set are purely composed of [Skeletons](/skeleton) — who cannot wear boots — this armour cannot be found in the game. Had it existed in the game it would have been part of a set together with [Ancient Samurai Helmet](/ancient-samurai-helmet), [Ancient Samurai Armour](/ancient-samurai-armour) and [Ancient Samurai Legplates](/ancient-samurai-legplates).
 
 This armour has inventory dimensions of **2x4**.
@@ -55,4 +54,4 @@ This armour has inventory dimensions of **2x4**.
 
 ## Crafting
 
-It is not possible to craft this item.
+<div class="crafting"><p>It can't be crafted.</p></div>

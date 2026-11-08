@@ -25,13 +25,6 @@ infobox:
         - ["Thievery","0.20x → 0.95x"]
         - ["Ranged","0.75x → 1.00x"]
         - ["Unarmed damage","0 → +5"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","12 hours"]
-        - ["Tech Level","6"]
-        - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
-        - ["Requirements","<a href=\"/skeleton-arms-tech\"> Skeleton Arms</a>"]
-        - ["New Item(s)","<a href=\"/klr-series-arm-left\">KLR Series Arm (left)</a><p>KLR Series Arm (right)</p>"]
     - heading: null
       rows:
         - ["String id","<span>96187-Newwworld.mod</span>"]
@@ -59,4 +52,4 @@ infobox:
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>KLR Series Arm (right)</span></strong><div></div></td></tr><tr><td><a href="/electrical-components"><span>Electrical Components</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/durable-arms-tech">Durable Arms</a> research: 12 hours at tech level 6; costs <a href="/ai-core">2 AI Cores</a>; needs <a href="/skeleton-arms-tech">Skeleton Arms</a>.</li></ul></div>

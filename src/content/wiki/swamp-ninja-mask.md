@@ -50,4 +50,6 @@ It looks like a rusty gas mask with a funky long tube coming out the mouth-area 
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.14</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>0.7</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Swamp Ninja Mask blueprint: 12 hours at tech level 1; the blueprint is worth c. 2,235.</li></ul></div>
+
 The Blueprint can be found in [The Great Library](/the-great-library) in [Black Scratch](/black-scratch). Despite being tagged as light armor and leather, the mask needs to be crafted at a [Heavy Armour Smithy](/heavy-armour-smithy).

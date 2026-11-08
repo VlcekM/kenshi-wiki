@@ -47,6 +47,10 @@ Plated Longboots are knee-high leather boots with lobstered metal plates down it
 
   
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.16</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>0.8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Plated Longboots blueprint: 12 hours at tech level 1; the blueprint is worth c. 2,821.</li></ul></div>
+
 ## Blueprints
 
 <table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Plated Longboots<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">2</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Plated Longboots</td></tr></tbody></table>

@@ -40,3 +40,7 @@ infobox:
 This item can be looted from these locations: [Ancient Labs](/ancient-labs), [Burn's Tower](/burns-tower), [Lost Armouries](/lost-armoury), [Post-Ancient Workshops](/post-ancient-workshop).
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/plate-beating-station">Plate Beating Station</a></th></tr><tr><th scope="row"><a href="/raw-iron">Raw Iron</a></th><td>2</td></tr></tbody></table></div>

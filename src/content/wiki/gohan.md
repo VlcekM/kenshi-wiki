@@ -39,3 +39,7 @@ Gohan uses approximately 1.49 water/unit to grow indoors or non-rainy but suitab
 ### History
 
 Initially, this item had an identical icon to [Rice Bowl](/rice-bowl). That icon was a top view of a closed lid on the container used to hold food.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/riceweed">Riceweed</a></th><td>10</td></tr><tr><th scope="row"><a href="/greenfruit">Greenfruit</a></th><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/advanced-cooking-tech">Advanced Cooking</a> research: 4 hours at tech level 2; costs <a href="/book">2 Books</a>.</li></ul></div>

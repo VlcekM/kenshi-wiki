@@ -47,6 +47,6 @@ Orange-colored versions are equipped by [United Cities](/united-cities) nobles -
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Dyed Robes<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>984</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Dyed Robes</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>4.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Dyed Robes blueprint: 12 hours at tech level 1; the blueprint is worth c. 984.</li></ul></div>
 
 Dyed Robes can be crafted on the [Clothing Bench](/clothing-bench) after use of the blueprint. It can be found at [the Great Library](/the-great-library).

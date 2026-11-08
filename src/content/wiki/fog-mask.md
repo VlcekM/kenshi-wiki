@@ -48,7 +48,7 @@ The Fog Mask appears to be metal gas mask with two circular eyeholes.
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Fog Mask<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>3,465</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Fog Mask</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.14</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>0.7</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Fog Mask blueprint: 12 hours at tech level 1; the blueprint is worth c. 3,465.</li></ul></div>
 
 The [blueprint](/blueprints) for the Fog Mask is very rare and can only be found in [Scraphouse](/scraphouse) or [Cat-Lon's Exile](/cat-lons-exile).
 

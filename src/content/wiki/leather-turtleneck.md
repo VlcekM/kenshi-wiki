@@ -50,6 +50,6 @@ The Leather Turtleneck covers the entire torso of the character. It is made of a
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Leather Turtleneck<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Leather Turtleneck</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.86</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>4.3</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Leather Turtleneck blueprint: 12 hours at tech level 1; the blueprint is worth c. 11,175.</li></ul></div>
 
 It can be crafted using the [Leather Armour Crafting Bench](/leather-armour-crafting-bench) after researching the blueprint.

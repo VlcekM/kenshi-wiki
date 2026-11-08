@@ -36,4 +36,6 @@ A pair of olivine green loose-fitting pants with light brown stripes running alo
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Noble's Trousers blueprint: 12 hours at tech level 1; the blueprint is worth c. 750.</li></ul></div>
+
 The blueprint for this item might be found in the Great Library in [Black Scratch](/black-scratch). After researching, it can be crafted at the [Clothing Bench](/clothing-bench).

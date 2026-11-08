@@ -34,13 +34,6 @@ infobox:
         - ["Stealth","-1.00x"]
         - ["Martial arts","-5"]
         - ["Weather protection","40%"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","3"]
-        - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-        - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
-        - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
     - heading: null
       rows:
         - ["String id","<span>53299-rebirth.mod</span>"]
@@ -68,8 +61,4 @@ Once dropped, the Black Plate Jacket has an appearance of a White Plate Jacket.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Heavy Armour Smithy</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.9 required)</span></p></td><td><strong><span>Black Plate Jacket</span></strong><div></div></td></tr><tr><td><a href="/armour-plating"><span>Armour Plating</span></a><div></div><p><span>(4.5 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Black Plate Jacket<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>10,682</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>2,670</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Black Plate Jacket</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.9</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>4.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Black Plate Jacket blueprint: 12 hours at tech level 1; the blueprint is worth c. 10,683.</li></ul></div>

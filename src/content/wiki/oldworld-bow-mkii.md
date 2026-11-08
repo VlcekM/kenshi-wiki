@@ -45,6 +45,8 @@ infobox:
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/crossbow-crafting-bench">Crossbow Crafting Bench</a></th></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>6</td></tr><tr><th scope="row"><a href="/crossbow-parts">Crossbow Parts</a></th><td>6</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Oldworld Bow MkII blueprint: 12 hours at tech level 1; the blueprint is worth c. 9,868.</li></ul></div>
+
 The blueprint for this weapon can be found at the [Scraphouse](/scraphouse).
 
 After unlocking the ability to craft through use of a blueprint, players can craft this crossbow at a [Crossbow Crafting Bench](/crossbow-crafting-bench). A single Oldworld MkII is made up of 6 [Steel Bars](/steel-bars) and 6 [Crossbow Parts](/crossbow-parts).

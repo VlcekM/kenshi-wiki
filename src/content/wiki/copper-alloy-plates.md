@@ -42,3 +42,7 @@ They can be found in many [ancient ruins](/ancient-ruins) in varying quantities.
 -   20 x [Cleanser Unit](/cleanser-unit)
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/copper-alloy-bench">Copper Alloy Bench</a></th></tr><tr><th scope="row"><a href="/copper">Copper</a></th><td>1</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>1</td></tr></tbody></table></div>

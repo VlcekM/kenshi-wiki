@@ -47,4 +47,6 @@ Headgear of a bygone era, the Tricorn Hat is a three-sided hat made out of brown
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.12</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>0.6</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Tricorn Hat blueprint: 12 hours at tech level 1; the blueprint is worth c. 1,116.</li></ul></div>
+
 The Tricorn Hat can be made on a [Leather Armour Crafting Bench](/leather-armour-crafting-bench) after obtaining the recipe, but there are few places which have the recipe, such as [The Great Library](/the-great-library).

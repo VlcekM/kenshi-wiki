@@ -50,6 +50,6 @@ The Ninja Mask is a design that will look familiar anyone that has seen movies i
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Ninja Mask<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Ninja Mask</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.18</td><td>0.9</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>0.9</td><td>–</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Ninja Mask blueprint: 12 hours at tech level 1; the blueprint is worth c. 2,076.</li></ul></div>
 
 After researching the appropriate blueprint, it can be crafted at the [Clothing Bench](/clothing-bench) and strangely also at the [Leather Armour Crafting Bench](/leather-armour-crafting-bench).

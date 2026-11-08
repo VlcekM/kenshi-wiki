@@ -56,9 +56,8 @@ It's appearance resembles that of the [Sleeveless Longcoat](/sleeveless-longcoat
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Sleeveless Dustcoat<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Sleeveless Dustcoat</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.79</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>3.95</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Sleeveless Dustcoat blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,450.</li></ul></div>
 
-  
 It can theoretically be crafted on the [Leather Armour Crafting Bench](/leather-armour-crafting-bench) after researching the blueprints.
 
 Although there is a blueprint for this item in game files, that blueprint is nowhere to be found in game. There are, however, few mods you can download which fixes this missing blueprint issue.

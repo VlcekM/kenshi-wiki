@@ -30,6 +30,10 @@ They can be found on [Tech Hunters](/tech-hunter), who are knowledgeable about e
 
   
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/medical-workbench">Medical Workbench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>2.5</td></tr><tr><th scope="row"><a href="/hemp">Hemp</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/splints-tech">Splints</a> research: 6 hours at tech level 3; costs <a href="/book">4 Books</a>; needs <a href="/basic-first-aid-kits-tech">Basic First Aid Kits</a>.</li></ul></div>
+
 ## Trivia
 
 -   If you play with limbloss on frequent, then wound degeneration/limb damage via weather (Acid water/ground and beams) will still cause limbloss once below -100% health even if the limb is splinted.

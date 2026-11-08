@@ -63,6 +63,10 @@ As noted in-game, the Mercenary Plate is a versatile medium-heavy armour, tradin
 
 A player may consider using the Mercenary Plate with [Leather Turtleneck](/leather-turtleneck) or [Martial Artist Bindings](/martial-artist-bindings) if he wants to maintain a dextrous medium-heavy fighter. The [Samurai Legplates](/samurai-legplates) also pair well with the Mercenary Plate, due to having 50% stomach coverage, helping to cover the gap in the Mercenary Plate's protection.
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.8</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Mercenary Plate blueprint: 12 hours at tech level 1; the blueprint is worth c. 15,154.</li></ul></div>
+
 ## Trivia
 
 -   Despite its name, and the claim that it has become standard amongst their kind, no members of the [Mercenary Guild](/mercenary-guild) wear Mercenary Plate.

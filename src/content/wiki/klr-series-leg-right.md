@@ -22,13 +22,6 @@ infobox:
         - ["Athletics","0.40x → 1.00x"]
         - ["Swimming","0.50x"]
         - ["Stealth","0.10x → 0.50x"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","12 hours"]
-        - ["Tech Level","6"]
-        - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
-        - ["Requirements","<a href=\"/skeleton-legs-tech\"> Skeleton Legs</a>"]
-        - ["New Item(s)","<a href=\"/klr-series-leg-left\">KLR Series Leg (left)</a><p>KLR Series Leg (right)</p>"]
     - heading: null
       rows:
         - ["String id","<span>96189-Newwworld.mod</span>"]
@@ -56,4 +49,4 @@ KLR Series Leg (right) is a [Robot Limb](/robot-limbs), and a replacement for a 
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>KLR Series Leg (right)</span></strong><div></div></td></tr><tr><td><a href="/electrical-components"><span>Electrical Components</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/extra-durable-legs-tech">Extra Durable Legs</a> research: 12 hours at tech level 6; costs <a href="/ai-core">2 AI Cores</a>; needs <a href="/skeleton-legs-tech">Skeleton Legs</a>.</li></ul></div>

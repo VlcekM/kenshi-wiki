@@ -213,8 +213,20 @@ function convertQuotes($) {
   });
 }
 
+// Item and book tables show each entry as a picture captioned with its name: the caption stays when the picture goes.
+function keepCellCaptions($) {
+  $('td figure, th figure').each((_, figure) => {
+    const caption = $(figure).find('figcaption');
+    if (!caption.text().trim()) return;
+
+    caption.find('p, div').each((_, block) => $(block).replaceWith($(block).contents()));
+    $(figure).replaceWith(caption.html().trim());
+  });
+}
+
 function cleanHtml(html) {
   const $ = cheerio.load(html, null, false);
+  keepCellCaptions($);
   $(removed).remove();
   dropQuotedFootnotes($);
   $('a').each((_, link) => rewriteLink($, link));
@@ -335,7 +347,7 @@ async function importPage(title, { turndown, slugs, reserved }) {
 async function writeRedirects(lines, partial) {
   const current = existsSync(redirectsFile) ? await readFile(redirectsFile, 'utf8') : '';
   const [manual, generated = ''] = current.split(redirectsStart);
-  const kept = partial ? generated.split('\n').filter((line) => line.startsWith('/')) : [];
+  const kept = partial ? generated.split(/\r?\n/).filter((line) => line.startsWith('/')) : [];
   const rules = [...new Set([...kept, ...lines])].sort();
   await writeFile(redirectsFile, `${manual.trimEnd()}\n\n${redirectsStart}\n${rules.join('\n')}\n`);
 }

@@ -57,6 +57,10 @@ Samurai Legplates have the [Samurai Clothpants](/samurai-clothpants) as their ba
 -   \[Standard\]—\[Masterwork\] grade pieces can frequently (Standard is more rare than other qualities here) be found at [Armour King's Shop](/armour-kings-shop).
 -   1x \[Masterwork\] grade in the [Lost Armoury](/lost-armoury) on the eastern side of [Leviathan Coast](/leviathan-coast).
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.5</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>2.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Samurai Legplates blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,576.</li></ul></div>
+
 ## Blueprints
 
 <table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Samurai Legplates<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">2</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Samurai Legplates</td></tr></tbody></table>

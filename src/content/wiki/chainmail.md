@@ -33,12 +33,6 @@ infobox:
         - ["Dodge","0.90x"]
         - ["Ranged skill","0.70x"]
         - ["Stealth","0.80x"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","4"]
-        - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-        - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
     - heading: null
       rows:
         - ["String id","<span>2210-gamedata.base</span>"]
@@ -64,9 +58,7 @@ Similar in appearance to the [Chain Shirt](/chain-shirt), Chainmail is made up o
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Chain Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.9 required)</span></p></td><td><strong><span>Chainmail</span></strong><div></div></td></tr><tr><td><a href="/chainmail-sheets"><span>Chainmail Sheets</span></a><div></div><p><span>(4.5 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.9</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>4.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Chainmail blueprint: 12 hours at tech level 1; the blueprint is worth c. 20,409.</li></ul></div>
 
 ## Trivia
 

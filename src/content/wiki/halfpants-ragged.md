@@ -35,4 +35,4 @@ Halfpants are khaki colored trousers that have endured a lot of wear and tear. T
 
 ## Crafting
 
-Halfpants (ragged) can be crafted on a [Clothing Bench](/clothing-bench).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Halfpants (ragged) blueprint: 12 hours at tech level 1; the blueprint is worth c. 75.</li></ul></div>

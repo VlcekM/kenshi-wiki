@@ -42,6 +42,10 @@ This weapon has inventory dimensions of 2x10, meaning it can only be used as a p
 
 This weapon is primarily found in [shops](/shek-weapon-shop) in the [Shek Kingdom](/shek-kingdom).
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>12</td><td>12</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>12</td><td>12</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>12</td></tr></tbody></table><p>Unlocked by:</p><ul><li>The Plank blueprint: 4 hours at tech level 2; needs <a href="/heavy-weapons-tech">Heavy Weapons</a>; the blueprint is worth c. 4,000.</li></ul></div>
+
 ## Blueprint Locations
 
 All the possible locations to find the [Blueprint](/blueprints) for this weapon.

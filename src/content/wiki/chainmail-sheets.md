@@ -40,3 +40,7 @@ This item can be bought from relevant [traders](/traders) or looted from ancient
 Can be bought at these vendors: [Adventurer Mechanical Shops](/adventurer-mechanical-shop), Blackmarket Bars, Empire Construction Shops, Holy Construction Shops, Ronin Construction Shops, and Trade Goods Shops.
 
 Can be looted from these locations: [Lost Armouries](/lost-armoury).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chainmail-sheet-fabrication-bench">Chainmail Sheet Fabrication Bench</a></th></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>2</td></tr></tbody></table></div>

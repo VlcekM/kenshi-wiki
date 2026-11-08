@@ -44,6 +44,10 @@ This weapon has inventory dimensions of **1x6**. It can be equipped in both the 
 
 The [Cross](/cross)\-version of this weapon can be found on [Lady Kana](/lady-kana), [Slave Mistress Ren](/slave-mistress-ren) and [Slave Mistress Grace](/slave-mistress-grace).
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>4</td><td>4</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>4</td><td>4</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Wakizashis blueprint: 6 hours at tech level 2; the blueprint is worth c. 5,000.</li></ul></div>
+
 ## Blueprints
 
 <table class="wikitable"><tbody><tr><td colspan="2"><div></div><div>Wakizashis</div><div>[Research Blueprint]</div><div></div></td></tr><tr><td colspan="2">A shorter variant of the Katana, they are fast and sharp but generally used as backup weapons.<hr></td></tr><tr><td>Research Level</td><td>2</td></tr><tr><td>Value</td><td>c.5,000</td></tr><tr><td>Sell value</td><td>c.1,250</td></tr><tr><td colspan="2"><hr></td></tr><tr><td>Ability to Make</td><td><div><strong>Wakizashi</strong></div></td></tr></tbody></table>

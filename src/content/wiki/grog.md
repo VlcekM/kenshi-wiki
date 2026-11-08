@@ -29,6 +29,10 @@ In the description for [Wheatstraw](/wheatstraw), grog is referred to as a "rum 
 
   
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/grog-machine">Grog Machine</a><br>Brewing Booze Barrels</th></tr><tr><th scope="row"><a href="/water">Water</a></th><td>2</td></tr><tr><th scope="row"><a href="/wheatstraw">Wheatstraw</a></th><td>2</td></tr></tbody></table></div>
+
 ## Tips
 
 -   Grog is small, stacks easily, and will not be taken by Hungry Bandits if they attack your trade caravan. It is also simple to produce, requiring only unprocessed [Wheatstraw](/wheatstraw) and Water.

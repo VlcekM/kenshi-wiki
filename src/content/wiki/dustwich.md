@@ -35,3 +35,7 @@ The dustwich is obviously Kenshi's parallel to the real-world [sandwich](https:/
 ### History
 
 Dustwich first looked like a weird blob before having the icon changed to one which resembles a sandwich cut diagonally in half. Finally, the icon was changed to the current icon which more clearly displays its cactus origins.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/bread">Bread</a></th><td>1</td></tr><tr><th scope="row"><a href="/cactus">Cactus</a></th><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/desert-cooking-tech">Desert Cooking</a> research: 4 hours at tech level 2; costs <a href="/book">3 Books</a>.</li></ul></div>

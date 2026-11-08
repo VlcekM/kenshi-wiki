@@ -44,6 +44,10 @@ The [Meitou](/meitou) version of this weapon can be found on the leader of Skin 
 
 This weapon has inventory dimensions of **1x10**, meaning it cannot be stored in the inventory and must be equipped as a primary or stored in a backpack.
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>10</td><td>10</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>10</td><td>10</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Nodachi blueprint: 6 hours at tech level 2; needs <a href="/katanas">Katanas</a>; the blueprint is worth c. 15,000.</li></ul></div>
+
 ## Blueprint Locations
 
 All the possible locations to find the [Blueprint](/blueprints) for this weapon.

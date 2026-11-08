@@ -29,12 +29,6 @@ infobox:
         - ["Cut into stun","40%"]
         - ["Stealth","1.10x"]
         - ["Weather protection","70%"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","4"]
-        - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-        - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
     - heading: null
       rows:
         - ["String id","<span>1533852-rebirth.mod</span>"]
@@ -57,6 +51,10 @@ It is a black chainmail strip wrapped around the head.
 <details class="collapsible" open=""><summary>Locations</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>Always Equipped</td><td>Potentially Equipped</td></tr><tr><td><p>There are no characters which have a guaranteed chance of spawning with this item equipped.</p></td><td><p>There are no characters which only have a chance of spawning with this item equipped.</p></td></tr><tr><td>Shops</td><td>Loot</td></tr><tr><td><p><span><a href="/armour-king">Armour King</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="1% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="33% chance of High grade.">[H]</span> <span class="basic-tooltip" title="45% chance of Specialist grade.">[S]</span> <span class="basic-tooltip" title="21% chance of Masterwork grade.">[M]</span></span><br><span><a href="/mongrel-armor-shop">Mongrel Armor Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="20% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="51% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="20% chance of High grade.">[H]</span> <span class="basic-tooltip" title="9% chance of Specialist grade.">[S]</span></span><br><span><a href="/ronin-armor-shop">Ronin Armor Shop</a> <abbr title="The armour spawns here"></abbr></span><span><span class="basic-tooltip" title="12% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="61% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="24% chance of High grade.">[H]</span> <span class="basic-tooltip" title="3% chance of Specialist grade.">[S]</span></span><br><span><a href="/the-great-library">The Great Library</a></span><abbr title="The blueprint spawns here"></abbr><span></span><br></p></td><td><p>This item is not found in any non-shop locations.</p></td></tr></tbody></table></details>
 
   
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.18</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>0.9</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Blackened Chainmail Tagelmust blueprint: 12 hours at tech level 1; the blueprint is worth c. 5,713.</li></ul></div>
 
 ## Blueprint
 

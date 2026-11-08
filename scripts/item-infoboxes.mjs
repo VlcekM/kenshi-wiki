@@ -228,7 +228,8 @@ const layouts = {
 };
 
 // Rows of the research that unlocks the item, which Fandom gave many armour articles in place of an item infobox; they are
-// kept under "Research" (the game data here does not hold them).
+// kept under "Research" only for an item the game data names no research for, since the Crafting section shows it
+// (scripts/crafting-sections.mjs).
 const researchLabels = new Set(['Estimated Time', 'Tech Level', 'Costs', 'Requirements', 'New Building(s)', 'New Item(s)', 'Required For']);
 
 function researchRows(lines) {
@@ -300,7 +301,8 @@ function withoutStatCard(body) {
 async function rebuild(file, id, items, pairs) {
   const article = parseArticle(await readFile(file, 'utf8'));
   const item = article && items.get(pairs[id] ?? article.sid);
-  const box = item && infobox(article.title, item, researchRows(article.lines));
+  const research = item?.details?.blueprint?.length ? [] : researchRows(article.lines);
+  const box = item && infobox(article.title, item, research);
   if (!box) return null;
 
   const lines = [...withoutInfobox(article.lines), ...infoboxYaml(box)];

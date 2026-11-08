@@ -57,4 +57,4 @@ This armour has inventory dimensions of **4x5**.
 
 ## Crafting
 
-It is not possible to craft this item.
+<div class="crafting"><p>It can't be crafted.</p></div>

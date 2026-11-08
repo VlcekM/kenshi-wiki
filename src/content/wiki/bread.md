@@ -48,3 +48,7 @@ Bread is an ingredient in the following recipes:
   
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/bread-oven">Bread Oven</a></th></tr><tr><th scope="row"><a href="/strawflour">Strawflour</a></th><td>1</td></tr><tr><th scope="row"><a href="/water">Water</a></th><td>1</td></tr></tbody></table></div>

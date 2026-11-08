@@ -28,13 +28,6 @@ infobox:
       rows:
         - ["Cut into stun","50%"]
         - ["Stealth","1.10x"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","2"]
-        - ["Costs","4 <a href=\"/book\">Books</a>"]
-        - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
-        - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
     - heading: null
       rows:
         - ["String id","<span>2214-gamedata.base</span>"]
@@ -64,9 +57,7 @@ Masterwork - Black Dog HQ inside the Metal chest on the bottom floor.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Leather Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.62 required)</span></p></td><td><strong><span>Dark Leather Shirt</span></strong><div></div></td></tr><tr><td><a href="/leather"><span>Leather</span></a><div></div><p><span>(3.1 required)</span></p></td></tr></tbody></table></details>
-
-  
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.62</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>3.1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Dark Leather Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 15,643.</li></ul></div>
 
 ## Trivia
 

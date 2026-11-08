@@ -37,3 +37,7 @@ Foodcubes are the second most water-efficient cultivated foods in the game, cost
   
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/bread">Bread</a></th><td>1</td></tr><tr><th scope="row"><a href="/greenfruit">Greenfruit</a></th><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/advanced-cooking-tech">Advanced Cooking</a> research: 4 hours at tech level 2; costs <a href="/book">2 Books</a>.</li></ul></div>

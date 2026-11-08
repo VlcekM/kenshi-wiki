@@ -31,3 +31,7 @@ After researching [Crossbow Bolts](/crossbow-bolts-tech) and learning the [Bluep
 -   [Oldworld Bow MkI](/oldworld-bow-mki)
 -   [Oldworld Bow MkII](/oldworld-bow-mkii)
 -   [Ranger](/ranger)
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/arrow-making-bench">Arrow Making Bench </a><br>Engineering Bench</th></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>1.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Bolts: Regulars blueprint: 2 hours at tech level 2; the blueprint is worth c. 400.</li></ul></div>

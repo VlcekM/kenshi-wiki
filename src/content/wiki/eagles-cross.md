@@ -101,3 +101,7 @@ The Eagle's Cross itself also weighs 2kg more than the Oldworld Bow MkII. All th
 5\. Friendly Fire
 
 While the Eagle's Cross's higher damage is generally an advantage, it is a detriment in friendly-fire situations. While fighters in heavy armour can generally shrug off many accidental hits from the Oldworld Bow MkII, friendly fire from the Eagle's Cross can sometimes prove catastrophic — knocking out, maiming or even outright killing allies in a single shot. If one wants to provide supporting fire to melee fighters, with the Eagle's Cross, it is recommended to only use high-toughness melee fighters with good quality — and in particular, high coverage — armours, such as [Crab Armour](/crab-armour) with underlying [Chainmail](/chainmail) armour. Players should also consider the effect that height advantage may have on any friendly-fire damage.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/crossbow-crafting-bench">Crossbow Crafting Bench</a></th></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>8</td></tr><tr><th scope="row"><a href="/crossbow-parts">Crossbow Parts</a></th><td>4</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Eagle's Cross blueprint: 12 hours at tech level 1; the blueprint is worth c. 11,308.</li></ul></div>

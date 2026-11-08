@@ -34,13 +34,6 @@ infobox:
         - ["Ranged skill","0.80x"]
         - ["Stealth","-1.00x"]
         - ["Martial arts","+4"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","3"]
-        - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-        - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
-        - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><b>Armoured Rags</b></p>"]
     - heading: null
       rows:
         - ["String id","<span>2307-clothes_v1.mod</span>"]
@@ -70,10 +63,6 @@ The **Armoured Rags** appears like a thick shawl with a wide, turtleneck collar.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Heavy Armour Smithy</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.63 required)</span></p></td><td><strong><span>Armoured Rags</span></strong><div></div></td></tr><tr><td><a href="/armour-plating"><span>Armour Plating</span></a><div></div><p><span>(3.15 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Armoured Rags<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>11,287</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>2,821</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Armoured Rags</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.63</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>3.15</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Armoured Rags blueprint: 12 hours at tech level 1; the blueprint is worth c. 9,171.</li><li><a href="/plate-armour-crafting-tech">Plate Armour Crafting</a> research: 8 hours at tech level 3; costs <a href="/engineering-research">1 Engineering Research</a>.</li></ul></div>
 
 Note that although the blueprint exists, it is unneeded as the research to unlock the Smithy also unlocks the Rags.

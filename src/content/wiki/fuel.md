@@ -43,3 +43,7 @@ The above means of acquiring fuel can be substituted by researching [Biofuel](/b
 ### History
 
 Fuel and [Water](/water) both previously had similar icons.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/biofuel-distillery-wheatstraw">Biofuel Distillery (Wheatstraw)</a></th><th class="unsortable"><a href="/biofuel-distillery-greenfruit">Biofuel Distillery (Greenfruit)</a></th><th class="unsortable"><a href="/biofuel-distillery-hemp">Biofuel Distillery (Hemp)</a></th></tr><tr><th scope="row"><a href="/wheatstraw">Wheatstraw</a></th><td>4</td><td>–</td><td>–</td></tr><tr><th scope="row"><a href="/greenfruit">Greenfruit</a></th><td>–</td><td>4</td><td>–</td></tr><tr><th scope="row"><a href="/hemp">Hemp</a></th><td>–</td><td>–</td><td>4</td></tr></tbody></table></div>

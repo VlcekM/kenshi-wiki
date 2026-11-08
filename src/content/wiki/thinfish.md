@@ -26,6 +26,10 @@ infobox:
 
 The name originates from the fact that it's simply thinner than the other type of fish, the [Grand Fish](/grand-fish).
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable">Camp Fish Pile</th></tr><tr><th scope="row"><a href="/thinfish">Thinfish</a></th><td>1</td></tr></tbody></table></div>
+
 ## Trivia
 
 -   Thinfish is the most expensive food value/nutrient wise. It costs an average of c.36 for 1 nutrition.

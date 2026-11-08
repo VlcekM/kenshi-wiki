@@ -22,13 +22,6 @@ infobox:
         - ["Athletics","1.00x → 1.40x"]
         - ["Swimming","0.75x → 1.00x"]
         - ["Stealth","0.25x → 0.95x"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","12 hours"]
-        - ["Tech Level","6"]
-        - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
-        - ["Requirements","<a href=\"/skeleton-legs-tech\"> Skeleton Legs</a>"]
-        - ["New Item(s)","Scout Leg (left)<p><a href=\"/scout-leg-right\">Scout Leg (right)</a></p>"]
     - heading: null
       rows:
         - ["String id","<span>96020-Newwworld.mod</span>"]
@@ -58,4 +51,4 @@ It's noteworthy that out of all Robotic Limbs, the Scout Legs have the least pen
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Scout Leg (left)</span></strong><div></div></td></tr><tr><td><a href="/electrical-components"><span>Electrical Components</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/high-speed-legs-tech">High-Speed Legs</a> research: 12 hours at tech level 6; costs <a href="/ai-core">2 AI Cores</a>; needs <a href="/skeleton-legs-tech">Skeleton Legs</a>.</li></ul></div>

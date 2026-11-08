@@ -33,6 +33,10 @@ The higher your strength level the faster they work.
 
 ### History
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/robotics-bench">Robotics Bench</a></th></tr><tr><th scope="row"><a href="/copper">Copper</a></th><td>0.5</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>2</td></tr></tbody></table></div>
+
 ## Trivia
 
 -   If you wait until the Tools almost break a lock and then cancel your action (R), you can then choose to break the lock using Strength so that the Tools are not consumed (as it weakens the lock STR wise).

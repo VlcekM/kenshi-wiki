@@ -55,6 +55,6 @@ The **Hiver Chain Shirt** appears to be a grey sleeveless chain shirt that fits 
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Hiver Chain Shirt<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Hiver Chain Shirt</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.5</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>2.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Hiver Chain Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 20,409.</li></ul></div>
 
 Their [Blueprints](/blueprints) can be purchased at [Hive Traders](/hive-trader) in [Hive Villages](/hive-village) and [Distant Hive Villages](/distant-hive-village).

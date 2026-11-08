@@ -46,4 +46,6 @@ The Skeleton Mask appears to be a face mask with large eyeholes.
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.07</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>0.7</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Skeleton Mask blueprint: 12 hours at tech level 1; the blueprint is worth c. 3,465.</li></ul></div>
+
 There is no blueprint for Skeleton Mask in the game.

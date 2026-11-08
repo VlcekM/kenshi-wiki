@@ -33,3 +33,7 @@ These bolts are the rarest bolts in Kenshi, as most of the ranger shops on the m
 -   [Eagle's Cross](/eagles-cross)
 
 <table class="wikitable"><tbody><tr><td colspan="2"><div></div><div>Bolts: Longs</div><div>[Research Blueprint]</div><div></div></td></tr><tr><td colspan="2">Enables the crafting of long-bolts<hr></td></tr><tr><td>Research Level</td><td>3</td></tr><tr><td colspan="2"><hr></td></tr></tbody></table>
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/arrow-making-bench">Arrow Making Bench </a><br>Engineering Bench</th></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>0.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Bolts: Longs blueprint: 2 hours at tech level 3; the blueprint is worth c. 1,000.</li></ul></div>

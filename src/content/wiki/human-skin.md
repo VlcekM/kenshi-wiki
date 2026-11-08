@@ -29,7 +29,6 @@ infobox:
 
 _For craftable armour, see [Human Skin Suit](/human-skin-suit)._
 
-
 **Human Skin** is a [Body Armour](/body-armour) worn by [Skin Bandits](/skin-bandits). Alas it provides no actual armour protection.
 
 This item is quite similar in appearance to the [Human Skin Suit](/human-skin-suit).
@@ -43,5 +42,7 @@ Just humans being humans, doing normal human things.
 We are not sure why it's a separate item, all humans have one so they can do normal human things like breathing through their nostrils and singing human songs.
 
 ## Crafting
+
+<div class="crafting"><p>It can't be crafted.</p></div>
 
 It cannot be crafted and can only be found in containers in [Skinhouse HQ](/skinhouse-hq) and [Skinhouses](/skinhouse).

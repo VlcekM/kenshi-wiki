@@ -30,3 +30,7 @@ Sake is made from [Riceweed](/riceweed) in a [Sake Still](/sake-still) using the
   
 
 <table class="wikitable"><tbody><tr><th>Faction</th><th>Towns</th><th>Markup Multiplier</th></tr><tr><td><a href="/slave-traders">Slave Traders</a></td><td><a href="/eyesocket">Eyesocket</a>, <a href="/port-north">Port North</a>, <a href="/port-south">Port South</a>, <a href="/slave-markets">Slave Markets</a></td><td>150%</td></tr><tr><td><a href="/swampers">Swampers</a></td><td><a href="/mud-town">Mud Town</a>, <a href="/shark">Shark</a>, <a href="/swamp-village">Swamp Village</a></td><td>75%</td></tr><tr><td><a href="/united-cities">United Cities</a></td><td><a href="/bark">Bark</a>, <a href="/clownsteady">Clownsteady</a>, <a href="/drifters-last">Drifter's Last</a>, <a href="/heft">Heft</a>, <a href="/heng">Heng</a>, <a href="/sho-battai">Sho-Battai</a>, <a href="/stoat">Stoat</a></td><td>150%</td></tr></tbody></table>
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/sake-still">Sake Still</a></th></tr><tr><th scope="row"><a href="/water">Water</a></th><td>2</td></tr><tr><th scope="row"><a href="/riceweed">Riceweed</a></th><td>2</td></tr></tbody></table></div>

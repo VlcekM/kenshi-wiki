@@ -34,3 +34,7 @@ infobox:
 -   [Construction](/construction): [Assassination Dummy](/assassination-dummy)
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-tanning-bench">Leather Tanning Bench</a></th></tr><tr><th scope="row"><a href="/animal-skin">Animal Skin</a></th><td>0.5</td></tr></tbody></table></div>

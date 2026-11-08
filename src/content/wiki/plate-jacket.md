@@ -58,6 +58,6 @@ The **Plate Jacket** is a sleek and stylish black leather jacket with metal plat
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Plate Jacket<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Plate Jacket</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.9</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>4.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Plate Jacket blueprint: 12 hours at tech level 1; the blueprint is worth c. 9,792.</li></ul></div>
 
 It is crafted in the [Heavy Armour Smithy](/heavy-armour-smithy) after researching the appropriate blueprint.

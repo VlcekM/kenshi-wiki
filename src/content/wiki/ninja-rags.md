@@ -55,6 +55,6 @@ The Ninja Rags appear like a loose rag shirt covering the torso with a shawl mad
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Ninja Rags<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">0</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Ninja Rags</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.84</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>4.2</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Ninja Rags blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,450.</li></ul></div>
 
 It can be crafted using the [Leather Armour Crafting Bench](/leather-armour-crafting-bench) after researching the appropriate blueprint. The blueprint can be found at [The Great Library](/the-great-library).

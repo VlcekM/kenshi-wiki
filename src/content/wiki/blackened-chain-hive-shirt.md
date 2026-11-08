@@ -30,12 +30,6 @@ infobox:
         - ["Dodge","0.90x"]
         - ["Ranged skill","0.80x"]
         - ["Stealth","1.30x"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","4"]
-        - ["Costs","3 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-        - ["New Building(s)","<a href=\"/chain-armour-crafting-bench\">Chain Armour Crafting Bench</a><p><a href=\"/chainmail-sheet-fabrication-bench\">Chainmail Sheet Fabrication Bench</a></p>"]
     - heading: null
       rows:
         - ["String id","<span>1534061-Newwworld Plus.mod</span>"]
@@ -60,6 +54,10 @@ The **Blackened Chain Hive Shirt** appears to be a black sleeveless chain shirt 
 <details class="collapsible" open=""><summary>Locations</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>Always Equipped</td><td>Potentially Equipped</td></tr><tr><td><p>There are no characters which have a guaranteed chance of spawning with this item equipped.</p></td><td><p>There are no characters which only have a chance of spawning with this item equipped.</p></td></tr><tr><td>Shops</td><td>Loot</td></tr><tr><td><p><span><a href="/hive-trader">Hive Trader</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="25% chance of Prototype grade.">[P]</span> <span class="basic-tooltip" title="50% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="25% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="1% chance of High grade.">[H]</span></span><br><span><a href="/tech-hunter-shop">Tech Hunter Shop</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="12% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="61% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="24% chance of High grade.">[H]</span> <span class="basic-tooltip" title="3% chance of Specialist grade.">[S]</span></span><br><span><a href="/thieves-guild">Thieves Guild</a> <abbr title="The armour spawns here"></abbr></span><abbr title="The blueprint spawns here"></abbr><span><span class="basic-tooltip" title="13% chance of Shoddy grade.">[S]</span> <span class="basic-tooltip" title="69% chance of Standard grade.">[S]</span> <span class="basic-tooltip" title="17% chance of High grade.">[H]</span> <span class="basic-tooltip" title="1% chance of Specialist grade.">[S]</span></span><br><span><a href="/the-great-library">The Great Library</a></span><abbr title="The blueprint spawns here"></abbr><span></span><br></p></td><td><p><a href="/hive-village">Hive Village</a><br><a href="/southern-hive">Southern Hive</a><br><a href="/southern-hive-village">Southern Hive Village</a><br><br>This armour can also be found as loot via the <a href="/artifacts">Artifacts</a> system</p></td></tr></tbody></table></details>
 
   
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.5</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>2.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Blackened Chain Hive Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 28,572.</li></ul></div>
 
 ## Blueprints
 

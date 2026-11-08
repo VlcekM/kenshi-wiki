@@ -55,4 +55,6 @@ The Hack Stopper Jacket appears to be a brown, full-body leather armour with the
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.9</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>4.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Hack Stopper Jacket blueprint: 12 hours at tech level 1; the blueprint is worth c. 6,231.</li></ul></div>
+
 It can be crafted in the [Leather Armour Crafting Bench](/leather-armour-crafting-bench) if a blueprint is available through modding.

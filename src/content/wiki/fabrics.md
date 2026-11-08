@@ -59,4 +59,8 @@ Fabrics can be produced (using either [Hemp](/hemp) or [Cotton](/cotton)) at a 
 
 -   All Weapons made from Weapons Bench II and Weapons Bench III
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/fabric-loom-hemp">Fabric Loom (hemp)</a><br>Hemp Auto-Loom</th><th class="unsortable"><a href="/fabric-loom-cotton">Fabric Loom (cotton)</a><br>Cotton Auto-Loom</th></tr><tr><th scope="row"><a href="/hemp">Hemp</a></th><td>3</td><td>–</td></tr><tr><th scope="row"><a href="/cotton">Cotton</a></th><td>–</td><td>6</td></tr></tbody></table></div>
+
 ## History

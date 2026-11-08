@@ -39,7 +39,7 @@ Wooden Sandals are simple footwear made from wood. They are similar in appearanc
 
 ## Crafting
 
-Wooden Sandals can be crafted at a [Clothing Bench](/clothing-bench).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/simple-clothing-types-tech">Simple Clothing Types</a> research: 6 hours at tech level 1; costs <a href="/book">1 Book</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li><li>Wooden Sandals blueprint: 12 hours at tech level 1; the blueprint is worth c. 75.</li></ul></div>
 
 ## Trivia
 

@@ -43,6 +43,10 @@ Contributions are made as pull requests on GitHub.
   string id; else an infobox's `String id` row). Weapon, armour and crossbow stats come from MeitouClient's
   `--wiki-export <folder>`, passed to `game-items.mjs` as `--meitou <folder>`. Re-run it after `import-fandom.mjs`, which
   replaces infoboxes.
+- `node scripts/crafting-sections.mjs` writes each item article's Crafting section from `game-items/items.json`: what one item
+  takes at each bench or refinery that makes it (from MeitouClient's export, `madeAt`) and the research or blueprint that
+  unlocks it. It replaces Fandom's input tables and blueprint cards, keeps its other text and lists where Fandom's amounts
+  differ from the game's. Re-run it after `import-fandom.mjs`.
 - `node scripts/grade-tables.mjs` merges the stat cards Fandom lists once per armour grade into one table with a column per
   grade. Re-run it after `import-fandom.mjs` too.
 - Pages live in `src/pages/`; `about-kenshi.astro` is an example article using every building block.

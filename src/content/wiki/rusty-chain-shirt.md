@@ -58,6 +58,10 @@ It appears to be a normal chainmail shirt that has rusted away.
 
   
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.6</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>3</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Rusty Chain Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 20,409.</li></ul></div>
+
 ## Blueprints
 
 <table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Rusty Chain Shirt<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">?</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Rusty Chain Shirt</td></tr></tbody></table>

@@ -44,6 +44,10 @@ This weapon has inventory dimensions of **1x7**. It can be equipped in both the 
 
 The ability to make these weapons can be learned by researching [Heavy Weapons](/heavy-weapons-tech).
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/weapon-smith">Weapon Smith</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith II</a></th><th class="unsortable"><a href="/weapon-smithing-bench">Weapon Smith III</a></th></tr><tr><th scope="row">Grades</th><td>Rusted Junk – Refitted Blade</td><td>Rusting Blade – Catun No.3</td><td>Old Refitted Blade – Edge Type 3</td></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>6</td><td>6</td><td>–</td></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>–</td><td>6</td><td>6</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>–</td><td>–</td><td>6</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/heavy-weapons-tech">Heavy Weapons</a> research: 4 hours at tech level 2; costs <a href="/book">6 Books</a>.</li></ul></div>
+
 ## Blueprints
 
 There are no [Blueprints](/blueprints) for this item available in the game. To learn how to craft Spiked Club the [Heavy Weapons](/heavy-weapons-tech) must be researched.

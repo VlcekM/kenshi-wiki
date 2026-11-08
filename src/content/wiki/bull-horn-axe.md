@@ -35,6 +35,8 @@ infobox:
 
 ## Crafting
 
+<div class="crafting"><p>It can't be crafted.</p></div>
+
 As a [unique](/unique-items) item, it cannot be crafted.
 
 ## Blueprints

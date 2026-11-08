@@ -51,4 +51,4 @@ Thief's Arm (right) is a [Robot Limb](/robot-limbs), and a replacement for a los
 
 ## Crafting
 
-Cannot be crafted.
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table></div>

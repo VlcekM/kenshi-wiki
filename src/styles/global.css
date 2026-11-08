@@ -276,13 +276,20 @@ img.item-icon {
 }
 
 /* An armour's stats per grade (scripts/grade-tables.mjs): grades in the game's colors, values centred under them. */
-table.grade-table td {
+table.grade-table td,
+table.crafting-table td {
   text-align: center;
 }
 
-table.grade-table th[scope="row"] {
+table.grade-table th[scope="row"],
+table.crafting-table th[scope="row"] {
   font-weight: normal;
   text-align: left;
+}
+
+/* A Crafting section's inputs per bench (scripts/crafting-sections.mjs). */
+table.crafting-table td {
+  min-width: 5em;
 }
 
 table.grade-table th.grade {
@@ -334,7 +341,9 @@ table.jquery-tablesorter th.headerSort[aria-sort="descending"] {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='12'%3E%3Cpath d='M4.5 10 0 5h9z' fill='%23202122'/%3E%3C/svg%3E");
 }
 
+/* Its own block formatting context, so the box ends at a floated infobox instead of running under it. */
 details.collapsible {
+  display: flow-root;
   margin: 0.5em 0 1em;
   border: 1px solid var(--paper-06);
   background: var(--paper-01);

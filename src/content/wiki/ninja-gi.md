@@ -38,4 +38,4 @@ The Ninja Gi is identical in appearance to the [Gi](/gi) except that it is black
 
 ## Crafting
 
-The Ninja Gi can be crafted at a [Clothing Bench](/clothing-bench).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Ninja Gi blueprint: 12 hours at tech level 1; the blueprint is worth c. 300.</li></ul></div>

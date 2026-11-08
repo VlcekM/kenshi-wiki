@@ -43,7 +43,7 @@ If anyone can shine light on this mystery please contribute.
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Human Skin Suit<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Human Skin Suit</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Human Skin Suit blueprint: 12 hours at tech level 1; the blueprint is worth c. 150.</li><li>Skeleton-Human Transformation Bible blueprint: 8 hours at tech level 3.</li></ul></div>
 
 <table class="wikitable"><tbody><tr><td colspan="2"><div></div><div>Skeleton-Human Transformation Bible</div><div>[Research Blueprint]</div><div></div></td></tr><tr><td colspan="2">Savant's secret alchemical formula for turning skeletons into humans<hr></td></tr><tr><td>Research Level</td><td>3</td></tr><tr><td>Prerequisites</td><td><div>None</div></td></tr><tr><td colspan="2"><hr></td></tr></tbody></table>
 

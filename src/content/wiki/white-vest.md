@@ -36,4 +36,6 @@ A white, sleeveless shirt.
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/simple-clothing-types-tech">Simple Clothing Types</a> research: 6 hours at tech level 1; costs <a href="/book">1 Book</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li><li>White Vest blueprint: 12 hours at tech level 1; the blueprint is worth c. 225.</li></ul></div>
+
 It can be crafted on the [Clothing Bench](/clothing-bench) after researching [Simple Clothing Types](/simple-clothing-types-tech).

@@ -49,3 +49,7 @@ They can be bought at relevant [traders](/traders) including those in [Hive Vill
 -   20 x [Cleanser Unit](/cleanser-unit)
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/electrical-workbench">Electrical Workbench</a></th></tr><tr><th scope="row"><a href="/copper">Copper</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/electrical-crafting-tech">Electrical Crafting</a> research: 8 hours at tech level 3; costs <a href="/book">4 Books</a>.</li></ul></div>

@@ -29,13 +29,6 @@ infobox:
         - ["Cut into stun","10%"]
         - ["Stealth","-1.00x"]
         - ["Martial arts","+4"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","3"]
-        - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-        - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
-        - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><strong>Armoured Rag Skirt</strong><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
     - heading: null
       rows:
         - ["String id","<span>5346-armor_otto.mod</span>"]
@@ -63,8 +56,6 @@ The **Armoured Rag Skirt** appears like shredded rags fashioned into a knee-leng
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.24</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>1.2</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Armoured Rag Skirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,054.</li><li><a href="/plate-armour-crafting-tech">Plate Armour Crafting</a> research: 8 hours at tech level 3; costs <a href="/engineering-research">1 Engineering Research</a>.</li></ul></div>
+
 _**Note:** Although the blueprint exists, it is unneeded as the research to unlock the Smithy also unlocks this item._
-
-<details class="collapsible" open=""><summary>Heavy Armour Smithy</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.24 required)</span></p></td><td><strong><span>Armoured Rag Skirt</span></strong><div></div></td></tr><tr><td><a href="/armour-plating"><span>Armour Plating</span></a><div></div><p><span>(1.2 required)</span></p></td></tr></tbody></table></details>
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Armoured Rag Skirt<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>7,055</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,763</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Armoured Rag Skirt</td></tr></tbody></table>

@@ -26,14 +26,6 @@ infobox:
         - ["Stealth","0.10x → 0.60x"]
         - ["Thievery","0.00x → 0.50x"]
         - ["Ranged","0.60x → 0.90x"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","4"]
-        - ["Costs","4 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-        - ["Requirements","<a href=\"/hiver-skeleton-legs-tech\">Hiver Skeleton Legs</a>"]
-        - ["New Item(s)","<a href=\"/economy-arm-left\">Economy Arm (left)</a><p>Economy Arm (right)</p>"]
-        - ["Required For","<a href=\"/skeleton-arms-tech\">Skeleton Arms</a><p><a href=\"/skeleton-legs-tech\">Skeleton Legs</a></p>"]
     - heading: null
       rows:
         - ["String id","<span>96137-Newwworld.mod</span>"]
@@ -61,4 +53,4 @@ Economy Arm (right) is a [Robot Limb](/robot-limbs), and a replacement for a los
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/motor"><span>Motor</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Economy Arm (right)</span></strong><div></div></td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/motor">Motor</a></th><td>2</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>2</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/hiver-skeleton-arms-tech">Hiver Skeleton Arms</a> research: 6 hours at tech level 4; costs <a href="/ancient-science-book">4 Ancient Science Books</a>; needs <a href="/hiver-skeleton-legs-tech">Hiver Skeleton Legs</a>.</li></ul></div>

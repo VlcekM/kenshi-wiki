@@ -29,3 +29,7 @@ After researching [Crossbow Bolts](/crossbow-bolts-tech) and learning the [Bluep
 ## Used with
 
 -   [Spring Bat](/spring-bat)
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/arrow-making-bench">Arrow Making Bench </a><br>Engineering Bench</th></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>0.35</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Bolts: Heavies blueprint: 2 hours at tech level 3; the blueprint is worth c. 1,000.</li></ul></div>

@@ -32,3 +32,7 @@ infobox:
 ### History
 
 Cactus Rum initially had an icon similar to the old icon for [Empty Rum Bottle](/empty-rum-bottle).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/rum-still">Rum Still</a></th></tr><tr><th scope="row"><a href="/water">Water</a></th><td>2</td></tr><tr><th scope="row"><a href="/cactus">Cactus</a></th><td>2</td></tr></tbody></table></div>

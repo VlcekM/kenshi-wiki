@@ -52,6 +52,10 @@ Sleeveless Longcoat is a leather trench coat made from a light brown material si
 
   
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.74</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>3.7</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Sleeveless Longcoat blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,450.</li></ul></div>
+
 ## Blueprints
 
 It can be crafted in the [Leather Armour Crafting Bench](/leather-armour-crafting-bench) after researching the blueprint.

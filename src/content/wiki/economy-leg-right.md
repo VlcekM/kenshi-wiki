@@ -22,14 +22,6 @@ infobox:
         - ["Athletics","0.10x → 0.90x"]
         - ["Swimming","0.50x"]
         - ["Stealth","0.10x → 0.90x"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","4"]
-        - ["Costs","6 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
-        - ["Requirements","<a href=\"/robotics-tech\">Robotics</a>"]
-        - ["New Item(s)","<a href=\"/economy-leg-left\">Economy Leg (left)</a><p>Economy Leg (right)</p>"]
-        - ["Required For","<a href=\"/hiver-skeleton-arms-tech\">Hiver Skeleton Arms</a>"]
     - heading: null
       rows:
         - ["String id","<span>96135-Newwworld.mod</span>"]
@@ -57,4 +49,4 @@ infobox:
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/motor"><span>Motor</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Economy Leg (right)</span></strong><div></div></td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/motor">Motor</a></th><td>2</td></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>2</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/hiver-skeleton-legs-tech">Hiver Skeleton Legs</a> research: 6 hours at tech level 4; costs <a href="/ancient-science-book">6 Ancient Science Books</a>; needs <a href="/robotics-tech">Robotics</a>.</li></ul></div>

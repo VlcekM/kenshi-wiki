@@ -39,3 +39,7 @@ They are made at the [Arrow Making Bench](/arrow-making-bench) and the [Robotics
   
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/robotics-bench">Robotics Bench</a><br><a href="/arrow-making-bench">Arrow Making Bench </a><br>Engineering Bench</th></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>0.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/crossbow-bolts-tech">Crossbow Bolts</a> research: 6 hours at tech level 2; costs <a href="/book">6 Books</a>.</li></ul></div>

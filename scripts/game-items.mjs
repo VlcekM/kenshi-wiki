@@ -162,12 +162,15 @@ function itemList(records, iconsOf, folder) {
     });
 }
 
-// Meitou's --wiki-export items.json: each weapon, crossbow, armour and item record's decoded stats (weapon class and makers, armour
-// coverage and modifiers, item category), by string id.
+// Meitou's --wiki-export items.json: each weapon, crossbow, armour, item, backpack and limb record's decoded stats (weapon class and makers,
+// armour coverage and modifiers, item category), the benches that make it (`madeAt`) and the research that unlocks it (`blueprint`), by string
+// id. Each blueprint gets its research's details from research.json: time, tech level, cost, prerequisites and blueprint value.
 async function meitouDetails(folder) {
   if (!folder) return new Map();
   const { entries } = JSON.parse(await readFile(join(folder, 'items.json'), 'utf8'));
-  return new Map(entries.map((entry) => [entry.data.record, entry.data]));
+  const research = new Map(JSON.parse(await readFile(join(folder, 'research.json'), 'utf8')).entries.map((entry) => [entry.data.record, entry.data]));
+  const withResearch = (blueprint) => ({ ...blueprint, details: research.get(blueprint.researchId) });
+  return new Map(entries.map(({ data }) => [data.record, { ...data, blueprint: data.blueprint?.map(withResearch) }]));
 }
 
 // A weapon shows its best grade: the variant whose model has the highest level among its makers' grades.

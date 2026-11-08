@@ -27,6 +27,10 @@ infobox:
 
   
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable">Basic Medical Workbench<br><a href="/medical-workbench">Medical Workbench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>8</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/sleeping-bags-tech">Sleeping Bags</a> research: 2 hours at tech level 2; costs <a href="/book">1 Book</a>.</li></ul></div>
+
 ## Tips
 
 Unlike other [medical items](/medical-items), Sleeping Bags are often neglected by adventurers. As evidenced by the item's description, they can mean the difference between life and death in the wilds. Take these with you!

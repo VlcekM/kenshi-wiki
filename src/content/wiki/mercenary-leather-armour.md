@@ -33,13 +33,6 @@ infobox:
         - ["Ranged skill","0.90x"]
         - ["Stealth","0.90x"]
         - ["Martial arts","-4"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","2"]
-        - ["Costs","4 <a href=\"/book\">Books</a>"]
-        - ["New Building(s)","<a href=\"/leather-armour-crafting-bench\">Leather Armour Crafting Bench</a><p><a href=\"/leather-tanning-bench\">Leather Tanning Bench</a></p>"]
-        - ["New Item(s)","<a href=\"/traders-leathers\">Trader's Leathers</a>"]
     - heading: null
       rows:
         - ["String id","<span>2283-gamedata.base</span>"]
@@ -73,10 +66,6 @@ As conclusion, Mercenary is better at low qualities, near equal at standard and 
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Leather Armour Crafting Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.76 required)</span></p></td><td><strong><span>Mercenary Leather Armour</span></strong><div></div></td></tr><tr><td><a href="/leather"><span>Leather</span></a><div></div><p><span>(3.8 required)</span></p></td></tr></tbody></table></details>
-
-  
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Mercenary Leather Armour<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">2</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Mercenary Leather Armour</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.76</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>3.8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Mercenary Leather Armour blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,122.</li></ul></div>
 
 The blueprint can be found at [Deadcat](/deadcat), regular [Armour Traders](/armour-trader) and is sold in [The Great Library](/the-great-library) in [Black Scratch](/black-scratch). It can be crafted at a [Leather Armour Crafting Bench](/leather-armour-crafting-bench) after researching the appropriate blueprint.

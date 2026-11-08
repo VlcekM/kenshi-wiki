@@ -46,7 +46,6 @@ Overall, the hive vest resembles a hybrid between a waistcoat and an animal harn
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Leather Hive Vest<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Leather Hive Vest</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.5</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>2.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Leather Hive Vest blueprint: 12 hours at tech level 1; the blueprint is worth c. 6,705.</li></ul></div>
 
-  
 The [Blueprints](/blueprints) can be found at [The Great Library](/the-great-library) and the [Hive Trader](/hive-trader) in [Hive Villages](/hive-village) and [Distant Hive Villages.](/distant-hive-village)

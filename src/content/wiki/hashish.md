@@ -48,6 +48,10 @@ Hashish can be purchased in [Hive Villages](/hive-village) and in [The Swamp](/t
 -   Hashish can NOT be sold to a Thief fence in bars, only the Shinobi Trader in Shinobi towers will purchase it.
 -   Hashish can be sold in Shop Counters however they will only sell for the Avg. Price instead of the Mark-up price.
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/hemp-processor">Hemp Processor</a></th></tr><tr><th scope="row"><a href="/water">Water</a></th><td>1</td></tr><tr><th scope="row"><a href="/hemp">Hemp</a></th><td>5</td></tr></tbody></table></div>
+
 ## Trivia
 
 -   Initially, there was an item named [Narcotics](/narcotics) which performed the same function as Hashish.

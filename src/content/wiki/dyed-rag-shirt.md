@@ -27,13 +27,6 @@ infobox:
     - heading: "Modifiers"
       rows:
         - ["Cut into stun","20%"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","6 hours"]
-        - ["Tech Level","1"]
-        - ["Costs","1 <a href=\"/book\">Book</a>"]
-        - ["New Building(s)","<a href=\"/clothing-bench\">Clothing Bench</a>"]
-        - ["Required For","<a href=\"/hats-and-headgear-tech\">Hats and Headgear</a><br><a href=\"/simple-clothing-types-tech\">Simple Clothing Types</a>"]
     - heading: null
       rows:
         - ["String id","<span>51642-rebirth.mod</span>"]
@@ -59,6 +52,6 @@ A Rag Shirt is made up of several ragged strips of cloth that wrap around the ch
 
 ## Crafting
 
-A blueprint can be found at the [Great Library](/the-great-library).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1.35</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Dyed Rag Shirt blueprint: 12 hours at tech level 1; the blueprint is worth c. 984.</li></ul></div>
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1.35 required)</span></p></td><td><strong><span>Dyed Rag Shirt</span></strong><div></div></td></tr></tbody></table></details>
+A blueprint can be found at the [Great Library](/the-great-library).

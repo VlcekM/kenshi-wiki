@@ -33,3 +33,7 @@ It is absolutely outshined by almost any other type of food but can be made if n
   
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/bread">Bread</a></th><td>1</td></tr><tr><th scope="row"><a href="/raw-meat">Raw Meat</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/advanced-cooking-tech">Advanced Cooking</a> research: 4 hours at tech level 2; costs <a href="/book">2 Books</a>.</li></ul></div>

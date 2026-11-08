@@ -49,4 +49,6 @@ They are worn by the [Reavers](/reavers). This includes [Reaver Bloodeds](/reave
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.42</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>2.1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Hack Stopper Pants blueprint: 12 hours at tech level 1; the blueprint is worth c. 3,115.</li></ul></div>
+
 It can be crafted in the [Leather Armour Crafting Bench](/leather-armour-crafting-bench) if a blueprint is available through modding.

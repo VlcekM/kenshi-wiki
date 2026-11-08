@@ -48,6 +48,10 @@ Traders Leathers are made out of what looks like a former leather shirt that had
 
   
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.62</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>3.1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/leather-armour-crafting-tech">Leather Armour Crafting</a> research: 8 hours at tech level 2; costs <a href="/book">4 Books</a>.</li><li>Trader's Leathers blueprint: 12 hours at tech level 1; the blueprint is worth c. 7,450.</li></ul></div>
+
 ## Blueprints
 
 Traders Leathers are unlocked when research for the [Leather Armour Crafting Bench](/leather-armour-crafting-bench) is completed.

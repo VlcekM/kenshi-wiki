@@ -49,9 +49,8 @@ If worn in addition to certain clothings such as the [Dustcoat](/dustcoat), the 
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Samurai Clothpants<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">2</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,346</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Samurai Clothpants</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/leather-armour-crafting-bench">Leather Armour Crafting Bench</a></th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.5</td><td>2.5</td></tr><tr><th scope="row"><a href="/leather">Leather</a></th><td>2.5</td><td>–</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Samurai Clothpants blueprint: 12 hours at tech level 1; the blueprint is worth c. 3,724.</li></ul></div>
 
-  
 Interestingly, **Samurai Clothpants** can be crafted both at the [Clothing Bench](/clothing-bench) and at the [Leather Armour Crafting Bench](/leather-armour-crafting-bench).
 
 Blueprints can be found at [UC Armour Traders](/uc-armour-trader).

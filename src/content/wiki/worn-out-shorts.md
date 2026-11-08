@@ -38,3 +38,7 @@ Worn-out Shorts are a brown pair of leather shorts. The length of the leg on the
 ## Clothing
 
 Worn-out Shorts can be crafted on a [Clothing Bench](/clothing-bench) after researching [Simple Clothing Types](/simple-clothing-types-tech).
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/simple-clothing-types-tech">Simple Clothing Types</a> research: 6 hours at tech level 1; costs <a href="/book">1 Book</a>; needs <a href="/clothing-manufacture-tech">Clothing Manufacture</a>.</li><li>Worn-out Shorts blueprint: 12 hours at tech level 1; the blueprint is worth c. 30.</li></ul></div>

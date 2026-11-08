@@ -45,6 +45,8 @@ infobox:
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/crossbow-crafting-bench">Crossbow Crafting Bench</a></th></tr><tr><th scope="row"><a href="/steel-bars">Steel bars</a></th><td>4</td></tr><tr><th scope="row"><a href="/crossbow-parts">Crossbow Parts</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Tooth Pick blueprint: 12 hours at tech level 1; the blueprint is worth c. 4,858.</li></ul></div>
+
 The blueprint for this weapon can be found at the [The Great Library](/the-great-library).
 
 After unlocking the ability to craft through use of a blueprint, players can craft this crossbow at a [Crossbow Crafting Bench](/crossbow-crafting-bench). A single Tooth Pick is made up of 4 [Steel Bars](/steel-bars) and 1 [Crossbow Parts](/crossbow-parts).

@@ -49,6 +49,10 @@ The **Paladins Heavy Hachigane** has the top of the character's head covered by 
 
 <table class="wikitable"><tbody><tr><td colspan="2" align="center">This article has been updated for Kenshi version 1.0.28.</td></tr></tbody></table>
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.18</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>0.9</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Paladin's Heavy Hachigane blueprint: 12 hours at tech level 1; the blueprint is worth c. 4,545.</li></ul></div>
+
 ## Blueprints
 
 <table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Paladin's Heavy Hachigane<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Paladin's Heavy Hachigane</td></tr></tbody></table>

@@ -42,3 +42,7 @@ Made from a single piece of cloth and wrapped around the player's head so that s
 ## Stats
 
 <table class="wikitable grade-table"><tbody><tr><th class="unsortable">Light Armour Armour Class · Cloth</th><th class="unsortable grade grade-prototype">Prototype</th></tr><tr><th scope="row">Blunt resistance</th><td colspan="1">2%%</td></tr><tr><th scope="row">Cut resistance</th><td colspan="1">0% (-20% stun)%</td></tr><tr><th scope="row">Weight</th><td colspan="1">1 kg</td></tr><tr><th scope="row">Value</th><td colspan="1">c.24</td></tr><tr><th colspan="2">Weather Protections</th></tr><tr><th scope="row">Duststorms</th><td colspan="1">70%</td></tr><tr><th colspan="2">Coverage</th></tr><tr><th scope="row">Head</th><td colspan="1">75%</td></tr></tbody></table>
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.75</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Dyed Turban blueprint: 12 hours at tech level 1; the blueprint is worth c. 1,758.</li></ul></div>

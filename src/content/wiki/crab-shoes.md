@@ -27,13 +27,6 @@ infobox:
         - ["Cut into stun","10%"]
         - ["Dodge","0.80x"]
         - ["Stealth","0.20x"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","8 hours"]
-        - ["Tech Level","3"]
-        - ["Costs","1 <a href=\"/engineering-research\">Engineering Research</a>"]
-        - ["New Building(s)","<a href=\"/heavy-armour-smithy\">Heavy Armour Smithy</a><p><a href=\"/plate-beating-station\">Plate Beating Station</a></p>"]
-        - ["New Item(s)","<a href=\"/heart-protector\">Heart Protector</a><p><a href=\"/armoured-rag-skirt\">Armoured Rag Skirt</a><br><a href=\"/armoured-rags\">Armoured Rags</a></p>"]
     - heading: null
       rows:
         - ["String id","<span>64890-Newwworld.mod</span>"]
@@ -59,9 +52,6 @@ This armour has inventory dimensions of **2x4**.
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Heavy Armour Smithy</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(0.1 required)</span></p></td><td><strong><span>Crab Shoes</span></strong><div></div></td></tr><tr><td><a href="/armour-plating"><span>Armour Plating</span></a><div></div><p><span>(0.5 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.1</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>0.5</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Crab Shoes blueprint: 12 hours at tech level 1; the blueprint is worth c. 1,515.</li></ul></div>
 
-  
 The blueprint can be bought from a [Crabsmith](/crabsmith).
-
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Crab Shoes<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">1</td></tr><tr><td colspan="2" class="greenprint-table-label">-Value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>1,515</td></tr><tr><td colspan="2" class="greenprint-table-label">-Sell value</td><td colspan="2" class="greenprint-table-label"><span class="greenprint-table-value">c.</span>378</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type</td><td colspan="2" class="greenprint-table-label-2">Crab Shoes</td></tr></tbody></table>

@@ -41,6 +41,6 @@ The hips and legs are mostly covered with torn cloth and rags.
 
 ## Crafting
 
-The blueprint can possibly be found at the [Great Library](/the-great-library) in [Black Scratch](/black-scratch).
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/clothing-bench">Clothing Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Rag Loincloth (Dyed) blueprint: 12 hours at tech level 1; the blueprint is worth c. 75.</li></ul></div>
 
-<details class="collapsible" open=""><summary>Clothing Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/fabrics"><span>Fabrics</span></a><div></div><p><span>(1.35 required)</span></p></td><td><strong><span>Rag Loincloth (Dyed)</span></strong><div></div></td></tr></tbody></table></details>
+The blueprint can possibly be found at the [Great Library](/the-great-library) in [Black Scratch](/black-scratch).

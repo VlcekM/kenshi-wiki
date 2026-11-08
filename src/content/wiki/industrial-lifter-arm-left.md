@@ -25,13 +25,6 @@ infobox:
         - ["Thievery","0.50x → 0.90x"]
         - ["Ranged","0.75x → 1.00x"]
         - ["Unarmed damage","0 → +4"]
-    - heading: "Research"
-      rows:
-        - ["Estimated Time","12 hours"]
-        - ["Tech Level","6"]
-        - ["Costs","2 <a href=\"/ai-core\">AI Cores</a>"]
-        - ["Requirements","<a href=\"/skeleton-arms-tech\"> Skeleton Arms</a>"]
-        - ["New Item(s)","Industrial Lifter Arm (left)<p><a href=\"/industrial-lifter-arm-right\">Industrial Lifter Arm (right)</a></p>"]
     - heading: null
       rows:
         - ["String id","<span>96022-Newwworld.mod</span>"]
@@ -59,4 +52,4 @@ Industrial Lifter Arm (left) is a [Robot Limb](/robot-limbs), and a replacement 
 
 ## Crafting
 
-<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/robotics-components"><span>Robotics Components</span></a><div></div><p><span>(4 required)</span></p></td><td><strong><span>Industrial Lifter Arm (left)</span></strong><div></div></td></tr><tr><td><a href="/electrical-components"><span>Electrical Components</span></a><div></div><p><span>(10 required)</span></p></td></tr></tbody></table></details>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/skeleton-limb-bench">Skeleton Limb Bench</a></th></tr><tr><th scope="row"><a href="/robotics-components">Robotics Components</a></th><td>4</td></tr><tr><th scope="row"><a href="/electrical-components">Electrical Components</a></th><td>10</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/extra-strong-arms-tech">Extra Strong Arms</a> research: 12 hours at tech level 6; costs <a href="/ai-core">2 AI Cores</a>; needs <a href="/skeleton-arms-tech">Skeleton Arms</a>.</li></ul></div>

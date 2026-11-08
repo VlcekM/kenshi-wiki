@@ -39,3 +39,7 @@ Steel bars can be made by a [Steel Refinery](/steel-refinery) with [Iron Plates]
 -   [Skeleton Repair Kit](/skeleton-repair-kit)
 
 ### History
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable">Ore Processor</th><th class="unsortable"><a href="/steel-refinery">Steel Refinery</a><br>Steel Refinery II<br>Steel Refinery III</th></tr><tr><th scope="row"><a href="/iron-plates">Iron Plates</a></th><td>1</td><td>2</td></tr></tbody></table></div>

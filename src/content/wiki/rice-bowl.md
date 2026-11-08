@@ -39,3 +39,7 @@ It is recommended to not eat Rice outright but to instead farm [Greenfruit](/gre
 ### History
 
 Initially, this item had an identical icon to [Gohan](/gohan). That icon was a top view of a closed lid on the container used to hold food.
+
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/cooking-stove">Cooking Stove</a></th></tr><tr><th scope="row"><a href="/riceweed">Riceweed</a></th><td>10</td></tr><tr><th scope="row"><a href="/water">Water</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/cooking-tech">Cooking</a> research: 4 hours at tech level 1; costs <a href="/book">1 Book</a>.</li></ul></div>

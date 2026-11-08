@@ -35,7 +35,6 @@ infobox:
 
   
 
-
 **Ancient Samurai Helmet** is a Heavy Armour that is equipped in the Headgear slot. As the [Second Empire](/second-empire) remnants who are the only ones to wear the Ancient Samurai armour set are purely composed of [Skeletons](/skeleton) (who cannot use Headgear), this armour cannot be found anywhere in the game. Had it existed in the game it would have been part of a set together with [Ancient Samurai Armour](/ancient-samurai-armour), [Ancient Samurai Legplates](/ancient-samurai-legplates) and [Ancient Samurai Boots](/ancient-samurai-boots).
 
 This armour has inventory dimensions of **3x3**.
@@ -56,4 +55,4 @@ This armour has inventory dimensions of **3x3**.
 
 ## Crafting
 
-It is not possible to craft this item.
+<div class="crafting"><p>It can't be crafted.</p></div>

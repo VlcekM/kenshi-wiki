@@ -50,11 +50,9 @@ A simple chainmail coif with leather pieces for trim. The armour is reinforced w
 
 ## Crafting
 
-<table class="wikitable"><tbody><tr><td colspan="3" class="greenprint-table-header"><span>Karuta Zukin<p>[Research Blueprint]</p></span></td><td colspan="1" align="right"></td></tr><tr><td colspan="2">Tech Level</td><td colspan="2" class="greenprint-table-label">0</td></tr><tr><td colspan="2">Requirements:</td><td colspan="2"></td></tr><tr><td colspan="2">New Armour Type:</td><td colspan="2" class="greenprint-table-label-2">Karuta Zukin</td></tr></tbody></table>
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/chain-armour-crafting-bench">Chain Armour Crafting Bench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.16</td></tr><tr><th scope="row"><a href="/chainmail-sheets">Chainmail Sheets</a></th><td>0.8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Karuta Zukin blueprint: 12 hours at tech level 1; the blueprint is worth c. 4,897.</li></ul></div>
 
 It can be crafted using the [Chain Armour Crafting Bench](/chain-armour-crafting-bench) after acquiring the appropriate blueprint.
-
-  
 
 ## Trivia
 

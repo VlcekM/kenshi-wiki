@@ -62,4 +62,6 @@ The appearance can differ in terms of color, as different Holy Nation ranks have
 
 ## Crafting
 
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable"><a href="/heavy-armour-smithy">Heavy Armour Smithy</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>0.76</td></tr><tr><th scope="row"><a href="/armour-plating">Armour Plating</a></th><td>3.8</td></tr></tbody></table><p>Unlocked by:</p><ul><li>Holy Chest Plate blueprint: 12 hours at tech level 1; the blueprint is worth c. 15,154.</li></ul></div>
+
 The game does not (unless modded) provide a blueprint, making crafting a Holy Chest Plate impossible. The [Unholy Chest Plate](/unholy-chest-plate) with the same stats but a darker colour can be crafted however.

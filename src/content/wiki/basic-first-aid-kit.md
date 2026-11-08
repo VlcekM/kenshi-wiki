@@ -33,6 +33,10 @@ This item is also utilized by slavers and [Cannibals](/cannibals) to restore the
 
   
 
+## Crafting
+
+<div class="crafting"><table class="wikitable crafting-table"><tbody><tr><th class="unsortable">Per item</th><th class="unsortable">Basic Medical Workbench<br><a href="/medical-workbench">Medical Workbench</a></th></tr><tr><th scope="row"><a href="/fabrics">Fabrics</a></th><td>1</td></tr></tbody></table><p>Unlocked by:</p><ul><li><a href="/basic-first-aid-kits-tech">Basic First Aid Kits</a> research: 2 hours at tech level 2; costs <a href="/book">2 Books</a>.</li></ul></div>
+
 ## Trivia
 
 When this item spawns in [Flotsam Safehouse](/flotsam-safehouse), it spawns as a unique item.
