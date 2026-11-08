@@ -1,6 +1,7 @@
 import { expect, test } from '@playwright/test';
 import { readFile } from 'node:fs/promises';
-import { repoUrl } from '../src/lib/wiki.js';
+import { execFileSync } from 'node:child_process';
+import { pageSlug, repoUrl } from '../src/lib/wiki.js';
 import worker from '../worker/index.js';
 
 const pages = [
@@ -108,6 +109,18 @@ test('Random page opens an article, and category links lead to their category', 
   await page.locator('#catlinks').getByRole('link', { name: 'Weapons', exact: true }).click();
   await expect(page).toHaveURL(new URL('/category/weapons', baseURL).href);
   await expect(page.locator('.category-columns').getByRole('link', { name: 'Nodachi', exact: true })).toHaveAttribute('href', '/nodachi');
+});
+
+// Git, not the working tree: on Windows and macOS a file renamed only in case keeps its old name in the index, and
+// CI builds from the index.
+test('every article file is named for its canonical path', () => {
+  const files = execFileSync('git', ['ls-files', 'src/content/wiki'], { encoding: 'utf8' }).split('\n').filter(Boolean);
+  const misnamed = files.filter((file) => {
+    const id = file.replace(/^src\/content\/wiki\//, '').replace(/\.md$/, '');
+    return id !== pageSlug(id);
+  });
+  expect(files.length).toBeGreaterThan(0);
+  expect(misnamed).toEqual([]);
 });
 
 test('unknown routes return a genuine 404', async ({ request }) => {
