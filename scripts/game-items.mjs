@@ -188,24 +188,28 @@ async function writeItems(data, folder, meitou) {
   console.log(`Wrote ${items.length} items, ${items.filter((item) => item.icon).length} with icons, to ${outDir}/items.json.`);
 }
 
-// Every /icons/items/<string id>.png an article links to.
+// An item's icon file in public/icons/items/: its string id, a space (a few mods' ids have one) as "_" so the URL needs no escaping.
+const iconFile = (sid) => `${sid.replaceAll(' ', '_')}.png`;
+
+// Every /icons/items/<file> an article links to.
 async function usedIcons() {
   const files = await readdir(articleDir, { recursive: true });
   const used = new Set();
   for (const file of files.filter((name) => name.endsWith('.md'))) {
     const text = await readFile(join(articleDir, file), 'utf8');
-    for (const [, sid] of text.matchAll(/\/icons\/items\/([^"'\s)]+)\.png/g)) used.add(sid);
+    for (const [, name] of text.matchAll(/\/icons\/items\/([^"'\s)]+\.png)/g)) used.add(name);
   }
   return used;
 }
 
 async function copyIcons() {
-  const items = new Map(JSON.parse(await readFile(join(outDir, 'items.json'), 'utf8')).map((item) => [item.sid, item]));
+  const items = JSON.parse(await readFile(join(outDir, 'items.json'), 'utf8'));
+  const byFile = new Map(items.map((item) => [iconFile(item.sid), item]));
   await mkdir(iconDir, { recursive: true });
-  for (const sid of await usedIcons()) {
-    const icon = items.get(sid)?.icon;
-    if (!icon) throw new Error(`No icon for ${sid} in ${outDir}/items.json.`);
-    await copyFile(icon, join(iconDir, `${sid}.png`));
+  for (const name of await usedIcons()) {
+    const icon = byFile.get(name)?.icon;
+    if (!icon) throw new Error(`No icon for ${name} in ${outDir}/items.json.`);
+    await copyFile(icon, join(iconDir, name));
   }
   console.log(`Copied the icons articles use into ${iconDir}/.`);
 }

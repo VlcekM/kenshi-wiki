@@ -85,7 +85,7 @@ If a **Band of Bones** warrior is found in a non-shek biome, they may challenge 
 
 #### Legwear
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/samurai-legplates">Samurai Legplates</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/drifters-leather-pants">Drifter's Leather Pants</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/armoured-rag-skirt">Armoured Rag Skirt</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2150-gamedata.base.png" alt="" width="40" height="40"> <a href="/samurai-legplates">Samurai Legplates</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2305-clothes_v1.mod.png" alt="" width="40" height="40"> <a href="/drifters-leather-pants">Drifter's Leather Pants</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/5346-armor_otto.mod.png" alt="" width="40" height="40"> <a href="/armoured-rag-skirt">Armoured Rag Skirt</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Footwear
 

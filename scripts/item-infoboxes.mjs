@@ -2,6 +2,7 @@
 // Usage: node scripts/item-infoboxes.mjs
 // An article is paired with its item by scripts/item-pairs.json (article path -> string id), else by its infobox's "String id"
 // row. Run scripts/game-items.mjs --copy-icons afterwards to copy the icons the infoboxes show.
+import * as cheerio from 'cheerio';
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join, sep } from 'node:path';
 
@@ -20,7 +21,9 @@ const grid = (item, name) => `${item.int[`${name} width`]}x${item.int[`${name} h
 // Inventory footprint as the articles' prose writes it, height first (a katana is "1x7").
 const footprint = (item) => `${item.int['inventory footprint height']}x${item.int['inventory footprint width']}`;
 const price = (value) => `c. ${number(value)}`;
-const link = (href, text) => `<a href="${href}">${text}</a>`;
+// An item's icon file, as scripts/game-items.mjs --copy-icons names it (a space in the string id as "_").
+const iconFile = (sid) => `${sid.replaceAll(' ', '_')}.png`;
+const link =(href, text) => `<a href="${href}">${text}</a>`;
 const capitalise = (text) => text.charAt(0).toUpperCase() + text.slice(1);
 
 // A value at the worst and the best grade, one if they are equal.
@@ -243,7 +246,7 @@ function infobox(title, item, research) {
   groups.push(group(null, [['String id', `<span>${item.sid}</span>`]]));
   return {
     title,
-    image: item.icon ? `/icons/items/${item.sid}.png` : undefined,
+    image: item.icon ? `/icons/items/${iconFile(item.sid)}` : undefined,
     caption: item.str.description?.trim() || undefined,
     groups: groups.filter((g) => g.rows.length > 0),
   };
@@ -306,14 +309,110 @@ async function rebuild(file, id, items, pairs) {
   return { removed };
 }
 
+// A table icon: weapon renders are long and thin, so theirs get a wide box.
+function iconImage(item) {
+  const src = `/icons/items/${iconFile(item.sid)}`;
+  return weaponTypes.includes(item.type)
+    ? `<img class="item-icon item-icon-wide" src="${src}" alt="" width="96" height="24">`
+    : `<img class="item-icon" src="${src}" alt="" width="40" height="40">`;
+}
+
+const weaponTypes = [types.weapon, types.crossbow];
+
+// The items whose names get an icon in the tables listing them.
+const listedTypes = [...weaponTypes, types.armour];
+
+// Each paired article's link (/katana) to its item's table icon, for the items of record types `only` (all when omitted).
+function iconsByLink(items, pairs, only) {
+  const icons = new Map();
+  for (const [id, sid] of Object.entries(pairs)) {
+    const item = items.get(sid);
+    if (item?.icon && (!only || only.includes(item.type))) icons.set(`/${id}`, iconImage(item));
+  }
+  return icons;
+}
+
+const imageColumnTable = /^<table class="wikitable[^"]*">.*<th[^>]*>(Image|Icon)<\/th>/;
+const isImageColumn = (text) => text === 'Image' || text === 'Icon';
+
+// The cell of a row's Image or Icon column, when it is empty and the row links to an item with an icon: [cell, icon].
+function emptyImageCell($, row, column, icons) {
+  const cell = $(row).children('td').eq(column);
+  if (!cell.length || cell.text().trim() || cell.find('img').length) return null;
+
+  const href = $(row).find('a[href]').toArray().map((a) => $(a).attr('href')).find((link) => icons.has(link));
+  return href ? [cell, icons.get(href)] : null;
+}
+
+// Fandom's tables with an Image or Icon column lost their images in the import: each empty cell gets the icon of the item its row links to.
+function fillImageColumn(line, icons) {
+  if (!imageColumnTable.test(line)) return { line, filled: 0 };
+
+  const $ = cheerio.load(line, null, false);
+  const rows = $('table').first().children('tbody').children('tr');
+  const column = rows.first().children('th').toArray().findIndex((th) => isImageColumn($(th).text().trim()) && !$(th).attr('colspan'));
+  if (column < 0) return { line, filled: 0 };
+
+  let filled = 0;
+  rows.slice(1).each((_, row) => {
+    const found = emptyImageCell($, row, column, icons);
+    if (!found) return;
+    found[0].html(found[1]);
+    filled++;
+  });
+  return { line: filled ? $.html() : line, filled };
+}
+
+// Weapon and armour names in a table get an icon only when the table lists at least this many: a list, not a mention.
+const listMinimum = 3;
+
+// The cells that start with a link to a weapon or armour and have no icon yet: [cell, icon].
+function nameCells($, icons) {
+  return $('td').toArray().flatMap((td) => {
+    const first = $(td).contents().toArray().find((node) => node.type !== 'text' || node.data.trim());
+    const href = first?.name === 'a' ? $(first).attr('href') : null;
+    return href && icons.has(href) && !$(td).find('img').length ? [[$(td), icons.get(href)]] : [];
+  });
+}
+
+// Tables listing weapons, crossbows or armour without an icon column: each name gets the item's icon before it, as the Backpacks table has.
+function addNameIcons(line, icons) {
+  if (!/^<(table|details)/.test(line)) return { line, filled: 0 };
+
+  const $ = cheerio.load(line, null, false);
+  const cells = nameCells($, icons);
+  if (cells.length < listMinimum || $('img.item-icon').length) return { line, filled: 0 };
+
+  for (const [cell, image] of cells) cell.prepend(`${image} `);
+  return { line: $.html(), filled: cells.length };
+}
+
+async function fillTableIcons(file, icons, listedIcons) {
+  const text = await readFile(file, 'utf8');
+  // A line's carriage return is kept out of the HTML parser, which would turn it into a line break.
+  const results = text.split('\n').map((line) => {
+    const [html, end] = line.endsWith('\r') ? [line.slice(0, -1), '\r'] : [line, ''];
+    const images = fillImageColumn(html, icons);
+    const names = addNameIcons(images.line, listedIcons);
+    return { line: names.line + end, filled: images.filled + names.filled };
+  });
+  const filled = results.reduce((sum, result) => sum + result.filled, 0);
+  if (filled) await writeFile(file, results.map((result) => result.line).join('\n'));
+  return filled;
+}
+
 async function main() {
   const items = new Map(JSON.parse(await readFile('game-items/items.json', 'utf8')).map((item) => [item.sid, item]));
   const pairs = JSON.parse(await readFile(pairsFile, 'utf8'));
+  const icons = iconsByLink(items, pairs);
+  const listedIcons = iconsByLink(items, pairs, listedTypes);
   const files = (await readdir(articleDir, { recursive: true })).filter((name) => name.endsWith('.md'));
   let rebuilt = 0;
   let cards = 0;
+  let images = 0;
   for (const file of files) {
     const id = file.replace(/\.md$/, '').split(sep).join('/');
+    images += await fillTableIcons(join(articleDir, file), icons, listedIcons);
     const result = await rebuild(join(articleDir, file), id, items, pairs);
     if (!result) continue;
 
@@ -321,7 +420,7 @@ async function main() {
     cards += result.removed;
     if (result.removed > 1) console.log(`  ${id}: removed ${result.removed} stat cards`);
   }
-  console.log(`Rebuilt ${rebuilt} item infoboxes; removed ${cards} stat cards above the articles' text.`);
+  console.log(`Rebuilt ${rebuilt} item infoboxes; removed ${cards} stat cards above the articles' text; added ${images} table icons.`);
 }
 
 await main();

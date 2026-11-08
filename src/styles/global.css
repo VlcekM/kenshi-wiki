@@ -272,6 +272,12 @@ figure.quote figcaption::before {
 /* An item's game icon beside its name in a table */
 img.item-icon {
   vertical-align: middle;
+  object-fit: contain;
+}
+
+/* A weapon's icon stays on its name's line. */
+td:has(> img.item-icon-wide:first-child) {
+  white-space: nowrap;
 }
 
 /* Sortable table headers (src/lib/sortable-tables.ts). The arrows are drawn dark and turn light with the dark theme's inversion. */

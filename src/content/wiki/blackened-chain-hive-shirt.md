@@ -7,7 +7,7 @@ source:
 categories: ["Armour","Shirts","Medium Armour"]
 infobox:
   title: "Blackened Chain Hive Shirt"
-  image: "/icons/items/1534061-Newwworld Plus.mod.png"
+  image: "/icons/items/1534061-Newwworld_Plus.mod.png"
   caption: "If a Hiver tries wearing a regular human-sized shirt it just sort of hangs loose and falls off their shoulders, often tangling up their arms.  So they were forced to manufacture their own, which they have done to a suspiciously higher standard than all their gear designed for humans."
   groups:
     - heading: null

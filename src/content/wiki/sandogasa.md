@@ -7,7 +7,7 @@ source:
 categories: ["Armour","Headgear","Clothing"]
 infobox:
   title: "Sandogasa"
-  image: "/icons/items/1534055-Newwworld Plus.mod.png"
+  image: "/icons/items/1534055-Newwworld_Plus.mod.png"
   caption: "Straw hats are common among everyone from peasant farmers to desert scouts and help shade the wearer from the intense heat of the sun.  Shading the eyes from glare can also provide a minor aid in combat."
   groups:
     - heading: null

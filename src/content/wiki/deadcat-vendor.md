@@ -230,7 +230,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 #### Shirt
 
-<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><a href="/white-vest">White Vest</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/cloth-shirt">Cloth Shirt</a></td><td>33.33%</td></tr><tr><td></td><td><a href="/leather-vest">Leather Vest</a></td><td>33.33%</td></tr></tbody></table>
+<table class="wikitable sortable"><tbody><tr><th colspan="2">Name</th><th>Chance</th></tr><tr><td></td><td><img class="item-icon" src="/icons/items/1167-gamedata.base.png" alt="" width="40" height="40"> <a href="/white-vest">White Vest</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/1168-gamedata.base.png" alt="" width="40" height="40"> <a href="/cloth-shirt">Cloth Shirt</a></td><td>33.33%</td></tr><tr><td></td><td><img class="item-icon" src="/icons/items/2212-gamedata.base.png" alt="" width="40" height="40"> <a href="/leather-vest">Leather Vest</a></td><td>33.33%</td></tr></tbody></table>
 
 #### Legwear
 
