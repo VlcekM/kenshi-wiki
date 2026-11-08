@@ -74,8 +74,19 @@ const resources = [...platforms, ...morePlatforms];
       <h3><label for="searchInput">Search Kenshi Wiki</label></h3>
       <form action="/search" id="searchform">
         <div id="simpleSearch">
-          <input type="search" name="q" placeholder="Search Kenshi Wiki" id="searchInput" />
+          <input
+            type="search"
+            name="q"
+            placeholder="Search Kenshi Wiki"
+            id="searchInput"
+            autocomplete="off"
+            role="combobox"
+            aria-autocomplete="list"
+            aria-controls="search-suggestions"
+            aria-expanded="false"
+          />
           <input type="submit" value="Go" title="Search" id="searchButton" class="searchButton" />
+          <ul id="search-suggestions" class="search-suggestions" role="listbox" aria-label="Suggested pages" hidden></ul>
         </div>
       </form>
     </div>
@@ -124,4 +135,90 @@ const resources = [...platforms, ...morePlatforms];
       if (!menu.getClientRects().length) menu.open = false;
     }
   }).observe(header);
+</script>
+
+<script>
+  import { matchTitles, preloadSuggestions, textSuggestions, type Suggestion } from '../lib/search';
+
+  const limit = 8;
+  const input = document.querySelector<HTMLInputElement>('#searchInput')!;
+  const list = document.querySelector<HTMLUListElement>('#search-suggestions')!;
+  let active = -1;
+  let latest = 0;
+
+  const options = () => [...list.querySelectorAll<HTMLAnchorElement>('[role="option"]')];
+
+  // Closing also drops any suggestions still on their way, so they cannot reopen the list after the box loses focus.
+  function close() {
+    latest++;
+    list.hidden = true;
+    active = -1;
+    input.setAttribute('aria-expanded', 'false');
+    input.removeAttribute('aria-activedescendant');
+  }
+
+  function option(id: string, href: string, title: string) {
+    const item = document.createElement('li');
+    const link = document.createElement('a');
+    link.id = id;
+    link.href = href;
+    link.textContent = title;
+    link.setAttribute('role', 'option');
+    item.append(link);
+    return item;
+  }
+
+  // The pages found, then a last entry that lists every page containing the words, as on MediaWiki.
+  function show(query: string, pages: Suggestion[]) {
+    const items = pages.map((page, index) => option(`search-option-${index}`, page.path, page.title));
+    const everything = option('search-option-all', `/search?q=${encodeURIComponent(query)}&fulltext=1`, `Search for pages containing “${query}”`);
+    everything.classList.add('search-fulltext');
+    list.replaceChildren(...items, everything);
+    list.hidden = false;
+    active = -1;
+    input.setAttribute('aria-expanded', 'true');
+  }
+
+  // Matching titles show at once; when they do not fill the list, pages that mention the words follow.
+  async function suggest() {
+    const query = input.value.trim();
+    const request = ++latest;
+    if (!query) return close();
+
+    const titled = matchTitles(await preloadSuggestions(), query, limit);
+    if (request !== latest) return;
+    show(query, titled);
+    if (titled.length >= limit) return;
+
+    const mentioned = await textSuggestions(query, limit).catch(() => []);
+    const extra = mentioned.filter((page) => !titled.some((shown) => shown.path === page.path));
+    if (request === latest && extra.length) show(query, [...titled, ...extra].slice(0, limit));
+  }
+
+  function move(step: number) {
+    const all = options();
+    active = active === -1 ? (step > 0 ? 0 : all.length - 1) : (active + step + all.length) % all.length;
+    all.forEach((link, index) => link.classList.toggle('active', index === active));
+    input.setAttribute('aria-activedescendant', all[active].id);
+  }
+
+  function onKey(event: KeyboardEvent) {
+    if (list.hidden) return;
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') move(event.key === 'ArrowDown' ? 1 : -1);
+    else if (event.key === 'Enter' && active >= 0) location.href = options()[active].href;
+    else if (event.key === 'Escape') close();
+    else return;
+    event.preventDefault();
+  }
+
+  input.addEventListener('input', suggest);
+  input.addEventListener('keydown', onKey);
+  input.addEventListener('focus', () => {
+    preloadSuggestions();
+    if (input.value.trim()) suggest();
+  });
+  input.addEventListener('pointerenter', () => preloadSuggestions(), { once: true });
+  input.addEventListener('blur', close);
+  // Keep the focus in the box while a suggestion is clicked, so the blur does not close the list first.
+  list.addEventListener('mousedown', (event) => event.preventDefault());
 </script>

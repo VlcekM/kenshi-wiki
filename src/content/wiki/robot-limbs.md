@@ -7,7 +7,7 @@ source:
 categories: ["Equipment"]
 ---
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>If a limb is hit with a sharp weapon and it has less than -100 health then it will be severed. This is a permanent loss, you will have to find a robotic replacement.</td></tr></tbody></table>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> If a limb is hit with a sharp weapon and it has less than -100 health then it will be severed. This is a permanent loss, you will have to find a robotic replacement.</div>
 
 **\*The tip incorrectly mentions "sharp weapon". If you are hit by any attack whatsoever and your limb goes below -100% of its max health from that attack the limb will be severed if the limb severing frequency is set to anywhere more than "never"\***
 

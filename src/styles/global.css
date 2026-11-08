@@ -64,13 +64,15 @@ html {
   filter: opacity(1);
 }
 
-/* Dark mode: invert the page (the tokens above are pre-inverted), then flip back images and fixed-color headers */
+/* Dark mode: invert the page (the tokens above are pre-inverted), then flip back images, icons and fixed-color headers.
+   Icons drawn by pseudo-elements cannot go inside :is(), so they are listed after it. */
 :root[data-theme="dark"] {
   filter: invert(1);
 }
 
 :root[data-theme="dark"] :is(img, video, canvas, iframe, .mw-wiki-logo, .mainpage-box-icon span, div.infobox .heading,
-  div.infobox .subheading, div.nav .heading, div.nav .subheading) {
+  div.infobox .subheading, div.nav .heading, div.nav .subheading),
+:root[data-theme="dark"] .loading-tip::before {
   filter: invert(1);
 }
 
@@ -80,7 +82,8 @@ html {
   }
 
   :root:not([data-theme="light"]) :is(img, video, canvas, iframe, .mw-wiki-logo, .mainpage-box-icon span, div.infobox .heading,
-    div.infobox .subheading, div.nav .heading, div.nav .subheading) {
+    div.infobox .subheading, div.nav .heading, div.nav .subheading),
+  :root:not([data-theme="light"]) .loading-tip::before {
     filter: invert(1);
   }
 }
@@ -196,6 +199,33 @@ div.infobox .image_wrapper img {
   border: 1px solid var(--paper-06);
   border-left: 4px solid var(--accent-300);
   background: var(--paper-01);
+}
+
+/* Kenshi's own talk pointer, from the game's UI atlas, marks a loading screen tip. */
+.loading-tip {
+  position: relative;
+  min-height: 32px;
+  padding-left: calc(0.75em + 48px + 0.75em);
+}
+
+.loading-tip::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0.75em;
+  width: 48px;
+  height: 32px;
+  margin-top: -16px;
+  background: url('/icons/talk.png') no-repeat;
+}
+
+.loading-tip-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 details.collapsible {

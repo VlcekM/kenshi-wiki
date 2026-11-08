@@ -7,7 +7,7 @@ source:
 categories: ["Items","Nutrition"]
 ---
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>You need to eat to survive. Your character simply needs food in his inventory in order to stay fed. Food in a backpack will be shared among the squad members.</td></tr></tbody></table>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> You need to eat to survive. Your character simply needs food in his inventory in order to stay fed. Food in a backpack will be shared among the squad members.</div>
 
 **Food** consists of all the items in Kenshi which fill your [hunger](/guide-to-health#hunger) bar. A character's hunger bar is filled by 1 for every nutrition charge used. They automatically consume some food when their hunger gets below 250, unless the only types of food they have are edible ingredients. In that case, they will not eat them until the hunger level gets below 200.
 

@@ -17,7 +17,7 @@ It is possible to heal any downed enemy or friend. Healing hurt but conscious en
 
   
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>Pressing the MEDIC button will order the selected characters to automatically heal all of their squad. If you shift-click the button he will be assigned to a permanent medic role.</td></tr></tbody></table>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> Pressing the MEDIC button will order the selected characters to automatically heal all of their squad. If you shift-click the button he will be assigned to a permanent medic role.</div>
 
   
 
