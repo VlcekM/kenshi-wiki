@@ -1,41 +1,64 @@
 ---
 import WikiLayout from '../layouts/WikiLayout.astro';
 import { developmentUrl, repoUrl, wiki } from '../lib/wiki.js';
+import { existingPaths } from '../lib/categories.js';
 
+// Each card heads with a hub page and lists links as 'Title' or ['Label', 'Title']; a title may be a 'Category:'.
 const sections = [
   {
     title: 'Concepts',
     cards: [
-      { title: 'Basics', icon: '📖', links: ['Controls', 'User interface', "Beginner's guide", 'Lore', 'Guides', 'Glossary'] },
-      { title: 'Gameplay', icon: '🎒', links: ['Skills', 'Research', 'Trade', 'Bounties', 'Stealth', 'Crafting'] },
-      { title: 'Extras', icon: '🛠️', links: ['Version history', 'Save files', 'Forgotten Construction Set', 'Mods', 'Modding tutorials'] },
-      { title: 'Combat', icon: '⚔️', links: ['Melee', 'Martial arts', 'Ranged', 'Injuries', 'Tactics'] },
-      { title: 'World', icon: '🌍', links: ['Map', 'Zones', 'Towns', 'Factions', 'Weather'] },
+      { title: 'Basics', icon: '📖', page: 'Controls', links: ['Controls', 'Game Starts', ['Skills', 'Statistics'], ['Lore', 'Category:Lore'], ['Guides', 'Category:Guides'], ['Events', 'Category:Events']] },
+      { title: 'Gameplay', icon: '🎒', page: 'Statistics', links: ['Stealth', 'Thievery', 'Assassination', 'Bounty', 'Slavery', ['Money', 'Cats']] },
+      { title: 'Extras', icon: '🛠️', page: 'Mods', links: ['Mods', 'Forgotten Construction Set', ['Modding', 'Category:Modding'], ['Modding guides', 'Category:Modding Guide'], ['Removed content', 'Category:Removed Content']] },
+      { title: 'Skills', icon: '⚔️', page: 'Statistics', links: ['Martial Arts', 'Strength', 'Dexterity', 'Toughness', 'Athletics', 'Swimming'] },
+      { title: 'World', icon: '🌍', page: 'World of Kenshi', links: [['Map', 'World of Kenshi'], 'Major Towns', ['Zones', 'Category:Zones'], ['Locations', 'Category:Locations'], 'Ancient Ruins', 'World States'] },
     ],
   },
   {
     title: 'Items',
     cards: [
-      { title: 'Gear', icon: '🗡️', links: ['Weapons', 'Armour', 'Clothing', 'Backpacks', 'Robotic limbs'] },
-      { title: 'Resources', icon: '📦', links: ['Materials', 'Food', 'Drugs', 'Medicine', 'Artifacts'] },
-      { title: 'Technology', icon: '⚙️', links: ['Blueprints', 'Books', 'AI cores', 'Engineering', 'Robotics'] },
+      { title: 'Gear', icon: '🗡️', page: 'Equipment', links: ['Weapons', 'Armour', 'Clothing', 'Backpacks', 'Robot Limbs', ['Crossbows', 'Category:Crossbows']] },
+      { title: 'Armour', icon: '🛡️', page: 'Armour', links: ['Light Armour', 'Medium Armour', 'Heavy Armour', 'Headgear', 'Body Armour', 'Shirts', 'Legwear', 'Footwear'] },
+      { title: 'Resources', icon: '📦', page: 'Items', links: ['Items', 'Food', ['Nutrition', 'Category:Nutrition'], ['Books', 'Book'], 'Artifacts', 'AI Core'] },
+      { title: 'Technology', icon: '⚙️', page: 'Technology', links: ['Technology', 'Blueprints', 'Robotics', 'Crafting', 'Cooking'] },
       {
         title: 'Building',
         icon: '🏚️',
-        links: ['Outposts', 'Production', 'Power', 'Farming', 'Storage', 'Defences', 'Furniture', 'Walls and gates', 'Crafting stations', 'Prisoners'],
+        page: 'Construction',
+        links: [['Construction', 'Construction'], ['Buildings', 'Category:Buildings'], 'Farming', 'Power', 'Storage', 'Turrets', 'Water', 'Copper'],
       },
     ],
   },
   {
     title: 'Life',
     cards: [
-      { title: 'Characters', icon: '🧍', links: ['Recruits', 'Unique NPCs', 'Health', 'Hunger', 'Stats', 'Traits'] },
-      { title: 'Races', icon: '🧬', links: ['Greenlander', 'Scorchlander', 'Shek', 'Hive', 'Skeleton'] },
-      { title: 'Fauna', icon: '🦎', links: ['Animals', 'Pets', 'Pack animals', 'Wildlife'] },
-      { title: 'Flora', icon: '🌵', links: ['Crops', 'Wild plants', 'Biomes'] },
+      {
+        title: 'Characters',
+        icon: '🧍',
+        page: 'Category:Characters',
+        links: [['All characters', 'Category:Characters'], ['Unique NPCs', 'Category:Unique'], ['Bosses', 'Category:Bosses'], 'Traders', ['Vendors', 'Category:Vendors'], ['Nobles', 'Category:Nobles']],
+      },
+      { title: 'Races', icon: '🧬', page: 'Races', links: ['Greenlander', 'Scorchlander', 'Shek', 'Hive', 'Skeleton'] },
+      { title: 'Factions', icon: '🏳️', page: 'Factions', links: ['The Holy Nation', 'United Cities', 'Shek Kingdom', 'Tech Hunters', 'Shinobi Thieves', 'Slave Traders'] },
+      { title: 'Fauna', icon: '🦎', page: 'Fauna', links: ['Fauna', ['Animals', 'Category:Animals'], 'Wildlife'] },
     ],
   },
 ];
+
+// Links resolve against the pages the site builds; one that no longer resolves is dropped, with a warning.
+const existing = await existingPaths();
+function resolve(link) {
+  const [label, title] = Array.isArray(link) ? link : [link, link];
+  if (existing.has(wiki(title))) return { label, href: wiki(title) };
+  console.warn(`Main page: "${title}" is not a page; its link is left out.`);
+  return null;
+}
+
+const resolved = sections.map((section) => ({
+  ...section,
+  cards: section.cards.map((card) => ({ ...card, href: resolve(card.page)?.href, links: card.links.map(resolve).filter(Boolean) })),
+}));
 
 // Cards list their links in two columns once there are more than five.
 const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.length / 2)), links.slice(Math.ceil(links.length / 2))] : [links]);
@@ -66,13 +89,12 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
       <div class="mainpage-about-text">
         <p>
           <br />
-          A complete history of releases can be found on the <a href={wiki('Version history')}>Version history</a> page.
+          Patch notes for every release are on <a class="external" href="https://store.steampowered.com/news/app/233860">Kenshi's Steam news page</a>.
         </p>
         <p>
           <br />
           This wiki is written by the community. Every page is a file in our <a href={repoUrl}>GitHub repository</a>, and
-          changes are made as pull requests. It is recommended to read the <a href={`${repoUrl}#contributing`}>contribution guide</a>{' '}
-          and our <a href={wiki('Style guide')}>Style guide</a>.
+          changes are made as pull requests. It is recommended to read the <a href={`${repoUrl}#contributing`}>contribution guide</a>.
         </p>
       </div>
       <div class="mainpage-about-links">
@@ -89,11 +111,11 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
   </div>
 
   <center>
-    <h3><b>Need some help? Check out the <a href={wiki('Guides')}>guides</a> for information!</b></h3>
+    <h3><b>Need some help? Check out the <a href={wiki('Category:Guides')}>guides</a> for information!</b></h3>
   </center>
 
   <div class="mainpage-sections">
-    {sections.map((section) => (
+    {resolved.map((section) => (
       <div class="mainpage-section">
         <h2><span class="mw-headline" id={section.title}>{section.title}</span></h2>
         <div class="mainpage-boxes">
@@ -102,7 +124,7 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
             <div class="mainpage-box">
               <div class="mainpage-box-side">
                 <div class="mainpage-box-title">
-                  <center><b><a href={wiki(card.title)}>{card.title}</a></b></center>
+                  <center><b>{card.href ? <a href={card.href}>{card.title}</a> : card.title}</b></center>
                 </div>
                 <div class="mainpage-box-icon">
                   <center><span aria-hidden="true">{card.icon}</span></center>
@@ -112,7 +134,7 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
                 <div class="mainpage-box-links">
                   <p>
                     {column.map((link) => (
-                      <Fragment>&#9642; <a href={wiki(link)}>{link}</a><br /></Fragment>
+                      <Fragment>&#9642; <a href={link.href}>{link.label}</a><br /></Fragment>
                     ))}
                   </p>
                 </div>

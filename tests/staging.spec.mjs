@@ -98,6 +98,18 @@ test('the header search finds pages and Go opens an exact title', async ({ page,
   expect(errors).toEqual([]);
 });
 
+test('Random page opens an article, and category links lead to their category', async ({ page, baseURL }) => {
+  await page.goto('/');
+  await page.locator('#p-navigation').getByRole('link', { name: 'Random page' }).click();
+  await page.waitForURL((url) => url.pathname !== '/random' && url.pathname !== '/');
+  await expect(page.locator('.fandom-notice')).toBeVisible();
+
+  await page.goto('/nodachi');
+  await page.locator('#catlinks').getByRole('link', { name: 'Weapons', exact: true }).click();
+  await expect(page).toHaveURL(new URL('/category/weapons', baseURL).href);
+  await expect(page.locator('.category-columns').getByRole('link', { name: 'Nodachi', exact: true })).toHaveAttribute('href', '/nodachi');
+});
+
 test('unknown routes return a genuine 404', async ({ request }) => {
   expect((await request.get('/missing-wiki-staging-check')).status()).toBe(404);
 });
