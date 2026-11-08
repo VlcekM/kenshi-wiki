@@ -247,6 +247,19 @@ figure.quote figcaption::before {
   content: '— ';
 }
 
+/* The Fandom attribution: a small line at the end of the article, below the infobox */
+.notice.fandom-notice {
+  clear: both;
+  margin: 2em 0 0;
+  padding: 0.5em 0 0;
+  border: 0;
+  border-top: 1px solid var(--paper-06);
+  background: none;
+  font-size: 80%;
+  color: var(--color-text-muted);
+}
+
+
 /* Sortable table headers (src/lib/sortable-tables.ts). The arrows are drawn dark and turn light with the dark theme's inversion. */
 table.jquery-tablesorter th.headerSort {
   cursor: pointer;
