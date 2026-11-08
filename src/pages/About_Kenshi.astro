@@ -4,17 +4,17 @@ import Infobox from '../components/Infobox.astro';
 import Toc from '../components/Toc.astro';
 import Gallery from '../components/Gallery.astro';
 import Navbox from '../components/Navbox.astro';
-import { wiki } from '../lib/wiki.js';
+import { developmentUrl, wiki } from '../lib/wiki.js';
 
-const link = (title, text = title) => `<a href="${wiki(title)}">${text}</a>`;
+const link = (title, href = wiki(title)) => `<a href="${href}">${title}</a>`;
 
 const infobox = [
   {
     heading: 'Game',
     rows: [
-      ['Developer', link('Lo-Fi Games')],
-      ['Publisher', link('Lo-Fi Games')],
-      ['Designer', link('Chris Hunt')],
+      ['Developer', link('Lo-Fi Games', developmentUrl)],
+      ['Publisher', link('Lo-Fi Games', developmentUrl)],
+      ['Designer', link('Chris Hunt', developmentUrl)],
       ['Engine', 'OGRE (modified)'],
       ['Platform', 'Windows'],
     ],
@@ -69,7 +69,7 @@ const gallery = [
 ];
 
 const navbox = [
-  { label: 'Game', links: ['Kenshi', 'Version history', 'Mods', 'Forgotten Construction Set'] },
+  { label: 'Game', links: ['About Kenshi', 'Version history', 'Mods', 'Forgotten Construction Set'] },
   { label: 'Races', links: ['Greenlander', 'Scorchlander', 'Shek', 'Hive', 'Skeleton'] },
   { label: 'Factions', links: ['Holy Nation', 'United Cities', 'Shek Kingdom', 'Tech Hunters'] },
   { label: 'Gameplay', links: ['Skills', 'Combat', 'Research', 'Outposts', 'Trade', 'Bounties'] },
@@ -78,9 +78,9 @@ const navbox = [
 ---
 
 <WikiLayout
-  title="Kenshi"
+  title="About Kenshi"
   description="Kenshi is an open-world, squad-based RPG by Lo-Fi Games."
-  source="src/pages/Kenshi.astro"
+  source="src/pages/About_Kenshi.astro"
   categories={['Games', 'Example pages']}
 >
   <div class="notice">
@@ -92,7 +92,7 @@ const navbox = [
 
   <p>
     <b>Kenshi</b> is an open-world, squad-based role-playing game developed and published by{' '}
-    <a href={wiki('Lo-Fi Games')}>Lo-Fi Games</a>. It began as a solo project by <a href={wiki('Chris Hunt')}>Chris Hunt</a>, entered
+    <a href={developmentUrl}>Lo-Fi Games</a>. It began as a solo project by <a href={developmentUrl}>Chris Hunt</a>, entered
     early access on Steam in 2013 and was fully released on 6 December 2018.
   </p>
   <p>
@@ -186,5 +186,5 @@ const navbox = [
     <li><a class="external" href="https://store.steampowered.com/app/233860/Kenshi/">Kenshi on Steam</a></li>
   </ul>
 
-  <Navbox title="Kenshi" groups={navbox} current="Kenshi" />
+  <Navbox title="Kenshi" groups={navbox} current="About Kenshi" />
 </WikiLayout>

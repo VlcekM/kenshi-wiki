@@ -1,6 +1,6 @@
 ---
 import WikiLayout from '../layouts/WikiLayout.astro';
-import { repoUrl, wiki } from '../lib/wiki.js';
+import { developmentUrl, repoUrl, wiki } from '../lib/wiki.js';
 
 const sections = [
   {
@@ -54,9 +54,9 @@ const columns = (links) => (links.length > 5 ? [links.slice(0, Math.ceil(links.l
     </center>
     <center>
       <big>
-        <b><a href={wiki('Kenshi')}>Kenshi</a></b> is an open-world, squad-based RPG developed by{' '}
-        <b><a href={wiki('Lo-Fi Games')}>Lo-Fi&nbsp;Games</a></b>, an independent studio founded by{' '}
-        <b><a href={wiki('Chris Hunt')}>Chris&nbsp;Hunt</a></b>.
+        <b><a href="https://store.steampowered.com/app/233860/Kenshi/">Kenshi</a></b> is an open-world, squad-based RPG developed by{' '}
+        <b><a href={developmentUrl}>Lo-Fi&nbsp;Games</a></b>, an independent studio founded by{' '}
+        <b><a href={developmentUrl}>Chris&nbsp;Hunt</a></b>.
         <br />
         Read more about the game at <a href={wiki('About Kenshi')}>About Kenshi</a>.
       </big>
