@@ -148,7 +148,9 @@ const resources = [...platforms, ...morePlatforms];
 
   const options = () => [...list.querySelectorAll<HTMLAnchorElement>('[role="option"]')];
 
+  // Closing also drops any suggestions still on their way, so they cannot reopen the list after the box loses focus.
   function close() {
+    latest++;
     list.hidden = true;
     active = -1;
     input.setAttribute('aria-expanded', 'false');

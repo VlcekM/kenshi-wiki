@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import { pageSlug, repoUrl } from '../src/lib/wiki.js';
 import worker from '../worker/index.js';
+import { articleRecord } from '../scripts/search-index.mjs';
 
 const pages = [
   { route: '/', file: 'index.html', source: 'src/pages/index.astro' },
@@ -89,11 +90,45 @@ test('the header search suggests pages as you type', async ({ page, baseURL }) =
   await search.press('ArrowDown');
   await search.press('Enter');
   await expect(page).toHaveURL(new URL('/nodachi', baseURL).href);
+  await page.waitForLoadState('domcontentloaded');
 
   await page.locator('#searchInput').fill('nodachi');
   await expect(page.locator('#search-suggestions').getByRole('option').first()).toBeVisible();
   await page.locator('#searchInput').press('Escape');
   await expect(page.locator('#search-suggestions')).toBeHidden();
+});
+
+test('the header search stays closed when the box loses focus before suggestions arrive', async ({ page }) => {
+  let release;
+  const held = new Promise(resolve => { release = resolve; });
+  await page.route('/search-titles.json', async route => {
+    await held;
+    await route.continue();
+  });
+
+  await page.goto('/');
+  const search = page.locator('#searchInput');
+  await search.fill('nodachi');
+  await search.press('Tab');
+  release();
+
+  await page.waitForResponse('**/search-titles.json');
+  await page.waitForTimeout(500);
+  await expect(page.locator('#search-suggestions')).toBeHidden();
+  await expect(search).toHaveAttribute('aria-expanded', 'false');
+});
+
+test('dev search reads article titles as YAML, quoted or not', () => {
+  const record = (front) => articleRecord('nodachi', `---
+${front}
+---
+A long blade.
+`);
+  expect(record('title: "Nodachi"').meta.title).toBe('Nodachi');
+  expect(record("title: 'Nodachi'").meta.title).toBe('Nodachi');
+  expect(record('title: Nodachi (Weapon)').meta.title).toBe('Nodachi (Weapon)');
+  expect(record('title: 1984').meta.title).toBe('1984');
+  expect(record('category: Weapons').meta.title).toBe('nodachi');
 });
 
 test('the header search finds pages and Go opens an exact title', async ({ page, baseURL }) => {

@@ -2,6 +2,7 @@ import * as pagefind from 'pagefind';
 import { readdir, readFile } from 'node:fs/promises';
 import { extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { parse as parseYaml } from 'yaml';
 
 const wikiDir = fileURLToPath(new URL('../src/content/wiki/', import.meta.url));
 const contentTypes = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json' };
@@ -26,9 +27,9 @@ async function indexBuild(dir, logger) {
 }
 
 // An article as a search record: its title, and its text without frontmatter, HTML tags or Markdown punctuation.
-function articleRecord(id, source) {
+export function articleRecord(id, source) {
   const [, front = '', body = source] = source.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/) ?? [];
-  const title = JSON.parse(front.match(/^title: (.*)$/m)?.[1] ?? JSON.stringify(id));
+  const title = String(parseYaml(front)?.title ?? id);
   const text = body.replace(/<[^>]+>/g, ' ').replace(/\]\([^)]*\)/g, ' ').replace(/[#*_>`|[\]]/g, ' ').replace(/\s+/g, ' ');
   return { url: `/${id}`, content: `${title}. ${text}`, language: 'en', meta: { title } };
 }

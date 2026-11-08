@@ -21,6 +21,7 @@
     "cheerio": "1.2.0",
     "github-slugger": "2.0.0",
     "pagefind": "1.6.0",
-    "turndown": "7.2.5"
+    "turndown": "7.2.5",
+    "yaml": "2.9.1"
   }
 }
