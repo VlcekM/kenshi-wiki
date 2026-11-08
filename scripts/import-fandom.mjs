@@ -6,6 +6,8 @@ import TurndownService from 'turndown';
 import { slug as headingSlug } from 'github-slugger';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { dirname } from 'node:path';
+import { pageSlug } from '../src/lib/wiki.js';
 
 const api = 'https://kenshi.fandom.com/api.php';
 const userAgent = 'kenshi-wiki-import (https://github.com/mattresspad/kenshi-wiki)';
@@ -22,19 +24,17 @@ const testSet = [
   'Beep', 'Ruka', 'Holy Lord Phoenix',
   'Nodachi', 'Samurai Armour', 'Hashish',
   'Skills', 'Toughness',
+  // Titles that exercise the URL mapping: a subpage, a namespace-style colon, and reserved characters.
+  'Admag/Berserkers', 'Kenshi:Lua', 'Wheatstraw 60% or Cactus 100%?',
 ];
 
 // Fandom chrome, media and navigation that the wiki does not carry over.
 const removed = [
   'script', 'style', 'noscript', 'figure', 'img', '.thumb', '.gallery', '.wikia-gallery', '.mw-editsection', '.toc',
-  'table.navbox', '.navbox', '.navbar', 'sup.reference', '.references', '.mw-references-wrap', '.printfooter', '.mw-empty-elt',
+  'table.navbox', '.navbox', '.navbar', '.printfooter', '.mw-empty-elt',
   '.pi-image', '.info-icon', '[typeof^="mw:File"]', '.mw-default-size', 'a.image', 'a.mw-file-description',
 ].join(', ');
 
-// Fandom's table styles map onto the wiki's own; collapsing is left for later.
-const tableClasses = /(articletable|article-table|fandom-table|DataBox|equip-table)/;
-
-const pageSlug = (title) => title.replaceAll(' ', '_');
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function callApi(params) {
@@ -84,12 +84,32 @@ function rewriteLink($, link) {
   $(link).attr('href', `/${pageSlug(title)}${fragment}`).removeAttr('title').removeAttr('class');
 }
 
+// "string_id" -> "String id", for rows whose template gives no label.
+const humanize = (source) => source.replaceAll('_', ' ').replace(/^./, (first) => first.toUpperCase());
+
+// A horizontal group labels its cells with a header row above them.
+function infoboxLabel($, item) {
+  const label = $(item).find('.pi-data-label').text().trim();
+  if (label || item.tagName !== 'td') return label || humanize($(item).attr('data-source'));
+  const header = $(item).closest('table').find('th').eq($(item).index());
+  return header.text().trim() || humanize($(item).attr('data-source'));
+}
+
 function infoboxRows($, group) {
-  return $(group).find('[data-source]').toArray().map((item) => {
-    const label = $(item).find('.pi-data-label').text().trim() || $(item).attr('data-source');
+  return $(group).find('.pi-data, td[data-source]').toArray().map((item) => {
     const value = $(item).find('.pi-data-value').html() ?? $(item).html();
-    return [label, value.trim()];
+    return [infoboxLabel($, item), value.trim()];
   }).filter(([, value]) => value);
+}
+
+// Consecutive groups without a heading read as one list.
+function mergeUntitled(groups) {
+  return groups.reduce((merged, group) => {
+    const last = merged.at(-1);
+    if (last && !last.heading && !group.heading) last.rows.push(...group.rows);
+    else merged.push(group);
+    return merged;
+  }, []);
 }
 
 // A portable infobox becomes frontmatter for the Infobox component: loose rows first, then one group per section.
@@ -103,31 +123,77 @@ function extractInfobox($) {
     groups.push({ heading: $(section).find('.pi-header').first().text().trim() || undefined, rows: infoboxRows($, section) });
   }
 
+  // The title is the infobox heading, so a row repeating it is dropped.
   const title = aside.find('.pi-title').first().text().trim();
   aside.remove();
-  return { title, groups: groups.filter((group) => group.rows.length) };
+  for (const group of groups) group.rows = group.rows.filter(([, value]) => cheerio.load(value).text().trim() !== title);
+  return { title, groups: mergeUntitled(groups.filter((group) => group.rows.length)) };
+}
+
+// A collapsible table becomes a <details>, titled by its one-cell header row when it has one.
+function wrapCollapsible($, table) {
+  const rows = $(table).children('thead, tbody').children('tr');
+  const firstRow = rows.length ? rows.first() : $(table).children('tr').first();
+  const caption = firstRow.children().length === 1 ? firstRow.text().trim() : '';
+  if (caption) firstRow.remove();
+
+  const details = $('<details class="collapsible">').append($('<summary>').text(caption || 'Show table'));
+  if (!$(table).hasClass('mw-collapsed')) details.attr('open', '');
+  $(table).removeClass('mw-collapsible mw-collapsed autocollapse').before(details);
+  details.append(table);
+}
+
+// Every table takes the wiki's table style in place of Fandom's; only sorting survives. Fandom's data attributes go too.
+function styleTable($, table) {
+  const sortable = $(table).hasClass('sortable');
+  for (const name of Object.keys(table.attribs)) if (name !== 'id') $(table).removeAttr(name);
+  $(table).attr('class', sortable ? 'wikitable sortable' : 'wikitable');
+}
+
+// A footnote that quotes another source at length (a developer post, say), or says it is verbatim, is not the Fandom
+// editors' to license: it goes, with the markers that point at it. Ordinary citations are short.
+function dropQuotedFootnotes($) {
+  $('ol.references > li').each((_, note) => {
+    const text = $(note).text();
+    if (!/verbatim/i.test(text) && text.split(/\s+/).length <= 60) return;
+
+    const target = `#${$(note).attr('id')}`;
+    $('sup.reference').filter((_, mark) => $(mark).find('a').attr('href') === target).remove();
+    $(note).remove();
+  });
+  $('ol.references').filter((_, list) => !$(list).children().length).each((_, list) => {
+    $(list).closest('.mw-references-wrap').remove();
+    $(list).remove();
+  });
 }
 
 function cleanHtml(html) {
   const $ = cheerio.load(html, null, false);
   $(removed).remove();
+  dropQuotedFootnotes($);
   $('a').each((_, link) => rewriteLink($, link));
   $('[style]').removeAttr('style');
   $('font').each((_, font) => $(font).replaceWith($(font).contents()));
   $('.mw-selflink').each((_, self) => $(self).replaceWith($('<strong>').append($(self).contents())));
-  $('table').each((_, table) => {
-    $(table).attr('class', tableClasses.test($(table).attr('class') ?? '') ? 'wikitable' : $(table).attr('class') ?? null);
-  });
+
   const infobox = extractInfobox($);
+  $('table.mw-collapsible').each((_, table) => wrapCollapsible($, table));
+  $('table').each((_, table) => styleTable($, table));
   return { $, infobox };
 }
 
 function markdownConverter() {
   const turndown = new TurndownService({ headingStyle: 'atx', bulletListMarker: '-', codeBlockStyle: 'fenced' });
-  // Tables keep their HTML (spans and nesting do not fit Markdown); blank lines would end the HTML block early.
-  turndown.addRule('tables', {
-    filter: 'table',
+  // Tables, collapsed sections and reference lists keep their HTML: spans, nesting and footnote anchors do not fit
+  // Markdown. Blank lines inside would end the HTML block early.
+  const isReferenceList = (node) => node.nodeName === 'OL' && /\breferences\b/.test(node.getAttribute('class') ?? '');
+  turndown.addRule('html-blocks', {
+    filter: (node) => ['TABLE', 'DETAILS'].includes(node.nodeName) || isReferenceList(node),
     replacement: (_, node) => `\n\n${node.outerHTML.replace(/\n\s*\n+/g, '\n')}\n\n`,
+  });
+  turndown.addRule('footnote-marks', {
+    filter: (node) => node.nodeName === 'SUP' && /\breference\b/.test(node.getAttribute('class') ?? ''),
+    replacement: (_, node) => node.outerHTML,
   });
   return turndown;
 }
@@ -157,35 +223,64 @@ function frontmatter(page, infobox, summary) {
   return [...lines, '---', ''].join('\n');
 }
 
-async function importPage(title, turndown) {
+// Two titles that map to one URL would overwrite each other's page.
+function claimSlug(slugs, title) {
+  const slug = pageSlug(title);
+  if (slugs.has(slug) && slugs.get(slug) !== title) throw new Error(`"${title}" and "${slugs.get(slug)}" both map to /${slug}`);
+  slugs.set(slug, title);
+  return slug;
+}
+
+// Pages that reproduce someone else's text word for word (Lo-Fi's announcements, for one) are not the Fandom editors'
+// to license, so they are left out.
+// Footnotes are judged one by one in dropQuotedFootnotes; this looks at the article itself.
+function quotesVerbatim(page) {
+  const $ = cheerio.load(page.text);
+  $('.references, .mw-references-wrap').remove();
+  return /copied verbatim|reproduced verbatim/i.test($.root().text());
+}
+
+async function importPage(title, turndown, slugs) {
   const page = await fetchPage(title);
+  if (quotesVerbatim(page)) {
+    console.warn(`skipped ${title}: it reproduces another source verbatim`);
+    return [];
+  }
+
   const { $, infobox } = cleanHtml(page.text);
   const markdown = turndown.turndown($.html()).replace(/\n{3,}/g, '\n\n').trim();
 
-  await writeFile(`${outDir}/${pageSlug(page.title)}.md`, `${frontmatter(page, infobox, description($))}\n${markdown}\n`);
+  const file = `${outDir}/${claimSlug(slugs, page.title)}.md`;
+  await mkdir(dirname(file), { recursive: true });
+  await writeFile(file, `${frontmatter(page, infobox, description($))}\n${markdown}\n`);
+  console.log(`imported ${title}`);
   const aliases = [...page.aliases, ...(page.redirects ?? []).map((redirect) => redirect.from)];
   return aliases.map((alias) => `/${pageSlug(alias)} /${pageSlug(page.title)} 301`);
 }
 
 // Generated redirects replace everything after the marker line; hand-written rules above it are kept.
-async function writeRedirects(lines) {
+// A run over chosen titles adds to the generated rules; a full run replaces them.
+async function writeRedirects(lines, partial) {
   const current = existsSync(redirectsFile) ? await readFile(redirectsFile, 'utf8') : '';
-  const manual = current.split(redirectsStart)[0].trimEnd();
-  await writeFile(redirectsFile, `${manual}\n\n${redirectsStart}\n${[...new Set(lines)].sort().join('\n')}\n`);
+  const [manual, generated = ''] = current.split(redirectsStart);
+  const kept = partial ? generated.split('\n').filter((line) => line.startsWith('/')) : [];
+  const rules = [...new Set([...kept, ...lines])].sort();
+  await writeFile(redirectsFile, `${manual.trimEnd()}\n\n${redirectsStart}\n${rules.join('\n')}\n`);
 }
 
 async function main() {
-  const titles = process.argv.slice(2).length ? process.argv.slice(2) : testSet;
+  const chosen = process.argv.slice(2);
+  const titles = chosen.length ? chosen : testSet;
   await mkdir(cacheDir, { recursive: true });
   await mkdir(outDir, { recursive: true });
 
   const turndown = markdownConverter();
   const redirects = [];
+  const slugs = new Map();
   for (const title of titles) {
-    redirects.push(...await importPage(title, turndown));
-    console.log(`imported ${title}`);
+    redirects.push(...await importPage(title, turndown, slugs));
   }
-  await writeRedirects(redirects);
+  await writeRedirects(redirects, chosen.length > 0);
 }
 
 await main();

@@ -3,9 +3,9 @@ import { glob } from 'astro/loaders';
 
 const row = z.tuple([z.string(), z.string()]);
 
-// Articles imported from the Kenshi Fandom wiki by scripts/import-fandom.mjs. The file name is the page's URL.
+// Articles imported from the Kenshi Fandom wiki by scripts/import-fandom.mjs. The file path is the page's URL path.
 const wiki = defineCollection({
-  loader: glob({ pattern: '*.md', base: './src/content/wiki', generateId: ({ entry }) => entry.replace(/\.md$/, '') }),
+  loader: glob({ pattern: '**/*.md', base: './src/content/wiki', generateId: ({ entry }) => entry.replace(/\.md$/, '') }),
   schema: z.object({
     title: z.string(),
     description: z.string(),

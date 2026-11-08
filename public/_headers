@@ -11,5 +11,12 @@ https://kenshi-wiki-staging.prds.workers.dev/*
 /:page
   Cache-Control: public, no-cache, no-transform
 
+# Subpages such as /Admag/Berserkers and /Update/0.20.
+/:parent/:page
+  Cache-Control: public, no-cache, no-transform
+
+/:grandparent/:parent/:page
+  Cache-Control: public, no-cache, no-transform
+
 /pagefind/*
   Cache-Control: public, no-cache, no-transform

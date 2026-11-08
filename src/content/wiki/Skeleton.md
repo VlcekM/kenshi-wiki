@@ -9,7 +9,7 @@ categories: ["Races"]
 
 _This article is about the character race. For the faction, see [Skeletons](/Skeletons)._
 
-<table><tbody><tr><td>“</td><td>The Skeletons are a complete mystery, nobody knows where they came from, or how they were made, but they are suspected to be thousands of years old.&nbsp;Fully sentient, and capable of feeling sadness, anger, excitement, compassion, thrill and enjoyment, although they don't posses the ability to express anything visually.&nbsp;This, combined with their dry sense of humor, often confuses the other races, whom the Skeletons see as somewhat volatile and unpredictable.&nbsp;They have no prejudice or fear of death, and make for brutally effective warriors.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-Game Description</cite></p></td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><td>“</td><td>The Skeletons are a complete mystery, nobody knows where they came from, or how they were made, but they are suspected to be thousands of years old.&nbsp;Fully sentient, and capable of feeling sadness, anger, excitement, compassion, thrill and enjoyment, although they don't posses the ability to express anything visually.&nbsp;This, combined with their dry sense of humor, often confuses the other races, whom the Skeletons see as somewhat volatile and unpredictable.&nbsp;They have no prejudice or fear of death, and make for brutally effective warriors.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-Game Description</cite></p></td></tr></tbody></table>
 
 **Skeleton** is both a [race](/Races) and race group in Kenshi, best described as sentient robots. There are many subraces of Skeletons. Skeletons heal stun damage between 2 to 3 times faster than [Greenlander](/Greenlander) [Human](/Human) characters and bleed at a reduced rate compared to all playable organic races. They also don't experience hunger, are immune to all [Weather Effects](/Weather_Effects) and don't need to swim to pass through bodies of water or acid. Repairing Skeletons uses [Skeleton Repair Kits](/Skeleton_Repair_Kit) and levels the [Robotics](/Robotics) stat.
 
@@ -21,7 +21,7 @@ There are [Playable Characters](/Playable_Characters) which can spawn as a membe
 -   [P4 Unit](/P4_Unit)
 -   [Soldierbot](/Soldierbot)
 
-These races require [Modding](/Category:Modding) to be used as a player character.
+These races require [Modding](/Category/Modding) to be used as a player character.
 
 -   [Screamer MkI](/Screamer_MkI)
 -   [Skeleton MKII Screamer](/Skeleton_MKII_Screamer)
@@ -30,13 +30,13 @@ These races require [Modding](/Category:Modding) to be used as a player characte
 
 ## **Play Style Tips**
 
-<table class="articletable"><tbody><tr><td><a href="/Loading_Screen">Loading Screen</a> Tips</td></tr><tr><td>Skeletons accumulate permanent damage over time, which lowers their max HP. This can be repaired at a Skeleton Bed.</td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><td><a href="/Loading_Screen">Loading Screen</a> Tips</td></tr><tr><td>Skeletons accumulate permanent damage over time, which lowers their max HP. This can be repaired at a Skeleton Bed.</td></tr></tbody></table>
 
 Initially, skeletons may seem like a difficult choice because of how expensive [Skeleton Repair Kits](/Skeleton_Repair_Kit) are and how much harder it is to find [Skeleton Repair Beds](/Skeleton_Repair_Bed) than regular beds. But once you learn about the consistent locations where you can find repair kits (Southeast Deadlands Armoury Ruin is undefended and always contains two Repair Kits) along with how cheap beds are in Hive Villages (c.800) or Black Desert City (c.200) they seem a lot easier. When repairing a Skeleton, all bandaged health is healed at 250x their healspeed. Skeleton characters experience Wear and Tear damage after being hurt, meaning that their total health is lowered for the affected body part equal to 4% of damage taken. So, you would need to take 2,500 damage in a single bodypart for the max health of that bodypart to reach 100. Wear and Tear damage is fixed only through Skeleton Repair Beds, which can be expensive in some locations but can be unlocked relatively early in the Research tree.
 
 Skeletons make the best overall [Martial Artists](/Martial_Arts) thanks to their massive health pools, immunity to recoil damage and lack of any reduced racial damage. Skeletons also take only 60% Martial Arts damage from organic races. Players need to take care when selecting [Equipment](/Equipment) for their Skeleton characters to ensure they have adequate armour protection, as they are only able to wear armour in the "[ARMOR](/Body_Armour)" and "[PANTS](/Legwear)" slots.
 
-Skeletons can survive in any [Zone](/Category:Zones) because they are unaffected by weather and don't need to eat, thus eliminating the need for an [Environment](/Environment) that can support [Farming](/Farming). Players often set their skeleton characters to work on [Turrets](/Turrets) due to these same reasons as well as because they have a higher vision range than most of the organic races. (Scorchlanders are tied with Skeletons (Subrace Skeletons) which also have a 1.25x vision range)
+Skeletons can survive in any [Zone](/Category/Zones) because they are unaffected by weather and don't need to eat, thus eliminating the need for an [Environment](/Environment) that can support [Farming](/Farming). Players often set their skeleton characters to work on [Turrets](/Turrets) due to these same reasons as well as because they have a higher vision range than most of the organic races. (Scorchlanders are tied with Skeletons (Subrace Skeletons) which also have a 1.25x vision range)
 
 Due to religious reasons, [The Holy Nation](/The_Holy_Nation) hates all Skeletons. They will attack any skeleton character on sight. This makes travelling in Holy Nation territory (located in the central Northwest region of the map) very risky for Skeleton characters compared to characters of other races, who can pass through their territory without much hassle as long as they have a Human male by their side. Skeletons are tied with Sheks for having the slowest run speed of any playable humanoid unit meaning escaping from Paladins can be difficult early on.
 

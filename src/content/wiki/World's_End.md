@@ -19,9 +19,9 @@ infobox:
 
 It is currently controlled by the [Tech Hunters](/Tech_Hunters), while also serving as the home of the [Machinists](/Machinists) faction. The latter have their University based in the town, which happens to contract most of the local Tech Hunters. The [Shek Kingdom](/Shek_Kingdom) pacifier can also be found here.
 
-Two statues resembling [Okran](/Okran) or [Phoenix](/Holy_Lord_Phoenix) is found at the southern gates, the official reason given by [Finch](/Finch) is that they are used to appease and convince [The Holy Nation](/The_Holy_Nation) that they are faithful despite the large technological cache inside the towns. It is unclear if The Holy Nation actually believes this pretense of faith given their zeal in inquisition, or deliberately turns a blind eye to this location for unknown reasons.
+Two statues resembling [Okran](/Okran) or [Phoenix](/Holy_Lord_Phoenix) is found at the southern gates, the official reason given by [Finch](/Finch) is that they are used to appease and convince [The Holy Nation](/The_Holy_Nation) that they are faithful despite the large technological cache inside the towns. It is unclear if The Holy Nation actually believes this pretense of faith given their zeal in inquisition<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">[</span>1<span class="cite-bracket">]</span></a></sup>, or deliberately turns a blind eye to this location for unknown reasons.
 
-[Holy Construction Traders](/Holy_Construction_Trader) in particular are aware of World's End presence, as well as their technological cache.
+[Holy Construction Traders](/Holy_Construction_Trader) in particular are aware of World's End presence, as well as their technological cache<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">[</span>2<span class="cite-bracket">]</span></a></sup>.
 
 Hired ninjas act as the local guards. Although there is no prison in town, some form of [Empire](/United_Cities) law loosely applies, as UC bounties are issued to troublemakers. These bounties are not actually enforced in town; many of the Tech Hunters themselves also have UC bounties.
 
@@ -58,7 +58,7 @@ The Scientists HQ has many barrels and chests which contain the following lore b
 -   [Cultural Groupings And Evolution Series](/Cultural_Groupings_And_Evolution_Series)
 -   [Legends Series](/Legends_Series)
 -   [Tech Hunter's Notes Series](/Tech_Hunter's_Notes_Series)
--   [The Cannibal Plains: De-evolution Of Man?](/The_Cannibal_Plains:_De-evolution_Of_Man?)
+-   [The Cannibal Plains: De-evolution Of Man?](/The_Cannibal_Plains_De-evolution_Of_Man)
 
 ### Buildings and Shops
 
@@ -94,3 +94,5 @@ World's End has the largest collection of Shops within Holy Nation territory and
 -   1x Tech Hunter Guards Small (1)
 -   4x [Adventurer Bar](/Adventurer_Bar) (0)
 -   4x Hydroponics (0)
+
+<ol class="references"><li id="cite_note-1"><span class="mw-cite-backlink"><a href="#cite_ref-1">↑</a></span> <span class="reference-text">Okranites are known for being zealous with regards to investigating heresies, ranging from <a href="/Holy_Sentinel">gate guard bag searches</a> to <a href="/High_Paladin">patrol interrogations</a>, where a show of faith is sometimes insufficient to convince them without further searches. It's hard to fathom that the large presence of technologies flew completely under their radar.</span></li><li id="cite_note-2"><span class="mw-cite-backlink"><a href="#cite_ref-2">↑</a></span> <span class="reference-text">"*He looks around*&nbsp; Look.&nbsp; That stuff's forbidden here, don't talk about it.&nbsp; Go ask in World's End, up north.&nbsp; That's all I can tell you." - Holy Construction Trader, when asked about <a href="/Ancient_Science_Book">Ancient Science Books</a></span></li></ol>
