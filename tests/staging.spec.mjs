@@ -73,6 +73,29 @@ for (const { route, file, source } of pages) {
   });
 }
 
+test('the header search finds pages and Go opens an exact title', async ({ page, baseURL }) => {
+  const origin = new URL(baseURL).origin;
+  const errors = [];
+  page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/');
+
+  const search = page.locator('#searchInput');
+  await search.fill('Holy Lord Phoenix');
+  await search.press('Enter');
+  const results = page.locator('.mw-search-results');
+  await expect(results.getByRole('link', { name: 'About Kenshi', exact: true })).toHaveAttribute('href', '/About_Kenshi');
+  await expect(results.locator('mark').first()).toBeVisible();
+
+  await page.locator('#searchText').fill('qqxyzzy');
+  await page.locator('#searchText').press('Enter');
+  await expect(page.locator('.search-status')).toHaveText('There were no results matching “qqxyzzy”.');
+
+  await page.locator('#searchInput').fill('about kenshi');
+  await page.locator('#searchButton').click();
+  await expect(page).toHaveURL(new URL('/About_Kenshi', origin).href);
+  expect(errors).toEqual([]);
+});
+
 test('unknown routes return a genuine 404', async ({ request }) => {
   expect((await request.get('/missing-wiki-staging-check')).status()).toBe(404);
 });

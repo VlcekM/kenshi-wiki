@@ -16,7 +16,11 @@ Original wiki article text is licensed under [CC BY-SA 4.0](public/notices/CC-BY
 npm install
 npm run dev      # http://localhost:4321
 npm run build    # static output in dist/
+npm run preview  # serve the build, with search
 ```
+
+Search uses a [Pagefind](https://pagefind.app) index that `npm run build` writes to `dist/pagefind/`, so it only works on a build.
+It indexes each page's `<main>`; pass `searchable={false}` to `WikiLayout` to leave a page out.
 
 ## Contributing
 
