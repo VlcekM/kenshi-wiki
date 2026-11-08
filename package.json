@@ -8,8 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "test": "playwright test",
-    "staging:dry-run": "cf deploy --prebuilt --dry-run",
-    "staging:deploy": "cf deploy --prebuilt --no-provision"
+    "staging:dry-run": "cf workers versions create --prebuilt --dry-run"
   },
   "dependencies": {
     "astro": "^7.4.7"

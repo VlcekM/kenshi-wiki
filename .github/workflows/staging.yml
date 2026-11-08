@@ -10,12 +10,14 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: wiki-staging-${{ github.ref }}
-  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
-
 jobs:
   check-and-stage:
+    outputs:
+      version: ${{ steps.preview.outputs.version }}
+      url: ${{ steps.preview.outputs.url }}
+    concurrency:
+      group: wiki-staging-${{ github.ref }}
+      cancel-in-progress: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
@@ -47,8 +49,8 @@ jobs:
             echo "A newer main commit is available. Skipping this deployment."
           fi
 
-      - name: Deploy the tested package to staging
-        id: deploy
+      - name: Upload a version for preview
+        id: preview
         if: steps.main.outputs.current == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -56,30 +58,66 @@ jobs:
           NO_COLOR: '1'
         run: |
           set -euo pipefail
-          : "${CLOUDFLARE_API_TOKEN:?Set the staging Worker token in Actions secrets}"
-          : "${CLOUDFLARE_ACCOUNT_ID:?Set the Cloudflare account ID in Actions variables}"
-          log="$RUNNER_TEMP/kenshi-wiki-staging-deploy.log"
-          npm run staging:deploy -- --message "GitHub $GITHUB_SHA" 2>&1 | tee "$log"
-          version="$(sed -nE 's/.*Current Version ID:[[:space:]]*([0-9a-fA-F-]{36}).*/\1/p' "$log" | tail -n 1)"
-          test -n "$version"
+          log="$RUNNER_TEMP/wiki-version.log"
+          npm exec -- cf workers versions create --prebuilt --preview-alias staging --tag "${GITHUB_SHA:0:12}" --message "GitHub $GITHUB_SHA" 2>&1 | tee "$log"
+          version=$(sed -nE 's/.*Worker Version ID: *([0-9a-f-]{36}).*/\1/p' "$log" | tail -n 1)
+          url=$(sed -nE 's/.*Version Preview URL: *(https:[^ ]+).*/\1/p' "$log" | tail -n 1)
+          [[ "$version" =~ ^[0-9a-f-]{36}$ && "$url" == "https://${version:0:8}-kenshi-wiki.prds.workers.dev" ]]
           echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          echo "Preview commit $GITHUB_SHA: $url (Worker version $version)" >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Verify staging over HTTPS
-        if: steps.deploy.outcome == 'success'
+      - name: Test the uploaded version over HTTPS
+        if: steps.preview.outcome == 'success'
         env:
-          WIKI_TEST_STAGING: '1'
+          WIKI_TEST_TARGET: staging
+          WIKI_PREVIEW_URL: ${{ steps.preview.outputs.url }}
         run: npm test
 
-      - name: Record the accepted deployment
-        if: steps.deploy.outcome == 'success' && success()
+  promote:
+    name: Promote the tested version
+    needs: check-and-stage
+    if: github.ref == 'refs/heads/main' && needs.check-and-stage.outputs.version != ''
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    environment:
+      name: production
+      url: ${{ needs.check-and-stage.outputs.url }}
+    concurrency:
+      group: wiki-production
+      cancel-in-progress: false
+    env:
+      WIKI_PREVIEW_URL: ${{ needs.check-and-stage.outputs.url }}
+      VERSION: ${{ needs.check-and-stage.outputs.version }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - run: npm ci
+      - run: npm exec -- playwright install --with-deps chromium
+
+      - name: Route production traffic to the approved version
         env:
-          WORKER_VERSION: ${{ steps.deploy.outputs.version }}
+          GH_TOKEN: ${{ github.token }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: |
-          {
-            echo '### Wiki staging accepted'
-            echo
-            echo '- [Open the staged wiki](https://kenshi-wiki-staging.prds.workers.dev/)'
-            echo "- [Commit $GITHUB_SHA]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$GITHUB_SHA)"
-            printf -- '- Worker version: `%s`\n' "$WORKER_VERSION"
-            echo "- [Actions run $GITHUB_RUN_ID]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID)"
-          } >> "$GITHUB_STEP_SUMMARY"
+          set -euo pipefail
+          if [[ "$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq '.object.sha')" != "$GITHUB_SHA" ]]; then
+            echo "::error::A newer commit is on main. Review its preview before promoting."
+            exit 1
+          fi
+          versions=$(jq -nc --arg id "$VERSION" '[{version_id:$id,percentage:100}]')
+          npm exec -- cf workers deployments create --worker kenshi-wiki --strategy percentage --versions "$versions"
+          echo "Deployed $VERSION from $WIKI_PREVIEW_URL to https://kenshi.wiki" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Verify production over HTTPS
+        env:
+          WIKI_TEST_TARGET: production
+        run: npm test

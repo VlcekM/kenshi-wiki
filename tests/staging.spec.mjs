@@ -4,6 +4,24 @@ import { execFileSync } from 'node:child_process';
 import { pageSlug, repoUrl } from '../src/lib/wiki.js';
 import worker from '../worker/index.js';
 
+const target = process.env.WIKI_TEST_TARGET;
+
+async function expectedHtml(file) {
+  if (target !== 'production') return readFile(`dist/${file}`);
+  const route = file === 'index.html' ? '/' : '/' + file.replace(/\.html$/, '');
+  const response = await fetch(new URL(route, process.env.WIKI_PREVIEW_URL), { redirect: 'error' });
+  expect(response.status).toBe(200);
+  return Buffer.from(await response.arrayBuffer());
+}
+
+function checkPublishedHeaders(response) {
+  if (!target) return;
+  const headers = response.headers();
+  const directives = (headers['x-robots-tag'] || '').toLowerCase().split(/[\s,]+/);
+  expect(directives.includes('noindex')).toBe(target === 'staging');
+  expect(headers['cache-control']).toContain('no-transform');
+}
+
 const pages = [
   { route: '/', file: 'index.html', source: 'src/pages/index.astro' },
   { route: '/about-kenshi', file: 'about-kenshi.html', source: 'src/pages/about-kenshi.astro' },
@@ -27,11 +45,8 @@ for (const { route, file, source } of pages) {
 
     const response = await page.goto(route, { waitUntil: 'networkidle' });
     expect(response.status()).toBe(200);
-    expect(await response.body()).toEqual(await readFile(`dist/${file}`));
-    if (process.env.WIKI_TEST_STAGING === '1') {
-      expect(response.headers()['x-robots-tag']).toContain('noindex');
-      expect(response.headers()['cache-control']).toContain('no-transform');
-    }
+    expect(await response.body()).toEqual(await expectedHtml(file));
+    checkPublishedHeaders(response);
 
     const header = page.locator('.wiki-header');
     await expect(header.getByRole('link', { name: 'Meitou', exact: true })).toBeVisible();
@@ -142,21 +157,21 @@ test('the Worker redirects another spelling only to a page that exists', async (
   const env = { ASSETS: { fetch: async (request) => new Response(null, { status: pages.has(new URL(request.url).pathname) ? 200 : 404 }) } };
   const visit = (path) => worker.fetch(new Request(new URL(path, 'https://kenshi.wiki')), env);
 
-  for (const [path, target] of [['/About_Kenshi?x=1', '/about-kenshi?x=1'], ['/About_kenshi.html', '/about-kenshi'], ['/Kenshi', '/kenshi']]) {
+  for (const [path, destination] of [['/About_Kenshi?x=1', '/about-kenshi?x=1'], ['/About_kenshi.html', '/about-kenshi'], ['/Kenshi', '/kenshi']]) {
     const response = await visit(path);
     expect(response.status, path).toBe(301);
-    expect(response.headers.get('location'), path).toBe(`https://kenshi.wiki${target}`);
+    expect(response.headers.get('location'), path).toBe(`https://kenshi.wiki${destination}`);
   }
   for (const path of ['/Missing_Page', '/missing-page', '/%E0%A4%A']) expect((await visit(path)).status, path).toBe(404);
 });
 
 test('old and differently spelled addresses permanently redirect to the page', async ({ request, baseURL }) => {
-  test.skip(process.env.WIKI_TEST_STAGING !== '1', 'astro preview runs neither the Worker nor _redirects');
-  for (const [route, target] of respellings) {
+  test.skip(!target, 'astro preview runs neither the Worker nor _redirects');
+  for (const [route, destination] of respellings) {
     expect((await request.get(route, { maxRedirects: 0 })).status(), route).toBe(301);
     const response = await request.get(route);
     expect(response.status(), route).toBe(200);
-    expect(new URL(response.url(), baseURL).pathname, route).toBe(target);
+    expect(new URL(response.url(), baseURL).pathname, route).toBe(destination);
   }
 });
 
@@ -173,11 +188,8 @@ test('credits, upstream licenses and editable sources are public on the wiki', a
   });
   const response = await page.goto(creditsPage, { waitUntil: 'networkidle' });
   expect(response.status()).toBe(200);
-  expect(await response.body()).toEqual(await readFile('dist/contributors.html'));
-  if (process.env.WIKI_TEST_STAGING === '1') {
-    expect(response.headers()['x-robots-tag']).toContain('noindex');
-    expect(response.headers()['cache-control']).toContain('no-transform');
-  }
+  expect(await response.body()).toEqual(await expectedHtml('contributors.html'));
+  checkPublishedHeaders(response);
   const main = page.getByRole('main');
   await expect(main.getByRole('heading', { name: 'Contributors', exact: true })).toBeVisible();
   await expect(main).toContainText(creditIntro);
