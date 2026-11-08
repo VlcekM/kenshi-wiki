@@ -256,24 +256,19 @@
   top: calc(100% + 2px);
   right: 0;
   z-index: 30;
-  width: max(100%, 24rem);
+  width: max(100%, 20rem);
   max-width: calc(100vw - 1rem);
   max-height: 70vh;
   margin: 0;
-  padding: 0;
+  padding: 0.25rem 0;
   overflow-y: auto;
   list-style: none;
-  background: var(--paper-00);
-  border: 1px solid var(--paper-08);
+  background: var(--paper-01);
   border-radius: 2px;
-  box-shadow: 0 4px 12px rgb(0 0 0 / 0.3);
 }
 .search-suggestions[hidden] { display: none; }
 .search-suggestions li { margin: 0; }
-.search-suggestions a { display: block; padding: 0.35rem 0.6rem; color: var(--paper-11); text-decoration: none; }
+.search-suggestions a { display: block; padding: 0.3rem 0.6rem; color: var(--link); text-decoration: none; }
 .search-suggestions a:hover,
-.search-suggestions a.active { background: var(--paper-02); }
-.search-suggestion-title { display: block; color: var(--link); font-weight: 600; }
-.search-suggestion-excerpt { display: block; overflow: hidden; font-size: 0.8em; color: var(--paper-09); white-space: nowrap; text-overflow: ellipsis; }
-.search-suggestion-excerpt mark { background: none; color: inherit; font-weight: 700; }
-.search-suggestions .search-fulltext { border-top: 1px solid var(--paper-06); font-size: 0.9em; }
+.search-suggestions a.active { background: var(--paper-03); }
+.search-suggestions .search-fulltext { margin-top: 0.25rem; font-size: 0.9em; color: var(--paper-10); }

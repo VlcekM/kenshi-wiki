@@ -40,14 +40,41 @@ export async function findPages(text: string, limit = 20): Promise<Result[]> {
   return results.filter((result) => matchesQuery(result, words(text)));
 }
 
-// Suggestions put pages whose title starts with the query first, then titles containing it, then the rest.
-export async function suggestPages(text: string, limit = 8): Promise<Result[]> {
+export interface Suggestion {
+  title: string;
+  path: string;
+}
+
+let titles: Promise<[string, string][]> | undefined;
+
+// The list of page titles, and the search index, loaded ahead of the first keystroke.
+export function preloadSuggestions() {
+  titles ??= fetch('/search-titles.json').then((response) => response.json());
+  loadIndex().catch(() => {});
+  return titles;
+}
+
+// How well a title matches: exact, starts with the query, has a word starting with it, contains it anywhere.
+function titleRank(title: string, query: string) {
+  if (title === query) return 0;
+  if (title.startsWith(query)) return 1;
+  if (title.includes(` ${query}`) || title.includes(`(${query}`)) return 2;
+  return title.includes(query) ? 3 : -1;
+}
+
+// Titles matching the query, best first, then shorter titles first. Runs in the browser on every keystroke.
+export function matchTitles(list: [string, string][], text: string, limit = 8): Suggestion[] {
   const query = normalized(text);
-  const rank = (result: Result) => {
-    const title = normalized(resultTitle(result));
-    return title.startsWith(query) ? 0 : title.includes(query) ? 1 : 2;
-  };
-  const results = await findPages(text, 20);
-  return results.map((result, order) => ({ result, order })).sort((a, b) => rank(a.result) - rank(b.result) || a.order - b.order)
-    .slice(0, limit).map(({ result }) => result);
+  return list
+    .map(([title, path]) => ({ title, path, rank: titleRank(normalized(title), query) }))
+    .filter((match) => match.rank >= 0)
+    .sort((a, b) => a.rank - b.rank || a.title.length - b.title.length || a.title.localeCompare(b.title))
+    .slice(0, limit)
+    .map(({ title, path }) => ({ title, path }));
+}
+
+// Pages whose text mentions the query, for when too few titles match.
+export async function textSuggestions(text: string, limit: number): Promise<Suggestion[]> {
+  const results = await findPages(text, limit + 8);
+  return results.map((result) => ({ title: resultTitle(result), path: pagePath(result.url) }));
 }

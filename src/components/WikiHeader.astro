@@ -138,13 +138,13 @@ const resources = [...platforms, ...morePlatforms];
 </script>
 
 <script>
-  import { resultTitle, pagePath, suggestPages, type Result } from '../lib/search';
+  import { matchTitles, preloadSuggestions, textSuggestions, type Suggestion } from '../lib/search';
 
+  const limit = 8;
   const input = document.querySelector<HTMLInputElement>('#searchInput')!;
   const list = document.querySelector<HTMLUListElement>('#search-suggestions')!;
   let active = -1;
   let latest = 0;
-  let timer: ReturnType<typeof setTimeout> | undefined;
 
   const options = () => [...list.querySelectorAll<HTMLAnchorElement>('[role="option"]')];
 
@@ -155,45 +155,42 @@ const resources = [...platforms, ...morePlatforms];
     input.removeAttribute('aria-activedescendant');
   }
 
-  function option(id: string, href: string, title: string, excerpt?: string) {
+  function option(id: string, href: string, title: string) {
     const item = document.createElement('li');
     const link = document.createElement('a');
-    const heading = document.createElement('span');
     link.id = id;
     link.href = href;
+    link.textContent = title;
     link.setAttribute('role', 'option');
-    heading.className = 'search-suggestion-title';
-    heading.textContent = title;
-    link.append(heading);
-    if (excerpt) {
-      const detail = document.createElement('span');
-      detail.className = 'search-suggestion-excerpt';
-      // Pagefind escapes the page text and wraps the matched words in <mark>.
-      detail.innerHTML = excerpt;
-      link.append(detail);
-    }
     item.append(link);
     return item;
   }
 
   // The pages found, then a last entry that lists every page containing the words, as on MediaWiki.
-  function show(query: string, results: Result[]) {
-    const pages = results.map((result, index) => option(`search-option-${index}`, pagePath(result.url), resultTitle(result), result.excerpt));
+  function show(query: string, pages: Suggestion[]) {
+    const items = pages.map((page, index) => option(`search-option-${index}`, page.path, page.title));
     const everything = option('search-option-all', `/search?q=${encodeURIComponent(query)}&fulltext=1`, `Search for pages containing “${query}”`);
     everything.classList.add('search-fulltext');
-    list.replaceChildren(...pages, everything);
+    list.replaceChildren(...items, everything);
     list.hidden = false;
     active = -1;
     input.setAttribute('aria-expanded', 'true');
   }
 
+  // Matching titles show at once; when they do not fill the list, pages that mention the words follow.
   async function suggest() {
     const query = input.value.trim();
     const request = ++latest;
     if (!query) return close();
 
-    const results = await suggestPages(query).catch(() => []);
-    if (request === latest && input.value.trim() === query) show(query, results);
+    const titled = matchTitles(await preloadSuggestions(), query, limit);
+    if (request !== latest) return;
+    show(query, titled);
+    if (titled.length >= limit) return;
+
+    const mentioned = await textSuggestions(query, limit).catch(() => []);
+    const extra = mentioned.filter((page) => !titled.some((shown) => shown.path === page.path));
+    if (request === latest && extra.length) show(query, [...titled, ...extra].slice(0, limit));
   }
 
   function move(step: number) {
@@ -212,12 +209,13 @@ const resources = [...platforms, ...morePlatforms];
     event.preventDefault();
   }
 
-  input.addEventListener('input', () => {
-    clearTimeout(timer);
-    timer = setTimeout(suggest, 120);
-  });
+  input.addEventListener('input', suggest);
   input.addEventListener('keydown', onKey);
-  input.addEventListener('focus', () => input.value.trim() && suggest());
+  input.addEventListener('focus', () => {
+    preloadSuggestions();
+    if (input.value.trim()) suggest();
+  });
+  input.addEventListener('pointerenter', () => preloadSuggestions(), { once: true });
   input.addEventListener('blur', close);
   // Keep the focus in the box while a suggestion is clicked, so the blur does not close the list first.
   list.addEventListener('mousedown', (event) => event.preventDefault());
