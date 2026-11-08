@@ -19,7 +19,7 @@ infobox:
         - ["String ID","62177-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>For every slave that's ever suffered at the hands of people like you...<p>Taste the fist of freedom, slaver!</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–Anti-Slaver martial artist engaging</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>For every slave that's ever suffered at the hands of people like you...<p>Taste the fist of freedom, slaver!</p></blockquote><figcaption>Anti-Slaver martial artist engaging</figcaption></figure>
 
 **Anti-Slavers (unarmed)** are elite martial artists of the [Anti-Slavers](/anti-slavers). They can be found patrolling towns and areas controlled by the Anti-Slavers in small numbers. They also join attacks on the player's base if the player earns their ire, although they do so in small numbers.
 
@@ -249,7 +249,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I could use some action with the legend himself.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I could use some action with the legend himself.</blockquote></figure>
 
 **Anti-Slaver (unarmed)** can accompany or bodyguard the player that require a few conditions, but most require the player to be allied with the Anti-Slavers.
 
@@ -259,11 +259,11 @@ If [Lady Kana](/lady-kana), [Slave Mistress Ren](/slave-mistress-ren) or [Slave 
 
 If [Big Bo](/bo) is in the squad, she will hail a squad of Anti-Slavers who will then bodyguard the squad for 72 hours.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Looks like you could use some help, comrade...<p>We'll stick together a while 'til you're feeling better, eh...</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Looks like you could use some help, comrade...<p>We'll stick together a while 'til you're feeling better, eh...</p></blockquote></figure>
 
 If the Anti-Slavers come across a KO'd squad, they will stick around and guard them for 6 hours. Likewise, if the player is nearly KO'd, have a damaged head, or broken arms or legs, they will guard the player for 6 hours and will additionally give them a Basic First Aid Kit or a Skeleton Repair Kit, depending on the race of who they target first.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You look terrible, comrade...<p>Eat.</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You look terrible, comrade...<p>Eat.</p></blockquote></figure>
 
 They will also toss a ration pack to a starving player if they see them.
 

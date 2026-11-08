@@ -18,7 +18,7 @@ infobox:
         - ["String ID","2205-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Anybody ever disrespects you - I'll kill 'em!</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Maniacal Personality</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Anybody ever disrespects you - I'll kill 'em!</blockquote><figcaption>Maniacal Personality</figcaption></figure>
 
 **Drifters** are randomly-named members of several factions. Depending on their squad they can be part of the: [Drifters](/drifters), [Tech Hunters](/tech-hunters), [Mongrel](/mongrel-faction), [Flotsam Ninjas](/flotsam-ninjas), [Holy Nation Outlaws](/holy-nation-outlaws), and [Vagrants](/vagrants). They can be found squatting in many towns as well as patrolling some zones. Their race is randomly determined by their faction.
 

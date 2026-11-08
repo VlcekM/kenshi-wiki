@@ -13,7 +13,7 @@ Sabres are generally defensive weapons, most featuring a defensive bonus in exch
 
 ## Weapon Skill - Sabres
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Affects damage. A sabre is a heavy blade designed for heavy slashing damage. The heavier blade makes them slower and more cumbersome but stronger for blocking with and cutting through armour.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Sabre Weapon Skill description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Affects damage. A sabre is a heavy blade designed for heavy slashing damage. The heavier blade makes them slower and more cumbersome but stronger for blocking with and cutting through armour.</blockquote><figcaption>Sabre Weapon Skill description</figcaption></figure>
 
 ## Sabre Class Weapons
 

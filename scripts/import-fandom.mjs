@@ -194,6 +194,25 @@ function dropQuotedFootnotes($) {
   });
 }
 
+// Fandom's Quote template is a table: the quote between two cells holding the quotation marks, then an optional row
+// naming the speaker. It becomes a quotation with a caption, which the wiki draws as a speech bubble.
+function isQuoteTable($, table) {
+  const cells = $(table).find('tr').first().children('td');
+  return cells.length === 3 && cells.first().text().trim() === '“' && cells.last().text().trim() === '”';
+}
+
+function convertQuotes($) {
+  $('table').filter((_, table) => isQuoteTable($, table)).each((_, table) => {
+    const quote = $(table).find('tr').first().children().eq(1).html().trim();
+    if (!quote) return $(table).remove();
+
+    const source = $(table).find('tr').eq(1);
+    const speaker = (source.find('cite').html() ?? source.text()).trim().replace(/^[–—-]\s*/, '');
+    const caption = speaker ? `<figcaption>${speaker}</figcaption>` : '';
+    $(table).replaceWith(`<figure class="quote"><blockquote>${quote}</blockquote>${caption}</figure>`);
+  });
+}
+
 function cleanHtml(html) {
   const $ = cheerio.load(html, null, false);
   $(removed).remove();
@@ -204,6 +223,7 @@ function cleanHtml(html) {
   $('.mw-selflink').each((_, self) => $(self).replaceWith($('<strong>').append($(self).contents())));
 
   const infobox = extractInfobox($);
+  convertQuotes($);
   $('table.mw-collapsible').each((_, table) => wrapCollapsible($, table));
   $('table').each((_, table) => styleTable($, table));
   return { $, infobox };
@@ -211,11 +231,13 @@ function cleanHtml(html) {
 
 function markdownConverter() {
   const turndown = new TurndownService({ headingStyle: 'atx', bulletListMarker: '-', codeBlockStyle: 'fenced' });
-  // Tables, collapsed sections and reference lists keep their HTML: spans, nesting and footnote anchors do not fit
-  // Markdown. Blank lines inside would end the HTML block early.
-  const isReferenceList = (node) => node.nodeName === 'OL' && /\breferences\b/.test(node.getAttribute('class') ?? '');
+  // Tables, collapsed sections, quotes and reference lists keep their HTML: spans, nesting, classes and footnote anchors
+  // do not fit Markdown. Blank lines inside would end the HTML block early.
+  const hasClass = (node, name) => new RegExp(`\\b${name}\\b`).test(node.getAttribute('class') ?? '');
+  const isReferenceList = (node) => node.nodeName === 'OL' && hasClass(node, 'references');
+  const isQuote = (node) => node.nodeName === 'FIGURE' && hasClass(node, 'quote');
   turndown.addRule('html-blocks', {
-    filter: (node) => ['TABLE', 'DETAILS'].includes(node.nodeName) || isReferenceList(node),
+    filter: (node) => ['TABLE', 'DETAILS'].includes(node.nodeName) || isReferenceList(node) || isQuote(node),
     replacement: (_, node) => `\n\n${node.outerHTML.replace(/\n\s*\n+/g, '\n')}\n\n`,
   });
   turndown.addRule('footnote-marks', {

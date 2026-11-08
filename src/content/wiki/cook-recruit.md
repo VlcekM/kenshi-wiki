@@ -19,7 +19,7 @@ infobox:
         - ["String ID","52681-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Was always told I'd never make it if I couldn't handle myself with a sword. Well, I'm still alive, aren't I? Melting the hearts of my enemies with my cooking, one ricebowl at a time!</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Was always told I'd never make it if I couldn't handle myself with a sword. Well, I'm still alive, aren't I? Melting the hearts of my enemies with my cooking, one ricebowl at a time!</blockquote></figure>
 
 **Cook Recruit** is a randomly named [Generic Recruit](/generic-recruits). They are a cook looking for work. They can be hired for c.6,000.
 

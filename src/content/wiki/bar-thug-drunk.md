@@ -18,7 +18,7 @@ infobox:
         - ["String ID","45491-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I can get kidneys, spleens, limbs... whatever you want. All workin' and tested, best quality only...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I can get kidneys, spleens, limbs... whatever you want. All workin' and tested, best quality only...</blockquote></figure>
 
 An unnamed member of the [Vagrants](/vagrants) faction. They are a variant of [Bar Thugs](/bar-thug) which can be found in bars in [The Hub](/the-hub), [Waystation](/waystation), or in [Shark](/shark).
 

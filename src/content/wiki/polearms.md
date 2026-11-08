@@ -15,7 +15,7 @@ They are an excellent choice for low-skilled characters, as they have a very low
 
 ## Weapon Skill - Polearms
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Affects damage. An unconventional weapon, polearms have incredible reach and give an advantage when fighting against animals.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Polearm Weapons Skill description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Affects damage. An unconventional weapon, polearms have incredible reach and give an advantage when fighting against animals.</blockquote><figcaption>Polearm Weapons Skill description</figcaption></figure>
 
 ## Polearms Class Weapons
 

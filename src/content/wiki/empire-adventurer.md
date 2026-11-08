@@ -19,7 +19,7 @@ infobox:
         - ["String ID","12702-Dialogue (11) (2).mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>It proves you're worth something to me, but it also ensures I have enough value not to get hawked to slavers in the outlands</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>It proves you're worth something to me, but it also ensures I have enough value not to get hawked to slavers in the outlands</blockquote></figure>
 
 **Empire Adventurer** is a randomly named [Generic Recruit](/generic-recruits). They are a person looking for work. They can be hired for c.6,000.
 

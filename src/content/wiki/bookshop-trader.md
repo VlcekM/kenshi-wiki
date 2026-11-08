@@ -18,7 +18,7 @@ infobox:
         - ["String ID","56186-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm protecting the valuable knowledge that humans need to survive. And obviously in this position I can keep certain things hidden too... y'know.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–to <a href="/skeleton">Skeleton</a> player characters</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm protecting the valuable knowledge that humans need to survive. And obviously in this position I can keep certain things hidden too... y'know.</blockquote><figcaption>to <a href="/skeleton">Skeleton</a> player characters</figcaption></figure>
 
 **Bookshop Trader** is a randomly named shopkeeper of the [Tech Hunters](/tech-hunters) faction. They can be found in [The Great Library](/the-great-library).
 

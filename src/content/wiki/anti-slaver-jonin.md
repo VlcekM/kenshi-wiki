@@ -18,7 +18,7 @@ infobox:
         - ["String ID","62176-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Know what I hate more than the stinking gutters?... Slavers.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Jonin.</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Know what I hate more than the stinking gutters?... Slavers.</blockquote><figcaption>Jonin.</figcaption></figure>
 
 **Anti-Slaver Jonin** are elite members of the [Anti-Slavers](/anti-slavers). They can be found in small numbers patrolling [Spring](/spring) or other Anti-Slaver controlled territories. They also lead attacks on the player's base should the player earn their ire, although they do so in small numbers.
 
@@ -246,7 +246,7 @@ Skills will be multiplied by the racial multiplier. Players should also be aware
 
 ## Interactions
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I could use some action with the legend himself.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I could use some action with the legend himself.</blockquote></figure>
 
 **Anti-Slaver Jonin** can accompany or bodyguard the player that require a few conditions, but most require the player to be allied with the Anti-Slavers.
 
@@ -256,11 +256,11 @@ If [Lady Kana](/lady-kana), [Slave Mistress Ren](/slave-mistress-ren) or [Slave 
 
 If [Big Bo](/bo) is in the squad, she will hail a squad of Anti-Slavers who will then bodyguard the squad for 72 hours.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Looks like you could use some help, comrade...<br>We'll stick together a while 'til you're feeling better, eh...</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Looks like you could use some help, comrade...<br>We'll stick together a while 'til you're feeling better, eh...</blockquote></figure>
 
 If the Anti-Slavers come across a KO'd squad, they will stick around and guard them for 6 hours. Likewise, if the player is nearly KO'd, have a damaged head, or broken arms or legs, they will guard the player for 6 hours and will additionally give them a Basic First Aid Kit or a Skeleton Repair Kit, depending on the race of who they target first.
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You look terrible, comrade...<br>Eat.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You look terrible, comrade...<br>Eat.</blockquote></figure>
 
 They will also toss a ration pack to a starving player if they see them.
 

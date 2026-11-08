@@ -30,6 +30,9 @@ Contributions are made as pull requests on GitHub.
   credited on each page). `node scripts/import-fandom.mjs [title ...]` re-imports them; images are not imported.
 - Page URLs are lowercase with hyphens (`/about-kenshi`), made by `pageSlug` in `src/lib/wiki.js`. On Cloudflare,
   `worker/index.js` redirects other spellings (`/About_Kenshi`) to them.
+- `node scripts/split-ui-atlas.mjs <Kenshi>/data/gui` cuts the game's UI atlas into one PNG per icon in the gitignored
+  `ui-icons/`. They are Lo-Fi Games' artwork: copy only the icons the site uses into `public/icons/` and list each one in
+  `public/notices/artwork.txt`.
 - Pages live in `src/pages/`; `about-kenshi.astro` is an example article using every building block.
 - Every page wraps its content in `src/layouts/WikiLayout.astro` (sidebar, header, footer, categories).
 - Article building blocks live in `src/components/`: `Infobox`, `Toc`, `Gallery` and `Navbox`.

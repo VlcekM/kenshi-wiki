@@ -7,7 +7,7 @@ source:
 categories: ["Armour","Headgear","Light Armour","Needs grade info"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Keeps sweat and hair out of your eyes.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–In-game Description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Keeps sweat and hair out of your eyes.</blockquote><figcaption>In-game Description</figcaption></figure>
 
 The **Red Bandana** is a type of [Headgear](/headgear) belonging to the [Light Armour Class](/light-armour). The Red Bandana has two other variants: the [Bandana](/bandana) and the [Black Bandana](/black-bandana).
 

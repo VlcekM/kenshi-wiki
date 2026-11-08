@@ -18,7 +18,7 @@ infobox:
         - ["String ID","50466-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You ain't from here, eh... Well unless you're here to talk fish, I ain't interested.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>You ain't from here, eh... Well unless you're here to talk fish, I ain't interested.</blockquote></figure>
 
 **Bar Fisherman** is a character who can be found hanging out in the [Bar](/bar) in [Fishing Village](/fishing-village-northern-coast).
 

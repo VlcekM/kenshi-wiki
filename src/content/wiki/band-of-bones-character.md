@@ -17,7 +17,7 @@ infobox:
         - ["String ID","56594-Dialogue.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Welcome to the outlands, settlers, the land of the godless.<p>Only demons reside here...</p><p>And they hunger for war.</p><p>Raise your blades.</p></td><td>”</td></tr><tr><td colspan="3"><p><cite>–-Band of Bones assaulting an outpost</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Welcome to the outlands, settlers, the land of the godless.<p>Only demons reside here...</p><p>And they hunger for war.</p><p>Raise your blades.</p></blockquote><figcaption>-Band of Bones assaulting an outpost</figcaption></figure>
 
 **Band of Bones** are the generic members of the [Band of Bones](/band-of-bones) faction. They can be found roaming the regions of [Bonefields](/bonefields), [High Bonefields](/high-bonefields), [Shem](/shem), [Shun](/shun), [Spider Plains](/spider-plains), [The Hook](/the-hook), and [The Swamp](/the-swamp) in groups of 4 to 8. If [Tora the Fearless](/tora-the-fearless) is not alive however, these groups are reduced to 2 to 4 members.
 

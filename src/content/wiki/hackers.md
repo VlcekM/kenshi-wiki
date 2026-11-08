@@ -7,7 +7,7 @@ source:
 categories: ["Statistics","Weapons","Hacker","Weapon Types"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Affects damage. Often considered a thug's weapon, hackers are heavy axe-bladed weapons that do as much blunt damage as chopping damage, relying mainly on brute strength rather than skill. The crude blades don't cause as much bloodloss, so victims tend to get maimed to death instead. Easy to learn, not much to master.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Hacker Weapon Skill description</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Affects damage. Often considered a thug's weapon, hackers are heavy axe-bladed weapons that do as much blunt damage as chopping damage, relying mainly on brute strength rather than skill. The crude blades don't cause as much bloodloss, so victims tend to get maimed to death instead. Easy to learn, not much to master.</blockquote><figcaption>Hacker Weapon Skill description</figcaption></figure>
 
 **Hackers** are a class of [weapons](/weapons) that specialize in a balance between cutting and blunt damage. These weapons all deal additional damage to [Robots](/robots) and have some of the highest Armour Penetration values in game, at the expense of slightly lower damage against [Animals](/fauna).
 

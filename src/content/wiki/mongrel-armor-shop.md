@@ -19,7 +19,7 @@ infobox:
 
 57329-rebirth.mod
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Best armour you'll find in the city. Probably the best armour you'll see for the rest of your life, since you're stuck here.</td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>Best armour you'll find in the city. Probably the best armour you'll see for the rest of your life, since you're stuck here.</blockquote></figure>
 
   
 

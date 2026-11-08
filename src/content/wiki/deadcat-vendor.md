@@ -18,7 +18,7 @@ infobox:
         - ["String ID","50341-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Careful of the painted tribe, they roam outside the village and pick off any unfortunate travellers that stray too far from town... The goddamn monsters feed on their own kind, eat away at their victims piece by piece while keeping them prisoner in their lair. Be careful, if you see one, there'll be a hundred others following behind...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Deadcat Vendor warning</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Careful of the painted tribe, they roam outside the village and pick off any unfortunate travellers that stray too far from town... The goddamn monsters feed on their own kind, eat away at their victims piece by piece while keeping them prisoner in their lair. Be careful, if you see one, there'll be a hundred others following behind...</blockquote><figcaption>Deadcat Vendor warning</figcaption></figure>
 
 The **Deadcat Vendor** is a named member of the [Deadcat](/deadcat). They can be found in the [Deadcat Bar](/deadcat-bar) in the [Fishing Village](/fishing-village).
 

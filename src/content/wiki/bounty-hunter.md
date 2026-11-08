@@ -18,7 +18,7 @@ infobox:
         - ["String ID","14506-gamedata.base"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>I'm taking you in, outlaw!<p>We can do this the easy way or the hard way...</p></td><td>”</td></tr></tbody></table>
+<figure class="quote"><blockquote>I'm taking you in, outlaw!<p>We can do this the easy way or the hard way...</p></blockquote></figure>
 
 **Bounty Hunters** are members of the [Bounty Hunters](/bounty-hunters) faction. Some can be found in a Bounty Hunter Camp in [Watcher's Rim](/watchers-rim) hunting the [Bugmaster](/bugmaster). Most of these roam around [United Cities](/united-cities) territories between towns, while some head out into [Stobe's Gamble](/stobes-gamble) or [Stobe's Garden](/stobes-garden), possibly looking for the [Anti-Slavers](/anti-slavers) and their bounties.
 

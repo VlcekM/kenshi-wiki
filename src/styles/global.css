@@ -198,6 +198,55 @@ div.infobox .image_wrapper img {
   background: var(--paper-01);
 }
 
+/* A quotation from the game, drawn as a speech bubble whose tail points at the speaker below it. */
+figure.quote {
+  width: fit-content;
+  max-width: 44em;
+  margin: 0 0 1.25em;
+}
+
+figure.quote blockquote {
+  position: relative;
+  margin: 0;
+  padding: 0.6em 1em 0.6em 2.75em;
+  border: 1px solid var(--paper-06);
+  border-radius: 8px;
+  background: var(--paper-01);
+  font-style: italic;
+}
+
+figure.quote blockquote::before {
+  content: '“';
+  position: absolute;
+  top: 0.05em;
+  left: 0.3em;
+  color: var(--accent-300);
+  font: bold 2.75em/1 Georgia, 'Times New Roman', serif;
+}
+
+figure.quote:has(figcaption) blockquote::after {
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  left: 1.6em;
+  width: 12px;
+  height: 12px;
+  border-right: 1px solid var(--paper-06);
+  border-bottom: 1px solid var(--paper-06);
+  background: var(--paper-01);
+  transform: rotate(45deg);
+}
+
+figure.quote figcaption {
+  margin: 0.55em 0 0 2.75em;
+  color: var(--paper-10);
+  font-size: 90%;
+}
+
+figure.quote figcaption::before {
+  content: '— ';
+}
+
 /* Sortable table headers (src/lib/sortable-tables.ts). The arrows are drawn dark and turn light with the dark theme's inversion. */
 table.jquery-tablesorter th.headerSort {
   cursor: pointer;

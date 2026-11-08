@@ -18,7 +18,7 @@ infobox:
         - ["Description","An old lantern. It looks pretty beaten up and barely functions. There are some worn out scratchings on it which look like the crude drawings of a child."]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>Lantern of radiance... lantern of deception, more like...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–in-game dialogue</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>Lantern of radiance... lantern of deception, more like...</blockquote><figcaption>in-game dialogue</figcaption></figure>
 
 The **Lantern of Radiance** is a [lantern](/lanterns) that produces a small radius of light around the character when worn in the belt slot. The lantern can be purchased from [hivers](/western-hive) who will claim it protects you from the creatures of the [Fog Islands](/fog-islands). However, the lantern has no anomalous effects. Ironically if sneaking through the Fog Islands it could cause you to be discovered, leading to combat and maybe death if unprepared.
 

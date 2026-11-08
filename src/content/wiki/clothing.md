@@ -7,7 +7,7 @@ source:
 categories: ["Equipment","Clothing","Armour"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>'Ey, what's with those rags, you're wearing anyway? Look like you've been chewed on by a gutter...</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/catun">Catun</a> Bar Patron</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>'Ey, what's with those rags, you're wearing anyway? Look like you've been chewed on by a gutter...</blockquote><figcaption><a href="/catun">Catun</a> Bar Patron</figcaption></figure>
 
   
 

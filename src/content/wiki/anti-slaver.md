@@ -1,6 +1,6 @@
 ---
 title: "Anti-Slaver"
-description: "–Anti-Slaver accompanying an allied player"
+description: "Anti-Slavers are the lowest skilled member of the Anti-Slavers. They do not have randomly generated names, unlike all other generic members of the Anti-Slave…"
 source:
   title: "Anti-Slaver"
   revision: 95357
@@ -18,7 +18,7 @@ infobox:
         - ["String ID","62180-rebirth.mod"]
 ---
 
-<table class="wikitable"><tbody><tr><td>“</td><td>You ain't leaving me out of all the action.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–Anti-Slaver accompanying an allied player</cite></p></td></tr></tbody></table>
+<figure class="quote"><blockquote>You ain't leaving me out of all the action.</blockquote><figcaption>Anti-Slaver accompanying an allied player</figcaption></figure>
 
 **Anti-Slavers** are the lowest skilled member of the [Anti-Slavers](/anti-slavers). They do not have randomly generated names, unlike all other generic members of the Anti-Slavers. These characters can be found raiding player outposts or found in residential areas in Anti-Slaver cities.
 
