@@ -1,0 +1,190 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+import Infobox from '../components/Infobox.astro';
+import Toc from '../components/Toc.astro';
+import Gallery from '../components/Gallery.astro';
+import Navbox from '../components/Navbox.astro';
+import { developmentUrl, wiki } from '../lib/wiki.js';
+
+const link = (title, href = wiki(title)) => `<a href="${href}">${title}</a>`;
+
+const infobox = [
+  {
+    heading: 'Game',
+    rows: [
+      ['Developer', link('Lo-Fi Games', developmentUrl)],
+      ['Publisher', link('Lo-Fi Games', developmentUrl)],
+      ['Designer', link('Chris Hunt', developmentUrl)],
+      ['Engine', 'OGRE (modified)'],
+      ['Platform', 'Windows'],
+    ],
+  },
+  {
+    heading: 'Release',
+    rows: [
+      ['Early access', '2013'],
+      ['Full release', '6 December 2018'],
+      ['Modding', link('Forgotten Construction Set')],
+    ],
+  },
+];
+
+const toc = [
+  {
+    id: 'Gameplay',
+    title: 'Gameplay',
+    children: [
+      { id: 'Squads_and_outposts', title: 'Squads and outposts' },
+      { id: 'Combat_and_injuries', title: 'Combat and injuries' },
+    ],
+  },
+  { id: 'Races', title: 'Races' },
+  { id: 'Factions', title: 'Factions' },
+  { id: 'Development', title: 'Development' },
+  { id: 'Gallery', title: 'Gallery' },
+  { id: 'See_also', title: 'See also' },
+];
+
+const races = [
+  ['Human', ['Greenlander', 'Scorchlander'], 'The most common race, found in every corner of the world.'],
+  ['Shek', ['Shek'], 'A horned warrior race; the people of the Shek Kingdom.'],
+  ['Hive', ['Hive Prince', 'Hive Soldier Drone', 'Hive Worker Drone'], 'Insect-like people who live in hive colonies.'],
+  ['Skeleton', ['Skeleton'], 'Robots from an earlier age. They do not eat and are repaired rather than healed.'],
+];
+
+const factions = [
+  ['Holy Nation', 'Blister Hill', 'Holy Lord Phoenix'],
+  ['United Cities', 'Heng', 'Emperor Tengu'],
+  ['Shek Kingdom', 'Admag', 'Esata the Stone Golem'],
+  ['Tech Hunters', "World's End", '—'],
+];
+
+const gallery = [
+  { src: '/images/kenshi/screenshot-1.jpg', caption: 'A wanderer and a bonedog crossing the dunes' },
+  { src: '/images/kenshi/screenshot-2.jpg', caption: 'The world map and squad interface' },
+  { src: '/images/kenshi/screenshot-3.jpg', caption: 'Making camp below the mesas' },
+  { src: '/images/kenshi/screenshot-4.jpg', caption: 'A battle in the open desert' },
+  { src: '/images/kenshi/screenshot-5.jpg', caption: 'Thieves at work indoors' },
+  { src: '/images/kenshi/screenshot-6.jpg', caption: 'A walled outpost in a canyon' },
+];
+
+const navbox = [
+  { label: 'Game', links: ['About Kenshi', 'Version history', 'Mods', 'Forgotten Construction Set'] },
+  { label: 'Races', links: ['Greenlander', 'Scorchlander', 'Shek', 'Hive', 'Skeleton'] },
+  { label: 'Factions', links: ['Holy Nation', 'United Cities', 'Shek Kingdom', 'Tech Hunters'] },
+  { label: 'Gameplay', links: ['Skills', 'Combat', 'Research', 'Outposts', 'Trade', 'Bounties'] },
+  { label: 'Items', links: ['Weapons', 'Armour', 'Clothing', 'Backpacks', 'Robotic limbs'] },
+];
+---
+
+<WikiLayout
+  title="About Kenshi"
+  description="Kenshi is an open-world, squad-based RPG by Lo-Fi Games."
+  source="src/pages/about-kenshi.astro"
+  categories={['Games', 'Example pages']}
+>
+  <div class="notice">
+    <b>Example page.</b> This article shows the parts a wiki page can use: infobox, table of contents, tables, a collapsed section, a
+    gallery and a navbox. Check facts against the game before reusing any of it.
+  </div>
+
+  <Infobox title="Kenshi" image="/images/kenshi/header.jpg" caption="Kenshi's Steam store art." groups={infobox} />
+
+  <p>
+    <b>Kenshi</b> is an open-world, squad-based role-playing game developed and published by{' '}
+    <a href={developmentUrl}>Lo-Fi Games</a>. It began as a solo project by <a href={developmentUrl}>Chris Hunt</a>, entered
+    early access on Steam in 2013 and was fully released on 6 December 2018.
+  </p>
+  <p>
+    There is no chosen hero: the player starts with a scenario, often a single nobody with almost nothing, in a harsh world of deserts,
+    ruins and warring <a href={wiki('Factions')}>factions</a>, and is free to become a trader, a thief, a slave, a warlord or anything in
+    between.
+  </p>
+
+  <Toc sections={toc} />
+
+  <h2><span class="mw-headline" id="Gameplay">Gameplay</span></h2>
+  <p>
+    Characters improve by doing: <a href={wiki('Skills')}>skills</a> rise as they are used, so a character who is beaten up often gets
+    tougher, and one who sneaks often gets stealthier.
+  </p>
+
+  <h3><span class="mw-headline" id="Squads_and_outposts">Squads and outposts</span></h3>
+  <p>
+    The player can <a href={wiki('Recruits')}>recruit</a> other characters into squads and control them all at once. Squads can build{' '}
+    <a href={wiki('Outposts')}>outposts</a> anywhere in the world, with farms, workshops, walls and defences, which attract raids from
+    nearby factions.
+  </p>
+
+  <h3><span class="mw-headline" id="Combat_and_injuries">Combat and injuries</span></h3>
+  <p>
+    <a href={wiki('Combat')}>Combat</a> is real-time and can be paused. Damage is tracked per body part: characters can be knocked out,
+    bleed, lose limbs and have them replaced with <a href={wiki('Robotic limbs')}>robotic limbs</a>.
+  </p>
+
+  <h2><span class="mw-headline" id="Races">Races</span></h2>
+  <p>Four playable races, each with its own subraces:</p>
+  <table class="wikitable">
+    <thead>
+      <tr><th>Race</th><th>Subraces</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+      {races.map(([race, subraces, notes]) => (
+        <tr>
+          <td><a href={wiki(race)}>{race}</a></td>
+          <td>{subraces.join(', ')}</td>
+          <td>{notes}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <h2><span class="mw-headline" id="Factions">Factions</span></h2>
+  <p>A few of the major powers of the world:</p>
+  <table class="wikitable">
+    <thead>
+      <tr><th>Faction</th><th>Capital</th><th>Leader</th></tr>
+    </thead>
+    <tbody>
+      {factions.map(([faction, capital, leader]) => (
+        <tr>
+          <td><a href={wiki(faction)}>{faction}</a></td>
+          <td><a href={wiki(capital)}>{capital}</a></td>
+          <td>{leader === '—' ? leader : <a href={wiki(leader)}>{leader}</a>}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <h2><span class="mw-headline" id="Development">Development</span></h2>
+  <p>
+    Chris Hunt worked on Kenshi alone for years before forming a small team at Lo-Fi Games. The game runs on a modified version of the
+    OGRE engine and ships with the <a href={wiki('Forgotten Construction Set')}>Forgotten Construction Set</a>, the same editor the
+    developers used to build the world, which is what most <a href={wiki('Mods')}>mods</a> are made with.
+  </p>
+
+  <details class="collapsible">
+    <summary>Release timeline</summary>
+    <table class="wikitable">
+      <tbody>
+        <tr><th>2013</th><td>Early access release on Steam.</td></tr>
+        <tr><th>6 December 2018</th><td>Full release (version 1.0).</td></tr>
+      </tbody>
+    </table>
+    <p>
+      For every patch since, see the <a href={wiki('Version history')}>version history</a>.
+    </p>
+  </details>
+
+  <h2><span class="mw-headline" id="Gallery">Gallery</span></h2>
+  <Gallery images={gallery} />
+
+  <h2><span class="mw-headline" id="See_also">See also</span></h2>
+  <ul>
+    <li><a href={wiki("Beginner's guide")}>Beginner's guide</a></li>
+    <li><a href={wiki('Factions')}>Factions</a></li>
+    <li><a class="external" href="https://store.steampowered.com/app/233860/Kenshi/">Kenshi on Steam</a></li>
+  </ul>
+
+  <Navbox title="Kenshi" groups={navbox} current="About Kenshi" />
+</WikiLayout>

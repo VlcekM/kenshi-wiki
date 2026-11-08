@@ -1,0 +1,62 @@
+---
+title: "Twitchy Bar Thug"
+description: "This thug has some dialogue options which involve buying them a grog for c.100 or fighting them. Fighting them will usually cause the guards to help you, giv…"
+source:
+  title: "Twitchy Bar Thug"
+  revision: 95269
+categories: ["Characters","Bounty"]
+infobox:
+  title: "Twitchy Bar Thug"
+  groups:
+    - heading: null
+      rows:
+        - ["Race","<a href=\"/human\">Human</a>"]
+        - ["Subrace","<a href=\"/greenlander\">Greenlander</a>"]
+        - ["Gender","50% female chance"]
+    - heading: "Items"
+      rows:
+        - ["Weapons","<a href=\"/wakizashi\">Wakizashi</a>"]
+        - ["Headgear","<a href=\"/bandana\">Bandana</a>, <a href=\"/bucket-zukin\">Bucket Zukin</a>, <a href=\"/iron-hat\">Iron Hat</a>, <a href=\"/straw-hat\">Straw Hat</a>"]
+        - ["Armour","<a href=\"/black-rag-shirt\">Black Rag Shirt</a>, <a href=\"/drifters-leather-jacket\">Drifter's Leather Jacket</a>, <a href=\"/dustcoat\">Dustcoat</a>"]
+        - ["Shirt","<a href=\"/black-cloth-shirt\">Black Cloth Shirt</a>, <a href=\"/blackened-chain-shirt\">Blackened Chain Shirt</a>"]
+        - ["Legwear","<a href=\"/halfpants-ragged\">Halfpants (ragged)</a>, <a href=\"/worn-out-shorts\">Worn-out Shorts</a>, <a href=\"/drifters-leather-pants\">Drifter's Leather Pants</a>"]
+        - ["Footwear","<a href=\"/wooden-sandals\">Wooden Sandals</a>"]
+---
+
+An unnamed member of the [Vagrants](/vagrants) faction. They are a variant of Bar Thugs which can be found in bars in [The Hub](/the-hub), [Waystation](/waystation), or in [Shark](/shark).
+
+This thug has some dialogue options which involve buying them a grog for c.100 or fighting them. Fighting them will usually cause the guards to help you, giving you free early loot.
+
+They have an 8% chance of having a bounty ranging from c.250 to c.750. They wear \[Shoddy\] armour (5% chance of \[Standard\]) and have weapons manufactured by [Unknown](/unknown).
+
+## Statistics
+
+-   Greenlander
+    
+
+Statistics
+
+* * *
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Attributes</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/strength">Strength</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/toughness">Toughness</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/dexterity">Dexterity</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/perception">Perception</a></td><td align="center">-5 – 7</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Weapon Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/katanas">Katanas</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/sabres">Sabres</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/hackers">Hackers</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/heavy-weapons">Heavy Weapons</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/blunt-weapons">Blunt</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/polearms">Polearms</a></td><td align="center">6 – 18</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Combat Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/melee-attack">Melee Attack</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/melee-defence">Melee Defence</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/dodge">Dodge</a></td><td align="center">-4.8 – 7.2</td></tr><tr><td></td><td><a href="/martial-arts">Martial Arts</a></td><td align="center">-4.8 – 7.2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Ranged Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/turrets">Turrets</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/crossbows">Crossbows</a></td><td align="center">-5 – 7</td></tr><tr><td></td><td><a href="/precision-shooting">Precision Shooting</a></td><td align="center">6 – 18</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Thievery Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/stealth">Stealth</a></td><td align="center">-5 – 7</td></tr><tr><td></td><td><a href="/lockpicking">Lockpicking</a></td><td align="center">-5 – 7</td></tr><tr><td></td><td><a href="/thievery">Thievery</a></td><td align="center">-5 – 7</td></tr><tr><td></td><td><a href="/assassination">Assassination</a></td><td align="center">6</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Athletic Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/athletics">Athletics</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/swimming">Swimming</a></td><td align="center">6 – 18</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Science Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/field-medic">Field Medic</a></td><td align="center">6 – 18</td></tr><tr><td></td><td><a href="/engineer">Engineer</a></td><td align="center">-5 – 7</td></tr><tr><td></td><td><a href="/robotics">Robotics</a></td><td align="center">-5 – 7</td></tr><tr><td></td><td><a href="/science">Science</a></td><td align="center">1.2</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><th scope="col" colspan="2">Trade Skills</th><th scope="col" align="center" width="80">Level</th></tr><tr><td width="10"></td><td><a href="/weapon-smith">Weapon Smith</a></td><td align="center">-5 – 7</td></tr><tr><td></td><td><a href="/armour-smith">Armour Smith</a></td><td align="center">-5 – 7</td></tr><tr><td></td><td><a href="/crossbow-smith">Crossbow Smith</a></td><td align="center">1</td></tr><tr><td></td><td><a href="/labouring">Labouring</a></td><td align="center">1</td></tr><tr><td></td><td><a href="/farming">Farming</a></td><td align="center">1.2</td></tr><tr><td></td><td><a href="/cooking">Cooking</a></td><td align="center">1.2</td></tr></tbody></table>
+
+* * *
+
+Stats randomize by 6
+
+_The Statistics here are taken from [FCS](/forgotten-construction-set).  
+Skills will be multiplied by the racial multiplier. Players should also be aware that non-player characters also level up while fighting._

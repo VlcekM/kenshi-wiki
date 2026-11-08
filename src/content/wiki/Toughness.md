@@ -7,12 +7,12 @@ source:
 categories: ["Statistics"]
 ---
 
-<table class="wikitable"><tbody><tr><td>Stats Affected:</td><td rowspan="4"><span>Description:</span><br>Toughness is both physical and mental. It's how you survive out in the desert. Physically it's your ability to take a beating and survive. Mentally it's an attitude forged from harsh experience. Do you pass out from your wounds like a sissy, or do you force yourself to struggle to your feet again? Do you panic and bleed out or can you stay calm enough to lower your heart rate and let the blood clot?</td></tr><tr><td>-Damage resistance<br>-Martial arts damage<br>-Chance to resist stealth knock-outs<br>-Knockout time</td></tr><tr><td>Ways to Train:</td></tr><tr><td>-Getting hurt, getting beaten up, losing battles<br>-Not wearing armour, taking more damage<br>-Get up and fight instead of playing dead</td></tr><tr><td colspan="2"><a href="/Statistics"><span>-Attributes-</span></a></td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><td>Stats Affected:</td><td rowspan="4"><span>Description:</span><br>Toughness is both physical and mental. It's how you survive out in the desert. Physically it's your ability to take a beating and survive. Mentally it's an attitude forged from harsh experience. Do you pass out from your wounds like a sissy, or do you force yourself to struggle to your feet again? Do you panic and bleed out or can you stay calm enough to lower your heart rate and let the blood clot?</td></tr><tr><td>-Damage resistance<br>-Martial arts damage<br>-Chance to resist stealth knock-outs<br>-Knockout time</td></tr><tr><td>Ways to Train:</td></tr><tr><td>-Getting hurt, getting beaten up, losing battles<br>-Not wearing armour, taking more damage<br>-Get up and fight instead of playing dead</td></tr><tr><td colspan="2"><a href="/statistics"><span>-Attributes-</span></a></td></tr></tbody></table>
 
   
-Toughness was introduced in version 0.61.0 of Kenshi and appears to replace a [stat](/Statistics) that was previously known as "Warrior Spirit" (though it was never actually implemented). Toughness determines a character's [Damage](/Damage) Resistance, wound degeneration and KO point (Knock Out Point).
+Toughness was introduced in version 0.61.0 of Kenshi and appears to replace a [stat](/statistics) that was previously known as "Warrior Spirit" (though it was never actually implemented). Toughness determines a character's [Damage](/damage) Resistance, wound degeneration and KO point (Knock Out Point).
 
-<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href="/Hive_Prince"><span>Hive Prince</span></a><br>-<a href="/Hive_Soldier_Drone"><span>Hive Soldier Drone</span></a><br>-<a href="/Hive_Worker_Drone"><span>Hive Worker Drone</span></a><br>-<a href="/Shek"><span>Shek</span></a><br>-<a href="/Southern_Hive_Soldier_Drone"><span>Southern Hive Soldier Drone</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
+<details class="collapsible" open=""><summary>Racial Experience Multipliers</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td><span>Negative Multiplier:</span><br>There are no races which have negative experience multipliers for this stat.</td><td><span>Positive Multiplier:</span><br>-<a href="/hive-prince"><span>Hive Prince</span></a><br>-<a href="/hive-soldier-drone"><span>Hive Soldier Drone</span></a><br>-<a href="/hive-worker-drone"><span>Hive Worker Drone</span></a><br>-<a href="/shek"><span>Shek</span></a><br>-<a href="/southern-hive-soldier-drone"><span>Southern Hive Soldier Drone</span></a></td></tr><tr><td colspan="2">All multipliers are either 0.8x or 1.2x unless marked otherwise.</td></tr></tbody></table></details>
 
   
 
@@ -32,7 +32,7 @@ Toughness was introduced in version 0.61.0 of Kenshi and appears to replace a [s
 -   Wound Degeneration Speed = 1.7 - (Toughness)0.0167
     -   No min or max.
 
-<table class="wikitable"><tbody><tr><td><a href="/Loading_Screen">Loading Screen</a> Tips</td></tr><tr><td>If your whole squad is taken down, any survivors will play dead until the enemy is out of range. You can force them to get up anyway by giving them an order, which will also improve their Toughness stat.</td></tr></tbody></table>
+<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>If your whole squad is taken down, any survivors will play dead until the enemy is out of range. You can force them to get up anyway by giving them an order, which will also improve their Toughness stat.</td></tr></tbody></table>
 
   
 

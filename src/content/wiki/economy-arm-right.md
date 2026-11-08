@@ -1,0 +1,51 @@
+---
+title: "Economy Arm (right)"
+description: "They are good and cheap, but not very durable, and obviously your dexterity is going to suffer from having a claw for a hand."
+source:
+  title: "Economy Arm (right)"
+  revision: 85387
+categories: ["Robot Limbs"]
+infobox:
+  title: "Hiver Skeleton Arms"
+  groups:
+    - heading: null
+      rows:
+        - ["Description","A copy of the Hiver's \"Economy Arms\""]
+    - heading: "Details"
+      rows:
+        - ["Estimated Time","6 hours"]
+        - ["Tech Level","4"]
+        - ["Costs","4 <a href=\"/ancient-science-book\">Ancient Science Books</a>"]
+        - ["Requirements","<a href=\"/hiver-skeleton-legs-tech\">Hiver Skeleton Legs</a>"]
+    - heading: "Results"
+      rows:
+        - ["New Item(s)","<a href=\"/economy-arm-left\">Economy Arm (left)</a><p>Economy Arm (right)</p>"]
+        - ["Required For","<a href=\"/skeleton-arms-tech\">Skeleton Arms</a><p><a href=\"/skeleton-legs-tech\">Skeleton Legs</a></p>"]
+---
+
+<table class="wikitable"><tbody><tr><td colspan="4">The Hivers are extremely proud of the skeleton limbs that they supposedly manufacture themselves. This arm is obviously made mostly out of salvaged parts from other skeleton arms, though they did make a functioning claw hand for it, quite an impressive feat of engineering in this age. The limb cap is half a grog can with some padding inside.<p>They are good and cheap, but not very durable, and obviously your dexterity is going to suffer from having a claw for a hand.</p></td><td rowspan="2"></td></tr><tr><td>Slot:</td><td><a href="/robot-limbs">LIMBS</a></td><td></td><td></td></tr></tbody></table>
+
+  
+Economy Arm (right) is a [Robot Limb](/robot-limbs), and a replacement for a lost right arm. This is the cheapest, and worst, model of robotic limbs.
+
+## Stats 
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Economy Arm (right)</td></tr><tr><td colspan="2">[Prototype Grade]</td></tr><tr><td>-Max HP</td><td>40<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Crossbow</td><td>-38%</td></tr><tr><td>-Lockpicking</td><td>-97%</td></tr><tr><td>-Thievery</td><td>-97%</td></tr><tr><td>-Dexterity</td><td>-34%</td></tr><tr><td>-Strength</td><td>-34%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td>-Value</td><td>c.507</td></tr><tr><td>-Sell Value</td><td>c.253</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Economy Arm (right)</td></tr><tr><td colspan="2">[Shoddy Grade]</td></tr><tr><td>-Max HP</td><td>50<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Crossbow</td><td>-33%</td></tr><tr><td>-Lockpicking</td><td>-90%</td></tr><tr><td>-Thievery</td><td>-90%</td></tr><tr><td>-Dexterity</td><td>-31%</td></tr><tr><td>-Strength</td><td>-19%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td>-Value</td><td>c.620</td></tr><tr><td>-Sell Value</td><td>c.310</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Economy Arm (right)</td></tr><tr><td colspan="2">[Standard Grade]</td></tr><tr><td>-Max HP</td><td>60<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Crossbow</td><td>-27%</td></tr><tr><td>-Lockpicking</td><td>-80%</td></tr><tr><td>-Thievery</td><td>-80%</td></tr><tr><td>-Dexterity</td><td>-28%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td>-Value</td><td>c.979</td></tr><tr><td>-Sell Value</td><td>c.489</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Economy Arm (right)</td></tr><tr><td colspan="2">[High Grade]</td></tr><tr><td>-Max HP</td><td>75<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Crossbow</td><td>-22%</td></tr><tr><td>-Lockpicking</td><td>-70%</td></tr><tr><td>-Thievery</td><td>-70%</td></tr><tr><td>-Dexterity</td><td>-25%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td>-Value</td><td>c.1,579</td></tr><tr><td>-Sell Value</td><td>c.789</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Economy Arm (right)</td></tr><tr><td colspan="2">[Specialist Grade]</td></tr><tr><td>-Max HP</td><td>85<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Crossbow</td><td>-16%</td></tr><tr><td>-Lockpicking</td><td>-60%</td></tr><tr><td>-Thievery</td><td>-60%</td></tr><tr><td>-Dexterity</td><td>-22%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td>-Value</td><td>c.2,419</td></tr><tr><td>-Sell Value</td><td>c.1,209</td></tr></tbody></table>
+
+<table class="wikitable"><tbody><tr><td colspan="2" align="left">Economy Arm (right)</td></tr><tr><td colspan="2">[Masterwork Grade]</td></tr><tr><td>-Max HP</td><td>95<p><br></p></td></tr><tr><td colspan="2" align="left">[Stats]</td></tr><tr><td>-Crossbow</td><td>-11%</td></tr><tr><td>-Lockpicking</td><td>-52%</td></tr><tr><td>-Thievery</td><td>-52%</td></tr><tr><td>-Dexterity</td><td>-20%</td></tr><tr><td>-Swimming</td><td>-25%</td></tr><tr><td colspan="2" align="left">------------</td></tr><tr><td>-Weight</td><td>4 kg</td></tr><tr><td>-Value</td><td>c.3,207</td></tr><tr><td>-Sell Value</td><td>c.1,603</td></tr></tbody></table>
+
+## Source
+
+<table class="wikitable"><tbody><tr valign="top"><td><h3><span class="mw-headline" id="Shops">Shops</span></h3><ul><li><a href="/hive-robotics-shop">Hive Robotics Shop</a></li><li><a href="/hiver-merchant-caravan">Hiver Merchant Caravan</a></li><li><a href="/hiver-trader-caravan">Hiver Trader Caravan</a></li><li><a href="/mongrel-robotics-workshop">Mongrel Robotics Workshop</a></li><li><a href="/robotics-workshop">Robotics Workshop</a></li></ul></td></tr></tbody></table>
+
+## Crafting
+
+<details class="collapsible" open=""><summary>Skeleton Limb Bench</summary><table class="wikitable"><tbody><tr><td colspan="2"></td></tr><tr><td>INPUTS</td><td>OUTPUT</td></tr><tr><td><a href="/motor"><span>Motor</span></a><div></div><p><span>(2 required)</span></p></td><td><strong><span>Economy Arm (right)</span></strong><div></div></td></tr><tr><td><a href="/steel-bars"><span>Steel Bars</span></a><div></div><p><span>(2 required)</span></p></td></tr></tbody></table></details>

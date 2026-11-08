@@ -20,4 +20,4 @@ All templates that directly invoke modules should be marked with the {{Invokes}}
 -   Special:PrefixIndex/Module:, for a list of all current modules
 -   [RuneScape:Lua/Modules](https://runescape.fandom.com/wiki/Lua/Modules "runescape:Lua/Modules"), for a list of all modules, excluding Exchange and miscellaneous data pages
 -   [RuneScape:Lua/Helper modules](https://runescape.fandom.com/wiki/Lua/Helper_modules "runescape:Lua/Helper modules"), for a table of modules designed to facilitate writing other modules
--   [Category:Lua-based templates](/Category/Lua-based_templates), for an index of templates that directly invoke Lua
+-   [Category:Lua-based templates](/category/lua-based-templates), for an index of templates that directly invoke Lua

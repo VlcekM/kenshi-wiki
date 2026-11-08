@@ -1,11 +1,11 @@
 // Import articles from the Kenshi Fandom wiki (CC BY-SA 3.0) into src/content/wiki as Markdown.
-// Usage: node scripts/import-fandom.mjs [title ...]   (no titles: the built-in test set)
+// Usage: node scripts/import-fandom.mjs [--all | title ...]   (no arguments: the built-in test set)
 // Responses are cached in .fandom-cache/, so re-running only re-converts. Images are not imported.
 import * as cheerio from 'cheerio';
 import TurndownService from 'turndown';
 import { slug as headingSlug } from 'github-slugger';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { existsSync, readdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { pageSlug } from '../src/lib/wiki.js';
 
@@ -37,14 +37,41 @@ const removed = [
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-async function callApi(params) {
+async function requestApi(params) {
   const response = await fetch(`${api}?${new URLSearchParams({ ...params, format: 'json', formatversion: '2' })}`, {
     headers: { 'User-Agent': userAgent },
   });
-  const body = await response.json();
+  const body = response.ok ? await response.json() : {};
   await sleep(1000);
-  if (body.error || !response.ok) throw new Error(`${JSON.stringify(params)}: ${body.error?.info ?? response.status}`);
-  return body;
+  return { response, body };
+}
+
+// One request a second; network failures, rate limits and server errors are retried with a growing pause.
+async function callApi(params) {
+  for (let attempt = 1; ; attempt++) {
+    const { response, body } = await requestApi(params).catch((error) => ({ error }));
+    const transient = !response || response.status === 429 || response.status >= 500;
+    if (response?.ok && !body.error) return body;
+    if (!transient || attempt === 5) throw new Error(`${JSON.stringify(params)}: ${body?.error?.info ?? response?.status}`);
+    await sleep(attempt * 10_000);
+  }
+}
+
+// Every article on the wiki (not redirects), cached like the pages.
+async function allTitles() {
+  const cached = `${cacheDir}/_titles.json`;
+  if (existsSync(cached)) return JSON.parse(await readFile(cached, 'utf8'));
+
+  const titles = [];
+  let next = {};
+  do {
+    const body = await callApi({ action: 'query', list: 'allpages', apnamespace: '0', apfilterredir: 'nonredirects', aplimit: 'max', ...next });
+    titles.push(...body.query.allpages.map((page) => page.title));
+    next = body.continue ?? null;
+  } while (next);
+
+  await writeFile(cached, JSON.stringify(titles));
+  return titles;
 }
 
 // The rendered article plus the titles that redirect to it, cached per requested title.
@@ -213,7 +240,7 @@ function frontmatter(page, infobox, summary) {
     `  revision: ${page.revid}`,
     `categories: ${JSON.stringify(page.categories.filter((c) => !c.hidden).map((c) => c.category.replaceAll('_', ' ')))}`,
   ];
-  if (infobox) {
+  if (infobox?.groups.length) {
     lines.push('infobox:', `  title: ${JSON.stringify(infobox.title)}`, '  groups:');
     for (const group of infobox.groups) {
       lines.push(group.heading ? `    - heading: ${JSON.stringify(group.heading)}` : '    - heading: null', '      rows:');
@@ -231,31 +258,54 @@ function claimSlug(slugs, title) {
   return slug;
 }
 
-// Pages that reproduce someone else's text word for word (Lo-Fi's announcements, for one) are not the Fandom editors'
-// to license, so they are left out.
-// Footnotes are judged one by one in dropQuotedFootnotes; this looks at the article itself.
-function quotesVerbatim(page) {
-  const $ = cheerio.load(page.text);
-  $('.references, .mw-references-wrap').remove();
-  return /copied verbatim|reproduced verbatim/i.test($.root().text());
+// Pages that reproduce someone else's text word for word are not the Fandom editors' to license, so they are left
+// out: Lo-Fi's announcements, transcripts of the game's own dialogue, and the text of its in-game books, which Fandom
+// keeps in collapsible boxes. Footnotes are judged one by one in dropQuotedFootnotes; this looks at the article itself.
+const wordCount = (text) => text.split(/\s+/).filter(Boolean).length;
+
+function transcribesBook(page, $) {
+  if (!page.categories.some((category) => category.category === 'Books')) return false;
+  const boxes = $('.mw-collapsible, table').filter((_, box) => !$(box).parents('.mw-collapsible, table').length);
+  const boxed = boxes.toArray().reduce((sum, box) => sum + wordCount($(box).text()), 0);
+  return boxed * 2 > wordCount($.root().text());
 }
 
-async function importPage(title, turndown, slugs) {
-  const page = await fetchPage(title);
-  if (quotesVerbatim(page)) {
-    console.warn(`skipped ${title}: it reproduces another source verbatim`);
-    return [];
-  }
+function borrowedText(page) {
+  if (/\/Dialogue$/.test(page.title)) return "it transcribes the game's dialogue";
+  const $ = cheerio.load(page.text);
+  $('.references, .mw-references-wrap').remove();
+  if (transcribesBook(page, $)) return 'it transcribes an in-game book';
+  return /copied verbatim|reproduced verbatim/i.test($.root().text()) ? 'it reproduces another source verbatim' : '';
+}
 
+// Paths the site already uses, by its own pages or by hand-written redirects, stay as they are.
+async function reservedSlugs() {
+  const pages = readdirSync('src/pages').filter((file) => /^[^[].*\.astro$/.test(file)).map((file) => file.replace(/\.astro$/, ''));
+  const manual = (await readFile(redirectsFile, 'utf8')).split(redirectsStart)[0];
+  const redirected = [...manual.matchAll(/^\/(\S+?)(?:\.html)? /gm)].map((match) => match[1]);
+  return new Set([...pages, ...redirected]);
+}
+
+async function writePage(page, slug, turndown) {
   const { $, infobox } = cleanHtml(page.text);
   const markdown = turndown.turndown($.html()).replace(/\n{3,}/g, '\n\n').trim();
-
-  const file = `${outDir}/${claimSlug(slugs, page.title)}.md`;
+  const file = `${outDir}/${slug}.md`;
   await mkdir(dirname(file), { recursive: true });
   await writeFile(file, `${frontmatter(page, infobox, description($))}\n${markdown}\n`);
-  console.log(`imported ${title}`);
+}
+
+// Returns the page's redirect rules, or why it was skipped.
+async function importPage(title, { turndown, slugs, reserved }) {
+  const page = await fetchPage(title);
+  const borrowed = borrowedText(page);
+  if (borrowed) return { skipped: borrowed };
+  if (reserved.has(pageSlug(page.title))) return { skipped: `the site already uses /${pageSlug(page.title)}` };
+
+  const slug = claimSlug(slugs, page.title);
+  await writePage(page, slug, turndown);
   const aliases = [...page.aliases, ...(page.redirects ?? []).map((redirect) => redirect.from)];
-  return aliases.map((alias) => `/${pageSlug(alias)} /${pageSlug(page.title)} 301`);
+  const free = aliases.map(pageSlug).filter((alias) => !reserved.has(alias) && alias !== slug);
+  return { redirects: free.map((alias) => `/${alias} /${slug} 301`) };
 }
 
 // Generated redirects replace everything after the marker line; hand-written rules above it are kept.
@@ -268,19 +318,32 @@ async function writeRedirects(lines, partial) {
   await writeFile(redirectsFile, `${manual.trimEnd()}\n\n${redirectsStart}\n${rules.join('\n')}\n`);
 }
 
+function report(skipped, failed, imported) {
+  for (const [title, reason] of skipped) console.warn(`skipped ${title}: ${reason}`);
+  for (const [title, error] of failed) console.error(`failed ${title}: ${error}`);
+  console.log(`imported ${imported}, skipped ${skipped.length}, failed ${failed.length}`);
+}
+
 async function main() {
   const chosen = process.argv.slice(2);
-  const titles = chosen.length ? chosen : testSet;
   await mkdir(cacheDir, { recursive: true });
   await mkdir(outDir, { recursive: true });
+  const titles = chosen[0] === '--all' ? await allTitles() : chosen.length ? chosen : testSet;
 
-  const turndown = markdownConverter();
+  const context = { turndown: markdownConverter(), slugs: new Map(), reserved: await reservedSlugs() };
   const redirects = [];
-  const slugs = new Map();
-  for (const title of titles) {
-    redirects.push(...await importPage(title, turndown, slugs));
+  const skipped = [];
+  const failed = [];
+  for (const [index, title] of titles.entries()) {
+    const result = await importPage(title, context).catch((error) => ({ error: error.message }));
+    if (result.redirects) redirects.push(...result.redirects);
+    if (result.skipped) skipped.push([title, result.skipped]);
+    if (result.error) failed.push([title, result.error]);
+    if ((index + 1) % 100 === 0) console.log(`${index + 1} of ${titles.length}`);
   }
-  await writeRedirects(redirects, chosen.length > 0);
+
+  await writeRedirects(redirects, chosen.length > 0 && chosen[0] !== '--all');
+  report(skipped, failed, titles.length - skipped.length - failed.length);
 }
 
 await main();

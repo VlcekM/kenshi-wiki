@@ -9,6 +9,10 @@ export const stagingWorker = {
     htmlHandling: 'drop-trailing-slash',
     notFoundHandling: 'none',
   },
+  // worker/index.js asks the assets whether a page exists before redirecting to it.
+  env: {
+    ASSETS: { type: 'assets' },
+  },
 } as const;
 
 export default defineConfig({ worker: stagingWorker });

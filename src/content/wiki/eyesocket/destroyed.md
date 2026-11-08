@@ -1,0 +1,26 @@
+---
+title: "Eyesocket/Destroyed"
+description: "Killing or kidnapping Slave Master Grande causes Eyesocket to become ruined. All inhabitants are dead or missing in this override."
+source:
+  title: "Eyesocket/Destroyed"
+  revision: 92599
+categories: ["Article stubs","Locations"]
+infobox:
+  title: "Eyesocket"
+  groups:
+    - heading: null
+      rows:
+        - ["Type","Ruins"]
+        - ["Biome","<a href=\"/stormgap-coast\">Stormgap Coast</a>"]
+        - ["Factions","<a href=\"/slave-traders\">Slave Traders</a>"]
+    - heading: "Technical Info"
+      rows:
+        - ["FCS Name","Eyesocket (override) destroyed"]
+        - ["String ID","1533523-__world reactions Slavers.mod"]
+---
+
+_This article is a [stub](/category/article-stubs). You can help the Kenshi Wiki by [expanding it](/eyesocket/destroyed)._
+
+<table class="wikitable"><tbody><tr><td>“</td><td>With Eyesocket destroyed, the Grey desert is looking all clear. Now we have an easy path for attack.</td><td>”</td></tr><tr><td colspan="3"><p><cite>–<a href="/tinfist">Tinfist</a></cite></p></td></tr></tbody></table>
+
+[Killing or kidnapping](/world-states) [Slave Master Grande](/slave-master-grande) causes Eyesocket to become ruined. All inhabitants are dead or missing in this override.
