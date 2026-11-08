@@ -4,6 +4,17 @@ import { execFileSync } from 'node:child_process';
 import { pageSlug, repoUrl } from '../src/lib/wiki.js';
 import worker from '../worker/index.js';
 
+const target = process.env.WIKI_TEST_TARGET ?? (process.env.WIKI_TEST_STAGING === '1' ? 'staging' : undefined);
+const builtAssets = target === 'production' ? '.cloudflare/output/v0/workers/default/assets' : 'dist';
+
+function checkPublishedHeaders(response) {
+  if (!target) return;
+  const headers = response.headers();
+  const directives = (headers['x-robots-tag'] || '').toLowerCase().split(/[\s,]+/);
+  expect(directives.includes('noindex')).toBe(target === 'staging');
+  expect(headers['cache-control']).toContain('no-transform');
+}
+
 const pages = [
   { route: '/', file: 'index.html', source: 'src/pages/index.astro' },
   { route: '/about-kenshi', file: 'about-kenshi.html', source: 'src/pages/about-kenshi.astro' },
@@ -27,11 +38,8 @@ for (const { route, file, source } of pages) {
 
     const response = await page.goto(route, { waitUntil: 'networkidle' });
     expect(response.status()).toBe(200);
-    expect(await response.body()).toEqual(await readFile(`dist/${file}`));
-    if (process.env.WIKI_TEST_STAGING === '1') {
-      expect(response.headers()['x-robots-tag']).toContain('noindex');
-      expect(response.headers()['cache-control']).toContain('no-transform');
-    }
+    expect(await response.body()).toEqual(await readFile(`${builtAssets}/${file}`));
+    checkPublishedHeaders(response);
 
     const header = page.locator('.wiki-header');
     await expect(header.getByRole('link', { name: 'Meitou', exact: true })).toBeVisible();
@@ -151,7 +159,7 @@ test('the Worker redirects another spelling only to a page that exists', async (
 });
 
 test('old and differently spelled addresses permanently redirect to the page', async ({ request, baseURL }) => {
-  test.skip(process.env.WIKI_TEST_STAGING !== '1', 'astro preview runs neither the Worker nor _redirects');
+  test.skip(!target, 'astro preview runs neither the Worker nor _redirects');
   for (const [route, target] of respellings) {
     expect((await request.get(route, { maxRedirects: 0 })).status(), route).toBe(301);
     const response = await request.get(route);
@@ -173,11 +181,8 @@ test('credits, upstream licenses and editable sources are public on the wiki', a
   });
   const response = await page.goto(creditsPage, { waitUntil: 'networkidle' });
   expect(response.status()).toBe(200);
-  expect(await response.body()).toEqual(await readFile('dist/contributors.html'));
-  if (process.env.WIKI_TEST_STAGING === '1') {
-    expect(response.headers()['x-robots-tag']).toContain('noindex');
-    expect(response.headers()['cache-control']).toContain('no-transform');
-  }
+  expect(await response.body()).toEqual(await readFile(`${builtAssets}/contributors.html`));
+  checkPublishedHeaders(response);
   const main = page.getByRole('main');
   await expect(main.getByRole('heading', { name: 'Contributors', exact: true })).toBeVisible();
   await expect(main).toContainText(creditIntro);

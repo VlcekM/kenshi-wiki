@@ -41,7 +41,7 @@ Contributions are made as pull requests on GitHub.
 
 The dedicated [staging wiki](https://kenshi-wiki-staging.prds.workers.dev/) is publicly readable.
 Cloudflare serves the static Astro output, including the ribbon artwork. The staging hostname asks
-search engines to leave it out of their indexes. Search and Random page are prototype routes.
+search engines to leave it out of their indexes. Search and Random page are included in the reader checks.
 
 [Wiki staging in GitHub Actions](https://github.com/mattresspad/kenshi-wiki/actions/workflows/staging.yml)
 installs the locked dependencies, builds the wiki, validates the Cloudflare package and exercises
@@ -62,3 +62,21 @@ npm test
 The deploy step reads the repository variable `CLOUDFLARE_ACCOUNT_ID` and repository secret
 `CLOUDFLARE_API_TOKEN`. The account-owned token needs Workers Editor access to the existing
 `kenshi-wiki-staging` Worker. The production hostname is managed separately.
+
+## Promote to production
+
+After **Wiki staging** passes on `main`, open **Actions → Promote to production → Run workflow**, select
+`main`, and click **Run workflow**. The run publishes that commit to **https://kenshi.wiki** and tests
+the live site, including legacy URLs, search, and the Nodachi category link.
+
+Staging saves its accepted Cloudflare Build Output as a GitHub Actions artifact for 14 days.
+Promotion downloads the artifact for the selected main commit. It carries the redirect Worker,
+its module manifest, the `ASSETS` binding, Pagefind and static files together. It sets the Worker name
+and custom domain for production and scopes the noindex header to the production workers.dev alias.
+If the artifact has expired or predates this workflow, manually run **Wiki staging** on main and wait
+for it to finish before retrying promotion.
+
+The deploy step uses `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN`. The token must be able to
+deploy the existing `kenshi-wiki` Worker and apply its existing custom domain. To use a dedicated
+credential, set a secret with that same name in the GitHub `production` environment. The run summary
+links the staging run and records the production Worker version and Git commit.
