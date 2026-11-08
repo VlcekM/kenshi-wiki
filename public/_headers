@@ -7,10 +7,10 @@ https://kenshi-wiki-staging.prds.workers.dev/*
 /index.html
   Cache-Control: public, no-cache, no-transform
 
-/Kenshi
+/About_Kenshi
   Cache-Control: public, no-cache, no-transform
 
-/Kenshi.html
+/About_Kenshi.html
   Cache-Control: public, no-cache, no-transform
 
 /Contributors

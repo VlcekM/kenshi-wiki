@@ -4,7 +4,7 @@ import { repoUrl } from '../src/lib/wiki.js';
 
 const pages = [
   { route: '/', file: 'index.html', source: 'src/pages/index.astro' },
-  { route: '/Kenshi', file: 'Kenshi.html', source: 'src/pages/Kenshi.astro' },
+  { route: '/About_Kenshi', file: 'About_Kenshi.html', source: 'src/pages/About_Kenshi.astro' },
 ];
 
 for (const { route, file, source } of pages) {
@@ -75,6 +75,15 @@ for (const { route, file, source } of pages) {
 
 test('unknown routes return a genuine 404', async ({ request }) => {
   expect((await request.get('/missing-wiki-staging-check')).status()).toBe(404);
+});
+
+test('the old /Kenshi address permanently redirects to About Kenshi', async ({ request, baseURL }) => {
+  test.skip(process.env.WIKI_TEST_STAGING !== '1', 'astro preview does not apply _redirects');
+  for (const route of ['/Kenshi', '/Kenshi.html']) {
+    const response = await request.get(route, { maxRedirects: 0 });
+    expect(response.status(), route).toBe(301);
+    expect(new URL(response.headers().location, baseURL).pathname, route).toBe('/About_Kenshi');
+  }
 });
 
 const creditsPage = '/Contributors';

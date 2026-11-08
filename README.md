@@ -22,7 +22,7 @@ npm run build    # static output in dist/
 
 Contributions are made as pull requests on GitHub.
 
-- Pages live in `src/pages/`; `Kenshi.astro` is an example article using every building block.
+- Pages live in `src/pages/`; `About_Kenshi.astro` is an example article using every building block.
 - Every page wraps its content in `src/layouts/WikiLayout.astro` (sidebar, header, footer, categories).
 - Article building blocks live in `src/components/`: `Infobox`, `Toc`, `Gallery` and `Navbox`.
   Collapsed sections are plain `<details class="collapsible">`.
