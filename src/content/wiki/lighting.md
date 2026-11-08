@@ -9,7 +9,7 @@ categories: ["Guides","Buildings"]
 
 In the world of Kenshi, much like the real world, **lighting** plays more than an aesthetic role and is a small but important factor to take into account when doing anything from collecting resources to waging war. Characters suffer a penalty when performing jobs without sufficient lighting, this applies to working a mine, a craft bench, or fighting, among other activities. It may seem like a small consideration, but if you are trying to craft high quality equipment you may find your character struggles during the night or take a penalty to their stats once the light fades away.
 
-<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> Working in the dark is less efficient. Build some lights in your base.</div>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> Working in the dark is less efficient. Build some lights in your base.</div>
 
   
 

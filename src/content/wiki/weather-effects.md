@@ -130,7 +130,7 @@ When a character is entirely unprotected from Dust Storms, their [Melee Attack](
 
 Dust Storms are also great for sneaking as during one the vision range of units is reduced.
 
-<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> Dust storms limit visibility and hearing range and are a great time for stealthy activities.</div>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> Dust storms limit visibility and hearing range and are a great time for stealthy activities.</div>
 
   
 

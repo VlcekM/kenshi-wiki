@@ -11,7 +11,7 @@ categories: ["Events","Removed Content"]
 
   
 
-<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> If you set up base too near to other outposts, cannibal villages or bandit camps, be prepared for the consequences.</div>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> If you set up base too near to other outposts, cannibal villages or bandit camps, be prepared for the consequences.</div>
 
   
 **Base Assaults** are a scrapped system that has since been replaced. You can find the new version on the [Events](/events) page.

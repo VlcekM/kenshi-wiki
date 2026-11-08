@@ -7,7 +7,7 @@ source:
 categories: ["Town Residents","Vendors"]
 ---
 
-<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> Go to bars to find new characters to recruit, you can also find bodyguards to hire and other interesting individuals</div>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> Go to bars to find new characters to recruit, you can also find bodyguards to hire and other interesting individuals</div>
 
   
 

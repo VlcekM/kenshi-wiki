@@ -204,7 +204,8 @@ function isTipTable($, table) {
 function convertTips($) {
   $('table').filter((_, table) => isTipTable($, table)).each((_, table) => {
     const tips = $(table).find('tr').slice(1).toArray().map((row) => $(row).children().first().html()?.trim()).filter(Boolean);
-    const label = '<b><a href="/loading-screen">Loading screen</a> tip.</b>';
+    // The talk icon stands in for the label on screen; screen readers still announce it.
+    const label = '<span class="loading-tip-label">Loading screen tip:</span>';
     $(table).replaceWith(tips.map((tip) => `<div class="notice loading-tip">${label} ${tip}</div>`).join(''));
   });
 }

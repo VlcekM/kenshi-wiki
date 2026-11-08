@@ -49,7 +49,7 @@ When enslaved, player characters have everything on their [jobs](/jobs) list rep
 
 There are at times however, that this job may cause the enslaved character to attempt and steal any weapon that is nearby either inside a nearby unlocked chest or at a downed character, which risks them being attacked for thievery if discovered attempting to do so.
 
-<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> If a slaver strips all your gear he will probably put it all in storage somewhere. Maybe you can get it back.</div>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> If a slaver strips all your gear he will probably put it all in storage somewhere. Maybe you can get it back.</div>
 
   
 
@@ -75,7 +75,7 @@ If you're having trouble, especially if you're in a big city, it might be necess
 
 If you are allied with the slaver faction, you can simply picklock your own shackles to free yourself from slavery, the slaver faction wouldn't react or object to this action.
 
-<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> Escaped slaves should avoid most other towns and factions until the heat dies down.</div>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> Escaped slaves should avoid most other towns and factions until the heat dies down.</div>
 
   
 

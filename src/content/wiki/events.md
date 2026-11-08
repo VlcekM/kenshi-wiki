@@ -7,7 +7,7 @@ source:
 categories: ["User Interfaces","Events"]
 ---
 
-<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> If you set up base too near to other outposts, cannibal villages or bandit camps, be prepared for the consequences.</div>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> If you set up base too near to other outposts, cannibal villages or bandit camps, be prepared for the consequences.</div>
 
   
 

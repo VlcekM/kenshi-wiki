@@ -32,7 +32,7 @@ Toughness was introduced in version 0.61.0 of Kenshi and appears to replace a [s
 -   Wound Degeneration Speed = 1.7 - (Toughness)0.0167
     -   No min or max.
 
-<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> If your whole squad is taken down, any survivors will play dead until the enemy is out of range. You can force them to get up anyway by giving them an order, which will also improve their Toughness stat.</div>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> If your whole squad is taken down, any survivors will play dead until the enemy is out of range. You can force them to get up anyway by giving them an order, which will also improve their Toughness stat.</div>
 
   
 

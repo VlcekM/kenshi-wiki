@@ -11,7 +11,7 @@ categories: ["Items"]
 
 Characters with lost limbs can replace said limbs with [Robot Limbs](/robot-limbs).
 
-<div class="notice loading-tip"><b><a href="/loading-screen">Loading screen</a> tip.</b> Amputated limbs are a favorite treat for Bonedogs. Younger dogs get overexcited and will run off with their prize.</div>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> Amputated limbs are a favorite treat for Bonedogs. Younger dogs get overexcited and will run off with their prize.</div>
 
   
 
