@@ -224,6 +224,22 @@ function keepCellCaptions($) {
   });
 }
 
+// Fandom's "Loading Screen Tips" box is a table: a heading row, then one row per tip. Each tip becomes the wiki's
+// notice box, labelled like the Example page's notice.
+function isTipTable($, table) {
+  const heading = $(table).find('tr').first().children();
+  return heading.length === 1 && /^Loading Screen Tips?$/i.test(heading.text().trim());
+}
+
+function convertTips($) {
+  $('table').filter((_, table) => isTipTable($, table)).each((_, table) => {
+    const tips = $(table).find('tr').slice(1).toArray().map((row) => $(row).children().first().html()?.trim()).filter(Boolean);
+    // The talk icon stands in for the label on screen; screen readers still announce it.
+    const label = '<span class="loading-tip-label">Loading screen tip:</span>';
+    $(table).replaceWith(tips.map((tip) => `<div class="notice loading-tip">${label} ${tip}</div>`).join(''));
+  });
+}
+
 function cleanHtml(html) {
   const $ = cheerio.load(html, null, false);
   keepCellCaptions($);
@@ -236,6 +252,7 @@ function cleanHtml(html) {
 
   const infobox = extractInfobox($);
   convertQuotes($);
+  convertTips($);
   $('table.mw-collapsible').each((_, table) => wrapCollapsible($, table));
   $('table').each((_, table) => styleTable($, table));
   return { $, infobox };
@@ -243,13 +260,14 @@ function cleanHtml(html) {
 
 function markdownConverter() {
   const turndown = new TurndownService({ headingStyle: 'atx', bulletListMarker: '-', codeBlockStyle: 'fenced' });
-  // Tables, collapsed sections, quotes and reference lists keep their HTML: spans, nesting, classes and footnote anchors
+  // Tables, collapsed sections, quotes, tip boxes and reference lists keep their HTML: spans, nesting, classes and footnote anchors
   // do not fit Markdown. Blank lines inside would end the HTML block early.
   const hasClass = (node, name) => new RegExp(`\\b${name}\\b`).test(node.getAttribute('class') ?? '');
   const isReferenceList = (node) => node.nodeName === 'OL' && hasClass(node, 'references');
   const isQuote = (node) => node.nodeName === 'FIGURE' && hasClass(node, 'quote');
+  const isTip = (node) => node.nodeName === 'DIV' && hasClass(node, 'loading-tip');
   turndown.addRule('html-blocks', {
-    filter: (node) => ['TABLE', 'DETAILS'].includes(node.nodeName) || isReferenceList(node) || isQuote(node),
+    filter: (node) => ['TABLE', 'DETAILS'].includes(node.nodeName) || isReferenceList(node) || isQuote(node) || isTip(node),
     replacement: (_, node) => `\n\n${node.outerHTML.replace(/\n\s*\n+/g, '\n')}\n\n`,
   });
   turndown.addRule('footnote-marks', {

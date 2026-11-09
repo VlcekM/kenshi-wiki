@@ -37,7 +37,7 @@ When you press the stealth button, two icons appear above the character's head, 
 
 **Sun** - The amount of light currently on your player. This includes any artificial light source your character walks into. The sun will be half-dimmed while in dim light and fully shaded when in complete darkness.
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>If you are standing in the darkness, any NPCs standing in a lit area won't be able to see you. If it's the other way around, however, you can be seen from a mile away. Beware of enemies who are also lurking in the darkness.</td></tr></tbody></table>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> If you are standing in the darkness, any NPCs standing in a lit area won't be able to see you. If it's the other way around, however, you can be seen from a mile away. Beware of enemies who are also lurking in the darkness.</div>
 
   
 

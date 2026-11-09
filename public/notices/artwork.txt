@@ -53,6 +53,12 @@ after the item's string id in the game data, and the article showing it carries
 that id in its infobox. scripts/game-items.mjs copies them. The meshes, textures
 and icon files are Lo-Fi Games' artwork; Kenshi is a Lo-Fi Games mark.
 
+public/icons/talk.png, the loading screen tip marker, is the 48x32 pic_PointerTalk
+frame of Kenshi's UI atlas (data/gui/gfx/Kenshi_UI.png, region defined in
+data/gui/images/kenshi_images.xml), cut out unchanged by
+scripts/split-ui-atlas.mjs. It is Lo-Fi Games' game artwork; no separate
+redistribution permission is recorded here.
+
 Graphics with documented sources
 
 public/images/Checker-16x16.png matches the Wikimedia Commons original.

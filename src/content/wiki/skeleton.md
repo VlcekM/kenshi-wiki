@@ -30,7 +30,7 @@ These races require [Modding](/category/modding) to be used as a player characte
 
 ## **Play Style Tips**
 
-<table class="wikitable"><tbody><tr><td><a href="/loading-screen">Loading Screen</a> Tips</td></tr><tr><td>Skeletons accumulate permanent damage over time, which lowers their max HP. This can be repaired at a Skeleton Bed.</td></tr></tbody></table>
+<div class="notice loading-tip"><span class="loading-tip-label">Loading screen tip:</span> Skeletons accumulate permanent damage over time, which lowers their max HP. This can be repaired at a Skeleton Bed.</div>
 
 Initially, skeletons may seem like a difficult choice because of how expensive [Skeleton Repair Kits](/skeleton-repair-kit) are and how much harder it is to find [Skeleton Repair Beds](/skeleton-repair-bed) than regular beds. But once you learn about the consistent locations where you can find repair kits (Southeast Deadlands Armoury Ruin is undefended and always contains two Repair Kits) along with how cheap beds are in Hive Villages (c.800) or Black Desert City (c.200) they seem a lot easier. When repairing a Skeleton, all bandaged health is healed at 250x their healspeed. Skeleton characters experience Wear and Tear damage after being hurt, meaning that their total health is lowered for the affected body part equal to 4% of damage taken. So, you would need to take 2,500 damage in a single bodypart for the max health of that bodypart to reach 100. Wear and Tear damage is fixed only through Skeleton Repair Beds, which can be expensive in some locations but can be unlocked relatively early in the Research tree.
 

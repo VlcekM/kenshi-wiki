@@ -16,10 +16,11 @@ Original wiki article text is licensed under [CC BY-SA 4.0](public/notices/CC-BY
 npm install
 npm run dev      # http://localhost:4321
 npm run build    # static output in dist/
-npm run preview  # serve the build, with search
+npm run preview  # serve the build
 ```
 
-Search uses a [Pagefind](https://pagefind.app) index that `npm run build` writes to `dist/pagefind/`, so it only works on a build.
+Search uses a [Pagefind](https://pagefind.app) index. `npm run build` writes it to `dist/pagefind/`; `npm run dev` builds one in
+memory from the articles and rebuilds it when one changes.
 It indexes each page's `<main>`; pass `searchable={false}` to `WikiLayout` to leave a page out.
 
 ## Contributing
@@ -65,9 +66,16 @@ summary. The friendly `staging-kenshi-wiki.prds.workers.dev` alias follows the l
 
 To release, open the successful run in **Actions → Wiki staging**, open its **version-specific**
 preview link, then choose **Review deployments → production → Approve and deploy**. The production
-job routes 100% of traffic to that version ID, then checks the live site over HTTPS. A run for an
-older main commit will stop before switching traffic. If production checks fail, inspect the
-failure and use the Worker's **Deployments** history to restore the last known good version.
+job routes 100% of traffic to that version ID. A run for an older main commit stops before
+switching traffic. The **Verify live wiki** job then runs the reader checks against production
+in desktop Chromium on a virtual display and compares the pages with the approved preview.
+
+If the live check fails, inspect its HTTP status and Cloudflare Ray ID. **Re-run failed jobs**
+retries a failed verification after a successful promotion. For a fresh read-only check, choose
+**Wiki staging → Run workflow** and enter the currently deployed version's immutable HTTPS URL
+in **Verify live only**. The run skips building and routing traffic. Leave the input blank to
+start a normal release. If the site itself is broken, the Worker's **Deployments** history can
+restore the last known good version.
 
 Keep a required reviewer on the GitHub `production` environment. The job waits for approval because
 of that environment setting. Both Cloudflare steps use `CLOUDFLARE_ACCOUNT_ID` and the
